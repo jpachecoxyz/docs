@@ -1,0 +1,56 @@
+# -*- jinx-languages: "es_ES"; -*-
+#+title: Agenda
+#+author: Javier Pacheco
+#+description: Mi agenda personal
+#+startup: content
+#+date: [2025-03-23 Sun 20:01]
+
+
+* Tareas del hogar:
+:PROPERTIES:
+:CATEGORY: 🏡
+:END:
+** TODO Regar el jardín
+:PROPERTIES:
+:LAST_REPEAT: [2025-04-04 Fri 20:03]
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-04-04 Fri 20:03]
+- State "DONE"       from "TODO"       [2025-04-03 Thu 20:52]
+- State "DONE"       from "TODO"       [2025-03-30 Sun 20:15]
+- State "DONE"       from "TODO"       [2025-03-29 Sat 21:35]
+:END:
+SCHEDULED: <2025-04-02 Wed 20:00 +1d>
+** TODO Reparar el calentador del agua.
+SCHEDULED: <2025-04-06 Sun>
+** TODO Reparar el lavamanos del baño.
+SCHEDULED: <2025-04-13 Sun>
+  
+
+* Laptop:
+:PROPERTIES:
+:CATEGORY: 💻
+:END:
+** TODO Actualizar Void Linux
+SCHEDULED: <2025-04-11 Fri +1m>
+:PROPERTIES:
+:LAST_REPEAT: [2025-04-04 Fri 20:03]
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-04-04 Fri 20:03]
+- State "DONE"       from "TODO"       [2025-03-30 Sun 20:25]
+:END:
+
+* Estudio.
+:PROPERTIES:
+:CATEGORY: 📓
+:END:
+** TODO Actualizar mis notas
+SCHEDULED: <2025-04-09 Wed +1w>
+:PROPERTIES:
+:LAST_REPEAT: [2025-04-03 Thu 20:51]
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-04-03 Thu 20:51]
+:END:
+** TODO Leer libro El inversor inteligente

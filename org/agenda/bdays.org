@@ -1,0 +1,30 @@
+#+title: Birthdays of the family
+#+author: Javier Pacheco
+#+STARTUP: content
+# dates format:  (yyyy mm dd )
+
+* Birthdays
+:PROPERTIES:
+:CATEGORY: birthday
+:END:
+# Family.
+%%(org-anniversary 1992 7 2) Birthday No. %d 
+%%(org-anniversary 1989 2 20) Xiomara's Birthday No. %d
+%%(org-anniversary 2019 12 27) Lia's Birthday No. %d
+%%(org-anniversary 2022 1 3) Javier's Birthday No. %d
+
+# Parents/Brothers.
+
+# Friends.
+
+* David A's Birthday - 1926-05-08
+DEADLINE: <2025-05-08 Mon +1y -4w>
+
+* Moms Bday - 1959-03-21 :writting:bday:
+DEADLINE: <2026-03-21 Sat +1y -4w>
+:PROPERTIES:
+:LAST_REPEAT: [2025-03-30 Sun 20:14]
+:END:
+:LOGBOOK:
+- State "DONE"       from ""           [2025-03-30 Sun 20:14]
+:END:

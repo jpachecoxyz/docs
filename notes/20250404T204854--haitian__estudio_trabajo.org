@@ -1,0 +1,23 @@
+# -*- jinx-languages: "es_ES"; -*-
+#+title: Notas de maquinas Haitian.
+#+date: [2025-04-04 Fri 20:48]
+#+filetags: :estudio:trabajo:
+#+identifier: 20250404T204854
+#+author: Ing. Javier Pacheco
+#+startup: content
+
+* Cierre.
+
+* Inyección.
+Las maquinas Haitian trabajan con un calculo de presión para el =Fast= y el =Boost=, por lo cual por lo regular siempre manejan ambos la misma presión:
+- 350 :: 100 bar.
+- 450 :: 100 bar.
+- 850 :: 150 bar.
+
+Con estos valores de presiones, se tiene que hacer un calculo el cual es el siguiente: 
+- presión de trabajo faster = presión real * 1.20
+- presión de trabajo booster = presión real * 1.25
+
+* Software.
+- [[denote:20250404T205200][Respaldo de programas de Haitian.]]
+

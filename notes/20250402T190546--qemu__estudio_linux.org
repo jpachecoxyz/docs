@@ -1,0 +1,71 @@
+# -*- jinx-languages: "es_ES"; -*-
+#+title: Qemu
+#+date: [2025-04-02 Wed 19:05]
+#+filetags: :estudio:linux:
+#+identifier: 20250402T190546
+#+author: Ing. Javier Pacheco
+#+startup: content
+
+
+* Crear una imagen qcow2 usando qemu-img:
+
+#+begin_src shell
+qemu-img create -f qcow2 Win2k.img 20G
+#+end_src
+
+** Explicacion.
+- qemu-img :: calls the QEMU program to work with images
+- create :: instructs the program to produce a new image
+- -f qcow2 :: specifies the output disk image format at “qcow2”, a format native to the QEMU project (it is the second version, and latest/recommended version, of the format)
+- Win2k.img :: defines the path and file name to store the image
+- 20G :: defines the size of the image as 20 gigabytes. K, M, G, and T can be used to create kilo-, mega-, giga-, or terabyte size disk images.
+
+
+
+* Devices and files:
+- Archives .vmdk :: Hard Disk Drive. 
+This archives are basically the hard disk drive. So we are basically just call this within =QEMU=.
+
+#+begin_example
+voidlinux.vdmk
+#+end_example
+
+** How to launch a VMWare VM within QEMU.
+#+begin_src shell
+qemu \
+	-system-x86_64 \
+	--enable-kvm \
+	-m 8G \
+	-smp cores=4,threads=2 \
+	-cpu qemu64 \
+	-drive file=voidlinux.vdmk,if=virtio,cache=unsafe \
+	-vga virtio
+#+end_src
+
+* Convert the .vdmk archive to .qcow2
+in order to convert the .vdmk archive to qcow2 you need to run the following command:
+
+#+begin_src shell
+qemu-img \
+	convert \
+	-O qcow2 \
+	voidlinux.vdmk \
+	voidlinux.qcow2
+#+end_src
+
+** How to launch the qcow2 VM within QEMU.
+
+#+begin_src shell
+qemu-system-x86_64 \
+	--enable-kvm \
+	-m 8G \
+	-smp 4 \
+	-cpu qemu64 \
+	-M q35 \
+	-drive file=/home/javier/vms/windows/Rockwell_VM_11/w10.qcow2,media=disk,cache=unsafe \
+	-full-screen \
+	-vga virtio \
+	-audiodev pipewire,id=audiodev1 \
+	-device intel-hda \
+	-device hda-duplex,audiodev=audiodev1
+#+end_src

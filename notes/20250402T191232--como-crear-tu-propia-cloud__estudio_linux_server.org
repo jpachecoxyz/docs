@@ -1,0 +1,80 @@
+# -*- jinx-languages: "es_ES"; -*-
+#+title: Como crear tu propia cloud
+#+date: [2025-04-02 Wed 19:12]
+#+filetags: :estudio:linux:server:
+#+identifier: 20250402T191232
+#+author: Ing. Javier Pacheco
+#+startup: content
+
+
+* Requerimientos.
+- [[https://ubuntu.com/download/server/thank-you?version=24.04.2&architecture=amd64&lts=true][Ubuntu-server LTS 24.04]]
+- [[https://github.com/keepittechie/Linux-Server-Arsenal][Linux Server Arsenal - Scripts mysql, apache, etc]]
+
+* Preparando el entorno.
+- Instalar el SO.
+- Clonar el Linux server arsenal:
+#+begin_src shell
+git clone https://github.com/keepittechie/Linux-Server-Arsenal
+#+end_src
+- Una vez clonado, ir al directorio de los scripts, darle permisos de ejecución y correrlo como sudo.
+#+begin_src shell
+cd linux-server-arsenal/assets
+chmod +x lamp.sh
+sudo ./lamp.sh
+#+end_src
+
+** Mysql
+- Crear la base de datos y usuarios en =mysql=.
+#+begin_src shell
+sudo mysql -u root -p
+#+end_src
+once in =mysql=: 
+- Crear la base de datos:
+#+begin_src mysql
+create database owncloud_db;
+#+end_src
+- Crear usuario y contraseña:
+#+begin_src mysql
+create user 'ownclouduser'@'localhost' identified by 'Password1234'
+#+end_src
+- Permirtir acceso a toda la base de datos:
+#+begin_src mysql
+grant all privileges on owncloud_db.* to 'ownclouduser'@'localhost'
+#+end_src
+- Aceptar todos los privilegios:
+#+begin_src mysql
+flush privileges;
+#+end_src
+- Salir
+#+begin_src mysql
+exit;
+#+end_src
+
+** Descargando el server de owncloud.
+- Descargar el servidor usando wget y manejar los permisos de los directorios.
+#+begin_src shell
+wget https://download.owncloud.com/server/stable/owncloud-complete-20250311.zip
+unzip owncloud-complete-20250311.zip
+sudo mv owncloud  /var/www/html
+sudo chown -R www-data:www-data /var/www/html/owncloud
+#+end_src
+- Creando el archivo de configuracion de Apache:
+#+begin_src conf :tangle no /etc/apache2/sites-available/owncloud.conf
+<VirtualHost *:80>
+    DocumentRoot /var/www/html/owncloud
+    <Directory /var/www/html/owncloud>
+        Options FollowSymlinks
+        AllowOverride All
+        Require all granted
+    </Directory>
+</VirtualHost>
+#+end_src
+- Reiniciando apache.
+#+begin_src shell
+sudo a2ensite owncloud.conf
+sudo systemctl restart apache2.service
+#+end_src
+
+* Referencias:
+[[https://www.youtube.com/watch?v=zc0OypIj0Zs][OwnCloud on Ubuntu: Your Personal Cloud Storage Setup in Minutes!]]

@@ -1,0 +1,26 @@
+* Preguntas
+:PROPERTIES:
+:EXPORT_LATEX_HEADER: \usepackage{exam}
+:END:
+
+** Pregunta 1
+:PROPERTIES:
+:EXPORT_LATEX_FORMAT: \question[5]
+:END:
+En un PLC, el módulo de entrada se utiliza para:
+
+- [ ] Enviar señales a actuadores.
+- [ ] Procesar la lógica del programa.
+- [ ] Recibir señales de sensores.
+- [ ] Almacenar datos en memoria.
+
+** Pregunta 2
+:PROPERTIES:
+:EXPORT_LATEX_FORMAT: \question[15]
+:END:
+¿Cuál es el valor decimal del siguiente número en binario: 0011?
+
+- [ ] 5
+- [ ] 6
+- [ ] 2
+- [ ] 3

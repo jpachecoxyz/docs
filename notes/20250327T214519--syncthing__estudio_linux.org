@@ -1,0 +1,28 @@
+# -*- jinx-languages: "es_ES"; -*-
+#+title: Syncthing
+#+date: [2025-03-27 Thu 21:45]
+#+filetags: :estudio:linux:
+#+identifier: 20250327T214519
+#+author: Ing. Javier Pacheco
+#+startup: content
+
+
+* Instalacion.
+Syncthing debe estar en la mayoria de las distribuiciones linux, ademas de MacOS, y Windows. 🤮
+En mi caso uso void asi que es tan sencillo como usar xbps. 
+
+#+begin_src shell
+doas xbps-install syncthing
+#+end_src
+
+* Uso.
+La forma de uso es con su servicio de daemon, esto en systemd, en mi caso es solo agregar al init de hyprland:
+
+#+begin_src config
+exec-one syncthing
+#+end_src
+
+Una vez lanzado simplemente ir al web browser e ir a la pagina: http://127.0.0.1:8384/ o http://localhost:8384/
+
+* Referencias.
+[[https://www.youtube.com/watch?v=Uag8PJaO0N4][Mental outlaw - Synching]]

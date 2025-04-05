@@ -1,0 +1,52 @@
+# -*- jinx-languages: "es_ES"; -*-
+#+title: Conexion ssh en git
+#+date: [2025-03-27 Thu 20:39]
+#+filetags: :estudio:linux:
+#+identifier: 20250327T203932
+#+author: Ing. Javier Pacheco
+#+startup: content
+
+* Dependencias:
+Para poder conectarse a =github= por ssh, debemos tener las siguientes dependencias:
+- ssh.
+- Web browser.
+  
+** Generación de llave de ssh.
+Para generar tu llave de ssh hay que ir a una terminal e ingresar el siguiente comando:
+
+#+begin_src shell
+ssh-keygen -t ed25519 -C "youremail@mail.com"
+#+end_src
+Al ingresar el comando nos pedirá después especificar una ruta de almacenamiento de dicha llave, por lo regular es en: "=/home/user/.ssh/id_xxx=" después hay que correr el siguiente comando:
+#+begin_src shell
+eval "$(ssh-agent -s)"
+#+end_src
+
+Después de esto hay que agregar la llave generada con el siguiente comando:
+#+begin_src shell
+ssh-add ~/.ssh/id_xxx
+#+end_src
+
+** Agregar archivo conf a ~/.ssh/
+se recomienda agregar este archivo, ya que al cerrar sesion o abrir otra terminal el agente ya no reconocera la llave:
+
+#+begin_src config
+Host github.com
+  AddKeysToAgent yes
+  IdentityFile ~/.ssh/id_xxx
+#+end_src
+
+** Probar la llave ssh:
+el siguiente comando servirá para ver si hay conexión a github.com a través de ssh:
+
+#+begin_src shell
+ssh -T git@github.com 
+#+end_src
+
+#+RESULTS:
+Hi userx! You've successfully authenticated, but GitHub does not provide shell access.
+
+* Agregar una llave a github.
+Una vez que tengamos creada la llave y verificado que si tenemos acceso a github desde ssh, ahora hay que agregar la llave;
+Hay que ingresar al siguiente [[https://github.com/settings/keys][link]] y seguir los pasos para poder agregar la llave ssh.
+

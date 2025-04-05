@@ -1,0 +1,30 @@
+# -*- jinx-languages: "es_ES"; -*-
+#+title: Guia para el llamado de programas de robot desde PLC
+#+date: [2025-03-27 Thu 19:49]
+#+filetags: :estudio:robots:
+#+identifier: 20250327T194911
+#+author: Ing. Javier Pacheco
+#+startup: content
+
+* Guia de llamado de programas de robot desde PLC.
+
+1. Ir a /SETUP/
+2. Prog Select.
+3. Cambiar las siguientes variables:
+   - program select mode:           OTHER 
+   - Production start method:       OTHER
+
+** Metodos de llamado:
+*** Programa /MAIN/ con loop infinito:
+#+ATTR_LATEX: :options frame=single
+#+begin_example
+1. LBL[1:Start]
+2. IF DI[1]=ON,CALL programa1
+3. IF DI[2]=ON,CALL programa2
+4. IF DI[3]=ON,CALL programa3
+5. JMP LBL[1]
+#+end_example
+
+* Referencias
+** TPE change UI Signas.
+[[https://www.robot-forum.com/robotforum/thread/14159-ui-to-true-at-turn-off-the-tp-the-switch/][How to eable UI Signals with TPE switch]]

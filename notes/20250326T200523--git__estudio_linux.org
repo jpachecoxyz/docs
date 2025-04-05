@@ -1,0 +1,95 @@
+# -*- jinx-languages: "es_ES"; -*-
+#+title: Git
+#+date: [2025-03-26 Wed 20:05]
+#+filetags: :estudio:linux:
+#+identifier: 20250326T200523
+#+author: Ing. Javier Pacheco
+#+startup: content
+
+
+* Cambiar de HTTPS a SSH
+#+begin_src shell
+git remote set-url origin git@github.com:jpachecoxyz/dotfiles
+#+end_src
+
+* Nix
+** Introducción.
+Esta es una explicación de como generar un repositorio con sistema de versiones (git), para almacenar y controlar la configuración de nuestro entorno en =NixOS=.
+
+** Configuraciones iniciales.
+Comencemos con la preparación para poder empezar el repositorio de manera limpia y sin advertencias de ningún tipo.
+
+*** Configurando el entorno de git.
+Antes de empezar a generar el repositorio, debemos de declarar nuestro usuario y correo en git, para saber quien esta haciendo los cambios, puede sonar tonto, ya que estamos manejando nuestros propios dotfiles, pero para efectos de trabajo y colaboraciones, estas cosas son necesarias.
+
+#+begin_src shell
+git config --global user.name "John Doe" 		# Definimos nuestro nombre.
+git config --global user.email johndoe@example.com 	# Definimos el correo.
+git config --global init.defaultBranch main		# Definimos el nombre del repo por defecto a "main"
+#+end_src
+
+Otra manera de hacerlo es declarándolo desde =home-manager=.
+
+#+begin_src nix
+programs.git = {
+  enable = true;
+  userName = "John Doe";
+  userEmail = "johndoe@example.com";
+  extraConfig = {
+    init.DefaultBranch = "main";
+  };
+};
+#+end_src
+
+Estas configuraciones nos ayudaran para poder iniciar un repositorio sin tener problemas.
+Entonces ahora con esto listo, podemos empezar a crear el repositorio en donde queramos manejar nuestra configuración. Una vez estando en la ruta de la carpeta en donde estará el repositorio de git, escribimos en terminal el siguiente comando:
+
+** A escribir comandos.
+Ya teniendo listo la configuración tenemos que crear un repositorio, para esto debemos tener configurado github con ssh, y saber como crear un repositorio desde el portal de github.
+
+#+begin_src shell
+git init
+#+end_src
+
+En este momento podrías agregar tus archivos de configuración como:
+1. /etc/nixos/configuration.nix
+2. /etc/nixos/hardware-confguration.nix
+3. home.nix
+4. flake.nix
+
+y hacer el commit correspondiente.
+
+*** Configurando ssh.
+Para tener un poco mas de seguridad es buena practica tener configurado ssh para no tener que estar escribiendo el usuario y la password;
+
+*** Crear el repositorio en github.
+Ir a [[https:github.com][tu cuenta de github]] y crear un nuevo repositorio. Una vez creado el repositorio, en terminal escribiremos el siguiente comando:
+
+#+begin_src shell
+git remote add github git@github.com/<tuusuario>/<nombredelrepostorio>.git
+git push github main
+#+end_src
+
+** Creating a branch when update the system
+#+begin_src bash
+# Create a new branch
+git checkout -b update-nixos
+
+# Update flakes 
+nix flake update
+
+# Commit the changes.
+git add .
+git commit -m "Update NixOS configuration"
+
+# Apply the updates
+sudo nixos-rebuild switch --flake .
+
+# Merge the changes & delete old branch
+git checkout main
+git merge update-nixos
+git branch -d update-nixos
+
+# Push the changes
+git push origin main
+#+end_src

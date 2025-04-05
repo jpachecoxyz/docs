@@ -1,0 +1,9 @@
+#+title: Important Dates
+#+author: Javier Pacheco
+
+
+* Anniversary
+:PROPERTIES:
+:CATEGORY: i-dates
+:END:
+%%(org-anniversary 2015 4 11) Weding anniversary No. %d 

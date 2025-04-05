@@ -1,0 +1,17 @@
+# -*- jinx-languages: "es_ES"; -*-
+#+title: Creando un sistema operativo en C
+#+date: [2025-03-29 Sat 21:27]
+#+filetags: :estudio:linux:
+#+identifier: 20250329T212724
+#+author: Ing. Javier Pacheco
+#+startup: content
+
+
+* Bootloader.
+El rol de el bootloader es:
+- Recojer informacion.
+- Premarar el sistema para el kernel.
+- Carga y ejecuta el kernel.
+
+* Referencias:
+[[https://www.youtube.com/watch?v=F3XiH78erNM][Buildd a OS - Writing bootloader in C]]

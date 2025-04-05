@@ -1,0 +1,35 @@
+# -*- jinx-languages: "es_ES"; -*-
+#+title: Masterizacion de Robot Fanuc
+#+date: [2025-03-26 Wed 20:48]
+#+filetags: :estudio:robots:
+#+identifier: 20250326T204828
+#+author: Ing. Javier Pacheco
+#+startup: content
+
+
+* Mazterizacion de un Robot /Fanuc/.
+La masterizacion asocia el angulo existente entre las marcas moviles y las marcas fijas de cada eje respectivamente con los pulsos generados en los encoders absolutos (APC = encoder absoluto), los cuales estan mecanicamente acoplados al eje de cada motor. La posicion actual del robot es determinada por los pulsos de los encoders. Mas especificamente, la masterfizacion se realiza para obtener los pulsos leidos en la posicion de cero grados =marcas= cero mecanico. Una caracteristica muy importante de un encoder es su resolucion: Numero de pulsos generados en una vuelta completa de eje.
+
+* Tipos de masterizacion de robot =Fanuc=.
+Para masterizar un robot hay que tener en cuanta 2 metodos:
+- Quick :: Este metodo como su nombre lo indica es el mas rapido.
+- Zero Position mastering :: Este metodo es un poco mas complejo, pero es mas eficaz.
+
+* Procedimiento para masterizar un robot:
+A continuacion se muestran los pasos para llegar al menu de masterizado en el robot =Fanuc=.
+1. Menu
+2. Ohter (puedes presionar la tecla 0)
+3. System (tecla 6)
+4. Master/Cal (tecla 3)
+5. Res_pca -> yes
+6. Selecciona el metodo de masterizacion (Quick/Zero position)
+
+*** Codigo para msterizar: !!1111!!
+
+* Documentacion:
+- [[https://diy-robotics.com/wp-content/uploads/2021/01/Quick-Mastering-Procedure-PDF.pdf][Quick Mastering.]]
+- [[https://www.steamclown.org/mechatronics/units/Unit-14-Robotic-Theory-Application/FANUC/Maintenance-Calibration/LRMateMastering.pdf][Zero positioning mastering.]]
+
+
+
+
