@@ -1,0 +1,32 @@
+# -*- jinx-languages: "es_ES"; -*-
+#+title: Reparar arranque de windows
+#+date: [2025-04-05 Sat 15:51]
+#+filetags: :estudio:windows:
+#+identifier: 20250405T155152
+#+author: Ing. Javier Pacheco
+#+startup: content
+
+Esta guia es sugerida cuando por error haz formateado la particion boot al instalar un SO nuevo, y te llevas de paso el boot de windows. Me a pasado en mas de una ocacion, por eso e decidido documentarlo.
+
+Me a pasado tambien cuando se borra el arranque de Windows, entonces, los siguientes pasos son unicamente para copiar lso archivos de arranque de windows a travez de la iso en la particion sin tener que formatearla.
+
+* Seleccionar el disco.
+#+begin_src cmd
+list disk
+sel disk #
+#+end_src
+
+* Seleccionar la particion de arranque.
+Listar las particiones y seleccionar la particion F32 y asignar un a letra a la particion.
+#+begin_src cmd
+list vol
+sel vol #
+assign letter z:
+#+end_src
+
+* Cargar archivos de arranque de windows.
+#+begin_src cmd
+bcdboot c:\windows /s z: /f all
+#+end_src
+
+Listo, solo queda reiniciar, arrancar en el SO principal, correr =os-prober=, y hacer =update-grub= para que se agregue el boot a =grub=.

@@ -1,0 +1,17 @@
+# -*- jinx-languages: "es_ES"; -*-
+#+title: Sistema de notas
+#+date: [2025-04-05 Sat 15:28]
+#+filetags: :estudio:
+#+identifier: 20250405T152850
+#+author: Ing. Javier Pacheco
+#+startup: content
+
+
+* Explicación del sistema:
+- Mimir :: Es el documento en donde todas mis notas están agrupadas.
+- Indexes :: Son los cuerpos categóricos que conectan las demás notas.
+- Manual :: Explica absolutamente todo (el mejor punto si estas perdido).
+- Rutina :: Mi programa personal, es la planificación del día y lo que dice que debo de hacer.
+- Agenda :: Son las tareas diarias que debo de cumplir.
+- Proyectos :: Planes "complejos" importantes en mi vida.
+- Finanzas :: Mi plata ...

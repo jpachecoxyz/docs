@@ -75,6 +75,11 @@ sudo chown -R www-data:www-data /var/www/html/owncloud
 sudo a2ensite owncloud.conf
 sudo systemctl restart apache2.service
 #+end_src
+** TODO PHP
+Ownclod utiliza una version vieja de php, en este caso debe ser menor a 8. En el video que esta en la [[denote:20250402T191232::#h:54488882-cf7e-448d-93d4-f057b230b1c3][Referencia]] utiliza la version 7.4. 
 
 * Referencias:
+:PROPERTIES:
+:CUSTOM_ID: h:54488882-cf7e-448d-93d4-f057b230b1c3
+:END:
 [[https://www.youtube.com/watch?v=zc0OypIj0Zs][OwnCloud on Ubuntu: Your Personal Cloud Storage Setup in Minutes!]]
