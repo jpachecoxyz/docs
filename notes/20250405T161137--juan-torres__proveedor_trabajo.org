@@ -1,0 +1,92 @@
+# -*- jinx-languages: "es_ES"; -*-
+#+title: Juan Torres
+#+date: [2025-04-05 Sat 16:11]
+#+filetags: :proveedor:trabajo:
+#+identifier: 20250405T161137
+#+author: Ing. Javier Pacheco
+#+startup: content
+
+* Plan de mantenimiento a I400 
+
+** UNIDAD DE INYECCIÓN 
+- Reemplazo de chevrones (pistón de inyección)
+- Reparación de base y colocación de tornillo central en piston de inyección (eliminar soldadura)
+- Reempacar válvula mecánica 2fase 
+- Integrar o reemplazar válvulas check dañadas  a sistema de carga de nitrógeno para ACC y Multiplicador
+
+** UNIDAD DE APERTURA Y CIERRE Y ALTURA DE MOLDE
+- Revisión y calibración de barras 
+- Revisión de bujes platina móvil
+- Revisión de desgaste en zapatas platina móvil
+- Revisión de pernos de articulación 
+- Rehabilitar sistema de lubricación central.
+- Reparación de fuga parte baja en block de alta presión en sección de tanque.
+- Ajuste o reemplazo de Limit Switch (LS de cierre,  apertura de platina, freno y candado de seguridad)
+- Revisión de clutch en transmisión para Die Height
+- Limpieza a roscas de barras y engranes para Die Height.
+
+** TANQUE, MOTOR Y SECCION DE ENFRIAMIENTO.
+- Enderezar de tapa superior de tanque de aceite.
+- Limpieza interna tanque de aceite
+- Limpieza o sustitución de mirilla de nivel 
+- Comprar y colocar tapón a tanque 
+- Limpieza o reemplazo de filtros.
+- Limpieza a intercambiador de calor.
+- Reemplazar conectores espiga oxidados en intercambiador de calor.
+- Revision de cartuchos bomba de paletas vicker.
+- Limpieza a propelas y tapa de enfriamiento motor principal (si lleva graseras aplicar grasa)
+- Sustitución de conectores hembra para solenoides de electroválvulas.
+
+** PUERTAS, GUARDAS, AGUA, AIRE COMPRIMIDO Y LÍNEAS DE GAS.
+- Integración de guarda antiflasheo puerta lado horno.
+- Revisión de guarda superior antiflasheo.
+- Reparación de fuga en pistón puerta lado operador
+- Revisión, detección y reparación de fugas de aire, agua y gas.
+
+
+* Plan de mantenimiento a I1600
+
+** UNIDAD DE INYECCION.
+- Revisión y reparación a tuberías porosas
+- Reubicación de paro de emergencia.
+- Revision y reemplazo de manómetros (relojes) 
+- Reempacar bridas de tubería.
+- Mtto correctivo y preventivo a unidades telescópicas (pistones de levantamiento de puente).
+- Reempacar acumulador.
+- Revisión de multiplicador.
+- Fabricación de nueva barra actuadora para sensores de fases de inyección.
+- Peinar cables en caja lateral superior de unidad de inyección.
+
+** UNIDAD DE APERTURA, CIERRE Y ALTURA DE MOLDE.
+- Revisión y calibración de barras.
+- Reemplazo de bujes platina móvil.
+- Revision y remplazo de pernos quebrados en rodilla de articulacion. 
+- Fabricación e instalación e tapas para pernos de rodilla.
+- Rehabilitar sistema de lubricación central.
+- Revisión y reemplazo de zapatas platina móvil.
+- Reparación de fugas en block lateral de apertura y cierre.
+- Reemplazar tubería por manguera y comprar bridas con conector para manguera en linea de alta presión para unidad de cierre.
+- Revisión de transmisión de die height
+- Remplazo de conectores hidráulicos para die heigth.
+- Limpieza de roscas de barras y engranes del die heigth.
+- Fabricar tapas cubrepolvo para engranes del die heigth.
+
+** TANQUE, MOTOR Y SECCION DE ENFRIAMIENTO.
+- Habilitar sensor de nivel de aceite.
+- Reemplazo de mirilla de nivel.
+- Conseguir tapón para tanque de aceite.
+- Revisar y reemplazar manómetros dañados.
+- Colocar tornillos a tapas superirores de tanque.
+- Limpieza profunda a tanque de aceite.
+- Remplazo o limpieza de filtros.
+- Reempacar bridas de manguera a bomba secundaria.
+- Limpieza a intercambiador de calor.
+- Fabricar soporte para tubería y mangueras del intercambiador.
+- Revisión de sello a válvulas principales  del tanque a bombas.
+- Revisión de cartuchos a bombas de paleta vickers.
+- Limpieza a propelas y tapas de motores (si tienen graseras aplicar grasa).
+- Mtto preventivo a bomba de recirculación de aceite.
+
+** PUERTAS, GUARDAS, AGUA, AIRE COMPRIMIDO Y LÍNEAS DE GAS.
+- Revisión y reparación de guarda superior antiflasheo.
+- Revisión, detección y reparación de fugas de aire, agua y gas.

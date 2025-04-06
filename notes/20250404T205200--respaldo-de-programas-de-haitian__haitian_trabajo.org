@@ -8,4 +8,21 @@
 
 * Requerimientos.
 - USB Formateada.
-- Nivel de acceso  >= Servicer.
+- Nivel de acceso de Manager/Engineer.
+ 
+* Procedimiento.
+1. Product.
+2. System.
+3. Backup/Restore.
+
+*NOTAS IMPORTANTES*:
+- Antes de hacer un respaldo, /Haitian/ recomienda siempre formatear la memoria.
+- Cuando se haga un respaldo, asegurarse de que las casillas de *SRAM* y *EPROM* estén deshabilitadas, para no sobrescribir estos puntos.
+
+* Como esa conformado el backup.
+Suponiendo que la memoria sea: E:/
+#+begin_example
+E:/img
+  |
+  | log
+#+end_example

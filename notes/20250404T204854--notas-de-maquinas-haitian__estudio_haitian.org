@@ -1,7 +1,7 @@
 # -*- jinx-languages: "es_ES"; -*-
 #+title: Notas de maquinas Haitian.
 #+date: [2025-04-04 Fri 20:48]
-#+filetags: :estudio:trabajo:
+#+filetags: :estudio:haitian:
 #+identifier: 20250404T204854
 #+author: Ing. Javier Pacheco
 #+startup: content

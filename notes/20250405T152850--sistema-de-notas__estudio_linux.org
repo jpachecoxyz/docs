@@ -1,7 +1,7 @@
 # -*- jinx-languages: "es_ES"; -*-
 #+title: Sistema de notas
 #+date: [2025-04-05 Sat 15:28]
-#+filetags: :estudio:
+#+filetags: :estudio:linux:
 #+identifier: 20250405T152850
 #+author: Ing. Javier Pacheco
 #+startup: content

@@ -6,11 +6,15 @@
 #+author: Ing. Javier Pacheco
 #+startup: showall
 
-* linux/Programacion 📓
-- [[denote:20250405T152850][Sistema de notas]]
+* linux 📓
 - [[denote:20250326T200523][Git]]
 - [[denote:20250327T203932][Conexion ssh en git]]
-- [[denote:20250405T155152][Reparar arranque de windows]]
+- [[denote:20250327T214519][Syncthing]]
+- [[denote:20250329T212557][Lenguaje de programacion C]]
+- [[denote:20250329T212724][Creando un sistema operativo en C]]
+- [[denote:20250402T190546][Qemu]]
+- [[denote:20250402T191232][Como crear tu propia cloud]]
+- [[denote:20250405T152850][Sistema de notas]]
 
 * PLC 📒 
 - [[denote:20250326T175609][Siemens]]
@@ -19,6 +23,7 @@
 - [[denote:20250326T201544][Fanuc Backup]]
 - [[denote:20250326T204828][Masterizacion de Robot Fanuc]]
 - [[denote:20250327T194911][Guia para el llamado de programas de robot desde PLC]]
+- [[denote:20250329T200245][Robots ABB]]
 
 * Haitian 📘
 - [[denote:20250404T204854][Notas de maquinas Haitian.]]

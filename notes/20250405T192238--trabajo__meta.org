@@ -1,0 +1,10 @@
+# -*- jinx-languages: "es_ES"; -*-
+#+title: Trabajo 🔩
+#+date: [2025-04-05 Sat 19:22]
+#+filetags: :meta:
+#+identifier: 20250405T192238
+#+author: Ing. Javier Pacheco
+#+startup: content
+
+* Diecasting
+- [[denote:20250405T160813][Castlight]]
