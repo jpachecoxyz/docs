@@ -15,6 +15,9 @@
 - [[denote:20250402T190546][Qemu]]
 - [[denote:20250402T191232][Como crear tu propia cloud]]
 - [[denote:20250405T152850][Sistema de notas]]
+- [[denote:20250405T155152][Reparar arranque de windows]]
+
+* Emacs 🐂
 
 * PLC 📒 
 - [[denote:20250326T175609][Siemens]]
