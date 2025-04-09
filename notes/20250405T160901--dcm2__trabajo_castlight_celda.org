@@ -1,7 +1,7 @@
 # -*- jinx-languages: "es_ES"; -*-
 #+title: DCM#2
 #+date: [2025-04-05 Sat 16:09]
-#+filetags: :castlight:celda:trabajo:
+#+filetags: :trabajo:castlight:celda:
 #+identifier: 20250405T160901
 #+author: Ing. Javier Pacheco
 #+startup: content

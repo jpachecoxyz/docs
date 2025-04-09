@@ -1,0 +1,45 @@
+# -*- jinx-languages: "es_ES"; -*-
+#+title: Denote
+#+date: [2025-04-08 Tue 19:25]
+#+filetags: :estudio:emacs:
+#+identifier: 20250408T192555
+#+author: Ing. Javier Pacheco
+#+startup: content
+
+* Actualizar una lista de links de denote.
+Esta necesidad surgió mientras planificaba mi "sistema" de note-taking, al estar creando notas, después al agregarlas al archivo meta, se me hacia tedioso buscar nota por nota, o borrar toda la lista e insertar las notas de nuevo utilizando la función =denote-insert-links-matching-regexp=, por lo cual me decidí hacer esta función, que selecciona la lista dentro de un header lvl 1, lo borra y lanza el comando de denote.
+
+#+begin_src emacs-lisp
+(defun jp:denote-update-links-matching-regexp (&optional regexp)
+  "Replace denote links under the current level 1 Org heading using `denote-link-insert-links-matching-regexp`.
+Deletes old links and inserts new ones matching REGEXP (asks if not provided)."
+  (interactive)
+  (let ((regexp (or regexp (read-regexp "Match links by regexp (e.g. _estudio_linux): "))))
+    (save-excursion
+      ;; Jump to level-1 heading
+      (unless (and (org-at-heading-p) (= (org-outline-level) 1))
+        (outline-previous-heading)
+        (while (and (org-at-heading-p)
+                  (> (org-outline-level) 1))
+          (outline-previous-heading)))
+      (let* ((start (point))
+             (end (or (save-excursion
+                       (outline-next-heading)
+                       (point))
+                     (point-max)))
+             (first-line nil)
+             (last-line nil))
+        ;; Search for denote links to remove
+        (goto-char start)
+        (while (re-search-forward "^- \\[\\[denote:[^]]+\\]\\[[^]]+\\]\\]" end t)
+          (let ((line-beg (line-beginning-position))
+                (line-end (line-end-position)))
+            (unless first-line (setq first-line line-beg))
+            (setq last-line line-end)))
+        (when (and first-line last-line)
+          ;; Delete the region
+          (delete-region first-line (1+ last-line))
+          ;; Move to where the links were and insert new ones
+          (goto-char first-line)
+          (denote-link-insert-links-matching-regexp regexp))))))
+#+end_src

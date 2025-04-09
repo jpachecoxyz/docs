@@ -1,0 +1,28 @@
+# -*- jinx-languages: "es_ES"; -*-
+#+title: Makefiles
+#+date: [2025-04-08 Tue 18:49]
+#+filetags: :estudio:linux:
+#+identifier: 20250408T184957
+#+author: Ing. Javier Pacheco
+#+startup: content
+
+* Que es un Makefile.
+- make :: Es una utilidad que determina que archivos de cof=digo deben ser recomplilados y como.
+- makefile :: Es un archivo que indica a =make= como recompilar mi proyecto.
+
+Los makefiles pueden ser llamados de la siguientes maneras:
+- GNUmakefile
+- makefile
+- Makefile
+
+* Como se hace un makefile.
+- Reglas.
+- Variables.
+- Patrones.
+- Generacion de dependencias.
+- gcc
+  - Flags.
+  - *.o files (archivos de codigo objeto)
+
+* Referencias:
+[[https://www.youtube.com/watch?v=0XlVyZAfQEM][Makefile: como construirlo]]
