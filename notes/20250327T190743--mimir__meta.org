@@ -4,6 +4,7 @@
 #+filetags: :meta:
 #+identifier: 20250327T190743
 #+author: Ing. Javier Pacheco
+#+bind: denote-directory "~/docs/pdf"
 #+startup: showall
 
 * Linux
