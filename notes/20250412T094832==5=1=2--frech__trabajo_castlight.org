@@ -1,0 +1,8 @@
+# -*- jinx-languages: "es_ES"; -*-
+#+title: Frech
+#+date: [2025-04-12 Sat 09:48]
+#+filetags: :trabajo:castlight:
+#+identifier: 20250412T094832
+#+author: Ing. Javier Pacheco
+#+startup: content
+

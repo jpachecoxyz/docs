@@ -1,0 +1,8 @@
+# -*- jinx-languages: "es_ES"; -*-
+#+title: Idra 1600
+#+date: [2025-04-12 Sat 09:49]
+#+filetags: :trabajo:castlight:
+#+identifier: 20250412T094943
+#+author: Ing. Javier Pacheco
+#+startup: content
+

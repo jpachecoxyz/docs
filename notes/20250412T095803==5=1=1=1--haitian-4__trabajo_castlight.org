@@ -1,0 +1,8 @@
+# -*- jinx-languages: "es_ES"; -*-
+#+title: Haitian 4
+#+date: [2025-04-12 Sat 09:58]
+#+filetags: :trabajo:castlight:
+#+identifier: 20250412T095803
+#+author: Ing. Javier Pacheco
+#+startup: content
+

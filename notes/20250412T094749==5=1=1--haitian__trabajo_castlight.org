@@ -1,0 +1,14 @@
+# -*- jinx-languages: "es_ES"; -*-
+#+title: Haitian
+#+date: [2025-04-12 Sat 09:47]
+#+filetags: :trabajo:castlight:
+#+identifier: 20250412T094749
+#+author: Ing. Javier Pacheco
+#+startup: content
+
+* Maquinas:
+- [[denote:20250412T095803][Haitian 4]]
+- [[denote:20250412T095826][Haitian 5]]
+
+* Documentacion
+- [[denote:20250412T081823][hilectro]]

@@ -1,0 +1,8 @@
+# -*- jinx-languages: "es_ES"; -*-
+#+title: Castlight
+#+date: [2025-04-12 Sat 09:44]
+#+filetags: :meta:trabajo:
+#+identifier: 20250412T094435
+#+author: Ing. Javier Pacheco
+#+startup: content
+
