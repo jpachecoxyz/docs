@@ -1,10 +1,10 @@
 # -*- jinx-languages: "es_ES"; -*-
 #+title: Lenguaje de programacion C
 #+date: [2025-03-29 Sat 21:25]
-#+filetags: :estudio:
+#+filetags: :estudio:linux:
 #+identifier: 20250329T212557
 #+author: Ing. Javier Pacheco
 #+startup: content
 
 
-[[denote:20250329T212724][Creando un sistema operativo en C]]
+- [[denote:20250329T212724][Creando un sistema operativo en C]]

@@ -1,0 +1,13 @@
+# -*- jinx-languages: "es_ES"; -*-
+#+title: Libros de python
+#+date: [2025-04-10 Thu 20:37]
+#+filetags: :estudio:python:
+#+identifier: 20250410T203747
+#+author: Ing. Javier Pacheco
+#+startup: content
+
+En esta nota insertare links a libros acerca de python, para tener un marco de referencia a este programa.
+
+* Referencias.
+ - [[denote:20250409T213247][mastering-python-design-patterns]]
+ 

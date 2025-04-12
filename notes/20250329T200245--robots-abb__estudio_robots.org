@@ -1,11 +1,0 @@
-# -*- jinx-languages: "es_ES"; -*-
-#+title: Robots ABB
-#+date: [2025-03-29 Sat 20:02]
-#+filetags: :estudio:robots:
-#+identifier: 20250329T200245
-#+author: Ing. Javier Pacheco
-#+startup: content
-
-
-* Referencias:
-[[https://www.youtube.com/playlist?list=PLO89phzZmnHh3kBtxcVBc5umHsc1hoPH0][Curso de simulador ABB]]

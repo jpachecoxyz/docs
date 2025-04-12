@@ -1,0 +1,22 @@
+# -*- jinx-languages: "es_ES"; -*-
+#+title: Astral UV
+#+date: [2025-04-10 Thu 20:35]
+#+filetags: :estudio:python:
+#+identifier: 20250410T203543
+#+author: Ing. Javier Pacheco
+#+startup: content
+
+UV es una herramienta súper rápida para manejar proyectos de python. Esta escrita en Rust por los mismos desarrolladores de =ruff=.
+
+* Resumen.
+1. Una herramienta simple que reemplaza a =pip, pip-tools, pipx, poetry, pyenv, twine, virtualenv=, y mas.
+2. 10-100x mas rapido que =pip=.
+3. Universal =lockfile=.
+4. Corre =scripts=, con soporte a metadata.
+5. Instala y maneja versiones de =python=.
+6. Corre e instala herramientas como paquetes de python.
+7. Interface amigable para =pip=.
+8. Soporta proyectos tipo =cargo=, para proyectos escalables.
+9. Eficiencia de espacio, 
+10. Instalable sin =Rust= o =Python= via =curl= o =pip=.
+11. Soporte para =macOS=, =Linux=, y =Windows=.

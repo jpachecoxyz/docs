@@ -1,0 +1,23 @@
+# -*- jinx-languages: "es_ES"; -*-
+#+title: Denote
+#+date: [2025-04-11 Fri 02:44]
+#+filetags: :estudio:emacs:
+#+identifier: 20250411T024452
+#+author: Ing. Javier Pacheco
+#+startup: content
+
+
+=denote.el= es un paquete minimalista de Emacs para tomar notas basado en el concepto de *Zettelkasten*. No depende de una base de datos, y su estructura se basa en nombres de archivos informativos que incluyen:
+
+1. Timestamp
+2. Slug (descripción en minúsculas y con guiones)
+3. Etiquetas (tags separadas por guión bajo)
+
+Ejemplo de nombre de archivo: 
+=20250410T193045--gestion-de-notas-en-emacs__emacs_org_zettelkasten.org=
+
+- Características principales
+  1. Generación automática de nombres de archivo consistentes.
+  2. Soporte para múltiples backends: `org`, `markdown`, `text`.
+  3. Creación, búsqueda, y enlace entre notas (*denote-link*).
+  4. Integración con `dired`, `consult`, `xref`, `embark` y otros paquetes modernos.

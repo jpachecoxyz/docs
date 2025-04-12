@@ -1,0 +1,22 @@
+# -*- jinx-languages: "es_ES"; -*-
+#+title: Proyectos
+#+date: [2025-04-11 Fri 22:33]
+#+filetags: :meta:proyecto:
+#+identifier: 20250411T223338
+#+author: Ing. Javier Pacheco
+#+startup: content
+
+
+Mis proyectos personales (automatización, blog, desarrollo en Emacs, scripting, linux, etc.) no son solo ejercicios técnicos, sino herramientas que impactan directamente mi vida personal y profesional.
+Estaré plasmando mis proyectos mas ambiciosos y que presenten un reto para mi persona, estos proyectos podrán ser monetarios, o simplemente retando mi personalidad, para tener un enfoque mayor a las cosas, madurar, aprender de mis errores y demás, todo para mejorar.
+
+- *Reputación y autoridad técnica*: Desarrollar soluciones como scripts de mantenimiento, configuraciones automatizadas o herramientas internas refuerza mi perfil como ingeniero autodidacta y resolutivo.
+- *Mejora en la eficiencia laboral*: Automatizar tareas repetitivas en el trabajo con Python, Bash o PLC me permite dedicar más tiempo al análisis y prevención de fallas.
+- *Visibilidad*: Compartir mis avances en el blog y repositorios públicos mejora mi presencia profesional y puede abrir oportunidades laborales.
+
+- *Autonomía y control*: Tener sistemas bien configurados, cifrado con Tomb, y una agenda organizada en Emacs me da sensación de control y orden.
+- *Motivación y propósito*: Ver mis proyectos funcionar, como el sistema de bitácoras o el blog generado con Org y Hugo, me mantiene motivado y conectado con mi propósito de aprender y compartir.
+- *Balance y claridad*: Reflexionar sobre mis avances me ayuda a mantener un equilibrio entre hacer por aprender y hacer por utilidad.
+
+* PLC
+- [[denote:20250326T190622][3=1  Curso de PLC Basico]]

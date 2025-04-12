@@ -1,9 +1,0 @@
-# -*- jinx-languages: "es_ES"; -*-
-#+title: Examen Curso PLC Basico
-#+date: [2025-03-26 Wed 19:20]
-#+filetags: :plc:proyecto:
-#+identifier: 20250326T192053
-#+author: Ing. Javier Pacheco
-#+startup: content
-#+latex_class: exam
-

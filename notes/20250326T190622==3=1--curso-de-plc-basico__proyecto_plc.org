@@ -1,0 +1,86 @@
+# -*- jinx-languages: "es_ES"; -*-
+#+title: Curso de PLC Basico
+#+date: [2025-03-26 Wed 19:06]
+#+filetags: :proyecto:plc:
+#+identifier: 20250326T190622
+#+author: Ing. Javier Pacheco
+#+startup: content
+
+
+* Introducción
+Este curso está diseñado para proporcionar una base sólida en el uso de PLCs, con un enfoque práctico para que los estudiantes puedan aplicar los conocimientos en situaciones reales. El curso se divide en un 30% de teoría y un 70% de práctica, donde se proponen proyectos y actividades para reforzar el aprendizaje.
+
+* Módulo 1: Introducción a los PLCs (Teoría - 10%)
+** 1.1. ¿Qué es un PLC?
+- Definición y funcionamiento básico.
+- Historia y evolución de los PLCs.
+- Aplicaciones industriales.
+
+** 1.2. Componentes de un PLC
+- Unidad Central de Procesamiento (CPU).
+- Módulos de entrada y salida (digitales y analógicos).
+- Fuente de alimentación.
+- Memorias (RAM, ROM, EEPROM).
+
+** 1.3. Lenguajes de programación
+- Introducción a los estándares IEC 61131-3.
+- Lenguajes comunes: Ladder, Bloques Funcionales, Lista de Instrucciones, etc.
+
+* Módulo 2: Programación Básica de PLCs (Teoría - 20%)
+** 2.1. Lógica Ladder
+- Conceptos básicos de lógica ladder.
+- Símbolos comunes: contactos, bobinas, temporizadores, contadores.
+- Ejemplos simples de programación.
+
+** 2.2. Temporizadores y Contadores
+- Tipos de temporizadores (TON, TOF, TONR).
+- Contadores (CTU, CTD).
+- Ejercicios prácticos de aplicación.
+
+** 2.3. Instrucciones básicas
+- Operaciones lógicas (AND, OR, NOT).
+- Comparaciones (>, <, =).
+- Operaciones matemáticas básicas (suma, resta, multiplicación, división).
+
+* Módulo 3: Prácticas y Proyectos (70%)
+** 3.1. Actividades Prácticas
+A continuación, se presentan proyectos y actividades prácticas que los estudiantes pueden realizar para aplicar los conocimientos teóricos:
+
+*** Proyecto 1: Sistema de llenado de tanques
+- Descripción: Programar un PLC para controlar el llenado y vaciado de un tanque.
+- Objetivos:
+  - Usar sensores de nivel (entradas digitales o analógicas).
+  - Controlar bombas y válvulas (salidas digitales).
+  - Implementar alarmas por nivel alto o bajo.
+
+*** Proyecto 2: Control de una cinta transportadora
+- Descripción: Programar un PLC para controlar el encendido, apagado y dirección de una cinta transportadora.
+- Objetivos:
+  - Usar entradas digitales (sensores) y salidas digitales (motores).
+  - Implementar lógica de paro de emergencia.
+  - Añadir un temporizador para controlar el tiempo de funcionamiento.
+
+*** Proyecto 3: Control de semáforo
+- Descripción: Simular el funcionamiento de un semáforo con un PLC.
+- Objetivos:
+  - Usar temporizadores para controlar los intervalos de luz roja, amarilla y verde.
+  - Implementar un modo nocturno (intermitente).
+
+*** Proyecto 4: Control de iluminación
+- Descripción: Programar un PLC para controlar la iluminación de un área.
+- Objetivos:
+  - Usar sensores de presencia (entradas digitales).
+  - Controlar luces (salidas digitales).
+  - Implementar un modo de ahorro de energía (apagado automático).
+
+* Módulo 4: Integración y Pruebas (Práctica - 10%)
+** 4.1. Simulación y Depuración
+- Uso de software de simulación para probar programas.
+- Técnicas de depuración y corrección de errores.
+
+** 4.2. Pruebas en hardware
+- Conexión del PLC a dispositivos reales.
+- Verificación del funcionamiento del sistema.
+
+* Conclusión
+Este curso proporciona una base sólida en el uso de PLCs, con un enfoque práctico que permite a los estudiantes aplicar sus conocimientos en proyectos reales. Al finalizar, los estudiantes estarán capacitados para diseñar, programar y depurar sistemas básicos de automatización usando PLCs.

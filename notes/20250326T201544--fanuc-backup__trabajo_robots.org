@@ -1,0 +1,39 @@
+# -*- jinx-languages: "es_ES"; -*-
+#+title: Fanuc Backup
+#+date: [2025-03-26 Wed 20:15]
+#+filetags: :trabajo:robots:
+#+identifier: 20250326T201544
+#+author: Ing. Javier Pacheco
+#+startup: content
+
+
+* Como hacer un backup a programas de robot fanuc.
+** Donde se localizan los puertos =usb=.
+Los puertos usb se encuentran en el controlador del robot y otro mas en el =teach pendant=.
+
+* Procedimiento de respaldo de programas y archivos.
+** Insertar memoria
+Aquí tendremos 2 opciones para el registro de USB's:
+
+- Teach pendant.
+
+- Controlador de Robot.
+
+** Movimientos en Teach pendant.
+Presionar el =soft-key= de =Menu= y seleccionar =FILE= y nuevamente la opción =File=.
+Aquí mostrara todos los archivos en memoria del =teach pendant=.
+
+** Seleccionar la USB.
+1. Presionar la tecla =UTIL= después =set device= y seleccionamos la memoria.
+- Opción 7 :: USB Disk (UD1:) USB en el controlador.
+- Opción Next :: USB on TP (UT1:) USB en en el teach pendant.
+
+** Crear carpeta para el backup.
+1. Seleccionar =UTIL=, seguido de =Make DIR=, pedirá que el asignemos un nombre a la carpeta.
+2. Verificar que el =TP= esta leyendo la memoria:
+   1. Presionar el =soft-key= de =DIR= y seleccionar la primera opción (=*.*=).
+   Deberá mostrar todos los archivos de tu memoria usb. 
+
+** Realizando el =Bakcup=.
+1. Presionar la tecla =BACKUP=, y seleccionar la opción 8 =ALL of above=, y seleccionar =YES=.
+Esto se tiene que hacer en el directorio en el que se desee guardar los archivos de respaldo. 

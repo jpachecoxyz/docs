@@ -1,0 +1,11 @@
+# -*- jinx-languages: "es_ES"; -*-
+#+title: Python
+#+date: [2025-04-11 Fri 21:04]
+#+filetags: :meta:estudio:
+#+identifier: 20250411T210418
+#+author: Ing. Javier Pacheco
+#+startup: content
+
+Python es un lenguaje de alto nivel de programación interpretado cuya filosofía hace hincapié en la legibilidad de su código. Se trata de un lenguaje de programación multiparadigma, ya que soporta parcialmente la orientación a objetos, programación imperativa y, en menor medida, programación funcional. Es un lenguaje interpretado, dinámico y multiplataforma.
+
+Administrado por Python Software Foundation, posee una licencia de código abierto, denominada Python Software Foundation License.[3]​ Python se clasifica constantemente como uno de los lenguajes de programación más populares.
