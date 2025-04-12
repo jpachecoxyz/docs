@@ -4,7 +4,7 @@
 #+filetags: :estudio:python:
 #+identifier: 20250410T203747
 #+author: Ing. Javier Pacheco
-#+startup: content
+#+startup: showall
 
 En esta nota insertare links a libros acerca de python, para tener un marco de referencia a este programa.
 

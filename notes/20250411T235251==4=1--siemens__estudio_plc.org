@@ -1,0 +1,8 @@
+# -*- jinx-languages: "es_ES"; -*-
+#+title: Siemens
+#+date: [2025-04-11 Fri 23:52]
+#+filetags: :estudio:plc:
+#+identifier: 20250411T235251
+#+author: Ing. Javier Pacheco
+#+startup: content
+
