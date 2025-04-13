@@ -1,0 +1,11 @@
+# -*- jinx-languages: "es_ES"; -*-
+#+title: Programación
+#+date: [2025-04-13 Sun 09:14]
+#+filetags: :meta:
+#+identifier: 20250413T091449
+#+author: Ing. Javier Pacheco
+#+startup: content
+
+Aquí estaré tomando mis notas acerca de programación, lógica, conceptos etc.
+
+- [[denote:20250413T091934][11=1  Lógica de Programación]]

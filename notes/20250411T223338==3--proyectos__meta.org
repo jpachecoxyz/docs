@@ -1,7 +1,7 @@
 # -*- jinx-languages: "es_ES"; -*-
 #+title: Proyectos
 #+date: [2025-04-11 Fri 22:33]
-#+filetags: :meta:proyecto:
+#+filetags: :meta:
 #+identifier: 20250411T223338
 #+author: Ing. Javier Pacheco
 #+startup: content
@@ -19,4 +19,7 @@ Estaré plasmando mis proyectos mas ambiciosos y que presenten un reto para mi p
 - *Balance y claridad*: Reflexionar sobre mis avances me ayuda a mantener un equilibrio entre hacer por aprender y hacer por utilidad.
 
 * PLC
+#+BEGIN: denote-links :regexp "==3.*_proyecto_plc" :excluded-dirs-regexp nil :sort-by-component nil :reverse-sort nil :id-only nil :include-date nil
 - [[denote:20250326T190622][3=1  Curso de PLC Basico]]
+- [[denote:20250412T154559][3=1=1  Examen PLC Basico]]
+#+END:

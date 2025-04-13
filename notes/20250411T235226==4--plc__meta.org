@@ -1,0 +1,16 @@
+# -*- jinx-languages: "es_ES"; -*-
+#+title: PLC
+#+date: [2025-04-11 Fri 23:52]
+#+filetags: :meta:
+#+identifier: 20250411T235226
+#+author: Ing. Javier Pacheco
+#+startup: content
+
+* Siemens
+- [[denote:20250411T235251][4=1  Siemens]]
+
+* AllenBradley
+- [[denote:20250411T235334][4=2  AllenBradley]]
+
+* Relacionados
+- [[denote:20250413T091934][11=1  Lógica de Programación]]

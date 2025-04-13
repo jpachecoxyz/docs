@@ -1,8 +1,0 @@
-# -*- jinx-languages: "es_ES"; -*-
-#+title: PLC
-#+date: [2025-04-11 Fri 23:52]
-#+filetags: :meta:estudio:
-#+identifier: 20250411T235226
-#+author: Ing. Javier Pacheco
-#+startup: content
-

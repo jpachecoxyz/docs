@@ -1,13 +1,0 @@
-# -*- jinx-languages: "es_ES"; -*-
-#+title: Siemens
-#+date: [2025-03-26 Wed 17:56]
-#+filetags: :estudio:plc:
-#+identifier: 20250326T175609
-#+author: Ing. Javier Pacheco
-#+startup: content
-
-
-* Configuración de hardware.
-1. Seleccionar un CPU en el =Project View=.
-2. 
-

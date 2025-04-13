@@ -1,0 +1,8 @@
+# -*- jinx-languages: "es_ES"; -*-
+#+title: Haitian 7
+#+date: [2025-04-12 Sat 14:29]
+#+filetags: :trabajo:castlight:
+#+identifier: 20250412T142947
+#+author: Ing. Javier Pacheco
+#+startup: content
+

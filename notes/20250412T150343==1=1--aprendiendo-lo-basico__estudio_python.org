@@ -1,0 +1,14 @@
+# -*- jinx-languages: "es_ES"; -*-
+#+title:  Aprendiendo lo basico
+#+date: [2025-04-12 Sat 15:03]
+#+filetags: :estudio:python:
+#+identifier: 20250412T150343
+#+author: Ing. Javier Pacheco
+#+startup: content
+
+Python
+
+Python es un lenguaje de programación de alto nivel, interpretado y de propósito general. Su filosofía de diseño prioriza la legibilidad del código mediante una sangría significativa. Python tiene tipado dinámico y recolección de elementos no utilizados.
+
+Para más información, visite los siguientes recursos:
+1. [[https://www.python.org/][Python.org]]

@@ -1,8 +1,0 @@
-# -*- jinx-languages: "es_ES"; -*-
-#+title: AllenBrandley
-#+date: [2025-04-08 Tue 02:10]
-#+filetags: :estudio:plc:
-#+identifier: 20250408T021027
-#+author: Ing. Javier Pacheco
-#+startup: content
-

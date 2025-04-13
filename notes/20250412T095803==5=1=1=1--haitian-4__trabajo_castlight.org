@@ -6,3 +6,40 @@
 #+author: Ing. Javier Pacheco
 #+startup: content
 
+* TODO Datos y especificaciones.
+- Modelo :: H450
+- Serie :: 
+- Peso maximo de platinas :: 6T
+
+* Contraseñas
+** TODO lvl 12
+** TODO lvl 8:
+user: 
+pass: 
+
+** lvl 6:
+user: Operator
+pass: a123
+
+** Driver: :crypt:
+-----BEGIN PGP MESSAGE-----
+
+hF4DzWdQclh7J8ASAQdA/Rb7yDpRgXkKQbrpUfRDOxYQMGutHZ1hhOe4T/4aqhww
++R3R0nY0mSkoNQu5+mieoA+7q2iYbHlV37YftRNdJiyKWnk2U5D0zoZDopCaIumx
+hQIMA7JatXjF30UBAQ/9H/ou2zUOHSv1N3z2AXjtOInmyBW3VaIWqy6hQV8QTQ+a
+6P5Rhz6qv3X0mU0uilLWk5/2QRguET4Vx56IvOMflNh7Hbhxa9YFesB1PzN/Zp68
+/ssCCuqWeYcT/YZQvOsRTQwuk53dwq4gCiZ7VCdhZanAb5Kv/wk9v1zYYqR5LOLS
+2GScNdSIRXNoQYMcOEWuOS2pxeHStRd/FIeo6xQRstTEgxhkOHJKnp3TzmQLSeMA
+EtATvzCv/P7tPQHwneOTW+gt8Y8H7/IZXU5udqrxxEk52rx4eac5UlP6IbwnY57r
+qeBFg/d4PiJ9NoTNmP8Fg3h2s7lFRzLf5Nwoa4O+NrtAFu0OkFPVcQnshYGP0FkR
+PVnECj2Mwyde2zX1NPNjeg1fDPr1TerZ3opxNvWrBUcTVr+lg7DVgJDLmlhEUoFG
+pHpiRF1xX4WxUUNddq77faXJo7AZeyz2yAdanefbWJkvKLQIk0t5s7paAjqFnGtC
+s/AwK143SJiIYAKRa+kbKMoMKdbJoimyRAZIqqcv/JXWAkQfeNrhX+ffpZOBNJSM
+e8UP4NKfQfvF2PJPgnLczR1h4MIDDK2xZZ/cZbWEdferce1q8C65JqF33zL1Sa/i
+pnK/n9smX0Mwd2gTVmTY+mF+EUZOi4xWpCTyuR0s1QjYSKhUYDorYH2tERkE5D3U
+YgEJAhAQ8AWOdLKbj53c22s3HDLM7qPUamX0R3/2/9hxdGI26+bfTQoi2u2t9CEo
+/fy8P/2dOWOWEVbaQ46BjO8ysrsz44/BmatKrkKSdM7uuzwoxXPzBmCUZb9UY6Hq
+hbOn
+=SUbL
+-----END PGP MESSAGE-----
+* Fallas Considerables.

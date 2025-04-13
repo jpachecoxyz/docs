@@ -1,0 +1,8 @@
+# -*- jinx-languages: "es_ES"; -*-
+#+title: Variables
+#+date: [2025-04-12 Sat 15:39]
+#+filetags: :estudio:python:
+#+identifier: 20250412T153958
+#+author: Ing. Javier Pacheco
+#+startup: content
+

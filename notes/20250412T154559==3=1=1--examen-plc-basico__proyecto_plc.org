@@ -1,0 +1,8 @@
+# -*- jinx-languages: "es_ES"; -*-
+#+title: Examen PLC Basico
+#+date: [2025-04-12 Sat 15:45]
+#+filetags: :proyecto:plc:
+#+identifier: 20250412T154559
+#+author: Ing. Javier Pacheco
+#+startup: content
+

@@ -1,8 +1,8 @@
 # -*- jinx-languages: "es_ES"; -*-
-#+title: Robots ABB
-#+date: [2025-03-29 Sat 20:02]
-#+filetags: :trabajo:robots:
-#+identifier: 20250329T200245
+#+title: ABB
+#+date: [2025-04-12 Sat 21:38]
+#+filetags: :estudio:robots:
+#+identifier: 20250412T213826
 #+author: Ing. Javier Pacheco
 #+startup: content
 

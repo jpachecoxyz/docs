@@ -7,8 +7,14 @@
 #+startup: content
 
 * Maquinas:
-- [[denote:20250412T095803][Haitian 4]]
-- [[denote:20250412T095826][Haitian 5]]
+#+BEGIN: denote-links :regexp "==5.*--haitian.*_trabajo_castlight" :excluded-dirs-regexp t :sort-by-component nil :reverse-sort nil :id-only nil :include-date nil
+- [[denote:20250412T095803][5=1=1=1  Haitian 4]]
+- [[denote:20250412T095826][5=1=1=2  Haitian 5]]
+- [[denote:20250412T142926][5=1=1=3  Haitian 6]]
+- [[denote:20250412T142947][5=1=1=4  Haitian 7]]
+#+END:
 
 * Documentacion
+- [[denote:20250412T214322][5=1=1=5  Procediementos]]
 - [[denote:20250412T081823][hilectro]]
+  

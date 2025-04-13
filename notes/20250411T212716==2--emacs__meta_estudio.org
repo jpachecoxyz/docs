@@ -1,8 +1,0 @@
-# -*- jinx-languages: "es_ES"; -*-
-#+title: Emacs
-#+date: [2025-04-11 Fri 21:27]
-#+filetags: :meta:estudio:
-#+identifier: 20250411T212716
-#+author: Ing. Javier Pacheco
-#+startup: content
-
