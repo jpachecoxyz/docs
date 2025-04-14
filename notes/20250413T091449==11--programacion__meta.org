@@ -8,4 +8,9 @@
 
 Aquí estaré tomando mis notas acerca de programación, lógica, conceptos etc.
 
-- [[denote:20250413T091934][11=1  Lógica de Programación]]
+  #+BEGIN: denote-links :regexp "==11=1=.*" :excluded-dirs-regexp nil :sort-by-component nil :reverse-sort nil :id-only nil :include-date nil
+  - [[denote:20250413T131505][11=1=1  MoureDev]]
+  - [[denote:20250413T134107][11=1=1=1  Sintaxis, Variables, Tipos de Datos y Hola Mundo]]
+  - [[denote:20250413T135435][11=1=1=2  Operadores y Estructuras de Control]]
+  #+END:
+

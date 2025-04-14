@@ -13,11 +13,11 @@ Tiene sentido, un =loop, condicional, if, else if=, son lo mismo (al menos en lo
 La idea de aprender concepto es mas importante que aprender o memorizar codigo.
 
 #+begin_quote
-"Si aprendes los conceptops antes que el codigo, entenderas como intercambiarlos facilmente."
+"Si aprendes los conceptos antes que el codigo, entenderas como intercambiarlos fácilmente."
 #+end_quote
 
 * DOING Como lleavarlo a la practica
-Crear algun proyecto pero irle aumentando la dificultad.
+Crear algún proyecto pero irle aumentando la dificultad.
 ** Pasos para crear un proyecto.
 
 - Definir el objetivo ::  Definir que es lo que tu aplicacion sera util.

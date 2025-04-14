@@ -1,0 +1,54 @@
+# -*- jinx-languages: "es_ES"; -*-
+#+title: Sintaxis, Variables, Tipos de Datos y Hola Mundo
+#+date: [2025-04-13 Sun 13:41]
+#+filetags: :estudio:programacion:
+#+identifier: 20250413T134107
+#+author: Ing. Javier Pacheco
+#+startup: content
+
+* ¿Preparad@ para aprender o repasar el lenguaje de programación que tú quieras?
+1. Recuerda que todas las instrucciones de participación están en el repositorio de GitHub.
+
+Lo primero... ¿Ya has elegido un lenguaje?
+1. No todos son iguales, pero sus fundamentos suelen ser comunes.
+2. Este primer reto te servirá para familiarizarte con la forma de participar enviando tus propias soluciones.
+
+** DONE EJERCICIO: [5/5]
+CLOSED: [2025-04-13 Sun 13:52]
+- [X] Crea un comentario en el código y coloca la URL del sitio web oficial del lenguaje de programación que has seleccionado.
+- [X] Representa las diferentes sintaxis que existen de crear comentarios en el lenguaje (en una línea, varias...).
+- [X] Crea una variable (y una constante si el lenguaje lo soporta).
+- [X] Crea variables representando todos los tipos de datos primitivos del lenguaje (cadenas de texto, enteros, booleanos...).
+- [X] Imprime por terminal el texto: "¡Hola, [y el nombre de tu lenguaje]!"
+
+¿Fácil? No te preocupes, recuerda que esta es una ruta de estudio y debemos comenzar por el principio.
+
+
+* Solucion
+
+#+begin_src python
+# www.python.org
+
+'''
+Este es un comentario 
+de varias lineas en 
+python
+'''
+# Variables
+nombre = "javier"
+# Constante por convecion
+PI = 3.1416
+
+# Tipos de variables:
+# Cadenas de texto:
+color = "rojo"
+# Enteros
+cantiad = 5
+# Flotantes
+pi = 3.14116
+# Boolean
+encendido = True
+encendido = False
+
+print("¡Hola, Python!")
+#+end_src

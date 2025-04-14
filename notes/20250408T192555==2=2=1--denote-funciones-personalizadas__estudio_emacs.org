@@ -6,40 +6,34 @@
 #+author: Ing. Javier Pacheco
 #+startup: content
 
-* Actualizar una lista de links de denote.
+* Lista todos los links de la nota actual
 Esta necesidad surgió mientras planificaba mi "sistema" de note-taking, al estar creando notas, después al agregarlas al archivo meta, se me hacia tedioso buscar nota por nota, o borrar toda la lista e insertar las notas de nuevo utilizando la función =denote-insert-links-matching-regexp=, por lo cual me decidí hacer esta función, que selecciona la lista dentro de un header lvl 1, lo borra y lanza el comando de denote.
 
 #+begin_src emacs-lisp
-(defun jp:denote-update-links-matching-regexp (&optional regexp)
-  "Replace denote links under the current level 1 Org heading using `denote-link-insert-links-matching-regexp`.
-Deletes old links and inserts new ones matching REGEXP (asks if not provided)."
+(defun my/denote-or-org-link ()
+  "Run `denote-find-link`. If nothing is inserted, show Org links in minibuffer."
   (interactive)
-  (let ((regexp (or regexp (read-regexp "Match links by regexp (e.g. _estudio_linux): "))))
+  (let ((before (buffer-substring-no-properties (point-min) (point-max))))
+    (call-interactively #'denote-find-link)
+    (run-at-time
+     "0.1 sec" nil
+     (lambda ()
+       (let ((after (buffer-substring-no-properties (point-min) (point-max))))
+         (when (string= before after)
+           (let ((links (my/org-collect-links)))
+             (if links
+                 (let ((chosen (completing-read "Org links: " links)))
+                   (when chosen
+                     (kill-new chosen)
+                     (message "Copied link to clipboard: %s" chosen)))
+               (message "No Denote or Org links found.")))))))))
+
+(defun my/org-collect-links ()
+  "Collect all Org-style links ([[...]]) in the current buffer."
+  (let (links)
     (save-excursion
-      ;; Jump to level-1 heading
-      (unless (and (org-at-heading-p) (= (org-outline-level) 1))
-        (outline-previous-heading)
-        (while (and (org-at-heading-p)
-                  (> (org-outline-level) 1))
-          (outline-previous-heading)))
-      (let* ((start (point))
-             (end (or (save-excursion
-                       (outline-next-heading)
-                       (point))
-                     (point-max)))
-             (first-line nil)
-             (last-line nil))
-        ;; Search for denote links to remove
-        (goto-char start)
-        (while (re-search-forward "^- \\[\\[denote:[^]]+\\]\\[[^]]+\\]\\]" end t)
-          (let ((line-beg (line-beginning-position))
-                (line-end (line-end-position)))
-            (unless first-line (setq first-line line-beg))
-            (setq last-line line-end)))
-        (when (and first-line last-line)
-          ;; Delete the region
-          (delete-region first-line (1+ last-line))
-          ;; Move to where the links were and insert new ones
-          (goto-char first-line)
-          (denote-link-insert-links-matching-regexp regexp))))))
+      (goto-char (point-min))
+      (while (re-search-forward org-link-bracket-re nil t)
+        (push (match-string 0) links)))
+    (delete-dups links)))
 #+end_src
