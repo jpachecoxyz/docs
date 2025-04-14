@@ -16,3 +16,7 @@ Administrado por Python Software Foundation, posee una licencia de código abier
 - [[denote:20250412T150343][1=1  Aprendiendo lo basico]]
 - [[denote:20250412T153958][1=1=1  Variables]]
 #+END:
+
+* Referencias.
+1. [[https://www.python.org/][Python.org]]
+2. [[https://www.w3schools.com/python][Python - w3school]]
