@@ -149,3 +149,27 @@ for numero in range(10, 56):
 - numero % 3 != 0 → excluye los múltiplos de 3.
 """
 #+end_src
+* Que aprendí:
+En esta sección Aprendi los tipos de operaciones en python, los comparativos, lógicos como: =and or=
+también aprendí el uso de =in= de modo que esta operación, te pregunta "si hay algo =in= esto"
+
+** Operadores de asignacion.
+Los operadores de asignacion sirven para asignar un valor a algo, por ejemplo a una variable.
+#+begin_src python
+my_number = 10 # Aqui el signo de = es el que asigna.
+my_number += 1 # Aqui se suma un valor y se asigna el resultado.
+my_number -= 1 
+my_number *= 1 
+my_number /= 1 
+#+end_src
+** Operadores de asignacion.
+Son valores que sirven para asignar un valor en memoria
+#+begin_src python
+my_var = 1.0
+other_var = 1.0
+print(f"The vars are: {my_var is other_var}.") # False
+
+my_var = 1.0
+other_var = my_var
+print(f"The vars are: {my_var is other_var}.") # True
+#+end_src

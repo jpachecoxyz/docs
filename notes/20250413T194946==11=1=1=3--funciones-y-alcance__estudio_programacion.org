@@ -28,7 +28,7 @@ CLOSED: [2025-04-14 Mon 03:37]
  * Presta especial atención a la sintaxis que debes utilizar en cada uno de los casos.
  * Cada lenguaje sigue una convenciones que debes de respetar para que el código se entienda.
 
-* Solucion
+* Solución
 :PROPERTIES:
 :VISIBILITY: folded
 :END:
@@ -68,7 +68,7 @@ sum_of_vars(5)
 print(global) # Como es una variable GLOBAL, si funciona el print
 #+end_src
 
-* Solucion Dificultad Extra.
+* Solución Dificultad Extra.
 :PROPERTIES:
 :VISIBILITY: folded
 :END:
@@ -89,3 +89,24 @@ def print_numbers(text_1, text_2) -> int:
 
 print(print_numbers("Fizz", "Buzz"))
 #+end_src
+* Mi solucion extra.
+#+begin_src python
+def fizz_buzz(text_1, text_2):
+    count = 0
+    for number in range(1,101):
+        if number % 3 == 0 and number % 5 == 0:
+            print(f"{text_1} {text_2}")
+        elif number % 5 == 0:
+            print(text_1)
+        elif number % 3 == 0:
+            print(text_2)
+        else:
+            print(number)
+            count +=1
+
+fizz_buzz("lia", "javier")
+#+end_src
+* Que aprendí:
+En este modulo aprendi, a usar la logica para la creacion del tan famoso =FizzBuzz=, usando =if, elif, else=.
+Mas que nada los conceptos fueron faciles, lo interesante fue entender el ejercicio extra y poder darte cuenta
+que era el famoso fizzbuzz de toda la vida.
