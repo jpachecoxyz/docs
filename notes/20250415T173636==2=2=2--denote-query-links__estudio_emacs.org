@@ -1,0 +1,31 @@
+# -*- jinx-languages: "es_ES"; -*-
+#+title: Denote Query Links
+#+date: [2025-04-15 Tue 17:36]
+#+filetags: :estudio:emacs:
+#+identifier: 20250413T091934
+#+author: Ing. Javier Pacheco
+#+startup: showall
+
+Denote query links es lo mas nuevo de la versión 4.0, este paquete lo he estado 
+esperando desde que empece a usar denote.
+
+* Como usar los query links:
+- *Denote query content*.
+Este comando es usado para buscar en notas que contengan el =string= que pases en las notas.
+Por ejemplo hablando de [[denote:query-contents:Python][Python]].
+Al dar =follow= al link emacs abrirá un buffer con xref, puedes moverte entre las sugerencias con =C-n= y =C-p= y lo mejor es que abre un buffer con el preview de la nota o archivo que estés pasando por =xref=.
+
+Ademas, para poder crear un query link puedes seleccionar texto y lanzar la función, esto hará un link con la región que tengas seleccionada.
+
+Este es un ejemplo con la palabra: [[denote:query-contents:Haitian][Haitian]].
+
+- *Denote query filenames*
+Este comando es para buscar unicamente basado en los nombres de los archivos: Por ejemplo nombres que contengan la palabra [[denote:query-filenames:Windows][Windows]].
+
+Los comandos mencionados anteriormente puede ser un String o Regex de emacs.
+Un ejemplo de lo anterior mencionado: [[denote:query-filenames:.*_trabajo][.*_trabajo]] 
+
+A diferencia de =Denote query content=, =filenames= abre un dired-buffer, esto quiere decir que podrás hacer lo mismo de filtrar, renombrar, etc. usando los comandos de =dired=
+
+* Opiniones.
+Que pienso de este paquete? Es un paquete interesante, muy bueno y poderoso, la ventaja que le veo es que al ser un =codigo= que lanza un buffer en tiempo =real= de las notas, estas están ahí por defecto si hiciste alguna modificación o creaste algún archivo, a diferencia de los =db-links= de denote los cuales tienes que ir al lugar de los links y presionar =C-c C-c= para que actualice los links, pero  igual son funciones y funcionalidades diferentes, que pueden ser usadas para situaciones especificas.

@@ -7,7 +7,8 @@
 #+startup: showall
 
 * Denote
-#+BEGIN: denote-links :regexp "_estudio_emacs" :excluded-dirs-regexp nil :sort-by-component nil :reverse-sort t :id-only nil :include-date nil
-- [[denote:20250411T024452][2=2  Denote]]
+#+BEGIN: denote-links :regexp "_emacs" :excluded-dirs-regexp nil :sort-by-component nil :reverse-sort nil :id-only nil :include-date nil
 - [[denote:20250408T192555][2=2=1  Denote Funciones personalizadas]]
+- [[denote:20250411T024452][2=2  Denote]]
+- [[denote:20250415T173636][2=2=2  Denote Query Links]]
 #+END:

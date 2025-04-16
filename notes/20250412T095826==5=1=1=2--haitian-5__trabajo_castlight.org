@@ -4,14 +4,17 @@
 #+filetags: :trabajo:castlight:
 #+identifier: 20250412T095826
 #+author: Ing. Javier Pacheco
-#+startup: content
+#+startup: showall
 
 * TODO Datos y especificaciones.
 - Modelo :: H450
 - Serie :: 
-- Peso maximo de platinas :: 6T
+- Peso máximo de platinas :: 6T
 
 * Contraseñas
+:PROPERTIES:
+:VISIBILITY: folded
+:END:
 ** lvl 12 :crypt:
 -----BEGIN PGP MESSAGE-----
 

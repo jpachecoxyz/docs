@@ -4,7 +4,7 @@
 #+filetags: :trabajo:castlight:
 #+identifier: 20250412T094749
 #+author: Ing. Javier Pacheco
-#+startup: content
+#+startup: showall
 
 * Maquinas:
 #+BEGIN: denote-links :regexp "==5.*--haitian.*_trabajo_castlight" :excluded-dirs-regexp t :sort-by-component nil :reverse-sort nil :id-only nil :include-date nil
