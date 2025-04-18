@@ -12,9 +12,11 @@
 :END:
 ** TODO Regar el jardín
 :PROPERTIES:
-:LAST_REPEAT: [2025-04-13 Sun 19:27]
+:LAST_REPEAT: [2025-04-17 Thu 20:46]
 :END:
 :LOGBOOK:
+- State "DONE"       from "TODO"       [2025-04-17 Thu 20:46]
+- State "DONE"       from "TODO"       [2025-04-17 Thu 20:44]
 - State "DONE"       from "TODO"       [2025-04-13 Sun 19:27]
 - State "DONE"       from "TODO"       [2025-04-12 Sat 22:14]
 - State "DONE"       from "TODO"       [2025-04-11 Fri 23:02]
@@ -32,7 +34,7 @@
 - State "DONE"       from "TODO"       [2025-03-30 Sun 20:15]
 - State "DONE"       from "TODO"       [2025-03-29 Sat 21:35]
 :END:
-SCHEDULED: <2025-04-14 Mon 20:00 +1d>
+SCHEDULED: <2025-04-18 Fri 20:00 ++1d>
 ** TODO Reparar el calentador del agua.
 SCHEDULED: <2025-04-26 Sat>
 ** TODO Reparar el lavamanos del baño.
@@ -44,7 +46,7 @@ SCHEDULED: <2025-04-13 Sun>
 :CATEGORY: 💻
 :END:
 ** TODO Actualizar Void Linux
-SCHEDULED: <2025-05-11 Sun +1m>
+SCHEDULED: <2025-05-11 Sun ++1m>
 :PROPERTIES:
 :LAST_REPEAT: [2025-04-11 Fri 23:02]
 :END:
@@ -59,12 +61,14 @@ SCHEDULED: <2025-05-11 Sun +1m>
 :CATEGORY: 📓
 :END:
 ** TODO Actualizar mis notas
-SCHEDULED: <2025-04-16 Wed +1w>
+SCHEDULED: <2025-04-23 Wed ++1w>
 :PROPERTIES:
-:LAST_REPEAT: [2025-04-09 Wed 18:13]
+:LAST_REPEAT: [2025-04-17 Thu 20:44]
 :END:
 :LOGBOOK:
+- State "DONE"       from "TODO"       [2025-04-17 Thu 20:44]
 - State "DONE"       from "TODO"       [2025-04-09 Wed 18:13]
 - State "DONE"       from "TODO"       [2025-04-03 Thu 20:51]
 :END:
 ** TODO Leer libro El inversor inteligente
+** DOING Leer libro Psicologia del dinero

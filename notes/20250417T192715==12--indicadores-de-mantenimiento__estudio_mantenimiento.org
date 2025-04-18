@@ -1,0 +1,17 @@
+# -*- jinx-languages: "es_ES"; -*-
+#+title: Indicadores de mantenimiento
+#+date: [2025-04-17 Thu 19:27]
+#+filetags: :estudio:mantenimiento:
+#+identifier: 20250417T192715
+#+author: Ing. Javier Pacheco
+#+startup: showall
+
+Los indicadores de mantenimiento, son nada mas que datos, que recolectamos los jefes de mantenimiento, al tener estos datos, plasmarlos en formatos entendibles, nos ayudan a tomar decisiones en base a dichos indicadores.
+
+El departamento, estamos en el centro del problema. Tiene sentido porque somos nosotros los que damos servicio/mantenemos las maquinas, activos o servicios. Por lo dicho la mayoría de las veces suelen confundirnos con el problema, el problema no son las instalaciones, las condiciones, si no el departamento en si, lo cual obviamente es una percepción errónea.
+
+Para esto, mantenimiento tiene que demostrar con datos, si su gestión es la correcta o no, y si hay que mejorar en cuestión de análisis, métodos de reparación, etc. y deberemos mostrárselo a los demás miembros del staff.
+
+
+* Referencias:
+[[https://www.youtube.com/watch?v=-eLPF99fXPA][Indicadores de mantenimiento - Renovetec]]
