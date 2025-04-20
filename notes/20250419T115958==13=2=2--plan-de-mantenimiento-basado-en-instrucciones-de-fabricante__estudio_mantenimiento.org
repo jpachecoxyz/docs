@@ -1,0 +1,8 @@
+# -*- jinx-languages: "es_ES"; -*-
+#+title: Plan de Mantenimiento Basado en Instrucciones de Fabricante
+#+date: [2025-04-19 Sat 11:59]
+#+filetags: :estudio:mantenimiento:
+#+identifier: 20250419T115958
+#+author: Ing. Javier Pacheco
+#+startup: showall
+

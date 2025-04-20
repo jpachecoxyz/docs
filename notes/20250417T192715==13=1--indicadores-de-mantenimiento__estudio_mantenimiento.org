@@ -1,0 +1,48 @@
+# -*- jinx-languages: "es_ES"; -*-
+#+title: Indicadores de mantenimiento
+#+date: [2025-04-17 Thu 19:27]
+#+filetags: :estudio:mantenimiento:
+#+identifier: 20250417T192715
+#+author: Ing. Javier Pacheco
+#+startup: showall
+
+Los indicadores de mantenimiento, son nada mas que datos, que recolectamos los jefes de mantenimiento, al tener estos datos, plasmarlos en formatos entendibles, nos ayudan a tomar decisiones en base a dichos indicadores.
+
+El departamento, estamos en el centro del problema. Tiene sentido porque somos nosotros los que damos servicio/mantenemos las maquinas, activos o servicios. Por lo dicho la mayoría de las veces suelen confundirnos con el problema, el problema no son las instalaciones, las condiciones, si no el departamento en si, lo cual obviamente es una percepción errónea.
+
+Para esto, mantenimiento tiene que demostrar con datos, si su gestión es la correcta o no, y si hay que mejorar en cuestión de análisis, métodos de reparación, etc. y deberemos mostrárselo a los demás miembros del staff.
+
+* Porque Calculamos indicadores?
+Los datos que recolecta el departamento de mantenimiento, no son nada mas   ordenes de trabajo, al obtener estos datos, los procesamos, al hacer esto se convierten en informacion, y una vez tenenmos esa informacion, en base a esta tomaremos decisiones.
+
+* Bases temporales para los indicadores de mantenimiento.
+- Mensual :: Inicia el primero de cada mes, y termina el ultimo dia del mes.
+- Anual :: Inicia el primero de Enero y termina el 31 de diciembre.
+- Anual año natural :: inicia el primero de enero, y mes con mes va iniciando el contador tomando de inicio el 1 de enero, asi hasta llegar a los 12 meses.
+
+* Items:
+- Equipos
+- Subsistemas
+- Sistemas
+- Planta
+
+* Indicadores claves.
+Hay 4 indicadores clave en el rubro de mantenimiento:
+** Disponibilidad.
+Se obtiene calculando el /Tiempo de Actividad/ / /Tiempo Total/
+donde:
+- /Tiempo de Actividad/ :: Es el /Tiempo Total/ - /Tiempo de Mantenimiento Programado/ - /Tiempo de Mantenimiento no Programado/
+- /Tiempo Total/ :: Cualquiera de las bases temporales (Mensual, Anual, Ańo Natural).
+** Fiabilidad.
+Es el Indicador que muestra cuan fiable fue la maquina, y se calcula: /Tiempo Fiable/ / /Tiempo Total/
+donde:
+- /Tiempo Fiable/ :: /Tiempo Total/ - /Tiempo de Mantenimiento no Programado/.
+- /Tiempo Total/ :: Cualquiera de las bases temporales (Mensual, Anual, Ańo Natural).
+** MTBF.
+Se obtiene calculando el /Tiempo Total/ - /Tiempo muerto/ / /Numero de Fallas/
+** MTTR.
+/Tiempo muerto/ / /Numero de Fallas/.
+  
+* Referencias:
+[[https://www.youtube.com/watch?v=-eLPF99fXPA][Indicadores de mantenimiento - Renovetec]]
+[[https://www.youtube.com/watch?v=TsUBN71SYYk][Indicadores clave de mantenimiento - Renovetec]]

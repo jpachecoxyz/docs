@@ -12,9 +12,10 @@
 :END:
 ** TODO Regar el jardín
 :PROPERTIES:
-:LAST_REPEAT: [2025-04-17 Thu 20:46]
+:LAST_REPEAT: [2025-04-19 Sat 21:13]
 :END:
 :LOGBOOK:
+- State "DONE"       from "TODO"       [2025-04-19 Sat 21:13]
 - State "DONE"       from "TODO"       [2025-04-17 Thu 20:46]
 - State "DONE"       from "TODO"       [2025-04-17 Thu 20:44]
 - State "DONE"       from "TODO"       [2025-04-13 Sun 19:27]
@@ -34,7 +35,7 @@
 - State "DONE"       from "TODO"       [2025-03-30 Sun 20:15]
 - State "DONE"       from "TODO"       [2025-03-29 Sat 21:35]
 :END:
-SCHEDULED: <2025-04-18 Fri 20:00 ++1d>
+SCHEDULED: <2025-04-20 Sun 20:00 ++1d>
 ** TODO Reparar el calentador del agua.
 SCHEDULED: <2025-04-26 Sat>
 ** TODO Reparar el lavamanos del baño.

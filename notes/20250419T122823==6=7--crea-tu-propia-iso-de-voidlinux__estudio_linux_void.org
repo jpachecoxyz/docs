@@ -1,0 +1,11 @@
+# -*- jinx-languages: "es_ES"; -*-
+#+title: Crea tu propia iso de voidlinux
+#+date: [2025-04-19 Sat 12:28]
+#+filetags: :estudio:linux:void:
+#+identifier: 20250419T122823
+#+author: Ing. Javier Pacheco
+#+startup: showall
+
+
+* Referencias
+[[https://www.youtube.com/embed/378rU-wpLX4?t=29https://www.youtube.com/embed/378rU-wpLX4?t=29][Void-Mklive - Jake@Linux]]

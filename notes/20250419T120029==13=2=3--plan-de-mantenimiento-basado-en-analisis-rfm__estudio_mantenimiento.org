@@ -1,0 +1,8 @@
+# -*- jinx-languages: "es_ES"; -*-
+#+title: Plan de Mantenimiento Basado en Analisis RFM
+#+date: [2025-04-19 Sat 12:00]
+#+filetags: :estudio:mantenimiento:
+#+identifier: 20250419T120029
+#+author: Ing. Javier Pacheco
+#+startup: showall
+

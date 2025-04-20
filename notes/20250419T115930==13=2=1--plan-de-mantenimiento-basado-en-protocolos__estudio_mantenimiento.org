@@ -1,0 +1,10 @@
+# -*- jinx-languages: "es_ES"; -*-
+#+title: Plan de Mantenimiento Basado en Protocolos
+#+date: [2025-04-19 Sat 11:59]
+#+filetags: :estudio:mantenimiento:
+#+identifier: 20250419T115930
+#+author: Ing. Javier Pacheco
+#+startup: showall
+
+
+[[/home/javier/docs/notes/img/20250419T113330--mtto-basado-en-protocolos__estudio_mantenimiento.png]]

@@ -1,0 +1,14 @@
+# -*- jinx-languages: "es_ES"; -*-
+#+title: Mantenimiento
+#+date: [2025-04-19 Sat 11:17]
+#+filetags: :meta:
+#+identifier: 20250419T111738
+#+author: Ing. Javier Pacheco
+#+startup: showall
+
+Notas varias acerca de temas relacionados a mantenimiento industrial.
+
+#+BEGIN: denote-links :regexp "_estudio_mantenimiento" :not-regexp nil :excluded-dirs-regexp nil :sort-by-component nil :reverse-sort nil :id-only nil :include-date nil
+[[denote:20250417T192715][13=1  Indicadores de mantenimiento (2025-04-17)]]
+#+END:
+
