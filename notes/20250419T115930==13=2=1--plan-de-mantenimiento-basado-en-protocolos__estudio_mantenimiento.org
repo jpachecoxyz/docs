@@ -6,5 +6,69 @@
 #+author: Ing. Javier Pacheco
 #+startup: showall
 
+Un protocolo de mantenimiento, es un listado de tareas a realizar en un tipo concreto de equipo.
+Es importante que antes de realizar el plan de mantenimiento hay que clasificar los equipos como equipos genéricos.
+
+En el protocolo de mantenimiento de un equipo debe incluirse al menos la siguiente información para cada tarea incluida en el protocolo:
+- Especialidad del trabajo :: Eléctrico, mecánico, etc.
+- Frecuencia :: Cada cuando realizaremos la tarea.
+- Duración estimada de la tarea :: Cuanto tiempo toma realizar la tarea.
+- Necesidad de un trabajo especial :: Si es trabajo en alturas, en espacio confinado, etc.
+- condición del equipo :: Si el equipo debe o no estar en marcha para realizar la tarea.
 
 [[/home/javier/docs/notes/img/20250419T113330--mtto-basado-en-protocolos__estudio_mantenimiento.png]]
+
+* Tipos de tareas incluidas en un protocolo de mantenimiento.
+- Inspecciones sensoriales.
+- Lecturas y anotación de parámetros de funcionamiento.
+- Tareas de lubricación.
+- Verificaciones mecánicas.
+- Verificaciones eléctricas.
+- Limpiezas.
+- Configuración.
+- Sustitución o re acondicionamiento condicional de piezas con desgaste.
+  Entre otras que pueden variar dependiendo del tipo genérico de equipo.
+
+* Descompocision de la planta en sistemas.
+** Sistemas principales:
+- Proceso 1
+- Proceso 2
+- Proceso 3
+** Agrupación de equipos en sistemas principales:
+- Por áreas productivas
+- Por similaridad de equipos
+- Formas mixtas.
+** Sistemas auxiliares:
+- Planta de tratamiento de agua
+- Toma de agua
+- Sistema de refrigeración principal
+- Sistema de refrigeración de equipos
+- Estación de gas
+- Sistema de aire comprimido
+- Sistema contra incendios.
+
+* Listado y codificación de los equipos.
+Una vez descompuesta la planta en sistemas hay que listar los equipos que componen cada sistema.
+El nivel de detalle es una decisión a adoptar por los responsables de la planta.
+El listado de equipos se puede tomar de las siguientes fuentes:
+- P&ID
+- Listado de equipos suministrado por ingeniería
+- Inspección visual de la planta
+
+Es importante hacer una distinción entre equipos.
+- Equipos mantenibles.
+- Equipos NO mantenibles.
+
+Conciderar todos los equipos como mantenibles hace inviable el =plan de mantenimiento=
+
+* Clacificacion de equipos.
+Una vez tengamos el listado de los equipos, tendremos que agrupar y clasificar los equipos por grupos.
+[[/home/javier/docs/notes/img/20250419T224846--clasificacion-de-equipos-mantenibles__estudio_mantenimiento.png]]
+
+* Aplicacion de protocolos
+Teniendo agrupados los equipos ya solo restara ir decidiendo que protocolo de mantenimiento le correspondera a cada tipo de equipo dependiendo de la clasificacion que le hayamos asignado.
+[[/home/javier/docs/notes/img/20250419T225823--aplicacion-de-protocolos__estudio_mantenimiento.png]]
+
+* Ejemplo de protocolo de mantenimiento. 
+[[/home/javier/docs/notes/img/20250419T230709--ejemplo-protocolo-mantenimiento__estudio_mantenimiento.png]]
+
