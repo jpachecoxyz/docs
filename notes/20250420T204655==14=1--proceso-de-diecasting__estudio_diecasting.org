@@ -1,0 +1,10 @@
+# -*- jinx-languages: "es_ES"; -*-
+#+title: Proceso de Diecasting
+#+date: [2025-04-20 Sun 20:46]
+#+filetags: :estudio:diecasting:
+#+identifier: 20250420T204655
+#+author: Ing. Javier Pacheco
+#+startup: showall
+
+
+El proceso de diecasting consiste en ...

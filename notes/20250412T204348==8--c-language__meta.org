@@ -1,11 +1,0 @@
-# -*- jinx-languages: "es_ES"; -*-
-#+title: C Language
-#+date: [2025-04-12 Sat 20:43]
-#+filetags: :meta:
-#+identifier: 20250412T204348
-#+author: Ing. Javier Pacheco
-#+startup: content
-
-#+BEGIN: denote-links :regexp "==8=.*" :excluded-dirs-regexp nil :sort-by-component nil :reverse-sort nil :id-only nil :include-date nil
-- [[denote:20250329T212724][8=1  Creando un sistema operativo en C]]
-#+END:

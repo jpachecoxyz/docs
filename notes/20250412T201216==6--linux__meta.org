@@ -1,16 +1,0 @@
-# -*- jinx-languages: "es_ES"; -*-
-#+title: Linux
-#+date: [2025-04-12 Sat 20:12]
-#+filetags: :meta:
-#+identifier: 20250412T201216
-#+author: Ing. Javier Pacheco
-#+startup: content
-
-
-#+BEGIN: denote-links :regexp "==6=.*_estudio_linux" :excluded-dirs-regexp nil :sort-by-component nil :reverse-sort nil :id-only nil :include-date nil
-- [[denote:20250327T214519][6=2  Syncthing]]
-- [[denote:20250402T190546][6=4  Qemu]]
-- [[denote:20250402T191232][6=5  Como crear tu propia cloud]]
-- [[denote:20250405T152850][6=6  Sistema de notas]]
-- [[denote:20250408T184957][6=7  Makefiles]]
-#+END:

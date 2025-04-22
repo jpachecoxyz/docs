@@ -1,0 +1,16 @@
+# -*- jinx-languages: "es_ES"; -*-
+#+title: Zettelkasten
+#+date: [2025-04-21 Mon 17:48]
+#+filetags: :estudio:personal:
+#+identifier: 20250421T174858
+#+author: Ing. Javier Pacheco
+#+startup: showall
+
+"Caja de notas" en alemán, es un método de gestión de notas, y el manejo del estudio personal.
+
+Consiste en ir tomando notas, y a estas agregar un ID único, para así poder acensar después 
+a estas notas, o conectarlas con otras, etc.
+
+Este método se empezó a popularizar en los últimos anos, con el poder de la digitalización
+este método suele ser muy utilizado para estudiantes de la "era Moderna".
+

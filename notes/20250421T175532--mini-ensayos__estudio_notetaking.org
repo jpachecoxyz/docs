@@ -1,0 +1,24 @@
+# -*- jinx-languages: "es_ES"; -*-
+#+title: Mini Ensayos
+#+date: [2025-04-21 Mon 17:55]
+#+filetags: :estudio:notetaking:
+#+identifier: 20250421T175532
+#+author: Ing. Javier Pacheco
+#+startup: showall
+
+
+* Que es un mini-ensayo?
+Pequeños textos de cosas que te interesan. 
+Pueden ser frases de libros, cosas de películas, ideas que pasen
+por tu mente.
+
+* Porque son tan buenos?
+
+Un metodo que puede ser (o es...) muy poderoso, ya que te "obliga"
+a escribir tus ideas, un concepto similar a las notas atómicas de 
+las cuales estoy en el proceso de estructurar mi propio método de 
+estudio.
+
+Uno de los principios de los ensayos es basarse en el método de 
+Freynman, el cual consiste en:
+/Estudiar -> Ensenar -> Reflexionar -> Repasar/

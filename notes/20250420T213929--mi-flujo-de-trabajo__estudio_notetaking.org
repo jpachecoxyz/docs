@@ -1,0 +1,32 @@
+# -*- jinx-languages: "es_ES"; -*-
+#+title: Mi Flujo de Trabajo
+#+date: [2025-04-20 Sun 21:39]
+#+filetags: :estudio:notetaking:
+#+identifier: 20250420T213929
+#+author: Ing. Javier Pacheco
+#+startup: showall
+
+
+Mi flujo de trabajo para el manejo de mis notas y conocimiento es el siguiente:
+
+1. En mi cuaderno (rojo) anotare mis ideas, pensamientos, etc.
+2. Traspasar estas ultimas notas a denote (Org-Agenda)
+
+Después de todo lo anterior, el siguiente paso es volver a leer mis notas.
+El objetivo de esto es estar escribiendo una gran cantidad de ensayos,
+para después de manera orgánica empezar a conectar todas las notas, y que
+el mapa mental se vaya formando poco a poco. De modo que puede que sea un [[denote:query-filenames:zettelkasten][zettelkasten]]
+o un hibrido.
+
+* Herramientas de uso diario.
+- Denote :: Para ensayos y notas.
+- Denote Sequence :: Para unicamente estudio, por ejemplo: Python.
+
+* Atajos.
+Estos son los atajos que mas uso por ahora, si requiriera algún otro ademas de estos, lanzo M-x y busco =denote-=.
+- C-c n f :: [N]ote [F]ind, Abre un dired buffer con notas normales: 20250420T213929--mi-flujo-de-trabajo__estudio_notetaking.org
+- C-c n s f :: [N]ote [S]equence [D]ired, Abre un dired buffer con las notas de sequence: 20250412T153958==1=1=1--variables__estudio_python.org
+- SPC f n :: [F]ind [N]ote, consult-denote-find
+- SPC s p :: [S]equence [P]arent, Crea una nota parent.
+- SPC s s :: [S]equence [S]ibling, Crea una nota sibling de la nota actual.
+- SPC s c :: [S]equence [C]hild, Crea una nota child de la nota actual.
