@@ -4,7 +4,7 @@
 #+filetags: :estudio:linux:
 #+identifier: 20250408T184957
 #+author: Ing. Javier Pacheco
-#+startup: content
+#+startup: showall
 
 * Que es un Makefile.
 - make :: Es una utilidad que determina que archivos de cof=digo deben ser recomplilados y como.
