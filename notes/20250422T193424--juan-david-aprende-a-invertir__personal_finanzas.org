@@ -1,0 +1,20 @@
+# -*- jinx-languages: "es_ES"; -*-
+#+title: Juan David - Aprende a Invertir
+#+date: [2025-04-22 Tue 19:34]
+#+filetags: :personal:finanzas:
+#+identifier: 20250422T193424
+#+author: Ing. Javier Pacheco
+#+startup: showall
+
+
+Invertir al rededor del 10 al 20% de tus ingresos mensuales, NO es regla de oro,
+pero es un buen comienzo, de echo si esta dentro de las posibilidades puedes
+invertir mas.
+
+Evitar la inflación del estilo de vida. Asi es, el ganar mas no significa que
+tienes que gastar mas, aprende a ser mas suckless hasta en las finanzas.
+
+"Lo importante no es cuanto ganas, si no cuanto te queda"
+
+Otra frase importante del video: 
+"Es bueno tomar riesgos, pero asegúrate de que sean riesgos calculados"

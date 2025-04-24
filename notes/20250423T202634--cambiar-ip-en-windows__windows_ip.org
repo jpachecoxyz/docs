@@ -1,0 +1,35 @@
+# -*- jinx-languages: "es_ES"; -*-
+#+title: Cambiar IP en windows
+#+date: [2025-04-23 Wed 20:26]
+#+filetags: :windows:ip:
+#+identifier: 20250423T202634
+#+author: Ing. Javier Pacheco
+#+startup: showall
+
+En mis tiempos de programador PLC en un trabajo que tuve, para conectarme a estos
+equipos tenia que estar continuamente cambiando la IP del ordenador, para mi buena
+o mala suerte suelo ser algo flojo para este tipo de cosas, por lo cual me vi en 
+la necesidad de crear el siguiente script para =powershell=:
+
+#+begin_src bat
+@echo off
+setlocal
+
+rem Prompt the user for new IP address
+set /p newIP="Enter the new IP address: "
+set "newSubnetMask=255.255.255.0"
+
+rem Set the new IP address while keeping existing subnet mask and gateway
+netsh interface ipv4 set address name="Ethernet" static %newIP% %newSubnetMask% 
+
+rem Display the new IP configuration
+
+if %errorlevel% equ 0 (
+    echo IP address changed successfully.
+) else (
+    echo Failed to change IP address. Please make sure you have administrative privileges.
+)
+
+endlocal
+#+end_src
+

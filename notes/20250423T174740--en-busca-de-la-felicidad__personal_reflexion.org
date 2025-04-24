@@ -1,0 +1,26 @@
+# -*- jinx-languages: "es_ES"; -*-
+#+title: En busca de la felicidad
+#+date: [2025-04-23 Wed 17:47]
+#+filetags: :personal:reflexion:
+#+identifier: 20250423T174740
+#+author: Ing. Javier Pacheco
+#+startup: showall
+
+La semana pasada, me encontraba en mi trabajo, que de echo me gusta, soy bueno en
+lo que hago, me apasiona, mas sin embargo, como comentaba, ese día, era un día 
+normal, todo parecía ir bien, recuerdo que venia de comer con Salvador, cuando 
+en mi camino hacia mi oficina, no se que paso, venia pensando en mis hijos, cuando
+no se como describirlo pero un flash paso por mi cabeza, y pensé:
+"No quiero estar así toda mi vida...", me refiero a estar encerrado, dependiendo
+de una empresa, se me esta yendo todo mi tiempo, al menos la mayor parte, no paso
+tiempo con mis hijos, mas que el fin de semana, y no quiero decir que trabajar sea
+malo, pero estoy en un punto en el que valoro mas el tiempo que mi perfil profesional.
+
+Pero hay un pequeño inconveniente, el dinero ..., desgraciadamente en este momento
+no estoy en mi mejor momento financiero, por lo cual no me puedo dar el lujo de
+dejar mi empleo solamente porque quiero mas tiempo, obviamente necesito empezar a
+hacer un plan y una estrategia, para empezar a deslindarme de la opresión del trabajo
+y empezar una vida plena y sin mortificaciones con mi familia.
+
+* Referencias:
+[[denote:20250422T193424][Juan David - Aprende a Invertir]]
