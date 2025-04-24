@@ -6,7 +6,6 @@
 #+author: Ing. Javier Pacheco
 #+startup: showall
 
-
 Mi flujo de trabajo para el manejo de mis notas y conocimiento es el siguiente:
 
 1. En mi cuaderno (rojo) anotare mis ideas, pensamientos, etc.
@@ -24,9 +23,16 @@ o un hibrido.
 
 * Atajos.
 Estos son los atajos que mas uso por ahora, si requiriera algún otro ademas de estos, lanzo M-x y busco =denote-=.
+- C-c n n :: [N]ew [N]ote, El comando de echo es =denote-create-note.=
 - C-c n f :: [N]ote [F]ind, Abre un dired buffer con notas normales: 20250420T213929--mi-flujo-de-trabajo__estudio_notetaking.org
 - C-c n s f :: [N]ote [S]equence [D]ired, Abre un dired buffer con las notas de sequence: 20250412T153958==1=1=1--variables__estudio_python.org
 - SPC f n :: [F]ind [N]ote, consult-denote-find
 - SPC s p :: [S]equence [P]arent, Crea una nota parent.
 - SPC s s :: [S]equence [S]ibling, Crea una nota sibling de la nota actual.
 - SPC s c :: [S]equence [C]hild, Crea una nota child de la nota actual.
+
+* Referencias
+#+BEGIN: denote-links :regexp "_estudio_notetaking" :not-regexp nil :excluded-dirs-regexp nil :sort-by-component nil :reverse-sort nil :id-only nil :include-date nil
+[[denote:20250420T213929][Mi Flujo de Trabajo]]
+[[denote:20250423T210211][Reglas de Oro al Escribir Notas]]
+#+END:
