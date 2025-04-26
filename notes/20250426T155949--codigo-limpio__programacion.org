@@ -1,0 +1,14 @@
+# -*- jinx-languages: "es_ES"; -*-
+#+title: Codigo Limpio
+#+date: [2025-04-26 Sat 15:59]
+#+filetags: :programacion:
+#+identifier: 20250426T155949
+#+author: Ing. Javier Pacheco
+#+startup: showall
+
+La premisa de la platica del =tio Bob= es Que tan lejos de la tierra esta el sol?.
+
+
+
+* Referencias:
+[[https://www.youtube.com/watch?v=7EmboKQH8lM][Clean Code - Uncle Bob.]]

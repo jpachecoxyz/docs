@@ -1,0 +1,8 @@
+# -*- jinx-languages: "es_ES"; -*-
+#+title: Que tan grande debe ser una funcion
+#+date: [2025-04-26 Sat 15:31]
+#+filetags: :programacion:
+#+identifier: 20250426T153116
+#+author: Ing. Javier Pacheco
+#+startup: showall
+

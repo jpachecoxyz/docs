@@ -1,0 +1,26 @@
+# -*- jinx-languages: "es_ES"; -*-
+#+title: Plan Maestro de Mantenimiento
+#+date: [2025-04-25 Fri 19:13]
+#+filetags: :mantenimiento:plan:
+#+identifier: 20250425T191314
+#+author: Ing. Javier Pacheco
+#+startup: showall
+
+#+begin_quote
+Si lo puedes medir, lo puedes controlar.
+#+end_quote
+
+* La importancia y su estructura
+Que es un plan maestro de mantenimiento?. Un plan maestro de mantenimiento es
+un documento vivo, el cual indica como, cuando y por quien, se tienen que hacer
+el mantenimiento preventivo, para asegurar que se realizaran en tiempo y forma
+para evitar asi el numero de fallas inesperadas en los equipos/activos.
+
+* Cuales son los componentes de un PMM.
+1. Listado de activos/equipos. Pueden ser maquinas, componentes, instalaciones, etc.
+2. Cronograma. disparador, ejemplo, x cantidad de inyecciones de una maquina.
+3. Identificar el tipo de mantenimiento.
+4. Presupuesto.
+
+* Referencias:
+[[https://www.youtube.com/watch?v=Vmx951AjR8c][Plan maestro de mantenimiento - Doc Luna]]

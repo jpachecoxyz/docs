@@ -66,11 +66,12 @@ SCHEDULED: <2025-05-11 Sun ++1m>
 :STYLE: habit
 :END:
 ** TODO Escribir un miniensayo.
-SCHEDULED: <2025-04-25 Fri 21:00 ++1d>
+SCHEDULED: <2025-04-26 Sat 21:00 ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2025-04-24 Thu 22:12]
+:LAST_REPEAT: [2025-04-25 Fri 20:10]
 :END:
 :LOGBOOK:
+- State "DONE"       from "TODO"       [2025-04-25 Fri 20:10]
 - State "DONE"       from "TODO"       [2025-04-24 Thu 22:12]
 - State "DONE"       from "TODO"       [2025-04-23 Wed 20:38] \\
   Hoy escribi:
