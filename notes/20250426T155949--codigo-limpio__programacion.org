@@ -6,9 +6,44 @@
 #+author: Ing. Javier Pacheco
 #+startup: showall
 
+* Leccion 1
 La premisa de la platica del =tio Bob= es Que tan lejos de la tierra esta el sol?.
+Bueno, a un tipo, hace 250mil anos llamado =Aristarco=, se planteo la pregunta
+y resolvio el problema usando tiempo, y otras "funciones", que tambien se habian
+invetado atras tiempo, y resolvio el problema, pero, cual es el punto?, que tan
+importante es la distancia al sol?, ninguna, el punto es, que resolvio el problema
+usando una "funcion" de otra civlisacion, y su problema fue resuelto.
 
+Ahora, codigo limpio, que es codigo limpio? evidentemente no es estetica, el codigo
+limpio se refirera a que debes escribir codigo, pero este codigo no debe ser rigido
+en el sentido que si en el futuro modificas algo, de =x= funcion no falle la funcion
+=y= si esta ultima depende de =x=. 
 
+** Dependemos de las computadoras?
+En la platica, =Bob= hace una sere de preguntas en las cuales te hace darte cuenta
+de que impresionantemente dependemos de computadoras, para TODO, no podemos estar mas
+de 60 segundos sin depender de un proceso o procesador, el coche, el microondas,
+el telefono, el internet, etc... 
+
+Explica algo que es muy importante y muy cierto ademas, el coche tiene tambien procesadores,
+estos controlan muchas cosas, los frenos son uno de estos dispositivos controlados 
+por el procesador del coche, asi es, te hace darte cuenta que el coche, tiene condicionales,
+=IF, ELSE, ELIF=, cuantas personas han muerto por que inexplicablemente los frenos fallaron?.
+Una pregunta algo fuerte, pero y que con esto?, tal parece que codigo limpio va mas alla de
+hacer que las funciones no fallen entre si, las preguntas que hizo =Bob= te habren la mente
+a ver mas aya, practicamente los desarrolladores son responasables de la mayoria de las
+cosas que hoy dia vemos normales, las transacciones, el dinero, equipo para mantener vivo
+a una persona con muerte cerebral, todo esto esta desarrollado por programadores.
+
+** Hipotesis mortal.
+Y si un dia algun software falla y +mata+ a 10 mil personas, claro, no ah pasado, pero
+en algun momento va a pasar, no exactamente, pero si muy  similar, y que pasara despues,
+bueno, habra intervencion politica, y que haran?:
+- Cuestionar :: Porque fallo?
+- Penalisar :: Los desarrolladores y tal vez el encargado de ellos tambien.
+- Imponer :: Estableceran sus reglas.
+Piensa en este ultimo punto, y si el gobierno despues te dice que libro tienes que leer,
+que software usar, que plataforma, que curso tomar. Ya no es tan divertido entonces programar.
 
 * Referencias:
-[[https://www.youtube.com/watch?v=7EmboKQH8lM][Clean Code - Uncle Bob.]]
+[[https://www.youtube.com/watch?v=7EmboKQH8lM][Clean Code - Lesson 1 - Uncle Bob.]]
