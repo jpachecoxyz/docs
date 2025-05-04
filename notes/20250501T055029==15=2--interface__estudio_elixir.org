@@ -1,0 +1,8 @@
+# -*- jinx-languages: "es_ES"; -*-
+#+title: Interface
+#+date: [2025-05-01 Thu 05:50]
+#+filetags: :estudio:elixir:
+#+identifier: 20250501T055029
+#+author: Ing. Javier Pacheco
+#+startup: showall
+

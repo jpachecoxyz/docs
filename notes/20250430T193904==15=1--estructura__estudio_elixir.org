@@ -1,0 +1,48 @@
+# -*- jinx-languages: "es_ES"; -*-
+#+title: Estructura
+#+date: [2025-04-30 Wed 19:39]
+#+filetags: :estudio:elixir:
+#+identifier: 20250430T193904
+#+author: Ing. Javier Pacheco
+#+startup: showall
+
+* Tipos de archivos.
+- .exs :: Archivos de configuracion, no son compilados.
+- .ex :: Archivos propios del lenguage, si son compilados.
+  
+** mix.exs
+Archivo en el cual esta la informacion propia del proyecto.
+#+begin_src elixir
+defmodule Logman.MixProject do
+  use Mix.Project
+
+  def project do
+    [
+      app: :logman,
+      version: "0.1.0",
+      elixir: "~> 1.18",
+      start_permanent: Mix.env() == :prod,
+      deps: deps()
+    ]
+  end
+
+  # Run "mix help compile.app" to learn about applications.
+  def application do
+    [
+      extra_applications: [:logger]
+    ]
+  end
+
+  # Run "mix help deps" to learn about dependencies.
+  defp deps do
+    [
+      # {:dep_from_hexpm, "~> 0.3.0"},
+      # {:dep_from_git, git: "https://github.com/elixir-lang/my_dep.git", tag: "0.1.0"}
+    ]
+  end
+end
+#+end_src
+* Donde estan el codigo fuente de las aplicaciones?.
+En =elixir=, el codigo fuente esta en el directorio =lib/=. En este directorio se
+encuentran los archivos con extencion =.ex=.
+

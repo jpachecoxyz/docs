@@ -1,0 +1,26 @@
+# -*- jinx-languages: "es_ES"; -*-
+#+title: Lider de impacto
+#+date: [2025-05-03 Sat 13:00]
+#+filetags: :personal:liderazgo:
+#+identifier: 20250503T130036
+#+author: Ing. Javier Pacheco
+#+startup: showall
+
+Nadie va a venir a tu lugar a elegirte o a darte una oportunidad, eso no depende
+de tu jefe, del gerente o de algun amigo tuyo, depende unicamente de TI.
+
+El crecimiento de verdad empieza cuando dejas de =esperar=:
+- Esperar reconocimiento.
+- Esperar validacion.
+- Esperar liderear un equipo.
+Todo lo anterior no sirve de nada. Si esperas que alguien te apoye, tes estas 
+rindiendo en silencio, y lo peor, es que no lo vez.
+
+* Que hacer entonces?
+1. Empiez a liderear proyectos sin que te lo pidan.
+2. Busca como generar mas valor, mas aya de tu rol normal.
+3. Empieza a moverte sin que te digan que te muevas.
+
+* Referencias:
+[[https://www.youtube.com/shorts/tnook9fQQaY][Nadie te va a convertir en lider.]]
+[[https://substack.com/@marioelsner][Mario Elsner]]
