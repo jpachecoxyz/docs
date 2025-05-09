@@ -7,7 +7,7 @@
 #+startup: content
 
 * Fanuc
-- [[denote:20250412T212528][9=1  Fanuc]]
+- [[file:20250412T212528==9=1--fanuc__estudio_robots.org][9=1  Fanuc]]
 
 * ABB  
-- [[denote:20250412T213826][9=2  ABB]]
+- [[file:20250412T213826==9=2--abb__estudio_robots.org][9=2  ABB]]

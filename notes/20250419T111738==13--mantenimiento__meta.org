@@ -9,6 +9,6 @@
 Notas varias acerca de temas relacionados a mantenimiento industrial.
 
 #+BEGIN: denote-links :regexp "_estudio_mantenimiento" :not-regexp nil :excluded-dirs-regexp nil :sort-by-component nil :reverse-sort nil :id-only nil :include-date nil
-[[denote:20250417T192715][13=1  Indicadores de mantenimiento (2025-04-17)]]
+[[file:20250417T192715==13=1--indicadores-de-mantenimiento__estudio_mantenimiento.org][13=1  Indicadores de mantenimiento (2025-04-17)]]
 #+END:
 

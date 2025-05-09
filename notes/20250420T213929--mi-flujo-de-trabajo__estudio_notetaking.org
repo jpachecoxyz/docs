@@ -33,6 +33,6 @@ Estos son los atajos que mas uso por ahora, si requiriera algún otro ademas de 
 
 * Referencias
 #+BEGIN: denote-links :regexp "_estudio_notetaking" :not-regexp nil :excluded-dirs-regexp nil :sort-by-component nil :reverse-sort nil :id-only nil :include-date nil
-[[denote:20250420T213929][Mi Flujo de Trabajo]]
-[[denote:20250423T210211][Reglas de Oro al Escribir Notas]]
+[[file:20250420T213929--mi-flujo-de-trabajo__estudio_notetaking.org][Mi Flujo de Trabajo]]
+[[file:20250423T210211--reglas-de-oro-al-escribir-notas__estudio_notetaking.org][Reglas de Oro al Escribir Notas]]
 #+END:

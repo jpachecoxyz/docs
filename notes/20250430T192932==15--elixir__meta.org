@@ -7,5 +7,5 @@
 #+startup: showall
 
 #+BEGIN: denote-links :regexp "_estudio_elixir" :not-regexp nil :excluded-dirs-regexp nil :sort-by-component nil :reverse-sort nil :id-only nil :include-date nil
-[[denote:20250430T193904][15=1  Estructura]]
+[[file:20250430T193904==15=1--estructura__estudio_elixir.org][15=1  Estructura]]
 #+END:

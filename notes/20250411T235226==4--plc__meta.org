@@ -7,10 +7,10 @@
 #+startup: content
 
 * Siemens
-- [[denote:20250411T235251][4=1  Siemens]]
+- [[file:20250411T235251==4=1--siemens__estudio_plc.org][4=1  Siemens]]
 
 * AllenBradley
-- [[denote:20250411T235334][4=2  AllenBradley]]
+- [[file:20250411T235334==4=2--allenbradley__estudio_plc.org][4=2  AllenBradley]]
 
 * Relacionados
-- [[denote:20250413T091934][11=1  Lógica de Programación]]
+- [[file:20250413T091934==11=1--logica-de-programacion__estudio_programacion.org][11=1  Lógica de Programación]]

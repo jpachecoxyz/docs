@@ -20,6 +20,6 @@ Estaré plasmando mis proyectos mas ambiciosos y que presenten un reto para mi p
   
 * PLC
 #+BEGIN: denote-links :regexp "==3.*_proyecto_plc" :excluded-dirs-regexp nil :sort-by-component nil :reverse-sort nil :id-only nil :include-date nil
-- [[denote:20250326T190622][3=1  Curso de PLC Basico]]
-- [[denote:20250412T154559][3=1=1  Examen PLC Basico]]
+- [[file:20250326T190622==3=1--curso-de-plc-basico__proyecto_plc.org][3=1  Curso de PLC Basico]]
+- [[file:20250412T154559==3=1=1--examen-plc-basico__proyecto_plc.org][3=1=1  Examen PLC Basico]]
 #+END:
