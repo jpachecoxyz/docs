@@ -1,3 +1,4 @@
 # Syncthing ignore file
-# Ignore Git directories
-.git/
+# Ignore Git directories and git files.
+.git
+.gitignore
