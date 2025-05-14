@@ -8,7 +8,10 @@
 
 
 * Introducción
-Este curso está diseñado para proporcionar una base sólida en el uso de PLCs, con un enfoque práctico para que los estudiantes puedan aplicar los conocimientos en situaciones reales. El curso se divide en un 30% de teoría y un 70% de práctica, donde se proponen proyectos y actividades para reforzar el aprendizaje.
+Este curso está diseñado para proporcionar una base sólida en el uso de PLCs,
+con un enfoque práctico para que los estudiantes puedan aplicar los conocimientos
+en situaciones reales. El curso se divide en un 30% de teoría y un 70% de práctica,
+donde se proponen proyectos y actividades para reforzar el aprendizaje.
 
 * Módulo 1: Introducción a los PLCs (Teoría - 10%)
 ** 1.1. ¿Qué es un PLC?
@@ -44,7 +47,8 @@ Este curso está diseñado para proporcionar una base sólida en el uso de PLCs,
 
 * Módulo 3: Prácticas y Proyectos (70%)
 ** 3.1. Actividades Prácticas
-A continuación, se presentan proyectos y actividades prácticas que los estudiantes pueden realizar para aplicar los conocimientos teóricos:
+A continuación, se presentan proyectos y actividades prácticas que los estudiantes
+pueden realizar para aplicar los conocimientos teóricos:
 
 *** Proyecto 1: Sistema de llenado de tanques
 - Descripción: Programar un PLC para controlar el llenado y vaciado de un tanque.
@@ -54,7 +58,8 @@ A continuación, se presentan proyectos y actividades prácticas que los estudia
   - Implementar alarmas por nivel alto o bajo.
 
 *** Proyecto 2: Control de una cinta transportadora
-- Descripción: Programar un PLC para controlar el encendido, apagado y dirección de una cinta transportadora.
+- Descripción: Programar un PLC para controlar el encendido, apagado y dirección
+de una cinta transportadora.
 - Objetivos:
   - Usar entradas digitales (sensores) y salidas digitales (motores).
   - Implementar lógica de paro de emergencia.
@@ -63,7 +68,8 @@ A continuación, se presentan proyectos y actividades prácticas que los estudia
 *** Proyecto 3: Control de semáforo
 - Descripción: Simular el funcionamiento de un semáforo con un PLC.
 - Objetivos:
-  - Usar temporizadores para controlar los intervalos de luz roja, amarilla y verde.
+  - Usar temporizadores para controlar los intervalos de luz roja, amarilla
+	y verde.
   - Implementar un modo nocturno (intermitente).
 
 *** Proyecto 4: Control de iluminación
@@ -83,4 +89,7 @@ A continuación, se presentan proyectos y actividades prácticas que los estudia
 - Verificación del funcionamiento del sistema.
 
 * Conclusión
-Este curso proporciona una base sólida en el uso de PLCs, con un enfoque práctico que permite a los estudiantes aplicar sus conocimientos en proyectos reales. Al finalizar, los estudiantes estarán capacitados para diseñar, programar y depurar sistemas básicos de automatización usando PLCs.
+Este curso proporciona una base sólida en el uso de PLCs, con un enfoque práctico
+que permite a los estudiantes aplicar sus conocimientos en proyectos reales.
+Al finalizar, los estudiantes estarán capacitados para diseñar, programar y
+depurar sistemas básicos de automatización usando PLCs.
