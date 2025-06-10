@@ -17,7 +17,7 @@ La idea de aprender concepto es mas importante que aprender o memorizar codigo.
 #+end_quote
 
 * DOING Como lleavarlo a la practica
-Crear algún proyecto pero irle aumentando la dificultad.
+Crear algún proyecto pero ir aumentando la dificultad.
 ** Pasos para crear un proyecto.
 
 - Definir el objetivo ::  Definir que es lo que tu aplicacion sera util.

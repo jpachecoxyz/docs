@@ -5,6 +5,7 @@
 #+identifier: 20250426T155949
 #+author: Ing. Javier Pacheco
 #+startup: showall
+#+SETUPFILE: ~/.emacs.d/latex/minimal.org
 
 * Leccion 1
 La premisa de la platica del =tio Bob= es Que tan lejos de la tierra esta el sol?.
@@ -21,7 +22,7 @@ en el sentido que si en el futuro modificas algo, de =x= funcion no falle la fun
 
 ** Dependemos de las computadoras?
 En la platica, =Bob= hace una sere de preguntas en las cuales te hace darte cuenta
-de que impresionantemente dependemos de computadoras, para TODO, no podemos estar mas
+de que impresionante mente dependemos de computadoras, para TODO, no podemos estar mas
 de 60 segundos sin depender de un proceso o procesador, el coche, el microondas,
 el telefono, el internet, etc... 
 
@@ -44,6 +45,34 @@ bueno, habra intervencion politica, y que haran?:
 - Imponer :: Estableceran sus reglas.
 Piensa en este ultimo punto, y si el gobierno despues te dice que libro tienes que leer,
 que software usar, que plataforma, que curso tomar. Ya no es tan divertido entonces programar.
+
+* Ejemplo de python:
+#+begin_src python
+import calendar as cal
+
+for i in range(13):
+    print(i)
+#+end_src
+* Ejemplo de lisp:
+#+begin_src elisp
+(use-package nov
+  :after org
+  :ensure t
+  :mode ("\\.epub\\'" . nov-mode)
+  :hook ((nov-mode . my-nov-font-setup)
+         (nov-mode . visual-line-mode)
+         (nov-mode . visual-fill-column-mode))
+  :config
+  (setq nov-text-width 80
+        visual-fill-column-center-text t
+		nov-variable-pitch nil))
+
+(defun my-nov-font-setup ()
+  (face-remap-add-relative 'variable-pitch :family "Iosevka" :height 1.0))
+#+end_src
+
+#+RESULTS:
+: 1
 
 * Referencias:
 [[https://www.youtube.com/watch?v=7EmboKQH8lM][Clean Code - Lesson 1 - Uncle Bob.]]

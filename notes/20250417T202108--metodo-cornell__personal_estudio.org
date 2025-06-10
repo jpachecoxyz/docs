@@ -6,9 +6,17 @@
 #+author: Ing. Javier Pacheco
 #+startup: showall
 
-El método de toma de notas Cornell o método de notas Cornell es un sistema de toma de apuntes creado en la década de los 50 por Walter Pauk, un profesor de educación en la Universidad de Cornell. Pauk recomendó el uso de este sistema en su libro How to study in college.
+El método de toma de notas Cornell o método de notas Cornell es un sistema de toma
+de apuntes creado en la década de los 50 por Walter Pauk, un profesor de educación
+en la Universidad de Cornell. Pauk recomendó el uso de este sistema en su libro
+=How to study in college=.
 
-El método Cornell provee un formato sistemático para la condensación y organización de apuntes. El estudiante divide una hoja de papel en dos columnas: una columna para apuntes (generalmente al lado derecho) que es el doble de ancha que la columna para preguntas / palabras clave (a la izquierda). El estudiante debe dejar en blanco de cinco a siete renglones, o trece centímetros, en la parte inferior de la hoja. 
+El método Cornell provee un formato sistemático para la condensación y organización
+de apuntes. El estudiante divide una hoja de papel en dos columnas: una columna para
+apuntes (generalmente al lado derecho) que es el doble de ancha que la columna
+para preguntas / palabras clave (a la izquierda). El estudiante debe dejar en
+blanco de cinco a siete renglones, o trece centímetros, en la parte inferior de
+la hoja. 
 
 #+begin_example
 | Preguntas:                                        | Apuntes:                                                                                                                         |
@@ -18,13 +26,20 @@ El método Cornell provee un formato sistemático para la condensación y organi
 | - ¿No basta creerse un padre excelente?           | - Hay personas que piensan o creen que por darle a sus hijos todo bien material, ellos van a ser felices, están muy equivocados. |
 | - ¿No basta castigarle por haber llegado tarde?   | - Existen padres que castigan a su hijo porque llegó tarde, y ni siquiera son dignos de escuchar los motivos por los cual tardo. |
 |---------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------|
-
-RESUMEN:
-Podemos decir que todo lo que sucede en la vida es por algo bueno, y que siempre debemos estar dispuestos a saberlos llevar      
-por un buen camino, para así poder hacer que nuestras próximas generaciones sean mejores, pero no siempre todo se soluciona      
-con bienes materiales, sino a tener mucha confianza entre los miembros de una familia y así poder apoyarse todos en todo momento 
-y poder tener una vida buena y feliz uno mismo y también con toda su familia.                                                    
 #+end_example
 
+* RESUMEN:
+Podemos decir que todo lo que sucede en la vida es por algo bueno, y que siempre
+debemos estar dispuestos a saberlos llevar por un buen camino, para así poder
+hacer que nuestras próximas generaciones sean mejores, pero no siempre todo se
+solucionacon bienes materiales, sino a tener mucha confianza entre los miembros
+de una familia y así poder apoyarse todos en todo momento  y poder tener una vida
+buena y feliz uno mismo y también con toda su familia.                                                    
+
 * Estudios sobre la eficacia
-Un estudio publicado en 2008 por la Universidad Estatal de Wichita comparó dos métodos de toma de apuntes en una clase de inglés de secundaria, y encontró que las Notas Cornell pueden tener un beneficio adicional en los casos en que los estudiantes están obligados a sintetizar y aplicar los conocimientos adquiridos, mientras que el método de notas guiadas parece ser mejor para una recuperación de base.[4]​ 
+Un estudio publicado en 2008 por la Universidad Estatal de Wichita comparó dos
+métodos de toma de apuntes en una clase de inglés de secundaria, y encontró que
+las Notas Cornell pueden tener un beneficio adicional en los casos en que los
+estudiantes están obligados a sintetizar y aplicar los conocimientos adquiridos,
+mientras que el método de notas guiadas parece ser mejor para una recuperación
+de base.[4]​ 

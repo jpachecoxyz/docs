@@ -1,0 +1,51 @@
+#+MODE: -*- mode: org -*-
+#+TITLE: Examen de PLC Basico
+#+AUTHOR: Javier Pacheco
+#+DESCRIPTION: Examen de curso de PLC Basico
+#+STARTUP: showeverything inlineimages
+#+OPTIONS: toc:t date:t
+#+INCLUDE: "~/.emacs.d/latex/typst.typ" export typst
+#+TYPST: #heading([Title], outlined: false)
+
+
+* Primera Seccion.
+#+TYPST: \
+1. *Cual de las siguientes marcas son fabricantes de PLC:*
+   - [ ] AllenBradley
+   - [ ] Fanuc.
+   - [ ] Siemes.
+   - [ ] Todas las anteriores.
+#+TYPST: \
+2. *Esta opcion carga la logica del PLC al ordenador para su evaluación:*
+   - [ ] Save
+   - [ ] Download
+   - [ ] Upload
+   - [ ] Close
+#+TYPST: \
+3. *Cuál de los siguientes lenguajes de programación NO es comúnmente utilizado en PLCs*:
+   - [ ] Ladder Diagram (LD)
+   - [ ] Structured Text (ST)
+   - [ ] Python
+   - [ ] Function Block Diagram (FBD)
+#+TYPST: \
+4. *Qué tipo de señal es más común en las entradas digitales de un PLC*:
+   - [ ] Señal analógica de 0-10V
+   - [ ] Señal digital de 24V DC
+   - [ ] Señal de audio
+   - [ ] Señal de red Ethernet
+#+TYPST: \
+5. *En un PLC, qué hace un relé interno (marcador)*:
+   - [ ] Controla directamente un motor
+   - [ ] Almacena un valor lógico (verdadero/falso)
+   - [ ] Convierte señales analógicas a digitales
+   - [ ] Gestiona la comunicación de red
+#+TYPST: \
+6. *Cual de los siguientes es un ejemplo de una salida digital en un PLC:*
+   - [ ] Encender una lámpara
+   - [ ] Medir la temperatura
+   - [ ] Controlar la velocidad de un motor
+   - [ ] Leer un sensor de proximidad
+#+TYPST: #pagebreak()
+
+* Segunda Seccion.
+#+TYPSt: #grid(rows: 10cm, columns: 2, gutter: 1fr, [1. Dibuja el paro arranque de un motor en logica LADDER #v(5fr) 2. Programa un timer que este periodicamente contando 30 segundos.],)

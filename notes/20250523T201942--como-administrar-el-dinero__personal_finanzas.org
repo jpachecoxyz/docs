@@ -1,0 +1,26 @@
+# -*- jinx-languages: "es_ES"; -*-
+#+title: Como Administrar el Dinero
+#+date: [2025-05-23 Fri 20:19]
+#+filetags: :personal:finanzas:
+#+identifier: 20250523T201942
+#+author: Ing. Javier Pacheco
+#+startup: showall
+
+* La regla del 25, 15, 50 y 10
+#+begin_quote
+Lo importante no es =cuanto= dinero generas, si no; como =administras= lo que generas.
+#+end_quote
+
+** 25:
+El =25%= de tu ingreso debería de estar creciendo 📈
+- El 25% que =funcione= para ti. No es que literalmente sea necesario mover el 25%
+  de tu ingreso. Es mover pero sin afectar.
+** 15:
+
+** 50:
+
+** 10:
+
+
+* Referencias:
+- [[https://www.youtube.com/watch?v=QThz1B8SHmc][Como Administrar tu Dinero Como el 1%]]

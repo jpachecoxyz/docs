@@ -89,3 +89,5 @@ Pedimos soporte a Ángel del equipo de =Haitian=, y nos dieron instrucciones de 
 | An.11     |        0.13 |             0 | Al arrancar cambio a -2.31 (al igual que el driver de la Haitian 4) |
 
 Despues de modificar el =An.11=, el motor dejo de girar al revés, y que trabajando correctamente.
+
+*NOTE:* Despues volvio a fallar, se resolvio solo el problema.

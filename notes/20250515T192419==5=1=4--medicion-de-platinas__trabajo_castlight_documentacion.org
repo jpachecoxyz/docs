@@ -1,0 +1,85 @@
+# -*- jinx-languages: "es_ES"; -*-
+#+title: Medicion de platinas
+#+date: [2025-05-15 Thu 19:24]
+#+filetags: :trabajo:castlight:documentacion:
+#+identifier: 20250515T192419
+#+author: Ing. Javier Pacheco
+#+startup: showall
+#+options: toc:nil num:nil
+#+latex_class: article
+#+latex_header: \usepackage{times}
+#+latex_header: \usepackage[top=1in,bottom=1in,left=1in,right=1in]{geometry}
+#+latex_header: \usepackage{fancyhdr}
+#+latex_header: \pagestyle{fancy}
+#+latex_header: \fancyhf{}
+#+latex_header: \rhead{Chapter 4}
+#+latex_header: \lhead{\thepage}
+#+latex_header: \usepackage{parskip}
+#+latex_header: \setlength{\parindent}{1.5em}
+#+latex_header: \usepackage{ragged2e}
+#+latex_header: \justifying
+
+* Introduction
+
+/The die casting industry is quantified/ by weight even though most calculations and measurements are by volume...
+
+* Shrinkage
+
+** *A reduction in volume* occurs when a metal cools...
+
+The amount of shrinkage of a given alloy depends upon its chemical composition...
+
+* Dimensional Shrinkage
+
+Tables 6–8 define a different coefficient of thermal expansion...
+
+** *Every casting cools* from the outer surfaces inward...
+
+All of these data are designed...
+
+* Datos Generales
+- Fecha: _______________________
+- Técnico: _____________________
+- Máquina: _____________________
+- Turno: _______________________
+
+* Observaciones iniciales
+  - __________________________________________________________
+  - __________________________________________________________
+  - __________________________________________________________
+
+* Vista Frontal de Barras
+
+#+BEGIN_CENTER
+| (1) BARRA SUP. IZQUIERDA |   | (2) BARRA SUP. DERECHA |
+|--------------------------+---+------------------------|
+| #1: ____________________   |   | #1: ____________________ |
+| #2: ____________________   |   | #2: ____________________ |
+| #3: ____________________   |   | #3: ____________________ |
+| #4: ____________________   |   | #4: ____________________ |
+| FINAL: _________________   |   | FINAL: _________________ |
+
+| (3) BARRA INF. IZQUIERDA |   | (4) BARRA INF. DERECHA |
+|--------------------------+---+------------------------|
+| #1: ____________________   |   | #1: ____________________ |
+| #2: ____________________   |   | #2: ____________________ |
+| #3: ____________________   |   | #3: ____________________ |
+| #4: ____________________   |   | #4: ____________________ |
+| FINAL: _________________   |   | FINAL: _________________ |
+#+END_CENTER
+
+* ¿Tensión balanceada?
+[ ] Sí   [ ] No
+
+* Ajustes realizados
+  - __________________________________________________________
+  - __________________________________________________________
+  - __________________________________________________________
+
+* Observaciones finales
+  - __________________________________________________________
+  - __________________________________________________________
+  - __________________________________________________________
+
+* Firma del responsable
+Técnico: ______________________    Firma: ______________________

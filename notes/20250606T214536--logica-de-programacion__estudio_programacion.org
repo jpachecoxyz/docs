@@ -1,0 +1,10 @@
+# -*- jinx-languages: "es_ES"; -*-
+#+title: Logica de Programacion
+#+date: [2025-06-06 Fri 21:45]
+#+filetags: :estudio:programacion:
+#+identifier: 20250606T214536
+#+author: Ing. Javier Pacheco
+#+startup: showall
+
+* Referencias:
+[[https://www.youtube.com/watch?v=tIS-1PmHAkE][Curso de logica de programacion - Sergio Code]]

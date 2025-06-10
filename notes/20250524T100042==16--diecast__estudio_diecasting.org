@@ -1,0 +1,75 @@
+# -*- jinx-languages: "es_ES"; -*-
+#+title: Diecast
+#+date: [2025-05-24 Sat 10:00]
+#+filetags: :estudio:diecasting:
+#+identifier: 20250524T100042
+#+author: Ing. Javier Pacheco
+#+startup: showall
+
+* 📌 Módulo 1: ¿Qué es el Die Casting?
+El diecasting (fundición a presión) es un proceso de fabricación en el cual
+se inyecta metal fundido en un molde de acero a alta presión, formando piezas
+con gran precisión y rapidez.
+
+* 🛠️ Módulo 2: Principios del Proceso
+
+1. *Preparación del molde (die)*::
+   Se limpia y lubrica para facilitar el desmoldeo.
+
+2. *Inyección del metal*::
+   El metal fundido se introduce en la cavidad del molde a alta presión.
+
+3. *Solidificación*::
+   El metal se enfría y se endurece dentro del molde.
+
+4. *Expulsión*::
+   Se abre el molde y se extrae la pieza.
+
+5. *Recorte y acabado*::
+   Se eliminan rebabas o canales de alimentación.
+
+* 🏗️ Módulo 3: Tipos de Máquinas de Die Casting
+
+*Máquinas de cámara caliente*
+- El metal fundido está dentro de la máquina.
+- Metales comunes: zinc, plomo, estaño.
+- Ventaja: ciclos rápidos.
+
+*Máquinas de cámara fría*
+- El metal se funde en un crisol separado y se vierte en la cámara.
+- Metales comunes: aluminio, magnesio.
+- Ventaja: apto para metales con alto punto de fusión.
+
+* 🧪 Módulo 4: Materiales Utilizados
+
+- Aluminio :: Ligero, resistente a la corrosión.
+- Zinc :: Alta precisión y fluidez.
+- Magnesio :: Muy liviano, buena maquinabilidad.
+- Cobre, plomo, estaño :: Usos especiales.
+
+* 💡 Módulo 5: Ventajas y Desventajas
+
+*Ventajas*
+- Alta precisión dimensional.
+- Excelente acabado superficial.
+- Producción en masa eficiente.
+- Geometrías complejas posibles.
+
+*Desventajas*
+- Alto costo inicial de moldes.
+- No económico para volúmenes bajos.
+- Limitado a ciertos metales no ferrosos.
+
+* ⚙️ Módulo 6: Aplicaciones Comunes
+
+- Industria automotriz: bloques de motor, cajas de transmisión.
+- Electrónica: carcasas de dispositivos.
+- Electrodomésticos: partes estructurales.
+- Herramientas manuales e industriales.
+
+* 📐 Módulo 7: Control de Calidad
+
+- Inspección visual: grietas, rebabas, deformaciones.
+- Pruebas de presión/fugas.
+- Rayos X: detección de porosidad interna.
+- Medición dimensional: CMM (máquina de medición por coordenadas).
