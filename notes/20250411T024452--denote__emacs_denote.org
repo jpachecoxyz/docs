@@ -13,7 +13,7 @@
 2. Slug (descripción en minúsculas y con guiones)
 3. Etiquetas (tags separadas por guión bajo)
 
-Ejemplo de nombre de archivo: 
+Ejemplo de nombre de archivo:
 =20250410T193045--gestion-de-notas-en-emacs__emacs_org_zettelkasten.org=
 
 - Características principales
@@ -21,3 +21,13 @@ Ejemplo de nombre de archivo:
   2. Soporte para múltiples backends: `org`, `markdown`, `text`.
   3. Creación, búsqueda, y enlace entre notas (*denote-link*).
   4. Integración con `dired`, `consult`, `xref`, `embark` y otros paquetes modernos.
+
+* Paquetes Necesarios para mi workflow:
+- denote :: El paquete principal.
+- consult-denote :: Preview de notas.
+- denote-silo :: Para notas en diferentes directorios.
+- denote-sequence :: Para notas con gerarquias.
+- denote-menu :: Explorador de notas de forma mas "visual".
+- denote-explore :: Para visualiazar tus mapas mentales, second brain, etc.
+- denote-org :: Para crear links en modo org, y demas funcionalidades.
+- denote-regexp :: Para el uso mas extenso de denote y el uso de expresiones regulares.

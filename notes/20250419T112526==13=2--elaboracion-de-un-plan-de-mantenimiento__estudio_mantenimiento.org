@@ -1,5 +1,5 @@
 # -*- jinx-languages: "es_ES"; -*-
-#+title: Elaboracion de un Plan de Mantenimiento
+#+title: Elaboración de un Plan de Mantenimiento
 #+date: [2025-04-19 Sat 11:25]
 #+filetags: :estudio:mantenimiento:
 #+identifier: 20250419T112526
@@ -8,11 +8,10 @@
 
 Es un conjunto de tareas que son necesarias para compensar el desgaste de los equipos, al realizar este conjunto de tareas nos ayudara a evitar fallos inesperados en los equipos.
 
-Existen 3 tipos de formas de elaboracion de un _plan de mantenimiento_:
-  
+Existen 3 tipos de formas de elaboración de un plan de mantenimiento:
+
 #+BEGIN: denote-links :regexp "==13=2=.*" :not-regexp nil :excluded-dirs-regexp nil :sort-by-component nil :reverse-sort nil :id-only nil :include-date t
 [[file:20250419T115930==13=2=1--plan-de-mantenimiento-basado-en-protocolos__estudio_mantenimiento.org][13=2=1  Plan de Mantenimiento Basado en Protocolos (2025-04-19)]]
 [[file:20250419T115958==13=2=2--plan-de-mantenimiento-basado-en-instrucciones-de-fabricante__estudio_mantenimiento.org][13=2=2  Plan de Mantenimiento Basado en Instrucciones de Fabricante (2025-04-19)]]
 [[file:20250419T120029==13=2=3--plan-de-mantenimiento-basado-en-analisis-rfm__estudio_mantenimiento.org][13=2=3  Plan de Mantenimiento Basado en Analisis RFM (2025-04-19)]]
 #+END:
- 

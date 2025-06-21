@@ -1,5 +1,5 @@
 # -*- jinx-languages: "es_ES"; -*-
-#+title: Logica de Programacion
+#+title: Lógica de Programación
 #+date: [2025-06-06 Fri 21:45]
 #+filetags: :estudio:programacion:
 #+identifier: 20250606T214536

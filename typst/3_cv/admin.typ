@@ -10,6 +10,7 @@
     size: 10pt,
     lang: "es"
 )
+
 // Title:
 #align(center, text(20pt)[#smallcaps("Francisco Javier Pacheco Murillo")])
 #align(center, text(10pt)[
