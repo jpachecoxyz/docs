@@ -4,5 +4,20 @@
 #+filetags: :trabajo:castlight:
 #+identifier: 20250412T094943
 #+author: Ing. Javier Pacheco
-#+startup: content
+#+startup: showall
 
+* TODO Datos y especificaciones.
+- Modelo :: 1500T
+- Serie ::
+- Peso máximo de platinas ::
+
+* Contraseñas
+:PROPERTIES:
+:VISIBILITY: folded
+:END:
+** Main :crypt:
+ALPHA
+
+* Fallas Considerables.
+** 21-Junio-2025
+Maquina no hace movimientos.

@@ -8,7 +8,7 @@
 
 * TODO Datos y especificaciones.
 - Modelo :: H450
-- Serie :: 
+- Serie ::
 - Peso máximo de platinas :: 6T
 
 * Contraseñas
@@ -74,7 +74,7 @@ Revisando con =Haitian China=, se dieron cuenta que habia unos parámetros movid
 - Combined in Manual :: ON, (debe estar OFF)
 - Use simplify mold open :: ON, (debe estar OFF)
 - Use step movement :: OFF, (debe estar ON)
-  
+
 Al regresar estos valores a su estado normal, la maquina hizo movimientos normales.
 Cabe mencionar que esta maquina tenian acceso la mayoría de empleados al usuario de manager, por lo cual se cambiaron contraseñas, y se cargo un software con protección adicional, de manera que el acceso quedo restringido a como esta la Haitian 4, que para mover dichos parámetros se necesita un código QR que codifica =Haitian China= y que tiene vigencia de 10 minutos.
 
@@ -91,3 +91,6 @@ Pedimos soporte a Ángel del equipo de =Haitian=, y nos dieron instrucciones de 
 Despues de modificar el =An.11=, el motor dejo de girar al revés, y que trabajando correctamente.
 
 *NOTE:* Despues volvio a fallar, se resolvio solo el problema.
+
+**  3-Julio-2025
+Reemplazo de empaques de Cilindro de cierre.

@@ -14,7 +14,7 @@ Si lo puedes medir, lo puedes controlar.
 Que es un plan maestro de mantenimiento?. Un plan maestro de mantenimiento es
 un documento vivo, el cual indica como, cuando y por quien, se tienen que hacer
 el mantenimiento preventivo, para asegurar que se realizaran en tiempo y forma
-para evitar asi el numero de fallas inesperadas en los equipos/activos.
+para evitar así el numero de fallas inesperadas en los equipos/activos.
 
 * Cuales son los componentes de un PMM.
 1. Listado de activos/equipos. Pueden ser maquinas, componentes, instalaciones, etc.

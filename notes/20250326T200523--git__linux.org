@@ -1,10 +1,10 @@
-# -*- jinx-languages: "es_ES"; -*-
+# -*- jinx-languages: "es_MX"; -*-
 #+title: Git
 #+date: [2025-03-26 Wed 20:05]
 #+filetags: :estudio:linux:
 #+identifier: 20250326T200523
 #+author: Ing. Javier Pacheco
-#+startup: content
+#+startup: showall
 
 
 * Cambiar de HTTPS a SSH
@@ -23,8 +23,8 @@ Comencemos con la preparación para poder empezar el repositorio de manera limpi
 Antes de empezar a generar el repositorio, debemos de declarar nuestro usuario y correo en git, para saber quien esta haciendo los cambios, puede sonar tonto, ya que estamos manejando nuestros propios dotfiles, pero para efectos de trabajo y colaboraciones, estas cosas son necesarias.
 
 #+begin_src shell
-git config --global user.name "John Doe" 		# Definimos nuestro nombre.
-git config --global user.email johndoe@example.com 	# Definimos el correo.
+git config --global user.name "John Doe"                # Definimos nuestro nombre.
+git config --global user.email johndoe@example.com      # Definimos el correo.
 git config --global init.defaultBranch main		# Definimos el nombre del repo por defecto a "main"
 #+end_src
 
@@ -75,7 +75,7 @@ git push github main
 # Create a new branch
 git checkout -b update-nixos
 
-# Update flakes 
+# Update flakes
 nix flake update
 
 # Commit the changes.

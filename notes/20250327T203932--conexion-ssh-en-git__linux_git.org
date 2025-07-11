@@ -4,13 +4,13 @@
 #+filetags: :estudio:linux:
 #+identifier: 20250327T203932
 #+author: Ing. Javier Pacheco
-#+startup: content
+#+startup: showall
 
 * Dependencias:
 Para poder conectarse a =github= por ssh, debemos tener las siguientes dependencias:
 - ssh.
 - Web browser.
-  
+
 ** Generación de llave de ssh.
 Para generar tu llave de ssh hay que ir a una terminal e ingresar el siguiente comando:
 
@@ -40,7 +40,7 @@ Host github.com
 el siguiente comando servirá para ver si hay conexión a github.com a través de ssh:
 
 #+begin_src shell
-ssh -T git@github.com 
+ssh -T git@github.com
 #+end_src
 
 #+RESULTS:
@@ -49,4 +49,3 @@ Hi userx! You've successfully authenticated, but GitHub does not provide shell a
 * Agregar una llave a github.
 Una vez que tengamos creada la llave y verificado que si tenemos acceso a github desde ssh, ahora hay que agregar la llave;
 Hay que ingresar al siguiente [[https://github.com/settings/keys][link]] y seguir los pasos para poder agregar la llave ssh.
-
