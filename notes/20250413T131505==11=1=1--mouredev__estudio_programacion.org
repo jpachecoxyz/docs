@@ -1,11 +1,10 @@
-
 # -*- jinx-languages: "es_ES"; -*-
 #+title: MoureDev
 #+date: [2025-04-13 Sun 13:15]
 #+filetags: :estudio:programacion:
 #+identifier: 20250413T131505
 #+author: Ing. Javier Pacheco
-#+startup: content
+#+startup: showall
 
 * Una guía que te ayuda a mejorar.
 Sigue la ruta de estudio para aprender los fundamentos del lenguaje de programación que quieras desde su base, de manera práctica, paso a paso y en comunidad.
@@ -13,9 +12,10 @@ Cada ejercicio se explica en detenimiento para ayudarte a mejorar tu lógica de 
 
 * Roadmap ejercicios.
 #+BEGIN: denote-links :regexp "==11=1=1=.*" :excluded-dirs-regexp nil :sort-by-component nil :reverse-sort nil :id-only nil :include-date nil
-- [[file:20250413T134107==11=1=1=1--sintaxis-variables-tipos-de-datos-y-hola-mundo__estudio_programacion.org][11=1=1=1  Sintaxis, Variables, Tipos de Datos y Hola Mundo]]
-- [[file:20250413T135435==11=1=1=2--operadores-y-estructuras-de-control__estudio_programacion.org][11=1=1=2  Operadores y Estructuras de Control]]
-- [[file:20250413T194946==11=1=1=3--funciones-y-alcance__estudio_programacion.org][11=1=1=3  Funciones y Alcance]]
+[[file:20250413T134107==11=1=1=1--sintaxis-variables-tipos-de-datos-y-hola-mundo__estudio_programacion.org][11=1=1=1  Sintaxis, Variables, Tipos de Datos y Hola Mundo]]
+[[file:20250413T135435==11=1=1=2--operadores-y-estructuras-de-control__estudio_programacion.org][11=1=1=2  Operadores y Estructuras de Control]]
+[[file:20250413T194946==11=1=1=3--funciones-y-alcance__estudio_programacion.org][11=1=1=3  Funciones y Alcance]]
+[[file:20250414T190644==11=1=1=4--estructura-de-datos__estudio_programacion.org][11=1=1=4  Estructura de Datos]]
 #+END:
 
 
@@ -24,5 +24,3 @@ Cada ejercicio se explica en detenimiento para ayudarte a mejorar tu lógica de 
 2. [[https://www.youtube.com/watch?v=b-kk1WQo-YA][MuoreDev -Logica de Programacion 2024]]
 3. [[https://retosdeprogramacion.com/roadmap][Retos de programacion - Roadmap]]
 4. [[https://github.com/mouredev/roadmap-retos-programacion][Repositorio de git]]
-
-

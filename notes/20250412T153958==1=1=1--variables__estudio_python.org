@@ -4,5 +4,5 @@
 #+filetags: :estudio:python:
 #+identifier: 20250412T153958
 #+author: Ing. Javier Pacheco
-#+startup: content
+#+startup: showall
 

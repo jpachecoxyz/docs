@@ -4,7 +4,7 @@
 #+filetags: :estudio:robots:
 #+identifier: 20250412T213826
 #+author: Ing. Javier Pacheco
-#+startup: content
+#+startup: showall
 
 
 * Referencias:

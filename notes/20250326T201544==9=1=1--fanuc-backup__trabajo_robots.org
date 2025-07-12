@@ -4,7 +4,7 @@
 #+filetags: :trabajo:robots:
 #+identifier: 20250326T201544
 #+author: Ing. Javier Pacheco
-#+startup: content
+#+startup: showall
 
 
 * Como hacer un backup a programas de robot fanuc.

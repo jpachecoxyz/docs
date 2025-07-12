@@ -4,7 +4,7 @@
 #+filetags: :estudio:linux:
 #+identifier: 20250402T190546
 #+author: Ing. Javier Pacheco
-#+startup: content
+#+startup: showall
 
 
 * Crear una imagen qcow2 usando qemu-img:

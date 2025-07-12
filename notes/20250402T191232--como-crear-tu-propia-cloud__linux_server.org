@@ -4,7 +4,7 @@
 #+filetags: :estudio:linux:server:
 #+identifier: 20250402T191232
 #+author: Ing. Javier Pacheco
-#+startup: content
+#+startup: showall
 
 
 * Requerimientos.

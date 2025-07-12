@@ -4,7 +4,7 @@
 #+filetags: :estudio:programacion:
 #+identifier: 20250413T091934
 #+author: Ing. Javier Pacheco
-#+startup: content
+#+startup: showall
 
 La lógica de programación, es la base de todo, de nada sirve aprender =X= lenguaje de programación si no sabes lo fundamental. En este caso la lógica de programación es importante, ya que esta es la que realmente te hace resolver problemas, el lenguaje de programación es la =herramienta= que te conducirá al resultado final.
 

@@ -4,7 +4,7 @@
 #+filetags: :trabajo:robots:
 #+identifier: 20250327T194911
 #+author: Ing. Javier Pacheco
-#+startup: content
+#+startup: showall
 
 * Guia de llamado de programas de robot desde PLC.
 

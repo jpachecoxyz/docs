@@ -4,7 +4,7 @@
 #+filetags: :estudio:programacion:
 #+identifier: 20250413T134107
 #+author: Ing. Javier Pacheco
-#+startup: content
+#+startup: showall
 
 * ¿Preparad@ para aprender o repasar el lenguaje de programación que tú quieras?
 1. Recuerda que todas las instrucciones de participación están en el repositorio de GitHub.

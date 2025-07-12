@@ -4,7 +4,7 @@
 #+filetags: :estudio:windows:
 #+identifier: 20250405T155152
 #+author: Ing. Javier Pacheco
-#+startup: content
+#+startup: showall
 
 Esta guia es sugerida cuando por error haz formateado la particion boot al instalar un SO nuevo, y te llevas de paso el boot de windows. Me a pasado en mas de una ocacion, por eso e decidido documentarlo.
 

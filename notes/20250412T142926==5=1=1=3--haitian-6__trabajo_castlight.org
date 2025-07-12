@@ -4,5 +4,9 @@
 #+filetags: :trabajo:castlight:
 #+identifier: 20250412T142926
 #+author: Ing. Javier Pacheco
-#+startup: content
+#+startup: showall
 
+* TODO Datos y especificaciones.
+- Modelo :: H850
+- Serie ::
+- Peso máximo de platinas ::

@@ -4,7 +4,7 @@
 #+filetags: :meta:
 #+identifier: 20250413T091449
 #+author: Ing. Javier Pacheco
-#+startup: content
+#+startup: showall
 
 Aquí estaré tomando mis notas acerca de programación, lógica, conceptos etc. acerca de 
 

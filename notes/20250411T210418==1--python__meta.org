@@ -4,7 +4,7 @@
 #+filetags: :meta:
 #+identifier: 20250411T210418
 #+author: Ing. Javier Pacheco
-#+startup: content
+#+startup: showall
 
 Python es un lenguaje de alto nivel de programación interpretado cuya filosofía
 hace hincapié en la legibilidad de su código. Se trata de un lenguaje de programación

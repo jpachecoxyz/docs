@@ -4,7 +4,7 @@
 #+filetags: :meta:
 #+identifier: 20250412T212351
 #+author: Ing. Javier Pacheco
-#+startup: content
+#+startup: showall
 
 * Fanuc
 - [[file:20250412T212528==9=1--fanuc__estudio_robots.org][9=1  Fanuc]]

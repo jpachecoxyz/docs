@@ -4,7 +4,7 @@
 #+filetags: :trabajo:castlight:
 #+identifier: 20250412T214322
 #+author: Ing. Javier Pacheco
-#+startup: content
+#+startup: showall
 
 
 * Inyección.
