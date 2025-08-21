@@ -1,0 +1,24 @@
+# -*- jinx-languages: "es_MX"; -*-
+#+title: Calcular fases de inyeccion
+#+date: [2025-08-11 Mon 20:24]
+#+filetags: :estudio:diecasting:
+#+identifier: 20250811T202406
+#+author: Ing. Javier Pacheco
+#+startup: showall
+
+* Introduccion.
+** Filling ratio.
+El =filling ratio= es generalmente expresado en % (porcentaje), es el porcentaje
+de material vertido en la camara de inyeccion comparado con el volumen total
+de la pieza.
+
+** Explicacion de las fases.
+El proceso de Diecasting, en la inyeccion consta de 3 fases de inyeccion:
+- Primera fase :: Recorre el material, haciendo que el aire escape, y asi evitar
+  porosidad, mientras mas largo sea el tiempo mas riesgo hay de que salgan
+  poros
+- Segunda fase :: Es el llenado de la cavidad.
+- Tercera fase :: La fase de compactacion.
+
+* Referencias:
+[[https://www.youtube.com/watch?v=SG3xR9d7lPM][Como calcular las faces en Diecasting.]]

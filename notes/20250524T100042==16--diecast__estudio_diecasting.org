@@ -73,3 +73,6 @@ con gran precisión y rapidez.
 - Pruebas de presión/fugas.
 - Rayos X: detección de porosidad interna.
 - Medición dimensional: CMM (máquina de medición por coordenadas).
+
+* Calculos:
+[[file:20250811T202406==16=1--calcular-fases-de-inyeccion__estudio_diecasting.org][16=1  Calcular fases de inyeccion]]

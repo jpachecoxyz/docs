@@ -6,7 +6,7 @@
 #+author: Ing. Javier Pacheco
 #+startup: showall
 
-Denote query links es lo mas nuevo de la versión 4.0, este paquete lo he estado 
+Denote query links es lo mas nuevo de la versión 4.0, este paquete lo he estado
 esperando desde que empece a usar denote.
 
 * Como usar los query links:
@@ -23,7 +23,7 @@ Este es un ejemplo con la palabra: [[denote:query-contents:Haitian][Haitian]].
 Este comando es para buscar unicamente basado en los nombres de los archivos: Por ejemplo nombres que contengan la palabra [[denote:query-filenames:Windows][Windows]].
 
 Los comandos mencionados anteriormente puede ser un String o Regex de emacs.
-Un ejemplo de lo anterior mencionado: [[denote:query-filenames:.*_trabajo][.*_trabajo]] 
+Un ejemplo de lo anterior mencionado: [[denote:query-filenames:.*_trabajo][.*_trabajo]]
 
 A diferencia de =Denote query content=, =filenames= abre un dired-buffer, esto quiere decir que podrás hacer lo mismo de filtrar, renombrar, etc. usando los comandos de =dired=
 

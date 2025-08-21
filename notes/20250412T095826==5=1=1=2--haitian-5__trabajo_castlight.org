@@ -18,23 +18,20 @@
 ** lvl 12 :crypt:
 -----BEGIN PGP MESSAGE-----
 
-hF4DzWdQclh7J8ASAQdAHTCZd4WthsrKswkitglgjXyVBxZ0M6a0FI/ccLuAYXUw
-JavI+gsNPxTO6QmP8a7Dkwcro8q1KoRFL0qGOWIqofXGRDhSVYr1P93MtrB/XBlQ
-hQIMA7JatXjF30UBAQ/+PCinC3i2REWpIu3FMRybI4LySl+ZivT7izVzX6WCOIqs
-CKB+LKMX1UwZGtUE8mqu/bD7wWtynKFXOzS2MnGDTKABWqLVnPI50ryfx8t+pYIA
-1PJTj2dThdxL4vJo0X21nc70m8WLhTyVYE9O9fdvsk1jQDq704Xaj1MVOyaCbm8q
-UasFLMd4LSxE2wkTX+iSC9NXnXMgInI9aMYO+9kQQEokHqvLUAC14FQfaQgRky74
-F87Djhr9FU2MDu9Lo7GRLzmzb5eoNFbVsON3/sZi9qIkH9nyrCjF60Gqvgn2tEbQ
-rs5jDbmCuVpf3K00vuXP9EUO2b2gVXUIt1FCeJI/OgrjpX4guOAdIG15nNoLdyCX
-Zhq39n/l/kTP9+s9h5WnfdtsVLC3Ka6oQG0bIckKMgA5BPjHptpf5mxEk5LJInUu
-botQ+MOR7NF9as8KOlJzlcpiw3H1S2jZ6IH16lj9ImBKfufGjIM1XKAVOTKPURXE
-Z3LSCj2bsaQIX7pvc4jY2l7jJNEuNLYccfPKN/dIKiAj548oRgeALFVuJzhOEqDb
-wnj0a40thlL+2d+CWtGiT/tTIIEunIvpj4TKleSd/e1Jd7h/JdS7l/jEbLc1WMnV
-+Lz3HRhOf2URv7a40cfcjCOjJZtWIVfo/BqPk/5vFOK18eiZNHr/JS/L1xv3W57U
-bwEJAhDstndf+pOqYMsA3h68V8G56aSD1Kr5PVfyb/rwTMhK7cgvVSky8LXft6Iu
-AHm9dr0GTRvPs/dD0apx5Bt5rV2zTx8zNPAF12q4U+dNgPAMNoPA/3WT5Om0SdEP
-SsNiXPW41RqJEJHcfiqM7Q==
-=VOH+
+hQIKA3hasxM+B58RAQ/w0a0E0fEpGL8QrakfKN4IBC1mRhcFI7FbFDxnZPwRhzlF
+UAIfIcii8BGbxBf4rwQ5f33ny6rLF/BjFvodAgkOEN/Y/JLsylfuv6XnJUh2atod
+jOBSm4su9i9mUzwFTds4yrMCm2lS5XQrL6O+j7cTNiO/KdHAkI3OxCWUfvO9u2or
+CBufZacCvw0Iw3UoFOiY3CEo5kT3R59LoF2AAp1ME/GVX2ZP8T1V40dwgCnJSw1+
+z9zm+3rwSenDKi581Czt5Z1OB3qDp0wjHay7DC5Q2uyzZolqotWquVwl89Hn6Nhq
+1kYD2PsVsx0FjLaecyw3MtD2eujL5N8dyBfdj5SPMaPGsPhq7sVHUNj1lDfHlkrA
+PWuAZFJfEOkFgQhgs6t01QyTnQk/O0ugIhcRV2IL0cCj0ZCHaNqaSGdao5I3QrUF
+gfD2twLyGBZLo4ox+S/BzvqT3i9+dLw7klGDaFGx/Mcr9KsTRoGD+riHcDyYp33W
+AxWOaTtvzyUlzJy7fmsFjs995XDa043BUb/+dC80XsVu3noKIuAIY+Cq2dhsATOf
+DfP1fhQ4EiUBw7k9jLXJ+FBeAqiixrL63wPFCJ+seHtM74OroVl2Am/xZR06zO+2
+WAyhqqMzZTQeorpFJFpuO9dEap3TQaYXehYn6+qJP+fOESaQp41KpnU38pnR0l0B
+NHSoIwDYNpfIWjO17r43pcmM+ic43ybplLSlw+GpLXpttoUXr5ujVrDxOY/vlE6m
+Fx1iI29Ed9cC31iemvajTUbEFphH3xnVpI2IsYRiy2lej0nJf4KBU34oWrM=
+=zymk
 -----END PGP MESSAGE-----
 
 ** lvl 8:
@@ -48,47 +45,58 @@ pass: a123
 ** Driver: :crypt:
 -----BEGIN PGP MESSAGE-----
 
-hF4DzWdQclh7J8ASAQdA/Rb7yDpRgXkKQbrpUfRDOxYQMGutHZ1hhOe4T/4aqhww
-+R3R0nY0mSkoNQu5+mieoA+7q2iYbHlV37YftRNdJiyKWnk2U5D0zoZDopCaIumx
-hQIMA7JatXjF30UBAQ/9H/ou2zUOHSv1N3z2AXjtOInmyBW3VaIWqy6hQV8QTQ+a
-6P5Rhz6qv3X0mU0uilLWk5/2QRguET4Vx56IvOMflNh7Hbhxa9YFesB1PzN/Zp68
-/ssCCuqWeYcT/YZQvOsRTQwuk53dwq4gCiZ7VCdhZanAb5Kv/wk9v1zYYqR5LOLS
-2GScNdSIRXNoQYMcOEWuOS2pxeHStRd/FIeo6xQRstTEgxhkOHJKnp3TzmQLSeMA
-EtATvzCv/P7tPQHwneOTW+gt8Y8H7/IZXU5udqrxxEk52rx4eac5UlP6IbwnY57r
-qeBFg/d4PiJ9NoTNmP8Fg3h2s7lFRzLf5Nwoa4O+NrtAFu0OkFPVcQnshYGP0FkR
-PVnECj2Mwyde2zX1NPNjeg1fDPr1TerZ3opxNvWrBUcTVr+lg7DVgJDLmlhEUoFG
-pHpiRF1xX4WxUUNddq77faXJo7AZeyz2yAdanefbWJkvKLQIk0t5s7paAjqFnGtC
-s/AwK143SJiIYAKRa+kbKMoMKdbJoimyRAZIqqcv/JXWAkQfeNrhX+ffpZOBNJSM
-e8UP4NKfQfvF2PJPgnLczR1h4MIDDK2xZZ/cZbWEdferce1q8C65JqF33zL1Sa/i
-pnK/n9smX0Mwd2gTVmTY+mF+EUZOi4xWpCTyuR0s1QjYSKhUYDorYH2tERkE5D3U
-YgEJAhAQ8AWOdLKbj53c22s3HDLM7qPUamX0R3/2/9hxdGI26+bfTQoi2u2t9CEo
-/fy8P/2dOWOWEVbaQ46BjO8ysrsz44/BmatKrkKSdM7uuzwoxXPzBmCUZb9UY6Hq
-hbOn
-=SUbL
+hQIMA3hasxM+B58RARAAyyL4c72PUBY/1nQl+Z/hmA+i1Zju8BAPy/dB8JT8P0B2
+0O7JltZ9Dc6rNIM/AqZeyKmekqQntLiGiSzd8tyChzZUBD4QAyKYnWYq1Qz5P5lz
+hHxosyiWmaeubqP9G8tHc6Dddf9DHRg9PGmMLJjcKeybAlQT3bLhG6RLywsAZfwF
+5u7cxf4akP7lnoV/bxuQ9GqYDGyBgW/Dp5Ddv8jQhORJOcPAonHx7cYg2qjDImPx
+bB5sk+4GBm4PjWl9zA17HGC0hBil6UYZKIktiKP5n7ZaY4SVbfw6r4Qa51FEIj1E
+PUJmFG3q4OPHYQtCRBUe514a+gSvtM/iVksq1MvBZMmpNtoUKz3Ert40c1mUB6n/
+M6OkHIN5HwCs6LyuX56Pa7L3G/M5ZYAKlYnXpuHDmV/Jy6xqox5nYGfRLz1Jcu4f
+MsUU1FHfDqW6wtrZ7qsbxRgWIlMORQZpSUNje+BYYK521pejfmOT7dijKu2yFJP1
+FVfMJBKMS9ds78yEWLYXm09/EaSdu/IRH2PF5cmXMQntHiHETpI0EoqSENdW/oV0
+WlC3kR8tswFkYu/MEELvAsHXXIuEPLj1a6RSZ77Qhc/gzU6GkZ0GC2ScLeoQKNhI
+++PcaKZ6uV4JFQ9tQz+CCSjIc08kpGZB7mOhFZ3yEBrcLctTWXHsYzfEwlel4dDS
+SAElQn2Wc/CJa4kTCzUA0WVlCfnQsOBMOXrzl4CGnDJHv7Ql2oGHN9DC8e9ahWsY
+zBI2jZhuVO6omXiFGCGwnTu2GLpHUABq4w==
+=nddM
 -----END PGP MESSAGE-----
+
 * Fallas Considerables.
 ** 4-Abril-2025
-Maquina dejo de hacer movimientos, Se revisaron TODAS las válvulas del bloque de cierre, no se encontraron fallas aparentes. Por lo cual se decidió pedir soporte a =Haitian=.
+Maquina dejo de hacer movimientos, Se revisaron TODAS las válvulas del bloque
+de cierre, no se encontraron fallas aparentes. Por lo cual se decidió pedir
+soporte a =Haitian=.
 Revisando con =Haitian China=, se dieron cuenta que habia unos parámetros movidos:
 - Debug mode :: ON, (debe de estar OFF)
 - Combined in Manual :: ON, (debe estar OFF)
 - Use simplify mold open :: ON, (debe estar OFF)
 - Use step movement :: OFF, (debe estar ON)
 
-Al regresar estos valores a su estado normal, la maquina hizo movimientos normales.
-Cabe mencionar que esta maquina tenian acceso la mayoría de empleados al usuario de manager, por lo cual se cambiaron contraseñas, y se cargo un software con protección adicional, de manera que el acceso quedo restringido a como esta la Haitian 4, que para mover dichos parámetros se necesita un código QR que codifica =Haitian China= y que tiene vigencia de 10 minutos.
+Al regresar estos valores a su estado normal, la maquina hizo movimientos
+normales.
+Cabe mencionar que esta maquina tenian acceso la mayoría de empleados al
+usuario de manager, por lo cual se cambiaron contraseñas, y se cargo un software
+con protección adicional, de manera que el acceso quedo restringido a como
+esta la Haitian 4, que para mover dichos parámetros se necesita un código QR
+que codifica =Haitian China= y que tiene vigencia de 10 minutos.
 
 ** 11-Abril-2025 2:30 pm
-Revisando la maquina, Alejandro de Leon, nota que hay un ruido extraño en la maquina, a lo cual procedemos a revisar la bomba hidráulica, y notamos que en reposo la bomba estaba girando al revés. Esta maquina tiene tecnología =Echo Friendly=, lo cual significa que en reposo no debe estar girando la bomba.
-Revisamos el driver del motor, y notamos que tenia lectura de RPM's en valor negativo (por que estaba girando al revés).
-Pedimos soporte a Ángel del equipo de =Haitian=, y nos dieron instrucciones de revisar algunos parámetros del driver:
+Revisando la maquina, Alejandro de Leon, nota que hay un ruido extraño en la
+maquina, a lo cual procedemos a revisar la bomba hidráulica, y notamos que
+en reposo la bomba estaba girando al revés. Esta maquina tiene tecnología
+=Echo Friendly=, lo cual significa que en reposo no debe estar girando la bomba.
+Revisamos el driver del motor, y notamos que tenia lectura de RPM's en valor
+negativo (por que estaba girando al revés).
+Pedimos soporte a Ángel del equipo de =Haitian=, y nos dieron instrucciones de
+revisar algunos parámetros del driver:
 
 | Parametro | Valor antes | Valor Después | Comentarios                                                         |
 |-----------+-------------+---------------+---------------------------------------------------------------------|
 | Pr.09     |           0 |             5 | OK                                                                  |
 | An.11     |        0.13 |             0 | Al arrancar cambio a -2.31 (al igual que el driver de la Haitian 4) |
 
-Despues de modificar el =An.11=, el motor dejo de girar al revés, y que trabajando correctamente.
+Despues de modificar el =An.11=, el motor dejo de girar al revés, y quedo
+trabajando correctamente.
 
 *NOTE:* Despues volvio a fallar, se resolvio solo el problema.
 

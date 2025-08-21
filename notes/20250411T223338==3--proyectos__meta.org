@@ -17,9 +17,9 @@ Estaré plasmando mis proyectos mas ambiciosos y que presenten un reto para mi p
 - *Autonomía y control*: Tener sistemas bien configurados, cifrado con Tomb, y una agenda organizada en Emacs me da sensación de control y orden.
 - *Motivación y propósito*: Ver mis proyectos funcionar, como el sistema de bitácoras o el blog generado con Org y Hugo, me mantiene motivado y conectado con mi propósito de aprender y compartir.
 - *Balance y claridad*: Reflexionar sobre mis avances me ayuda a mantener un equilibrio entre hacer por aprender y hacer por utilidad.
-  
+
 * PLC
 #+BEGIN: denote-links :regexp "==3.*_proyecto_plc" :excluded-dirs-regexp nil :sort-by-component nil :reverse-sort nil :id-only nil :include-date nil
-- [[file:20250326T190622==3=1--curso-de-plc-basico__proyecto_plc.org][3=1  Curso de PLC Basico]]
-- [[file:20250412T154559==3=1=1--examen-plc-basico__proyecto_plc.org][3=1=1  Examen PLC Basico]]
+[[file:20250326T190622==3=1--curso-de-plc-basico__proyecto_plc.org][3=1  Curso de PLC Basico]]
+[[file:20250412T154559==3=1=1--examen-plc-basico__proyecto_plc.org][3=1=1  Examen PLC Basico]]
 #+END:

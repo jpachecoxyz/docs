@@ -1,0 +1,30 @@
+# -*- jinx-languages: "es_MX"; -*-
+#+title: Javier Pacheco
+#+date: [2025-08-14 Thu 19:12]
+#+filetags: :personal:javier:estudio:
+#+identifier: 20250814T191227
+#+author: Ing. Javier Pacheco
+#+startup: showall
+
+
+* Primaria.
+** Primer Grado.
+**** Útiles escolares.
+- [ ] Cuadernos
+- [ ] Plumas
+- [ ] Lapizes
+** Segundo Grado.
+** Tercer Grado.
+** Cuarto Grado.
+** Quinto Grado.
+** Sexto Grado.
+* Secundaria.
+** Primer Grado.
+** Segundo Grado.
+** Tercer Grado.
+* Preparatoria.
+** Primer Grado.
+** Segundo Grado.
+** Tercer Grado.
+* Universidad.
+* Maestría.

@@ -1,0 +1,31 @@
+# -*- jinx-languages: "es_MX"; -*-
+#+title: Lia Narolyn
+#+date: [2025-08-14 Thu 19:03]
+#+filetags: :personal:lia:estudio:
+#+identifier: 20250814T190355
+#+author: Ing. Javier Pacheco
+#+startup: showall
+
+* Primaria.
+** Primer Grado.
+**** Útiles escolares [0/4].
+- [ ] Cuadernos
+- [ ] Plumas
+- [ ] Lapices
+- [ ] Zapatos
+
+** Segundo Grado.
+** Tercer Grado.
+** Cuarto Grado.
+** Quinto Grado.
+** Sexto Grado.
+* Secundaria.
+** Primer Grado.
+** Segundo Grado.
+** Tercer Grado.
+* Preparatoria.
+** Primer Grado.
+** Segundo Grado.
+** Tercer Grado.
+* Universidad.
+* Maestría.

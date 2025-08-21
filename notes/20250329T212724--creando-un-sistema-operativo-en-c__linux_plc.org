@@ -9,8 +9,8 @@
 
 * Bootloader.
 El rol de el bootloader es:
-- Recojer informacion.
-- Premarar el sistema para el kernel.
+- Recoger información.
+- Preparar el sistema para el kernel.
 - Carga y ejecuta el kernel.
 
 * Referencias:

@@ -1,0 +1,165 @@
+# -*- jinx-languages: "es_MX"; -*-
+#+title: Uso de GPG
+#+date: [2025-07-27 Sun 17:49]
+#+filetags: :estudio:linux:
+#+identifier: 20250727T174913
+#+author: Ing. Javier Pacheco
+#+startup: showall
+
+* Conceptos Básicos
+- *Clave pública*: se comparte con otros. Sirve para cifrar mensajes hacia ti.
+- *Clave privada*: se guarda en secreto. Sirve para descifrar mensajes cifrados con tu clave pública o firmar mensajes.
+
+* 1. Crear un par de claves
+#+BEGIN_SRC bash
+gpg --full-generate-key
+#+END_SRC
+
+Te pedirá:
+- Tipo de clave (elige `1` RSA y RSA).
+- Tamaño (2048 o 4096).
+- Caducidad.
+- Nombre y correo.
+- Frase de contraseña.
+
+Ver tus claves:
+#+BEGIN_SRC bash
+gpg --list-keys          # Claves públicas
+gpg --list-secret-keys   # Claves privadas
+#+END_SRC
+
+* 2. Exportar claves
+** Clave pública (para compartir):
+#+BEGIN_SRC bash
+gpg --armor --export TU_CORREO > clave-publica.asc
+#+END_SRC
+
+** Clave privada (para respaldo):
+#+BEGIN_SRC bash
+gpg --armor --export-secret-key TU_CORREO > clave-privada.asc
+#+END_SRC
+
+* 3. Importar claves
+#+BEGIN_SRC bash
+gpg --import archivo.asc
+#+END_SRC
+
+* 4. Cifrar un archivo (usando la clave pública del receptor)
+Supón que tienes un archivo =secreto.txt=:
+
+#+BEGIN_SRC bash
+gpg --encrypt --recipient TU_CORREO secreto.txt
+#+END_SRC
+
+Esto genera =secreto.txt.gpg=.
+
+* 5. Descifrar un archivo
+#+BEGIN_SRC bash
+gpg --output secreto-descifrado.txt --decrypt secreto.txt.gpg
+#+END_SRC
+
+*  6. Firmar un archivo
+#+BEGIN_SRC bash
+gpg --clearsign archivo.txt
+#+END_SRC
+
+Esto crea un archivo =archivo.txt.asc= con la firma digital incluida.
+
+* 7. Verificar una firma
+Si alguien te manda =mensaje.txt.asc=:
+
+#+BEGIN_SRC bash
+gpg --verify mensaje.txt.asc
+#+END_SRC
+
+* 8. Cifrado + Firma
+#+BEGIN_SRC bash
+gpg --encrypt --sign --recipient EMAIL mensaje.txt
+#+END_SRC
+
+* 9. Cifrado simétrico (con contraseña)
+Sin necesidad de claves públicas/privadas:
+
+#+BEGIN_SRC bash
+gpg --symmetric archivo.txt
+#+END_SRC
+
+Desencriptar:
+
+#+BEGIN_SRC bash
+gpg --output archivo-descifrado.txt --decrypt archivo.txt.gpg
+#+END_SRC
+
+* 10. Eliminar claves
+** Eliminar clave pública:
+#+BEGIN_SRC bash
+gpg --delete-key TU_CORREO
+#+END_SRC
+
+** Eliminar clave privada:
+#+BEGIN_SRC bash
+gpg --delete-secret-key TU_CORREO
+#+END_SRC
+
+* 11. Backup y restauración de llaves GPG
+** ¿Qué necesitas respaldar?
+
+1. Tu *par de claves* (clave pública y clave privada).
+2. Opcional: tu directorio completo =~/.gnupg= si deseas conservar configuraciones, claves revocadas y confianza.
+
+** Opción 1: Exportar claves manualmente
+*** Exportar clave pública
+#+BEGIN_SRC bash
+gpg --armor --export TU_CORREO > clave-publica.asc
+#+END_SRC
+
+*** Exportar clave privada (muy importante)
+#+BEGIN_SRC bash
+gpg --armor --export-secret-key TU_CORREO > clave-privada.asc
+#+END_SRC
+
+*** Guardar en un lugar seguro:
+- USB cifrada.
+- Disco externo con cifrado.
+- Archivo `.asc` cifrado con GPG:
+
+#+BEGIN_SRC bash
+gpg --symmetric clave-privada.asc
+#+END_SRC
+
+** Opción 2: Respaldar todo el directorio GnuPG
+#+BEGIN_SRC bash
+cp -r ~/.gnupg /ruta/de/backup/.gnupg
+#+END_SRC
+
+*** Al restaurar:
+#+BEGIN_SRC bash
+chmod 700 ~/.gnupg
+chmod 600 ~/.gnupg/*
+#+END_SRC
+
+** Restaurar tus claves después de formatear
+1. Instala GnuPG en el nuevo sistema.
+2. Copia los archivos respaldados.
+3. Si tienes archivos `.asc`:
+
+#+BEGIN_SRC bash
+gpg --import clave-publica.asc
+gpg --import clave-privada.asc
+#+END_SRC
+
+4. Verifica que las claves están disponibles:
+
+#+BEGIN_SRC bash
+gpg --list-keys
+gpg --list-secret-keys
+#+END_SRC
+
+**  Consejo extra: Certificado de revocación
+Es recomendable crear un certificado de revocación inmediatamente después de crear tus claves, en caso de pérdida o compromiso.
+
+#+BEGIN_SRC bash
+gpg --output revocacion.asc --gen-revoke TU_CORREO
+#+END_SRC
+
+Guarda `revocacion.asc` en un lugar separado de tus llaves.

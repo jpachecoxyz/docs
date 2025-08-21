@@ -8,4 +8,6 @@
 
 Python
 
-Python es un lenguaje de programación de alto nivel, interpretado y de propósito general. Su filosofía de diseño prioriza la legibilidad del código mediante una sangría significativa. Python tiene tipado dinámico y recolección de elementos no utilizados.
+Python es un lenguaje de programación de alto nivel, interpretado y de propósito general.
+Su filosofía de diseño prioriza la legibilidad del código mediante una sangría significativa.
+Python tiene tipado dinámico y recolección de elementos no utilizados.

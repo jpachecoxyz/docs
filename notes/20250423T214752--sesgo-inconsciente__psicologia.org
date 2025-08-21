@@ -1,11 +1,11 @@
 # -*- jinx-languages: "es_ES"; -*-
-#+title: Sesgo Inconciente
+#+title: Sesgo Inconsciente
 #+date: [2025-04-23 Wed 21:47]
 #+filetags: :psicologia:
 #+identifier: 20250423T214752
 #+author: Ing. Javier Pacheco
 #+startup: showall
 
-El sesgo inconsciente, también conocido como sesgo implícito, son los juicios o 
-estereotipos sobre grupos de personas que operan en nuestro subconsciente, influenciando 
+El sesgo inconsciente, también conocido como sesgo implícito, son los juicios o
+estereotipos sobre grupos de personas que operan en nuestro subconsciente, influenciando
 nuestras actitudes y comportamientos sin que seamos plenamente conscientes.

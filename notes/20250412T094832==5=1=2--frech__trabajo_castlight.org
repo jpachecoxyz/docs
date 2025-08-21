@@ -10,15 +10,58 @@
 - Modelo :: K580
 - Serie ::
 - Peso máximo de platinas ::
+- Tonelaje :: 680T
 
-* Contraseñas
+* Top Secret :crypt:
 :PROPERTIES:
 :VISIBILITY: folded
 :END:
-** Main :crypt:
-FRECH
+-----BEGIN PGP MESSAGE-----
+
+hQIMA3hasxM+B58RARAAxdxT8hEHtFV2N9gXDqaIhNL88ALEC+F7yRF1unozQ6G6
+7Vnr3mmxxjHnVgHSr4DWtVeNAaaohJHAVRVY7S1YCyJdhZ1JE6/t0HDI2/BKi0IC
+MfIEXOb/CaJINQA/Fh7/TDzkRU/fGmf4SYa21qx0/8nFaoxs67vKvXRTDJpU2p8P
+ohBgwDYEHYoKEuT630WweDomRvqPnvI2sx/7iiFr/DEwL8t2Pk2gzjouoLDab0sE
+nvxmH19bfX3rSYVtn9wcPj7lJ4Dq6FEqZqPQVy39ySw7uJqiGbQU2hfh0KQl+41X
+IaYJaTucVGlxXuoUF1+VAVQh5XwbSEpOMwcxJ1xdDIc1CDVzRvt/7Zu5I2cUJMsw
+7locWUvMDTJHVBEnjNEVspQcjk/GlimlarSlS0iBGzp1WTCVpmrbU0t4cocuuhyZ
+CzZxGFQPUesuFTJTvvLwL+UuSaQ6T/lN6pxbM3Gp8+sNm4wL1MtAEsfgF8gYqEle
+vL1PQClcDjyNZrvz94ozEn3hZfrdWsZyRDQzAA/g83ktt7kWguY5aw2CmaVYQ7ec
+3rc72rhpu7FVi0BU9j6NvvF3QHj+qnqCnC3Pfmd53DDTSJcxdvaju81HQfelVoDU
+aqWM38mNkBUc7/jt2khvp+PI5tyJY9Mi5LyybqJnRYsLZZfOJH6W3t2aUv7Nv9HS
+uQHfEQkMkV7bosMKhE2Pzf9XyIJAuiOtQJ0bE9UQO4nytTWMYmXYhV3Huko0DNsb
+auAasteMTE8WanE6HGOC8gMiAb8Wrbq3CmEdiWkiBHeQ4AsbOD+LdBel58hF28aV
+pC2ncNc8wcPH4VE4yDsdTbCywBVg5Vbi6g1kCpCQnGUcGQFlSKkwQflaOh+w9whF
+jVECzdBec1qzmOYEGRAQOe4Sr+8UXHCrqZwm5yV5Bu18pDDMWx03qkue
+=CTlo
+-----END PGP MESSAGE-----
+
+* TODO [#A] Pendientes [0/7][0%].
+:PROPERTIES:
+:RESPONSABLE: Rene Chavez
+:END:
+- [ ] Lista de unidad de inyección.
+- [ ] Reparar Tapas de paneles eléctricos.
+- [ ] Re acomodo de cableado eléctrico.
+- [ ] Reparación de fuga interna.
+- [ ] Cambio de válvula 3S12.
+- [ ] Mejora en la seguridad de la puerta. No depender de un micro-switch.
+- [ ] Reemplazo de Protección mecánica.
 
 * Fallas Considerables.
 ** 20-Junio-2025
 *** No hace disparo.
 Se ajusto bomba constante, en su propio mecanismo de la bomba.
+** xx Junio 2025
+Se incendio el cortador de la maquina. Se reemplazo caja y cableado.
+** 27-Junio-2025
+- Reemplazo de Bomba MOOG.
+  Notas: El cable del transductor es reparado.
+** 28 Junio 2025
+Se programo visita de técnico de FRECH.
+En la visita del ingeniero de soporte, se vieron los siguientes puntos:
+- Se calibraron las presiones del sistema hidráulico.
+- Se habilito la multiplicación.
+  En este detalle no le llegaba voltaje a la válvula de carga, y la 7Y20 estaba dañada, a esta ultima se le
+  soldó un cable para poder conectarla al conector del solenoide. El voltaje de la válvula también se tomo del
+  micro-switch de la puerta, Esto hay que repararlo.
