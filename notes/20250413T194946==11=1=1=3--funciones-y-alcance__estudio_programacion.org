@@ -15,7 +15,7 @@ CLOSED: [2025-04-14 Mon 03:37]
 - [X] Utiliza algún ejemplo de funciones ya creadas en el lenguaje.
 - [X] Pon a prueba el concepto de variable LOCAL y GLOBAL.
 - [X] Debes hacer print por consola del resultado de todos los ejemplos.
-	(y tener en cuenta que cada lenguaje puede poseer más o menos posibilidades)
+        (y tener en cuenta que cada lenguaje puede poseer más o menos posibilidades)
 
 * TODO DIFICULTAD EXTRA (opcional): [/]
  * Crea una función que reciba dos parámetros de tipo cadena de texto y retorne un número.
@@ -24,7 +24,7 @@ CLOSED: [2025-04-14 Mon 03:37]
     - Si el número es múltiplo de 5, muestra la cadena de texto del segundo parámetro.
     - Si el número es múltiplo de 3 y de 5, muestra las dos cadenas de texto concatenadas.
     - La función retorna el número de veces que se ha impreso el número en lugar de los textos.
- 
+
  * Presta especial atención a la sintaxis que debes utilizar en cada uno de los casos.
  * Cada lenguaje sigue una convenciones que debes de respetar para que el código se entienda.
 
@@ -44,7 +44,7 @@ def greet(name):
     return f"Hello, {name}!"
 
 def welcome_user(name):
-    greeting = greet(name) 
+    greeting = greet(name)
     return f"{greeting} Welcome to the system."
 
 # Funcion built-in
@@ -55,16 +55,16 @@ print(sorted(lista))
 def sum_of_vars(x):
     local = 5
     return x + local
-   
-sum_of_vars(5) 
+
+sum_of_vars(5)
 print(local) # Aqui no funcionara,
 
 # Variable GLOBAL
 global = 10
 def sum_of_vars(x):
     return x + global
-   
-sum_of_vars(5) 
+
+sum_of_vars(5)
 print(global) # Como es una variable GLOBAL, si funciona el print
 #+end_src
 
@@ -106,6 +106,7 @@ def fizz_buzz(text_1, text_2):
 
 fizz_buzz("lia", "javier")
 #+end_src
+
 * Que aprendí:
 En este modulo aprendi, a usar la logica para la creacion del tan famoso =FizzBuzz=, usando =if, elif, else=.
 Mas que nada los conceptos fueron faciles, lo interesante fue entender el ejercicio extra y poder darte cuenta
