@@ -1,4 +1,4 @@
-# -*- jinx-languages: "es_ES"; -*-
+# -*- jinx-languages: "es_MX"; -*-; -*-
 #+title: Diecast
 #+date: [2025-05-24 Sat 10:00]
 #+filetags: :estudio:diecasting:

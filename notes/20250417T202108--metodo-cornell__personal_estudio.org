@@ -1,4 +1,4 @@
-# -*- jinx-languages: "es_ES"; -*-
+# -*- jinx-languages: "es_MX"; -*-; -*-
 #+title: Metodo Cornell
 #+date: [2025-04-17 Thu 20:21]
 #+filetags: :estudio:personal:

@@ -1,4 +1,4 @@
-# -*- jinx-languages: "es_ES"; -*-
+# -*- jinx-languages: "es_MX"; -*-; -*-
 #+title: Crea tu propia iso de voidlinux
 #+date: [2025-04-19 Sat 12:28]
 #+filetags: :estudio:linux:void:

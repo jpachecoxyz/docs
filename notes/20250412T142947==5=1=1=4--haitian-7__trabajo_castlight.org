@@ -1,4 +1,4 @@
-# -*- jinx-languages: "es_ES"; -*-
+# -*- jinx-languages: "es_MX"; -*-; -*-
 #+title: Haitian 7
 #+date: [2025-04-12 Sat 14:29]
 #+filetags: :trabajo:castlight:

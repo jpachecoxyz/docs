@@ -1,4 +1,4 @@
-# -*- jinx-languages: "es_ES"; -*-
+# -*- jinx-languages: "es_MX"; -*-; -*-
 #+title: Medicion de platinas
 #+date: [2025-05-15 Thu 19:24]
 #+filetags: :trabajo:castlight:documentacion:

@@ -1,4 +1,4 @@
-# -*- jinx-languages: "es_ES"; -*-
+# -*- jinx-languages: "es_MX"; -*-; -*-
 #+title: Sintaxis, Variables, Tipos de Datos y Hola Mundo
 #+date: [2025-04-13 Sun 13:41]
 #+filetags: :estudio:programacion:

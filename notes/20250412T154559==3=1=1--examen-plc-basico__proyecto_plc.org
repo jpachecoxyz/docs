@@ -1,4 +1,4 @@
-# -*- jinx-languages: "es_ES"; -*-
+# -*- jinx-languages: "es_MX"; -*-; -*-
 #+title: Examen PLC Basico
 #+date: [2025-04-12 Sat 15:45]
 #+filetags: :proyecto:plc:

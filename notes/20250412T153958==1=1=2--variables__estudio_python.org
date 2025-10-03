@@ -1,4 +1,4 @@
-# -*- jinx-languages: "es_ES"; -*-
+# -*- jinx-languages: "es_MX"; -*-; -*-
 #+title: Variables
 #+date: [2025-04-12 Sat 15:39]
 #+filetags: :estudio:python:

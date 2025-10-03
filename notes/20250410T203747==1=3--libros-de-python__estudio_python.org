@@ -1,4 +1,4 @@
-# -*- jinx-languages: "es_ES"; -*-
+# -*- jinx-languages: "es_MX"; -*-; -*-
 #+title: Libros de python
 #+date: [2025-04-10 Thu 20:37]
 #+filetags: :estudio:python:

@@ -1,4 +1,4 @@
-# -*- jinx-languages: "es_ES"; -*-
+# -*- jinx-languages: "es_MX"; -*-; -*-
 #+title: Frech
 #+date: [2025-04-12 Sat 09:48]
 #+filetags: :trabajo:castlight:

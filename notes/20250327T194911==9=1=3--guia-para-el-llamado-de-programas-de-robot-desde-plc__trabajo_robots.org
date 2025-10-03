@@ -1,4 +1,4 @@
-# -*- jinx-languages: "es_ES"; -*-
+# -*- jinx-languages: "es_MX"; -*-; -*-
 #+title: Guia para el llamado de programas de robot desde PLC
 #+date: [2025-03-27 Thu 19:49]
 #+filetags: :trabajo:robots:

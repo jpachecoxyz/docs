@@ -1,4 +1,4 @@
-# -*- jinx-languages: "es_ES"; -*-
+# -*- jinx-languages: "es_MX"; -*-; -*-
 #+title: Funciones y Alcance
 #+date: [2025-04-13 Sun 19:49]
 #+filetags: :estudio:programacion:

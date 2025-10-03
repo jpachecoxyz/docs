@@ -1,4 +1,4 @@
-# -*- jinx-languages: "es_ES"; -*-
+# -*- jinx-languages: "es_MX"; -*-; -*-
 #+title: Mi Flujo de Trabajo
 #+date: [2025-04-20 Sun 21:39]
 #+filetags: :estudio:notetaking:

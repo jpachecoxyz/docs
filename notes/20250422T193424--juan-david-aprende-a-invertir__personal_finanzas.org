@@ -1,4 +1,4 @@
-# -*- jinx-languages: "es_ES"; -*-
+# -*- jinx-languages: "es_MX"; -*-; -*-
 #+title: Juan David - Aprende a Invertir
 #+date: [2025-04-22 Tue 19:34]
 #+filetags: :personal:finanzas:

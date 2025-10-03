@@ -1,4 +1,4 @@
-# -*- jinx-languages: "es_ES"; -*-
+# -*- jinx-languages: "es_MX"; -*-; -*-
 #+title: Líder de impacto
 #+date: [2025-05-03 Sat 13:00]
 #+filetags: :personal:liderazgo:

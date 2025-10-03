@@ -1,4 +1,4 @@
-# -*- jinx-languages: "es_ES"; -*-
+# -*- jinx-languages: "es_MX"; -*-; -*-
 #+title: Proceso de Diecasting
 #+date: [2025-04-20 Sun 20:46]
 #+filetags: :estudio:diecasting:

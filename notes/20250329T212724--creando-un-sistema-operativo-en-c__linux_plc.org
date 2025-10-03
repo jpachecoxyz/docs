@@ -1,4 +1,4 @@
-# -*- jinx-languages: "es_ES"; -*-
+# -*- jinx-languages: "es_MX"; -*-; -*-
 #+title: Creando un sistema operativo en C
 #+date: [2025-03-29 Sat 21:27]
 #+filetags: :estudio:linux:

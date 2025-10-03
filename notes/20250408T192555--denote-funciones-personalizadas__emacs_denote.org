@@ -1,4 +1,4 @@
-# -*- jinx-languages: "es_ES"; -*-
+# -*- jinx-languages: "es_MX"; -*-; -*-
 #+title: Denote Funciones personalizadas
 #+date: [2025-04-08 Tue 19:25]
 #+filetags: :estudio:emacs:

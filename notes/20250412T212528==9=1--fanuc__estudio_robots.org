@@ -1,4 +1,4 @@
-# -*- jinx-languages: "es_ES"; -*-
+# -*- jinx-languages: "es_MX"; -*-; -*-
 #+title: Fanuc
 #+date: [2025-04-12 Sat 21:25]
 #+filetags: :estudio:robots:

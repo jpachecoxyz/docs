@@ -1,4 +1,4 @@
-# -*- jinx-languages: "es_ES"; -*-
+# -*- jinx-languages: "es_MX"; -*-; -*-
 #+title: Como crear tu propia cloud
 #+date: [2025-04-02 Wed 19:12]
 #+filetags: :estudio:linux:server:

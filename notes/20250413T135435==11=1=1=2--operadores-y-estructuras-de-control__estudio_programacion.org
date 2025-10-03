@@ -1,4 +1,4 @@
-# -*- jinx-languages: "es_ES"; -*-
+# -*- jinx-languages: "es_MX"; -*-; -*-
 #+title: Operadores y Estructuras de Control
 #+date: [2025-04-13 Sun 13:54]
 #+filetags: :estudio:programacion:

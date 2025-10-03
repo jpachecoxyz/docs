@@ -1,4 +1,4 @@
-# -*- jinx-languages: "es_ES"; -*-
+# -*- jinx-languages: "es_MX"; -*-; -*-
 #+title: Conexion ssh en git
 #+date: [2025-03-27 Thu 20:39]
 #+filetags: :estudio:linux:

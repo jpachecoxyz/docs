@@ -1,4 +1,4 @@
-# -*- jinx-languages: "es_ES"; -*-
+# -*- jinx-languages: "es_MX"; -*-; -*-
 #+title: Zettelkasten
 #+date: [2025-04-21 Mon 17:48]
 #+filetags: :estudio:personal:

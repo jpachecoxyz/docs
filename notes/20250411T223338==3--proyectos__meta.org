@@ -1,4 +1,4 @@
-# -*- jinx-languages: "es_ES"; -*-
+# -*- jinx-languages: "es_MX"; -*-; -*-
 #+title: Proyectos
 #+date: [2025-04-11 Fri 22:33]
 #+filetags: :meta:

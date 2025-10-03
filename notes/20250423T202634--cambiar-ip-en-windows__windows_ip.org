@@ -1,4 +1,4 @@
-# -*- jinx-languages: "es_ES"; -*-
+# -*- jinx-languages: "es_MX"; -*-; -*-
 #+title: Cambiar IP en windows
 #+date: [2025-04-23 Wed 20:26]
 #+filetags: :windows:ip:

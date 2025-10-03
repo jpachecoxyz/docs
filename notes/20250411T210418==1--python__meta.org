@@ -1,4 +1,4 @@
-# -*- jinx-languages: "es_ES"; -*-
+# -*- jinx-languages: "es_MX"; -*-; -*-
 #+title: Python
 #+date: [2025-04-11 Fri 21:04]
 #+filetags: :meta:

@@ -1,4 +1,4 @@
-# -*- jinx-languages: "es_ES"; -*-
+# -*- jinx-languages: "es_MX"; -*-; -*-
 #+title: Plan Maestro de Mantenimiento
 #+date: [2025-04-25 Fri 19:13]
 #+filetags: :mantenimiento:plan:

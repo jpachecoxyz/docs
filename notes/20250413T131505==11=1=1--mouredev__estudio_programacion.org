@@ -1,4 +1,4 @@
-# -*- jinx-languages: "es_ES"; -*-
+# -*- jinx-languages: "es_MX"; -*-; -*-
 #+title: MoureDev
 #+date: [2025-04-13 Sun 13:15]
 #+filetags: :estudio:programacion:

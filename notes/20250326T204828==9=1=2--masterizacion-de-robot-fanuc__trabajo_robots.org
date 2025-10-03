@@ -1,4 +1,4 @@
-# -*- jinx-languages: "es_ES"; -*-
+# -*- jinx-languages: "es_MX"; -*-; -*-
 #+title: Masterizacion de Robot Fanuc
 #+date: [2025-03-26 Wed 20:48]
 #+filetags: :trabajo:robots:

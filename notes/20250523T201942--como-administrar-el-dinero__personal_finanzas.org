@@ -1,4 +1,4 @@
-# -*- jinx-languages: "es_ES"; -*-
+# -*- jinx-languages: "es_MX"; -*-; -*-
 #+title: Como Administrar el Dinero
 #+date: [2025-05-23 Fri 20:19]
 #+filetags: :personal:finanzas:

@@ -1,4 +1,4 @@
-# -*- jinx-languages: "es_ES"; -*-
+# -*- jinx-languages: "es_MX"; -*-; -*-
 #+title: Como ser un buen lider
 #+date: [2025-04-24 Thu 21:48]
 #+filetags: :personal:liderazgo:

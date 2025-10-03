@@ -1,4 +1,4 @@
-# -*- jinx-languages: "es_ES"; -*-
+# -*- jinx-languages: "es_MX"; -*-; -*-
 #+title: Elixir
 #+date: [2025-04-30 Wed 19:29]
 #+filetags: :meta:

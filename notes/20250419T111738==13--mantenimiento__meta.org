@@ -1,4 +1,4 @@
-# -*- jinx-languages: "es_ES"; -*-
+# -*- jinx-languages: "es_MX"; -*-; -*-
 #+title: Mantenimiento
 #+date: [2025-04-19 Sat 11:17]
 #+filetags: :meta:

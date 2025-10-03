@@ -1,4 +1,4 @@
-# -*- jinx-languages: "es_ES"; -*-
+# -*- jinx-languages: "es_MX"; -*-; -*-
 #+title: Plan de Mantenimiento Basado en Protocolos
 #+date: [2025-04-19 Sat 11:59]
 #+filetags: :estudio:mantenimiento:

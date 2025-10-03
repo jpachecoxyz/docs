@@ -1,4 +1,4 @@
-# -*- jinx-languages: "es_ES"; -*-
+# -*- jinx-languages: "es_MX"; -*-; -*-
 #+title: Fanuc Backup
 #+date: [2025-03-26 Wed 20:15]
 #+filetags: :trabajo:robots:

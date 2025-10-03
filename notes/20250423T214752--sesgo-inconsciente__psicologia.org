@@ -1,4 +1,4 @@
-# -*- jinx-languages: "es_ES"; -*-
+# -*- jinx-languages: "es_MX"; -*-; -*-
 #+title: Sesgo Inconsciente
 #+date: [2025-04-23 Wed 21:47]
 #+filetags: :psicologia:

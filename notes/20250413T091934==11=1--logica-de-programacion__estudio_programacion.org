@@ -1,4 +1,4 @@
-# -*- jinx-languages: "es_ES"; -*-
+# -*- jinx-languages: "es_MX"; -*-; -*-
 #+title: Lógica de Programación
 #+date: [2025-04-13 Sun 09:19]
 #+filetags: :estudio:programacion:

@@ -1,4 +1,4 @@
-# -*- jinx-languages: "es_ES"; -*-
+# -*- jinx-languages: "es_MX"; -*-; -*-
 #+title: Plan de Mantenimiento Basado en Analisis RFM
 #+date: [2025-04-19 Sat 12:00]
 #+filetags: :estudio:mantenimiento:

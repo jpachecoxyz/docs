@@ -1,4 +1,4 @@
-# -*- jinx-languages: "es_ES"; -*-
+# -*- jinx-languages: "es_MX"; -*-; -*-
 #+title: Curso de PLC Basico
 #+date: [2025-03-26 Wed 19:06]
 #+filetags: :proyecto:plc:

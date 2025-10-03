@@ -1,4 +1,4 @@
-# -*- jinx-languages: "es_ES"; -*-
+# -*- jinx-languages: "es_MX"; -*-; -*-
 #+title: Syncthing
 #+date: [2025-03-27 Thu 21:45]
 #+filetags: :estudio:linux:

@@ -1,4 +1,4 @@
-# -*- jinx-languages: "es_ES"; -*-
+# -*- jinx-languages: "es_MX"; -*-; -*-
 #+title: Indicadores de mantenimiento
 #+date: [2025-04-17 Thu 19:27]
 #+filetags: :estudio:mantenimiento:

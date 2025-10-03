@@ -1,4 +1,4 @@
-# -*- jinx-languages: "es_ES"; -*-
+# -*- jinx-languages: "es_MX"; -*-; -*-
 #+title: Reglas de Oro al Escribir Notas
 #+date: [2025-04-23 Wed 21:02]
 #+filetags: :estudio:notetaking:
