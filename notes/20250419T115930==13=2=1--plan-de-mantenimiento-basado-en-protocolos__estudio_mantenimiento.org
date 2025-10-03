@@ -5,7 +5,6 @@
 #+identifier: 20250419T115930
 #+author: Ing. Javier Pacheco
 #+startup: showall
-
 Un protocolo de mantenimiento, es un listado de tareas a realizar en un tipo concreto de equipo.
 Es importante que antes de realizar el plan de mantenimiento hay que clasificar los equipos como equipos genéricos.
 

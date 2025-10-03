@@ -5,7 +5,6 @@
 #+identifier: 20250814T191227
 #+author: Ing. Javier Pacheco
 #+startup: showall
-
 
 * Primaria.
 ** Primer Grado.

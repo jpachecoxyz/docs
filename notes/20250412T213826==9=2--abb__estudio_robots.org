@@ -5,7 +5,6 @@
 #+identifier: 20250412T213826
 #+author: Ing. Javier Pacheco
 #+startup: showall
-
 
 * Referencias:
 [[https://www.youtube.com/playlist?list=PLO89phzZmnHh3kBtxcVBc5umHsc1hoPH0][Curso de simulador ABB]]

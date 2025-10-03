@@ -5,7 +5,6 @@
 #+identifier: 20250412T095803
 #+author: Ing. Javier Pacheco
 #+startup: showall
-
 * TODO Datos y especificaciones.
 - Modelo :: H450
 - Serie :: 

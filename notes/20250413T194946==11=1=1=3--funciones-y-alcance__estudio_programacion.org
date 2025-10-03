@@ -5,7 +5,6 @@
 #+identifier: 20250413T194946
 #+author: Ing. Javier Pacheco
 #+startup: showall
-
 * DONE EJERCICIO: [5/5]
 CLOSED: [2025-04-14 Mon 03:37]
 - [X] Crea ejemplos de funciones básicas que representen las diferentes

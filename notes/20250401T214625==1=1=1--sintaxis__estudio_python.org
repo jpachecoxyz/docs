@@ -1,0 +1,7 @@
+# -*- jinx-languages: "es_MX"; -*-
+#+title: Sintaxis
+#+date: [2025-04-12 Sat 12:39]
+#+filetags: :estudio:python:
+#+identifier: 20251001T214625
+#+author: Ing. Javier Pacheco
+#+startup: showall

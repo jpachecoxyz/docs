@@ -5,7 +5,6 @@
 #+identifier: 20250419T112526
 #+author: Ing. Javier Pacheco
 #+startup: showall
-
 Es un conjunto de tareas que son necesarias para compensar el desgaste de los equipos, al realizar este conjunto de tareas nos ayudara a evitar fallos inesperados en los equipos.
 
 Existen 3 tipos de formas de elaboración de un plan de mantenimiento:

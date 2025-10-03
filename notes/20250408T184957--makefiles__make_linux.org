@@ -5,7 +5,6 @@
 #+identifier: 20250408T184957
 #+author: Ing. Javier Pacheco
 #+startup: showall
-
 * Que es un Makefile.
 - make :: Es una utilidad que determina que archivos de cof=digo deben ser recomplilados y como.
 - makefile :: Es un archivo que indica a =make= como recompilar mi proyecto.

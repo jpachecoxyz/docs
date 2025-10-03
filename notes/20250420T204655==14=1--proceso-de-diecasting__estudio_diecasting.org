@@ -5,6 +5,5 @@
 #+identifier: 20250420T204655
 #+author: Ing. Javier Pacheco
 #+startup: showall
-
 
 El proceso de diecasting consiste en ...

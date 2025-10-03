@@ -5,7 +5,6 @@
 #+identifier: 20250414T190644
 #+author: Ing. Javier Pacheco
 #+startup: showall
-
 * DOING EJERCICIO: [1/2]
 - [X] Muestra ejemplos de creación de todas las estructuras soportadas por defecto
   en tu lenguaje.

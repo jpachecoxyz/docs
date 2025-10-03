@@ -5,7 +5,6 @@
 #+identifier: 20250411T223338
 #+author: Ing. Javier Pacheco
 #+startup: showall
-
 
 Mis proyectos personales (automatización, blog, desarrollo en Emacs, scripting, linux, etc.) no son solo ejercicios técnicos, sino herramientas que impactan directamente mi vida personal y profesional.
 Estaré plasmando mis proyectos mas ambiciosos y que presenten un reto para mi persona, estos proyectos podrán ser monetarios, o simplemente retando mi personalidad, para tener un enfoque mayor a las cosas, madurar, aprender de mis errores y demás, todo para mejorar.

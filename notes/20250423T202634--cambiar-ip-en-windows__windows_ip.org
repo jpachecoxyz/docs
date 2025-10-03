@@ -5,7 +5,6 @@
 #+identifier: 20250423T202634
 #+author: Ing. Javier Pacheco
 #+startup: showall
-
 En mis tiempos de programador PLC en un trabajo que tuve, para conectarme a estos
 equipos tenia que estar continuamente cambiando la IP del ordenador, para mi buena
 o mala suerte suelo ser algo flojo para este tipo de cosas, por lo cual me vi en 

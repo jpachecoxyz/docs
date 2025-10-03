@@ -5,7 +5,6 @@
 #+identifier: 20250408T192555
 #+author: Ing. Javier Pacheco
 #+startup: showall
-
 * Lista todos los links de la nota actual
 Esta necesidad surgió mientras planificaba mi "sistema" de note-taking, al estar creando notas, después al agregarlas al archivo meta, se me hacia tedioso buscar nota por nota, o borrar toda la lista e insertar las notas de nuevo utilizando la función =denote-insert-links-matching-regexp=, por lo cual me decidí hacer esta función, que selecciona la lista dentro de un header lvl 1, lo borra y lanza el comando de denote.
 

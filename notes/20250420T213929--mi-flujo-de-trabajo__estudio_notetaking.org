@@ -5,7 +5,6 @@
 #+identifier: 20250420T213929
 #+author: Ing. Javier Pacheco
 #+startup: showall
-
 Mi flujo de trabajo para el manejo de mis notas y conocimiento es el siguiente:
 
 1. En mi cuaderno (rojo) anotare mis ideas, pensamientos, etc.

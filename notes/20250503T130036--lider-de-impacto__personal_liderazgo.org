@@ -5,7 +5,6 @@
 #+identifier: 20250503T130036
 #+author: Ing. Javier Pacheco
 #+startup: showall
-
 Nadie va a venir a tu lugar a elegirte o a darte una oportunidad, eso no depende
 de tu jefe, del gerente o de algún amigo tuyo, depende unicamente de TI.
 

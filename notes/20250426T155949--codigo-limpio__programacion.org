@@ -6,7 +6,6 @@
 #+author: Ing. Javier Pacheco
 #+startup: showall
 #+SETUPFILE: ~/.emacs.d/latex/minimal.org
-
 * Leccion 1
 La premisa de la platica del =tio Bob= es Que tan lejos de la tierra esta el sol?.
 Bueno, a un tipo, hace 250mil anos llamado =Aristarco=, se planteo la pregunta

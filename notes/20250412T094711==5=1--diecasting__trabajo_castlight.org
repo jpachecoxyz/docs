@@ -5,7 +5,6 @@
 #+identifier: 20250412T094711
 #+author: Ing. Javier Pacheco
 #+startup: showall
-
 
 * Equipos.
 ** DCM.

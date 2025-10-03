@@ -5,7 +5,6 @@
 #+identifier: 20250423T174740
 #+author: Ing. Javier Pacheco
 #+startup: showall
-
 La semana pasada, me encontraba en mi trabajo, que de echo me gusta, soy bueno en
 lo que hago, me apasiona, mas sin embargo, como comentaba, ese día, era un día 
 normal, todo parecía ir bien, recuerdo que venia de comer con Salvador, cuando 

@@ -5,7 +5,6 @@
 #+identifier: 20250727T174913
 #+author: Ing. Javier Pacheco
 #+startup: showall
-
 * Conceptos Básicos
 - *Clave pública*: se comparte con otros. Sirve para cifrar mensajes hacia ti.
 - *Clave privada*: se guarda en secreto. Sirve para descifrar mensajes cifrados con tu clave pública o firmar mensajes.

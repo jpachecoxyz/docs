@@ -5,7 +5,6 @@
 #+identifier: 20250425T191314
 #+author: Ing. Javier Pacheco
 #+startup: showall
-
 #+begin_quote
 Si lo puedes medir, lo puedes controlar.
 #+end_quote

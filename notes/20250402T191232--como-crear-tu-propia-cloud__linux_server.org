@@ -5,7 +5,6 @@
 #+identifier: 20250402T191232
 #+author: Ing. Javier Pacheco
 #+startup: showall
-
 
 * Requerimientos.
 - [[https://ubuntu.com/download/server/thank-you?version=24.04.2&architecture=amd64&lts=true][Ubuntu-server LTS 24.04]]

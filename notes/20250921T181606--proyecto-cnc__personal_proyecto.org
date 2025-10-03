@@ -1,0 +1,181 @@
+# -*- jinx-languages: "es_MX"; -*-
+#+title: Proyecto CNC
+#+date: [2025-09-21 Sun 18:16]
+#+filetags: :personal:proyecto:
+#+identifier: 20250921T181606
+#+author: Ing. Javier Pacheco
+#+startup: showall
+#+SEQ\_TODO: TODO DOING REVIEW DONE
+
+* Acta de inicio (Project Charter)
+  :PROPERTIES:
+  :FechaInicio: 2025-09-21
+  :Alcance: Diseñar y construir una marcadora CNC controlada por Arduino capaz de marcar metal y/o plástico con una precisión de ±0.1 mm en un área de trabajo de 200x200 mm.
+  :PresupuestoEstimado: \$XXX (completar)
+  :DuracionEstimada: 12 semanas (estimado)
+  :END:
+
+** Objetivo
+Desarrollar una máquina marcadora CNC de sobremesa, bajo coste, modular y reproducible para pequeñas series y prototipos.
+
+** Beneficiarios
+
+* Taller propio / prototipado
+* Clientes locales (marcado de piezas)
+* Comunidad makers (open hardware posible)
+
+** Metodología
+- Enfoque híbrido: PMI (tradicional) para gestión y Lean para priorizar MVP y reducción de desperdicio.
+
+* Alcance (MVP vs Extra)
+
+-  MVP: estructura, ejes X/Y (guías lineales), motor paso a paso para ambos ejes, husillo/solenoide para marcar, controlador Arduino (uno/mega), driver de motores, fuente de alimentación, firmware básico que acepte G-code simple (G0,G1), interfaz de subida de archivos desde PC.
+-  Fuera de alcance (v1): eje Z motorizado con alta resolución, cámara de alineación automática, control por red (opcional), protección industrial completa.
+
+*  Stakeholders
+
+-  Sponsor: \[nombre del sponsor]
+-  Project Manager: TODO Javier
+-  Equipo: Mecánico, Electrónico, Firmware, UI/PC
+
+* Requisitos Principales
+
+- Precisión: ±0.1 mm
+- Área de trabajo: 200 x 200 mm
+- Velocidad: hasta 200 mm/s (ajustable)
+- Interfaz: conexión USB a PC con software de envío de G-code
+- Seguridad: interruptor de emergencia
+
+*  Work Breakdown Structure (WBS)
+** 1 Inicio
+*** 1.1 Acta de inicio (Project Charter)
+*** 1.2 Reunión kick-off
+** 2 Planificación
+*** 2.1 WBS detallado
+*** 2.2 Plan de riesgos
+*** 2.3 Plan de compras (BOM)
+** 3 Diseño mecánico
+*** 3.1 Selección de guías y perfiles
+*** 3.2 Diseño CAD del eje X/Y y sujeciones
+*** 3.3 Fabricación de piezas
+** 4 Electrónica
+*** 4.1 Selección Arduino y drivers (A4988/DRV8825/TMC2209)
+*** 4.2 Diseño del diagrama de conexiones
+*** 4.3 Montaje y pruebas de motores
+** 5 Firmware y software
+*** 5.1 Portar / adaptar firmware (GRBL/Marlin ligero)
+*** 5.2 Interfaz PC simple (Python/Processing)
+*** 5.3 Pruebas de movimiento y calibración
+** 6 Integración y pruebas
+*** 6.1 Pruebas de marcado en material de prueba
+*** 6.2 Ajustes mecánicos y de corriente de motor
+** 7 Cierre
+*** 7.1 Documentación final
+*** 7.2 Retrospectiva / lecciones aprendidas
+
+* Cronograma (Milestones)
+ |---------------------------+-------------------------------------------+----------------|
+ | Milestone                 | Descripción                               | Fecha estimada |
+ | Kick-off                  | Reunión inicial y confirmación de alcance |     2025-09-23 |
+ | Diseño mecánico terminado | CAD y lista de piezas                     |     2025-10-07 |
+ | Electrónica montada       | Placa y drivers probados                  |     2025-10-21 |
+ | Firmware funcional MVP    | Movimiento X/Y y marcado básico           |     2025-11-04 |
+ | Pruebas finalizadas       | Marcado en materiales reales              |     2025-11-18 |
+ | Cierre de proyecto        | Documentación y entrega                   |     2025-12-05 |
+
+*  BOM (Bill of Materials) - MVP (ejemplo)
+|--------+-----------------------------------------+-------------------------+-------------|
+|   Cant | Componente                              | Referencia / Notas      | Est. Precio |
+|      2 | Motor paso a paso NEMA17                | 1.8º, 2A                | \$XX        |
+|      2 | Driver A4988/DRV8825/TMC2209            | según elección          | \$XX        |
+|      1 | Arduino Uno / Mega                      | Mega si más E/S         | \$XX        |
+|      1 | Fuente 12V 5A                           | o 24V según drivers     | \$XX        |
+|      1 | Perfil de aluminio 2020/2040            | estructura              | \$XX        |
+|      2 | Guías lineales / varillas y rodamientos | Prusa-style o hiwin     | \$XX        |
+|      1 | Husillo de marcado (solenoide o scribe) | selector según material | \$XX        |
+|      1 | Endstops                                | mecánicos/ópticos       | \$X         |
+| varios | Tornillería, poleas, correas, acoples   |                         | \$XX        |
+
+*  Diagrama esquemático (texto)
+
+- Arduino UNO -> Drivers de motor (STEP/DIR) -> Motores NEMA17
+- Arduino GND/GND a PSU GND; PSU V+ a Drivers (VMOT)
+- Endstops -> entradas digitales (pull-up)
+- Solenoide/Husillo -> MOSFET de potencia controlado por Arduino
+- E-stop -> desconecta PSU o pone en low la señal enable
+
+* Firmware / Software
+** Recomendación: usar GRBL (ligero) o adaptar un build mínimo de Marlin si se necesita más flexibilidad.
+** Tareas firmware (con TODOs):
+
+* TODO Evaluar GRBL actual y forks compatibles con marcadores.
+* TODO Configurar microstepping y corriente en drivers.
+* TODO Implementar comandos para activar el marcador (M-codes personalizados).
+
+* Plan de pruebas y aceptación
+
+** Movimientos X/Y sin cargas
+** Lectura correcta de endstops
+** Control de solenoide/husillo
+*** Pruebas de integración
+** Marcar en material de prueba (aluminio, acero inoxidable fino, plástico)
+** Validación de precisión: medir con calibre y comparar con coordenadas solicitadas.
+*** Criterios de aceptación
+** Precisión dentro de ±0.1 mm en área de trabajo
+** Repetibilidad en marcado (±0.2 mm)
+** Interfaz estable y fiable para enviar G-code
+
+* Gestión de riesgos
+  |-----------------------------+---------+--------------+--------------------------------------------------------|
+  | Riesgo                      | Impacto | Probabilidad | Mitigación                                             |
+  | Fallo mecánico de guía      | Alto    | Media        | Comprar repuesto y diseñar tolerancias mayores         |
+  | Drivers sobrecalientan      | Medio   | Media        | Añadir refrigeración y ajustar corriente               |
+  | Firmware no soporta marcado | Alto    | Baja         | Plan B: escribir rutina simple de pulso para solenoide |
+
+* Lean: enfoque MVP y mejora continua
+
+- Definir experimento mínimo: "Marcar una línea de 50mm en aluminio 0.5 mm con precisión aceptable".
+- Ciclos PDCA rápidos (Plan-Do-Check-Act) para iterar.
+- Eliminación de desperdicio: reutilizar componentes comunes, diseñar piezas impresas 3D para sujeciones.
+
+* Roles y responsabilidades (Plantilla)
+
+- Project Manager :: TODO Javier
+- Diseño Mecánico :: TODO \[nombre]
+- Electrónica :: TODO \[nombre]
+- Firmware/Software :: TODO \[nombre]
+- QA / Pruebas :: TODO \[nombre]
+
+* Plantillas de tareas (Org mode)
+** TODO \[#A] Diseñar eje X
+  SCHEDULED: <2025-09-25 +3d>
+  :PROPERTIES:
+  :Responsable: \[nombre]
+  :Estimacion\_horas: 16
+  :END:
+
+* Registro de decisiones (DECISIONS)
+
+- 2025-09-21: Decidido usar Arduino UNO + GRBL como base para firmware (por simplicidad).
+
+* Documentos / Entregables
+
+- Esquemas eléctricos (PDF)
+- Modelos CAD (STEP/IGES)
+- Firmware fuente (Git repo)
+- Manual de usuario y guía de calibración
+
+*  KPIs y métricas
+
+- Tiempo desde pedido a primer prototipo (semanas)
+- Número de iteraciones hasta aceptación
+- Precisión medida (mm)
+
+* Checklist de cierre [0/3]
+
+- [ ] Validación final completada
+- [ ] Documentación subida a repositorio
+- [ ] Lecciones aprendidas documentadas
+
+* Notas finales
+Puedes usar este archivo como plantilla base; copia y adapta tareas, fechas y responsables. Si quieres que genere diagramas electrónicos (Esquema en Fritzing/Kicad), o un README para el firmware (GRBL), lo preparo a continuación.

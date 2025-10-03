@@ -5,7 +5,6 @@
 #+identifier: 20250412T095826
 #+author: Ing. Javier Pacheco
 #+startup: showall
-
 * TODO Datos y especificaciones.
 - Modelo :: H450
 - Serie ::
@@ -18,20 +17,10 @@
 ** lvl 12 :crypt:
 -----BEGIN PGP MESSAGE-----
 
-hQIKA3hasxM+B58RAQ/w0a0E0fEpGL8QrakfKN4IBC1mRhcFI7FbFDxnZPwRhzlF
-UAIfIcii8BGbxBf4rwQ5f33ny6rLF/BjFvodAgkOEN/Y/JLsylfuv6XnJUh2atod
-jOBSm4su9i9mUzwFTds4yrMCm2lS5XQrL6O+j7cTNiO/KdHAkI3OxCWUfvO9u2or
-CBufZacCvw0Iw3UoFOiY3CEo5kT3R59LoF2AAp1ME/GVX2ZP8T1V40dwgCnJSw1+
-z9zm+3rwSenDKi581Czt5Z1OB3qDp0wjHay7DC5Q2uyzZolqotWquVwl89Hn6Nhq
-1kYD2PsVsx0FjLaecyw3MtD2eujL5N8dyBfdj5SPMaPGsPhq7sVHUNj1lDfHlkrA
-PWuAZFJfEOkFgQhgs6t01QyTnQk/O0ugIhcRV2IL0cCj0ZCHaNqaSGdao5I3QrUF
-gfD2twLyGBZLo4ox+S/BzvqT3i9+dLw7klGDaFGx/Mcr9KsTRoGD+riHcDyYp33W
-AxWOaTtvzyUlzJy7fmsFjs995XDa043BUb/+dC80XsVu3noKIuAIY+Cq2dhsATOf
-DfP1fhQ4EiUBw7k9jLXJ+FBeAqiixrL63wPFCJ+seHtM74OroVl2Am/xZR06zO+2
-WAyhqqMzZTQeorpFJFpuO9dEap3TQaYXehYn6+qJP+fOESaQp41KpnU38pnR0l0B
-NHSoIwDYNpfIWjO17r43pcmM+ic43ybplLSlw+GpLXpttoUXr5ujVrDxOY/vlE6m
-Fx1iI29Ed9cC31iemvajTUbEFphH3xnVpI2IsYRiy2lej0nJf4KBU34oWrM=
-=zymk
+jA0ECQMKAaPc1QfCtCH/0lcBaMnh1FdEvTpL77hKh7HaBfyAFzkhhsyk8/UN9O8Z
+9udhSLQ2accVd4E6uACOohNy2AN84R9o2eGaQdEuD6d3V6aXuM8YniZ9yytqm/RB
+TyVuankmH+U=
+=7J2y
 -----END PGP MESSAGE-----
 
 ** lvl 8:
@@ -45,50 +34,26 @@ pass: a123
 ** Driver: :crypt:
 -----BEGIN PGP MESSAGE-----
 
-hQIMA3hasxM+B58RARAAyyL4c72PUBY/1nQl+Z/hmA+i1Zju8BAPy/dB8JT8P0B2
-0O7JltZ9Dc6rNIM/AqZeyKmekqQntLiGiSzd8tyChzZUBD4QAyKYnWYq1Qz5P5lz
-hHxosyiWmaeubqP9G8tHc6Dddf9DHRg9PGmMLJjcKeybAlQT3bLhG6RLywsAZfwF
-5u7cxf4akP7lnoV/bxuQ9GqYDGyBgW/Dp5Ddv8jQhORJOcPAonHx7cYg2qjDImPx
-bB5sk+4GBm4PjWl9zA17HGC0hBil6UYZKIktiKP5n7ZaY4SVbfw6r4Qa51FEIj1E
-PUJmFG3q4OPHYQtCRBUe514a+gSvtM/iVksq1MvBZMmpNtoUKz3Ert40c1mUB6n/
-M6OkHIN5HwCs6LyuX56Pa7L3G/M5ZYAKlYnXpuHDmV/Jy6xqox5nYGfRLz1Jcu4f
-MsUU1FHfDqW6wtrZ7qsbxRgWIlMORQZpSUNje+BYYK521pejfmOT7dijKu2yFJP1
-FVfMJBKMS9ds78yEWLYXm09/EaSdu/IRH2PF5cmXMQntHiHETpI0EoqSENdW/oV0
-WlC3kR8tswFkYu/MEELvAsHXXIuEPLj1a6RSZ77Qhc/gzU6GkZ0GC2ScLeoQKNhI
-++PcaKZ6uV4JFQ9tQz+CCSjIc08kpGZB7mOhFZ3yEBrcLctTWXHsYzfEwlel4dDS
-SAElQn2Wc/CJa4kTCzUA0WVlCfnQsOBMOXrzl4CGnDJHv7Ql2oGHN9DC8e9ahWsY
-zBI2jZhuVO6omXiFGCGwnTu2GLpHUABq4w==
-=nddM
+jA0ECQMKO0KnhuhkGyD/0mwBc9BqSRhbBxlGSuA4yRvop5ZxQxU/9E825vkLizR1
+m0KEUVLEdcNIb4NW4LCR3IOoGkFjyCZIJ7inMH0c3QxcJTG2zl8kWSz3VwxwxHAA
+tVzcY3QqWzeUDqmt5AafamM9VLaolviuYjbT0sA=
+=2aWT
 -----END PGP MESSAGE-----
 
 * Fallas Considerables.
 ** 4-Abril-2025
-Maquina dejo de hacer movimientos, Se revisaron TODAS las válvulas del bloque
-de cierre, no se encontraron fallas aparentes. Por lo cual se decidió pedir
-soporte a =Haitian=.
+Maquina dejo de hacer movimientos, Se revisaron TODAS las válvulas del bloque de cierre, no se encontraron fallas aparentes. Por lo cual se decidió pedir soporte a =Haitian=.
 Revisando con =Haitian China=, se dieron cuenta que habia unos parámetros movidos:
 - Debug mode :: ON, (debe de estar OFF)
 - Combined in Manual :: ON, (debe estar OFF)
 - Use simplify mold open :: ON, (debe estar OFF)
 - Use step movement :: OFF, (debe estar ON)
 
-Al regresar estos valores a su estado normal, la maquina hizo movimientos
-normales.
-Cabe mencionar que esta maquina tenian acceso la mayoría de empleados al
-usuario de manager, por lo cual se cambiaron contraseñas, y se cargo un software
-con protección adicional, de manera que el acceso quedo restringido a como
-esta la Haitian 4, que para mover dichos parámetros se necesita un código QR
-que codifica =Haitian China= y que tiene vigencia de 10 minutos.
+Al regresar estos valores a su estado normal, la maquina hizo movimientosnormales.
+Cabe mencionar que esta maquina tenian acceso la mayoría de empleados al usuario de manager, por lo cual se cambiaron contraseñas, y se cargo un software con protección adicional, de manera que el acceso quedo restringido a como esta la Haitian 4, que para mover dichos parámetros se necesita un código QR que codifica =Haitian China= y que tiene vigencia de 10 minutos.
 
 ** 11-Abril-2025 2:30 pm
-Revisando la maquina, Alejandro de Leon, nota que hay un ruido extraño en la
-maquina, a lo cual procedemos a revisar la bomba hidráulica, y notamos que
-en reposo la bomba estaba girando al revés. Esta maquina tiene tecnología
-=Echo Friendly=, lo cual significa que en reposo no debe estar girando la bomba.
-Revisamos el driver del motor, y notamos que tenia lectura de RPM's en valor
-negativo (por que estaba girando al revés).
-Pedimos soporte a Ángel del equipo de =Haitian=, y nos dieron instrucciones de
-revisar algunos parámetros del driver:
+Revisando la maquina, Alejandro de Leon, nota que hay un ruido extraño en la maquina, a lo cual procedemos a revisar la bomba hidráulica, y notamos que en reposo la bomba estaba girando al revés. Esta maquina tiene tecnología =Echo Friendly=, lo cual significa que en reposo no debe estar girando la bomba. Revisamos el driver del motor, y notamos que tenia lectura de RPM's en valor negativo (por que estaba girando al revés).Pedimos soporte a Ángel del equipo de =Haitian=, y nos dieron instrucciones de revisar algunos parámetros del driver:
 
 | Parametro | Valor antes | Valor Después | Comentarios                                                         |
 |-----------+-------------+---------------+---------------------------------------------------------------------|
@@ -102,3 +67,11 @@ trabajando correctamente.
 
 **  3-Julio-2025
 Reemplazo de empaques de Cilindro de cierre.
+
+** El problema persiste.
+Después de lo de los parámetros anteriores, el problema seguía presentándose, después nos dimos cuenta de que el parámetro *An.18* si se ponía a 0 entonces el driver volvía a su estado normal.
+
+*** Septiembre 27.
+El motor empezo a comportarse de la misma manera (girando en reversa en reposo), Intentamos poner el parametro *An.18* en 0, pero el problema persiste, Haitian esta en planta instalando las maquinas nuevas.
+
+*NOTA:* El parametro =An.19= se puso en 3 en lugar de 0 corrigiendo la falla. Esto nos indica que la solucion a este detalle puede no ser ese parametro, ya que en las ocaciones pasadas el parametro =An.18= se encontraba con valor 3 y se movia a 0 para solucionar el detalle, ahora estaba en 1, se coloco en 0 sin solucion, despues se coloco 3 y respondio bien.

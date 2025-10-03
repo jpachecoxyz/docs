@@ -5,7 +5,6 @@
 #+identifier: 20250424T214802
 #+author: Ing. Javier Pacheco
 #+startup: showall
-
 El problema de tener un equipo multífuncional, sea de ventas, mantenimiento, 
 de estudio, etc. es que muchas veces y no me dejaras mentir que mucha de las veces
 pensaste que las cosas no iban a salir bien, y sentías la necesidad de hacer las 

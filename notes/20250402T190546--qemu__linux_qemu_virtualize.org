@@ -1,11 +1,10 @@
 # -*- jinx-languages: "es_ES"; -*-
 #+title: Qemu
 #+date: [2025-04-02 Wed 19:05]
-#+filetags: :estudio:linux:
+#+filetags: :linux:qemu:virtualize:
 #+identifier: 20250402T190546
 #+author: Ing. Javier Pacheco
 #+startup: showall
-
 
 * Crear una imagen qcow2 usando qemu-img:
 

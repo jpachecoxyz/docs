@@ -5,4 +5,3 @@
 #+identifier: 20250426T153116
 #+author: Ing. Javier Pacheco
 #+startup: showall
-

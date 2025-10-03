@@ -5,7 +5,6 @@
 #+identifier: 20250405T155152
 #+author: Ing. Javier Pacheco
 #+startup: showall
-
 Esta guia es sugerida cuando por error haz formateado la particion boot al instalar un SO nuevo, y te llevas de paso el boot de windows. Me a pasado en mas de una ocacion, por eso e decidido documentarlo.
 
 Me a pasado tambien cuando se borra el arranque de Windows, entonces, los siguientes pasos son unicamente para copiar lso archivos de arranque de windows a travez de la iso en la particion sin tener que formatearla.

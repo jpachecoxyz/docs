@@ -5,7 +5,6 @@
 #+identifier: 20250524T100042
 #+author: Ing. Javier Pacheco
 #+startup: showall
-
 * 📌 Módulo 1: ¿Qué es el Die Casting?
 El diecasting (fundición a presión) es un proceso de fabricación en el cual
 se inyecta metal fundido en un molde de acero a alta presión, formando piezas

@@ -5,7 +5,6 @@
 #+identifier: 20250412T094749
 #+author: Ing. Javier Pacheco
 #+startup: showall
-
 * Maquinas:
 #+BEGIN: denote-links :regexp "==5.*--haitian.*_trabajo_castlight" :excluded-dirs-regexp t :sort-by-component nil :reverse-sort nil :id-only nil :include-date nil
 [[file:20250412T095803==5=1=1=1--haitian-4__trabajo_castlight.org][5=1=1=1  Haitian 4]]

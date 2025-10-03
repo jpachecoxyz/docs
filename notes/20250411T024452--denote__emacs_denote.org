@@ -5,7 +5,6 @@
 #+identifier: 20250411T024452
 #+author: Ing. Javier Pacheco
 #+startup: showall
-
 
 =denote.el= es un paquete minimalista de Emacs para tomar notas basado en el concepto de *Zettelkasten*. No depende de una base de datos, y su estructura se basa en nombres de archivos informativos que incluyen:
 

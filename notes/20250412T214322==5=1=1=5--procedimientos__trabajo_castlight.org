@@ -5,7 +5,6 @@
 #+identifier: 20250412T214322
 #+author: Ing. Javier Pacheco
 #+startup: showall
-
 
 * Inyección.
 Las maquinas Haitian trabajan con un calculo de presión para el =Fast= y el =Boost=, por lo cual por lo regular siempre manejan ambos la misma presión:

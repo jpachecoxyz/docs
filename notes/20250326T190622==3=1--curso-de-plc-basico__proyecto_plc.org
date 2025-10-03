@@ -5,7 +5,6 @@
 #+identifier: 20250326T190622
 #+author: Ing. Javier Pacheco
 #+startup: showall
-
 
 * Introducción
 Este curso está diseñado para proporcionar una base sólida en el uso de PLCs,

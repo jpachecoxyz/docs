@@ -5,7 +5,6 @@
 #+identifier: 20250430T193904
 #+author: Ing. Javier Pacheco
 #+startup: showall
-
 * Tipos de archivos.
 - .exs :: Archivos de configuracion, no son compilados.
 - .ex :: Archivos propios del lenguage, si son compilados.

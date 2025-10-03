@@ -1,0 +1,67 @@
+# -*- jinx-languages: "es_MX"; -*-
+#+title: C Language
+#+date: [2025-09-30 Tue 21:55]
+#+filetags: :estudio:c:
+#+identifier: 20250930T215552
+#+author: Ing. Javier Pacheco
+#+startup: showall
+* Introduction
+C is a general-purpose, procedural programming language that has influenced many modern languages such as C++, Python, and Go.
+It is often considered the "mother" of modern programming languages because of its impact on compilers, operating systems, and embedded systems.
+
+This file will serve as a *meta-collection* of my notes and explorations as I learn the C language.
+
+* Why Learn C?
+- To understand low-level programming concepts (memory, pointers, stack/heap).
+- To strengthen knowledge of how operating systems and compilers work.
+- To improve problem-solving skills by working close to hardware.
+- To build a strong foundation for learning other languages.
+
+* TODO Learning Goals [0/9]
+- [ ] Understand the structure of a C program (headers, main function, etc.).
+- [ ] Learn about variables, data types, and operators.
+- [ ] Study control flow: conditionals and loops.
+- [ ] Explore functions and modular programming.
+- [ ] Understand arrays, strings, and pointers.
+- [ ] Learn about memory management (malloc, free).
+- [ ] Work with files (reading/writing).
+- [ ] Practice debugging with tools like gdb.
+- [ ] Create small projects to reinforce concepts.
+
+* Roadmap for Notes
+This meta-file will reference other Org files or sections dedicated to specific topics:
+
+** Basics
+Notes about syntax, compiling, and running first programs.
+
+** Data Types & Variables
+Primitive types, type modifiers, constants, and scope.
+
+** Control Flow
+Conditionals, loops, switch statements.
+
+** Functions
+Declaration, definition, recursion, parameter passing.
+
+** Pointers and Memory
+Addressing, pointer arithmetic, dynamic memory allocation.
+
+** Data Structures
+Arrays, strings, structs, enums, unions.
+
+** Input/Output
+Standard I/O, file handling, command-line arguments.
+
+** Advanced Topics
+- Preprocessor directives
+- Header files and modular programming
+- Working with libraries
+- Error handling
+
+* Resources
+- Book: "The C Programming Language" by Kernighan and Ritchie
+- Online: https://en.cppreference.com/w/c
+- Practice: https://exercism.org/tracks/c
+
+* Reflections
+I will use this section to note progress, difficulties, and insights during my learning journey.

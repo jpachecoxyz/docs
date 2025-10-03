@@ -5,7 +5,6 @@
 #+identifier: 20250413T135435
 #+author: Ing. Javier Pacheco
 #+startup: showall
-
 * DONE EJERCICIO: [3/3]
 CLOSED: [2025-04-13 Sun 14:45]
 - [X] Crea ejemplos utilizando todos los tipos de operadores de tu lenguaje:

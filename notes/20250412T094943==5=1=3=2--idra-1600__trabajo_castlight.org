@@ -5,7 +5,6 @@
 #+identifier: 20250412T094943
 #+author: Ing. Javier Pacheco
 #+startup: showall
-
 * TODO Datos y especificaciones.
 - Modelo :: 1500T
 - Serie ::
@@ -16,8 +15,20 @@
 :VISIBILITY: folded
 :END:
 ** Main :crypt:
-ALPHA
+-----BEGIN PGP MESSAGE-----
+
+jA0ECQMKYA1O4LZi/NH/0jwBsphLA9O2BjFemSHjdMHfAjh7pFQLta0Cm0bOLlKx
+/qvh60aTo0ssS+wktxHDDIVrrprRtG9YfOkMFEU=
+=qEvW
+-----END PGP MESSAGE-----
 
 * Fallas Considerables.
 ** 21-Junio-2025
 Maquina no hace movimientos.
+
+* Prensa de corte
+** PLC
+Para poder conectarse al PLC de esta maquina es necesario:
+- Computadora de Mantenimiento.
+- Cable serial.
+- Modulo PIC.

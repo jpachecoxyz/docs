@@ -5,7 +5,6 @@
 #+identifier: 20250413T131505
 #+author: Ing. Javier Pacheco
 #+startup: showall
-
 * Una guía que te ayuda a mejorar.
 Sigue la ruta de estudio para aprender los fundamentos del lenguaje de programación que quieras desde su base, de manera práctica, paso a paso y en comunidad.
 Cada ejercicio se explica en detenimiento para ayudarte a mejorar tu lógica de programación mientras estudias las características más importantes del lenguaje.

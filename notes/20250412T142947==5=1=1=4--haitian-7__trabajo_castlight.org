@@ -5,4 +5,25 @@
 #+identifier: 20250412T142947
 #+author: Ing. Javier Pacheco
 #+startup: showall
-
+
+* TODO Datos y especificaciones.
+- Marca :: Haitian
+- Modelo :: H350
+- Serie ::
+- Peso máximo de platinas ::
+
+* Información general.
+
+** Llegada a la planta,
+La Maquina llego el dia dd/mm/aaaa/
+
+Algunos de los detalles que encontramos en la maquina:
+
+* Robot
+** TODO Datos y especificaciones.
+- Marca :: ABB
+- Modelo ::
+- Serie ::
+- Peso máximo de platinas ::
+
+** Información general.

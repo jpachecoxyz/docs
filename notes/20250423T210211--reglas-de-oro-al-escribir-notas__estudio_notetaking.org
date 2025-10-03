@@ -5,25 +5,13 @@
 #+identifier: 20250423T210211
 #+author: Ing. Javier Pacheco
 #+startup: showall
-
-Estoy leyendo un [[https://medium.com/@bianca_oli_per/the-rule-of-thumb-for-creating-atomic-notes-without-stressing-about-atomicity-5df7baeb1591][articulo]] acerca de las reglas de oro para escribir notas atómicas
-el cual hace comentarios acerca de cuales son algunos de los caminos que esta persona
-recomienda para hacer sus notas. En los últimos días me e estado estresando un poco
-porque no se como empezar estas notas y/o miniensayos, porque?? porque no se como
-empezar, no se de que escribir, pero estoy perdiendo el enfoque de lo que realmente
-importa que es: *El contenido propio de la nota*.
+Estoy leyendo un [[https://medium.com/@bianca_oli_per/the-rule-of-thumb-for-creating-atomic-notes-without-stressing-about-atomicity-5df7baeb1591][articulo]] acerca de las reglas de oro para escribir notas atómicas el cual hace comentarios acerca de cuales son algunos de los caminos que esta persona recomienda para hacer sus notas. En los últimos días me e estado estresando un poco porque no se como empezar estas notas y/o miniensayos, porque?? porque no se como empezar, no se de que escribir, pero estoy perdiendo el enfoque de lo que realmente importa que es: *El contenido propio de la nota*.
 
-El hecho de que este creando notas atómicas (que lo serán, o no, el tiempo mismo
-lo decidirá), no significa que tengan que ser estrictamente pequeñas, si tengo que
-regresar a =x= nota a agregar mas contenido, pues lo haré, eventualmente se convertirá
-en un miniensayo, un articulo o mas, pero todo tendrá que evolucionar de manera natural.
+El hecho de que este creando notas atómicas (que lo serán, o no, el tiempo mismo lo decidirá), no significa que tengan que ser estrictamente pequeñas, si tengo que regresar a =x= nota a agregar mas contenido, pues lo haré, eventualmente se convertirá en un miniensayo, un articulo o mas, pero todo tendrá que evolucionar de manera natural.
 
-Entonces porque se llaman notas atómicas si no son notas pequeñas?
-Son notas atómicas porque se enfocan en una idea principal, en una idea, no en el 
-tamaño de la nota.
+Entonces porque se llaman notas atómicas si no son notas pequeñas? Son notas atómicas porque se enfocan en una idea principal, en una idea, no en el  tamaño de la nota.
 
-Lo que si es importante hacer es; si la nota tiene mas de una idea, entonces si hay
-que separarla, porque pierde el sentido de ser una nota atómica.
+Lo que si es importante hacer es; si la nota tiene mas de una idea, entonces si hay que separarla, porque pierde el sentido de ser una nota atómica.
 
 Entonces, las reglas de oro son:
 1. Enfoque en una sola idea.

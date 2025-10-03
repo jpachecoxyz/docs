@@ -5,7 +5,6 @@
 #+identifier: 20250422T193424
 #+author: Ing. Javier Pacheco
 #+startup: showall
-
 
 Invertir al rededor del 10 al 20% de tus ingresos mensuales, NO es regla de oro,
 pero es un buen comienzo, de echo si esta dentro de las posibilidades puedes

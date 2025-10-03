@@ -5,7 +5,6 @@
 #+identifier: 20250412T094832
 #+author: Ing. Javier Pacheco
 #+startup: showall
-
 * TODO Datos y especificaciones.
 - Modelo :: K580
 - Serie ::
@@ -36,7 +35,7 @@ jVECzdBec1qzmOYEGRAQOe4Sr+8UXHCrqZwm5yV5Bu18pDDMWx03qkue
 =CTlo
 -----END PGP MESSAGE-----
 
-* TODO [#A] Pendientes [0/7][0%].
+* DOING [#A] Pendientes [1/7][14%].
 :PROPERTIES:
 :RESPONSABLE: Rene Chavez
 :END:
@@ -44,7 +43,7 @@ jVECzdBec1qzmOYEGRAQOe4Sr+8UXHCrqZwm5yV5Bu18pDDMWx03qkue
 - [ ] Reparar Tapas de paneles eléctricos.
 - [ ] Re acomodo de cableado eléctrico.
 - [ ] Reparación de fuga interna.
-- [ ] Cambio de válvula 3S12.
+- [X] Cambio de válvula 3S12.
 - [ ] Mejora en la seguridad de la puerta. No depender de un micro-switch.
 - [ ] Reemplazo de Protección mecánica.
 

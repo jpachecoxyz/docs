@@ -6,9 +6,9 @@
 )
 #set par(justify: true)
 #set text(
-    font: "Iosevka",
-    size: 10pt,
-    lang: "es"
+    font: "JetBrainsMono NF",
+    size: 9pt,
+    // lang: "es"
 )
 
 // Title:
@@ -21,8 +21,8 @@
 #align(left, text(16pt)[#smallcaps("Experiencia Laboral:")])
 
 = Group Lead Maintenance - Diecast
-_[2024 - Actual - Acuity Brands (Castight de Mexico). - H. Matamoros, Tam.]_\
-Responsable del departamento de mantenimiento del area de DieCasting.\
+_[2024 - Actual - Castlight de Mexico. - H. Matamoros, Tam.]_\
+Responsable del departamento de mantenimiento del área de Diecasting.\
 *Funciones y Responsabilidades:*
 + Coordinar las actividades diarias del equipo de mantenimiento en turno.
 + Supervisar el mantenimiento de máquinas de fundición a presión, hornos, robots, sistemas hidráulicos y neumáticos.
@@ -66,38 +66,45 @@ Responsable de la validación de procesos y dispositivos ante clientes como GM, 
 = Técnico de Mantenimiento
 _[2015 - 2017 - Fisher Dynamics - H. Matamoros, Tam.]_
 
-Responsable de 3 líneas de ensamble, responsable del mantenimiento de dichas líneas de ensamble, responsable de depurar problemas de las nuevas líneas de ensamblaje que llegan a la fábrica en ese momento, programar algunas rutinas en el plc para mejoras.
+Responsable de 3 líneas de ensamble, responsable del mantenimiento de dichas líneas de ensamble, responsable de depurar problemas de las nuevas líneas de ensamblaje que llegaron a la fábrica en ese momento, programar algunas rutinas en el plc para mejoras.
+- Mantenimientos preventivos a Maquinas de soldadura por laser.
+- Mantenimientos preventivos a equipos, fixtures, lineas de ensamble.
 
 = Técnico de Procesos
 _[2014 - 2015 - Core Molding Technologies - H. Matamoros, Tam.]_
 
 Responsable de 5 líneas de ensamblaje, validando todo el proceso de ensamblaje del producto final (Hoods, Hi/Sky Rise y piezas de servicio) para diferentes clientes (Navistar, Volvo y Paccar).
 Modificación y creación de programas para robots Fanuc para el corte de material con agua a alta presión.
+- Modificacion a rutinas de Robots Fanuc.
+- Revision diaria al proceso tales como mezcla de pinturas, resinas, pegamento,etc.
 
 = Técnico Eléctrico
 _[2013 - 2014 - Tecnología y Diseños HIGOH - H. Matamoros, Tam.]_
 
 Fabricación y cableado de accesorios para clientes. Interpretación de los diagramas eléctricos y neumáticos requeridos por los clientes. Responsabilidad de el cableado del panel de control, sensores, interruptores, PLC (incluyendo modificaciones de programa), calibraciones de LVDT, reveladores, HMI (incluyendo modificaciones de programa).
 Servicio de mantenimiento de equipos de clientes como TRW (Reynosa), Erika (Reynosa), Trico (Matamoros), Magna Closures (Saltillo, Coahuila) y otros.
+- Cableado electrico en general de paneles de control.
+- Soporte Tecnico directo con clientes.
 
 #pagebreak()
 #align(left, text(16pt)[*#smallcaps("Habilidades y Fortalezas:")*])
 
 #align(left, text(12pt)[*#smallcaps("- Administrativo:")*])
 - Manejo de personal
-- KPI's de Mantenimiento. (MTTR \& MTBF).
+- KPI's de Mantenimiento. (MTTR, MTBF, Downtime).
 - Paquetería Office.
 - Trabajo en equipo.
 
 #align(left, text(12pt)[*#smallcaps("- Automatización:")*])
-- Rslogix\/Studio5000 (Allen Bradley PLC, Certificate of .4 hrs of training.)
-- CX-Programmer (OMON PLC, Certificate of training.)
-- Tia Portal (Siemens PLC [Basic], Certificate of basic knowledge.)
-- Keyence Vision Training.
+- Rslogix\/Studio5000 (Allen Bradley PLC, Certificado de .4 hrs de curso en plataforma oficial de Rockwell Automation.)
+- CX-Programmer (OMON PLC, Certificado de Curso.)
+- Tia Portal (Siemens PLC [Basic], Certificado de curso basico.)
+- Curso de Vision Keyence.
 
 #align(left, text(12pt)[*#smallcaps("- Programación:")*])
--  Python.
--  GNU/Linux
+-  Python (Intermedio)
+-  C (Basico)
+-  Rust (Basico)
 
 #align(left, text(12pt)[*#smallcaps("- Idiomas:")*])
 - Ingles 80%
@@ -118,5 +125,5 @@ _Licenciatura en Ingeniería en Mantenimiento Industrial. P.L: 10985535_
 
 // Local Variables:
 // jinx-languages: "es_ES"
-// jinx-local-words: "Autoliv Bühler Diecasting"
+// jinx-local-words: "Autoliv Bühler Castlight Diecast Diecasting Reynosa"
 // End:

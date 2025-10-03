@@ -5,7 +5,6 @@
 #+identifier: 20250326T204828
 #+author: Ing. Javier Pacheco
 #+startup: showall
-
 
 * Mazterizacion de un Robot /Fanuc/.
 La masterizacion asocia el angulo existente entre las marcas moviles y las marcas fijas de cada eje respectivamente con los pulsos generados en los encoders absolutos (APC = encoder absoluto), los cuales estan mecanicamente acoplados al eje de cada motor. La posicion actual del robot es determinada por los pulsos de los encoders. Mas especificamente, la masterfizacion se realiza para obtener los pulsos leidos en la posicion de cero grados =marcas= cero mecanico. Una caracteristica muy importante de un encoder es su resolucion: Numero de pulsos generados en una vuelta completa de eje.

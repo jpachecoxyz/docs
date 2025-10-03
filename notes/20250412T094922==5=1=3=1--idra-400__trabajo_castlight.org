@@ -5,4 +5,3 @@
 #+identifier: 20250412T094922
 #+author: Ing. Javier Pacheco
 #+startup: showall
-

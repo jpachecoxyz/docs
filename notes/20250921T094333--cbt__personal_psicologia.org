@@ -1,0 +1,78 @@
+# -*- jinx-languages: "es_MX"; -*-
+#+title: CBT
+#+date: [2025-09-21 Sun 09:43]
+#+filetags: :personal:psicologia:
+#+identifier: 20250921T094333
+#+author: Ing. Javier Pacheco
+#+startup: showall
+* Introducción:
+Los ejercicios CBT se refieren a actividades prácticas usadas en la Terapia Cognitivo-Conductual (en inglés Cognitive Behavioral Therapy, CBT).
+CBT es un enfoque psicológico que ayuda a identificar y cambiar patrones de pensamiento y comportamiento poco útiles para reducir problemas como ansiedad, depresión, estrés, fobias, etc.
+
+Los ejercicios CBT son herramientas que buscan entrenar a la persona para:
+
+- Identificar pensamientos automáticos (por ejemplo, “no soy capaz”).
+- Evaluar su validez (¿es cierto?, ¿hay evidencia en contra?).
+- Modificar creencias irracionales por otras más realistas.
+- Cambiar conductas asociadas a esos pensamientos.
+
+Algunos ejemplos típicos de ejercicios CBT:
+
+- Ejercicio :: Objetivo
+- Registro de pensamientos :: Anotar situaciones, emociones y pensamientos automáticos para analizarlos.
+- Reestructuración cognitiva :: Buscar y reemplazar ideas distorsionadas por otras más equilibradas.
+- Exposición gradual :: Afrontar poco a poco situaciones que generan ansiedad.
+- Activación conductual :: Programar actividades placenteras para mejorar el ánimo.
+- Entrenamiento en relajación :: Practicar técnicas como respiración profunda o relajación muscular.
+- Role-playing :: Ensayar conversaciones o conductas para mejorar habilidades sociales.
+
+* Ejemplos de ejercicios CBT
+** Registro de Pensamientos
+
+Cuándo usarlo: Cuando notes ansiedad, tristeza o enojo.
+Cómo hacerlo:
+Escribe la situación que te afectó.
+Anota qué pensaste en ese momento.
+Escribe cómo te sentiste (emociones y nivel 0-100%).
+Busca evidencias a favor y en contra de ese pensamiento.
+Reformula el pensamiento con uno más realista y vuelve a evaluar tu emoción.
+
+Ejemplo:
+Situación: “Mi jefe no me saludó.”
+Pensamiento: “Seguro está enojado conmigo.”
+Evidencia en contra: “A veces anda distraído.”
+Nuevo pensamiento: “Quizás estaba ocupado y no me vio.”
+
+** Respiración Diafragmática (relajación)
+
+Siéntate con la espalda recta.
+Coloca una mano en el abdomen y otra en el pecho.
+Inhala lentamente por la nariz (4 segundos), notando cómo se eleva tu abdomen.
+Mantén 1-2 segundos.
+Exhala lentamente por la boca (6 segundos).
+Hazlo 5 minutos cuando notes tensión.
+
+** Exposición Gradual
+
+Haz una lista de situaciones que te generan ansiedad (de menor a mayor).
+Empieza enfrentando la menos temida, usando respiración o distracciones si es necesario.
+Repite hasta que baje tu ansiedad antes de pasar a la siguiente.
+Ejemplo: Si temes hablar en público, primero habla frente a un amigo, luego a dos, luego en reuniones pequeñas.
+
+** Programar Actividades Placenteras (Activación Conductual)
+
+Anota 3 actividades simples que antes te gustaban (caminar, escuchar música, cocinar).
+Planifícalas en tu agenda aunque no tengas ganas.
+Evalúa tu ánimo antes y después.
+Esto ayuda a contrarrestar la inactividad y el ánimo bajo.
+
+** Desafiar Pensamientos “Todo o Nada”
+
+Cuando te descubras pensando en extremos (“Siempre”, “Nunca”), pregúntate:
+¿Hay excepciones?
+¿Qué le diría a un amigo si pensara así?
+¿Qué es lo peor, lo mejor y lo más probable que pase?
+Esto entrena a tu mente para ver matices y reduce la ansiedad.
+
+*Tip: Lo más eficaz es elegir 1 o 2 ejercicios, practicarlos a diario y registrar tus avances.*
+*Con la práctica, el cerebro se acostumbra a pensar de manera más flexible y tranquila.*

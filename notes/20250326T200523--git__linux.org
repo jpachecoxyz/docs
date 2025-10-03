@@ -5,7 +5,6 @@
 #+identifier: 20250326T200523
 #+author: Ing. Javier Pacheco
 #+startup: showall
-
 
 * Cambiar de HTTPS a SSH
 #+begin_src shell

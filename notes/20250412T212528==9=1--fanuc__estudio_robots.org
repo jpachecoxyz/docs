@@ -5,7 +5,6 @@
 #+identifier: 20250412T212528
 #+author: Ing. Javier Pacheco
 #+startup: showall
-
 #+BEGIN: denote-links :regexp "==9=1=.*" :excluded-dirs-regexp nil :sort-by-component nil :reverse-sort nil :id-only nil :include-date nil
 [[file:20250326T201544==9=1=1--fanuc-backup__trabajo_robots.org][9=1=1  Fanuc Backup]]
 [[file:20250326T204828==9=1=2--masterizacion-de-robot-fanuc__trabajo_robots.org][9=1=2  Masterizacion de Robot Fanuc]]

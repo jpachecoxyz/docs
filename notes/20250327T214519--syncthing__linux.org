@@ -5,7 +5,6 @@
 #+identifier: 20250327T214519
 #+author: Ing. Javier Pacheco
 #+startup: showall
-
 
 * Instalacion.
 Syncthing debe estar en la mayoria de las distribuiciones linux, ademas de MacOS, y Windows. 🤮

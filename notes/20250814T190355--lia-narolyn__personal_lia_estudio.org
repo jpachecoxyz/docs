@@ -5,14 +5,17 @@
 #+identifier: 20250814T190355
 #+author: Ing. Javier Pacheco
 #+startup: showall
-
 * Primaria.
 ** Primer Grado.
-**** Útiles escolares [0/4].
-- [ ] Cuadernos
-- [ ] Plumas
-- [ ] Lapices
-- [ ] Zapatos
+**** Útiles escolares [4/4].
+- [X] Cuadernos
+- [X] Plumas
+- [X] Lapices
+- [X] Zapatos
+**** Evento de 16 de Septiembre. [1/3][33%]
+- [X] Vestido.
+- [ ] Cooperación de 250.
+- [ ] Quermés
 
 ** Segundo Grado.
 ** Tercer Grado.

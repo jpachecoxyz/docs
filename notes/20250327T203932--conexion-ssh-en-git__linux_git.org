@@ -5,7 +5,6 @@
 #+identifier: 20250327T203932
 #+author: Ing. Javier Pacheco
 #+startup: showall
-
 * Dependencias:
 Para poder conectarse a =github= por ssh, debemos tener las siguientes dependencias:
 - ssh.

@@ -5,8 +5,31 @@
 #+identifier: 20250412T142926
 #+author: Ing. Javier Pacheco
 #+startup: showall
-
 * TODO Datos y especificaciones.
+- Marca :: Haitian
 - Modelo :: H850
 - Serie ::
 - Peso máximo de platinas ::
+
+* Información general.
+
+** Llegada a la planta,
+La Maquina llego el dia dd/mm/aaaa/, llego en 3 partes:
+1. Platina móvil.
+2. Unidad de inyección.
+3. Bancada.
+
+Por lo cual =Haitian= se encargo de el ensamble de la maquina.
+- Llego con la barra superior derecha mas salida, por lo cual =Haitian= realizo el ajuste de esta barra.
+- Los amarres provocaron que algunas partes se doblaran.
+- Lineas de lubricación de barra inferior derecha rotas.
+- tubería de agua rota.
+
+* Robot
+** TODO Datos y especificaciones.
+- Marca :: ABB
+- Modelo ::
+- Serie ::
+- Peso máximo de platinas ::
+
+** Información general.

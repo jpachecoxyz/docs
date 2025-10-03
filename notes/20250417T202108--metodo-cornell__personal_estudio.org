@@ -5,7 +5,6 @@
 #+identifier: 20250417T202108
 #+author: Ing. Javier Pacheco
 #+startup: showall
-
 El método de toma de notas Cornell o método de notas Cornell es un sistema de toma
 de apuntes creado en la década de los 50 por Walter Pauk, un profesor de educación
 en la Universidad de Cornell. Pauk recomendó el uso de este sistema en su libro

@@ -5,7 +5,6 @@
 #+identifier: 20250811T202406
 #+author: Ing. Javier Pacheco
 #+startup: showall
-
 * Introduccion.
 ** Filling ratio.
 El =filling ratio= es generalmente expresado en % (porcentaje), es el porcentaje

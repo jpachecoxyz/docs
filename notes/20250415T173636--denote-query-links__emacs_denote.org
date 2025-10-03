@@ -5,7 +5,6 @@
 #+identifier: 20250415T173636
 #+author: Ing. Javier Pacheco
 #+startup: showall
-
 Denote query links es lo mas nuevo de la versión 4.0, este paquete lo he estado
 esperando desde que empece a usar denote.
 

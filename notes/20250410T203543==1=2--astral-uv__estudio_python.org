@@ -5,7 +5,6 @@
 #+identifier: 20250410T203543
 #+author: Ing. Javier Pacheco
 #+startup: showall
-
 UV es una herramienta súper rápida para manejar proyectos de python. Esta escrita en Rust por los mismos desarrolladores de =ruff=.
 
 * Resumen.

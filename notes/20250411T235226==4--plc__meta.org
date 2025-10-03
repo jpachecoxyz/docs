@@ -5,7 +5,6 @@
 #+identifier: 20250411T235226
 #+author: Ing. Javier Pacheco
 #+startup: showall
-
 * Siemens
 - [[file:20250411T235251==4=1--siemens__estudio_plc.org][4=1  Siemens]]
 

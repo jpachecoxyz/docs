@@ -1,0 +1,14 @@
+# -*- jinx-languages: "es_MX"; -*-
+#+title: Rapid
+#+date: [2025-10-02 Thu 18:05]
+#+filetags: :estudio:programacion:robots:industrial:
+#+identifier: 20251002T180524
+#+author: Ing. Javier Pacheco
+#+startup: showall
+=Rapid= es el lennguage de programacion que utilizan los robots de marca =ABB=
+
+#+begin_example
+! Acceleration is limited to 50% of the normal value.
+AccSet 50, 100;
+Add reg1, 3;
+#+end_example

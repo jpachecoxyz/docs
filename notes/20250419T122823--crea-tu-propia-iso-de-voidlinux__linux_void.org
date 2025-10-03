@@ -5,7 +5,6 @@
 #+identifier: 20250419T122823
 #+author: Ing. Javier Pacheco
 #+startup: showall
-
 
 * Referencias
 [[https://www.youtube.com/embed/378rU-wpLX4?t=29https://www.youtube.com/embed/378rU-wpLX4?t=29][Void-Mklive - Jake@Linux]]
