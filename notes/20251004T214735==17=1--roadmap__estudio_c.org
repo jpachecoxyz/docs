@@ -1,0 +1,11 @@
+# -*- jinx-languages: "es_MX"; -*-
+#+title: Roadmap
+#+date: [2025-10-04 Sat 21:47]
+#+filetags: :estudio:c:
+#+identifier: 20251004T214735
+#+author: Ing. Javier Pacheco
+#+startup: showall
+
+
+* Referencias:
+[[https://cs50.harvard.edu/x/2024/][CS50 Introduction to Computer Science]]

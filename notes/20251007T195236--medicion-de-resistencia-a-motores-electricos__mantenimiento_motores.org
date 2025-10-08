@@ -1,0 +1,81 @@
+# -*- jinx-languages: "es_MX"; -*-
+#+title: Medicion de Resistencia a Motores Eléctricos
+#+date: [2025-10-07 Tue 19:52]
+#+filetags: :mantenimiento:motores:
+#+identifier: 20251007T195236
+#+author: Ing. Javier Pacheco
+#+startup: showall
+
+El procedimiento para la prueba DAR (Dielectric Absorption Ratio) en motores eléctricos consiste en medir la resistencia de aislamiento a los 30 segundos y a 1 minuto, calculando su relación (IR 1 min / IR 30 s) para evaluar el estado del aislamiento del devanado. Para ello, se des energiza el motor, se conecta un megóhmetro a los devanados y tierra, y se registran las lecturas en esos dos tiempos, comparando la relación obtenida con valores de referencia para identificar la contaminación o humedad que indican un posible fallo.
+
+La prueba PI es recomendada para motores con estatores de devanados de pletina y la prueba DAR para motores de baja potencia (menos de 100 HP) con devanados de alambre redondo. Ambas pruebas buscan limitar la sensibilidad a la temperatura que se presenta en la prueba IR, e indicar el estado de aislamiento por efecto de humedad y otros contaminantes. En la práctica, para motores de baja potencia y de devanados de alambre redondo, se suele considerar únicamente las pruebas IR y DAR ya que la polarización se logra obtener en tiempos menores a los 10 minutos y muchas veces basta con la prueba IR puntual.
+
+* Procedimiento DAR:
+
+** Preparación del Motor:
+- Desenergiza y desconecta el motor de la alimentación eléctrica. Accede a las borneras del motor si es necesario.
+
+** Conexión del Megóhmetro:
+
+- Conecta el cable de tierra del megóhmetro al bastidor o conexión a tierra del motor.
+- Conecta la punta de prueba a uno de los terminales de un devanado.
+
+** Realización de la Prueba:
+
+Selecciona la tensión de prueba adecuada en el megóhmetro (generalmente 500V CC).
+
+- Inicia la prueba y espera 30 segundos, registrando la lectura de resistencia (IR 30 seg).
+- Espera 1 minuto y registra la lectura de resistencia (IR 1 min).
+- Asegúrate de que las bornas no medidas durante la prueba estén conectadas a tierra para mejorar la precisión.
+
+** Cálculo del DAR:
+Calcula el DAR dividiendo la resistencia a los 1 minuto entre la resistencia a los 30 segundos.
+
+    DAR = IR 1 min / IR 30 seg .
+
+** Prueba en los Devanados:
+- Repite la prueba en cada uno de los devanados del motor para verificar el aislamiento individualmente.
+
+
+* Procedimiento PI
+** Preparación del Motor:
+- Des energiza y desconecta el motor de la alimentación eléctrica. Accede a las borneras del motor si es necesario.
+
+** Conexión del Megóhmetro:
+
+- Conecta el cable de tierra del megóhmetro al bastidor o conexión a tierra del motor.
+- Conecta la punta de prueba a uno de los terminales de un devanado.
+
+** Realización de la Prueba:
+
+Selecciona la tensión de prueba adecuada en el megóhmetro (generalmente 500V CC).
+
+- Inicia la prueba y espera 1 minuto, registrando la lectura de resistencia (IR 10 min).
+- Espera 1 minuto y registra la lectura de resistencia (IR 1 min).
+
+** Cálculo del PI:
+Calcula el DAR dividiendo la resistencia a los 10 minutos entre la resistencia a el primer minuto
+
+    PI = IR 10 min / IR 1 min
+
+** Prueba en los Devanados:
+- Repite la prueba en cada uno de los devanados del motor para verificar el aislamiento individualmente.
+
+
+* Interpretación del Resultado:
+Un valor DAR bajo puede indicar alta contaminación o humedad en el aislamiento, sugiriendo un posible problema de deterioro.
+Compara los resultados con las tablas de valores de referencia proporcionadas por el fabricante del motor o los estándares como la norma IEEE 43-2000 para determinar si el aislamiento está en buenas condiciones.
+
+| Estatus de resistencia de aislamiento | Indice de polarización (PI) | Indice de absorción dieléctrica |
+|---------------------------------------+-----------------------------+---------------------------------|
+| Peligroso                             | < 1                         | < 1.1                           |
+| Malo                                  | > 1.0 ; ; 1.5               | > 1.10 ; < 1.25                 |
+| Bueno                                 | > 1.5 ; < 2                 | > 1.25 ; < 1.40                 |
+| Muy bueno                             | > 2.0 ; < 4                 | > 1.40 ; < 1.60                 |
+
+
+* Fuentes:
+- Normativa IEEE 43 – 2000
+- Normativa IEEE 43 – 2013
+- Máquinas Eléctricas. Stephen J. Chapman. Quinta Edición.
+- Máquinas Eléctricas. Apuntes ITCR. Ing. Oscar Nunez.

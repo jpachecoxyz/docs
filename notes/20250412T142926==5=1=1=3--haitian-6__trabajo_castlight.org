@@ -1,4 +1,4 @@
-# -*- jinx-languages: "es_MX"; -*-; -*-
+# -*- jinx-languages: "es_MX"; -*-
 #+title: Haitian 6
 #+date: [2025-04-12 Sat 14:29]
 #+filetags: :trabajo:castlight:
@@ -28,6 +28,47 @@ Por lo cual =Haitian= se encargo de el ensamble de la maquina.
 * Robot
 ** TODO Datos y especificaciones.
 - Marca :: ABB
+- Modelo ::
+- Serie ::
+- Peso máximo de platinas ::
+
+** Información general.
+
+* Trim
+** TODO Datos y especificaciones.
+- Marca ::
+- Modelo ::
+- Serie ::
+- Peso máximo de platinas ::
+
+** Información general.
+* Quench tank
+** TODO Datos y especificaciones.
+- Marca ::
+- Modelo ::
+- Serie ::
+- Peso máximo de platinas ::
+
+** Información general.
+* Inspection
+** TODO Datos y especificaciones.
+- Marca ::
+- Modelo ::
+- Serie ::
+- Peso máximo de platinas ::
+
+** Información general.
+* Conveyor
+** TODO Datos y especificaciones.
+- Marca ::
+- Modelo ::
+- Serie ::
+- Peso máximo de platinas ::
+
+** Información general.
+* Mixer
+** TODO Datos y especificaciones.
+- Marca ::
 - Modelo ::
 - Serie ::
 - Peso máximo de platinas ::
