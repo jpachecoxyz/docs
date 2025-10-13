@@ -1,0 +1,24 @@
+# -*- jinx-languages: "en_EN"; -*-
+#+title: Objects, Functions and Types
+#+date: [2025-10-11 Sat 20:59]
+#+filetags: :estudio:c:
+#+identifier: 20251011T205947
+#+author: Ing. Javier Pacheco
+#+startup: showall
+
+* Declaring Variables.
+When you declare a variable, you assign it a type and provide it a name, or identifier, by which to reference the variable.
+Listing 2-1 declares two integer objects with initial values. This simple program also declares, but doesn’t define, a swap function to swap those values.
+
+#+begin_src c
+#include <stdio.h>
+
+void swap(int, int); // defined in Listing 2-2
+int main(void) {
+    int a = 21;
+    int b = 17;
+    swap(a, b);
+    printf("main: a = %d, b = %d\n", a, b);
+    return 0;
+}
+#+end_src

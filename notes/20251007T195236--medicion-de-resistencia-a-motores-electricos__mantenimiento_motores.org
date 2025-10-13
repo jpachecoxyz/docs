@@ -31,7 +31,11 @@ Selecciona la tensión de prueba adecuada en el megóhmetro (generalmente 500V C
 ** Cálculo del DAR:
 Calcula el DAR dividiendo la resistencia a los 1 minuto entre la resistencia a los 30 segundos.
 
-    DAR = IR 1 min / IR 30 seg .
+#+begin_example
+
+DAR = IR 1 min / IR 30 seg .
+
+#+end_example
 
 ** Prueba en los Devanados:
 - Repite la prueba en cada uno de los devanados del motor para verificar el aislamiento individualmente.
@@ -56,7 +60,11 @@ Selecciona la tensión de prueba adecuada en el megóhmetro (generalmente 500V C
 ** Cálculo del PI:
 Calcula el DAR dividiendo la resistencia a los 10 minutos entre la resistencia a el primer minuto
 
-    PI = IR 10 min / IR 1 min
+#+begin_example
+
+PI = IR 10 min / IR 1 min
+
+#+end_example
 
 ** Prueba en los Devanados:
 - Repite la prueba en cada uno de los devanados del motor para verificar el aislamiento individualmente.
@@ -69,7 +77,7 @@ Compara los resultados con las tablas de valores de referencia proporcionadas po
 | Estatus de resistencia de aislamiento | Indice de polarización (PI) | Indice de absorción dieléctrica |
 |---------------------------------------+-----------------------------+---------------------------------|
 | Peligroso                             | < 1                         | < 1.1                           |
-| Malo                                  | > 1.0 ; ; 1.5               | > 1.10 ; < 1.25                 |
+| Malo                                  | > 1.0 ; 1.5                 | > 1.10 ; < 1.25                 |
 | Bueno                                 | > 1.5 ; < 2                 | > 1.25 ; < 1.40                 |
 | Muy bueno                             | > 2.0 ; < 4                 | > 1.40 ; < 1.60                 |
 
