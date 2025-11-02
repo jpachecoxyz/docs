@@ -5,5 +5,6 @@
 #+identifier: 20250606T214536
 #+author: Ing. Javier Pacheco
 #+startup: showall
+
 * Referencias:
 [[https://www.youtube.com/watch?v=tIS-1PmHAkE][Curso de logica de programacion - Sergio Code]]

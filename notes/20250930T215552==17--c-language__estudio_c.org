@@ -5,6 +5,7 @@
 #+identifier: 20250930T215552
 #+author: Ing. Javier Pacheco
 #+startup: showall
+
 * Introduction
 C is a general-purpose, procedural programming language that has influenced many modern languages such as C++, Python, and Go.
 It is often considered the "mother" of modern programming languages because of its impact on compilers, operating systems, and embedded systems.

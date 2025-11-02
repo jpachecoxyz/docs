@@ -1,0 +1,15 @@
+# -*- jinx-languages: "es_MX"; -*-
+#+title: Los presupuestos
+#+date: [2025-11-01 Sat 14:04]
+#+filetags: :personal:trabajo:
+#+identifier: 20251101T140435
+#+author: Ing. Javier Pacheco
+#+startup: showall
+
+* Plantilla
+Que se hace, porque es necesario y que pasa si no se hace.
+Cual es el origen de esta frase?, bueno, recien miraba un video acerca de un tecnico electrico haciendo un trabajo electrico, en el cual el comentaba que antes sus clientes no se sentian satisfechos con las tarifas que el manejaba, por lo cual reflexionando llego a la conclucion de que estaba cobrando =encriptado=, refiriendose a que no se explicaba de manera clara con el cliente, de ahi el separo su diagnostico en 3 principales factaores:
+
+1. Que se realizara.
+2. Porque es necesario.
+3. Que pasa si no se hace.

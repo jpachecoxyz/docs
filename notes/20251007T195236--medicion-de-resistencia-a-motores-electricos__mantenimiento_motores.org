@@ -8,7 +8,7 @@
 
 El procedimiento para la prueba DAR (Dielectric Absorption Ratio) en motores eléctricos consiste en medir la resistencia de aislamiento a los 30 segundos y a 1 minuto, calculando su relación (IR 1 min / IR 30 s) para evaluar el estado del aislamiento del devanado. Para ello, se des energiza el motor, se conecta un megóhmetro a los devanados y tierra, y se registran las lecturas en esos dos tiempos, comparando la relación obtenida con valores de referencia para identificar la contaminación o humedad que indican un posible fallo.
 
-La prueba PI es recomendada para motores con estatores de devanados de pletina y la prueba DAR para motores de baja potencia (menos de 100 HP) con devanados de alambre redondo. Ambas pruebas buscan limitar la sensibilidad a la temperatura que se presenta en la prueba IR, e indicar el estado de aislamiento por efecto de humedad y otros contaminantes. En la práctica, para motores de baja potencia y de devanados de alambre redondo, se suele considerar únicamente las pruebas IR y DAR ya que la polarización se logra obtener en tiempos menores a los 10 minutos y muchas veces basta con la prueba IR puntual.
+La prueba PI es recomendada para motores con estátores de devanados de pletina y la prueba DAR para motores de baja potencia (menos de 100 HP) con devanados de alambre redondo. Ambas pruebas buscan limitar la sensibilidad a la temperatura que se presenta en la prueba IR, e indicar el estado de aislamiento por efecto de humedad y otros contaminantes. En la práctica, para motores de baja potencia y de devanados de alambre redondo, se suele considerar únicamente las pruebas IR y DAR ya que la polarización se logra obtener en tiempos menores a los 10 minutos y muchas veces basta con la prueba IR puntual.
 
 * Procedimiento DAR:
 
