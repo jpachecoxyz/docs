@@ -1,0 +1,24 @@
+# -*- jinx-languages: "es_MX"; -*-
+#+title: Digitalización
+#+date: [2025-11-08 Sat 14:02]
+#+filetags: :trabajo:castlight:diecasting:
+#+identifier: 20251108T140207
+#+author: Ing. Javier Pacheco
+#+startup: showall
+
+* Objetivo.
+Uno de los principales metas del corporativo es digitalizar los procesos del corporativo, por lo cual se estará desarrollando este proyecto.
+
+* TODO Fases del proyecto [0/3]
+- [ ] Diseño de la estructura.
+- [ ] Conexion entre PLC's.
+- [ ] Creacion de rutina de PLC Maestro.
+  
+* IDEA Estructura del proyecto.
+
+* Lista de Materiales y herramientas. [0/5]
+- [ ] Pinzas para cable de red.
+- [ ] Cable de red.
+- [ ] Bobina de cable #18.
+- [ ] Ferrules.
+- [ ] Relevadores.

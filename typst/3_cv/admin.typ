@@ -6,7 +6,8 @@
 )
 #set par(justify: true)
 #set text(
-    font: "JetBrainsMono NF",
+     // font: "JetBrainsMono NF",
+     font: "Iosevka NF",
     size: 9pt,
     // lang: "es"
 )

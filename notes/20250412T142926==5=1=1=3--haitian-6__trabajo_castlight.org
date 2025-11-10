@@ -5,6 +5,7 @@
 #+identifier: 20250412T142926
 #+author: Ing. Javier Pacheco
 #+startup: showall
+
 * TODO Datos y especificaciones.
 - Marca :: Haitian
 - Modelo :: H850
@@ -30,7 +31,7 @@ Por lo cual =Haitian= se encargo de el ensamble de la maquina.
 - Marca :: ABB
 - Modelo ::
 - Serie ::
-- Peso máximo de platinas ::
+- Peso máximo de mordazas ::
 
 ** Información general.
 
