@@ -1,0 +1,71 @@
+# -*- jinx-languages: "es_MX"; -*-
+#+title: Puentes en QEMU
+#+date: [2025-11-15 Sat 14:45]
+#+filetags: :qemu:virtualize:
+#+identifier: 20251115T144536
+#+author: Ing. Javier Pacheco
+#+startup: showall
+
+Guía paso a paso para crear puentes de red entre la maquina "host" y la maquina virtual.
+
+* Objetivo:
+Entender como funcionan los =Bridges= en =QEMU=, ya que necesito conectarme a un =PLC= via Ethernet, por lo tanto necesito conocer como funciona.
+
+* Comandos:
+- Agregar el puente
+#+begin_src bash
+ip link add name br0 type bridge
+#+end_src
+
+- Levantar el dispositivo, basicamente encenderlo.
+#+begin_src bash
+ip link set dev br0 up
+#+end_src
+
+- Hacer el puente, Aqui le diremos a la interface real que apunte a la interface real. Por ejemplo: la interface =enp1s0= apunta a =br0=
+#+begin_src bash
+ip link set enp1s0 master br0
+#+end_src
+
+- Agreagar la ip a las interfaces.
+#+begin_src bash
+ip add add 192.168.0.100/24 dev br0
+#+end_src
+
+- +Agrega enlace para tener Red+. *NOTA: Esto es solo para simular puente para conexion a internet cableado, en mi caso no lo necesito.*
+#+begin_src bash
+ip route add default via 192.68.0.254
+#+end_src
+
+Con esto, ya esta cconfigurado el puente y la ip de los dispositivos.
+
+* Lanzando QEMU
+Ejemplo de comando generico para lanzar QEMU con la especificacion del puente creado, en este caso =br0=:
+
+#+begin_src bash
+qemu-system-x86_64 \
+    --enable-kvm \
+    -m 8G \
+    -smp 4 \
+    -cpu qemu64 \
+    -M q35 \
+    -drive file=siemens.qcow2,media=disk,cache=unsafe \
+    -full-screen \
+    -vga virtio \
+    -audiodev pipewire,id=audiodev1 \
+    -device intel-hda \
+    -device hda-duplex,audiodev=audiodev1 \
+    -rtc base=localtime \
+    -net nic -net bridge,br=br0
+    # -net nic -net bridge,br=br3
+#+end_src
+
+* Ejercicio:
+La necesidad es poder conectarme a un PLC desde una maquina virtual. Entonces:
+
+- [X] Necesito habilitar un puerto de red para poder modificarlo desde la MV.
+- [X] En la maquina virtual, cambiar la IP del dispositivo.
+- [X] En el Software del PLC, poder comunicarme con este.
+
+* Referencias:
+[[https://www.youtube.com/watch?v=Byi5GLuloJw&pp=ygULYnJpZGdlIHFlbXU%3D][Open vSwitch with BRIDGE and TAP interface with QEMU security enhancement | LastDragon]]

@@ -9,16 +9,18 @@
 * Objetivo.
 Uno de los principales metas del corporativo es digitalizar los procesos del corporativo, por lo cual se estará desarrollando este proyecto.
 
-* TODO Fases del proyecto [0/3]
+* TODO Fases del proyecto [0/4]
+- [ ] Planteamiento del Objetivo.
 - [ ] Diseño de la estructura.
 - [ ] Conexion entre PLC's.
 - [ ] Creacion de rutina de PLC Maestro.
   
 * IDEA Estructura del proyecto.
 
-* Lista de Materiales y herramientas. [0/5]
+* Lista de Materiales y herramientas. [0/6]
 - [ ] Pinzas para cable de red.
+- [ ] Etiquetadora.
 - [ ] Cable de red.
-- [ ] Bobina de cable #18.
+- [ ] Bobina de cable #18 color azul. 
 - [ ] Ferrules.
 - [ ] Relevadores.
