@@ -9,7 +9,7 @@
 Guía paso a paso para crear puentes de red entre la maquina "host" y la maquina virtual.
 
 * Objetivo:
-Entender como funcionan los =Bridges= en =QEMU=, ya que necesito conectarme a un =PLC= via Ethernet, por lo tanto necesito conocer como funciona.
+Entender como funcionan los /Bridges/ en /QEMU/, ya que necesito conectarme a un /PLC/ via Ethernet, por lo tanto necesito conocer como funciona.
 
 * Comandos:
 - Agregar el puente
@@ -22,7 +22,7 @@ ip link add name br0 type bridge
 ip link set dev br0 up
 #+end_src
 
-- Hacer el puente, Aqui le diremos a la interface real que apunte a la interface real. Por ejemplo: la interface =enp1s0= apunta a =br0=
+- Hacer el puente, Aquí le diremos a la interfase real que apunte a la interfase real. Por ejemplo: la interfase /enp1s0/ apunta a /br0/
 #+begin_src bash
 ip link set enp1s0 master br0
 #+end_src
@@ -32,21 +32,20 @@ ip link set enp1s0 master br0
 ip add add 192.168.0.100/24 dev br0
 #+end_src
 
-- +Agrega enlace para tener Red+. *NOTA: Esto es solo para simular puente para conexion a internet cableado, en mi caso no lo necesito.*
+- +Agrega enlace para tener Red+. *NOTA: Esto es solo para simular puente para conexión a internet cableado, en mi caso no lo necesito.*
 #+begin_src bash
 ip route add default via 192.68.0.254
 #+end_src
 
-Con esto, ya esta cconfigurado el puente y la ip de los dispositivos.
+Con esto, ya esta configurado el puente y la ip de los dispositivos.
 
 * Lanzando QEMU
-Ejemplo de comando generico para lanzar QEMU con la especificacion del puente creado, en este caso =br0=:
-
+Ejemplo de comando genérico para lanzar QEMU con la especificación del puente creado, en este caso /br0/:
 #+begin_src bash
 qemu-system-x86_64 \
     --enable-kvm \
     -m 8G \
-    -smp 4 \
+    -smp 8 \
     -cpu qemu64 \
     -M q35 \
     -drive file=siemens.qcow2,media=disk,cache=unsafe \

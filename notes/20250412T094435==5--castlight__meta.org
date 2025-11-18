@@ -5,9 +5,7 @@
 #+identifier: 20250412T094435
 #+author: Ing. Javier Pacheco
 #+startup: showall
-En castlight, me dieron la oportunidad de ejercer como supoervisor de mantenimiento
-del area de diecasting. Lo cual genero un reto en mi profesion, ya que es mi primera
-vez realizando este rol de trabajo. 
+En castlight, me dieron la oportunidad de ejercer como supoervisor de mantenimiento del area de diecasting. Lo cual genero un reto en mi profesión, ya que es mi primera vez realizando este rol de trabajo. 
 
 * Areas. 
 - [[file:20250412T094711==5=1--diecasting__trabajo_castlight.org][5=1  Diecasting]]

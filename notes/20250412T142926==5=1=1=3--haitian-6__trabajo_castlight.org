@@ -25,6 +25,15 @@ Por lo cual =Haitian= se encargo de el ensamble de la maquina.
 - Los amarres provocaron que algunas partes se doblaran.
 - Lineas de lubricación de barra inferior derecha rotas.
 - tubería de agua rota.
+  
+** Pendiente por Haitian [0/7]
+- [ ] Guarda de cortina de seguridad.
+- [ ] Linea de lubricación trasera.
+- [ ] Guardas de Trim dobladas.
+- [ ] Conector de encoder de Trim.
+- [ ] Sensor de inspección de overflows.
+- [ ] Anclajes.
+- [ ] Entrenamiento a detalle, creacion de programas, funcionamiento general de la maquina.
 
 * Robot
 ** TODO Datos y especificaciones.
@@ -32,6 +41,15 @@ Por lo cual =Haitian= se encargo de el ensamble de la maquina.
 - Modelo ::
 - Serie ::
 - Peso máximo de mordazas ::
+
+** Información general.
+
+* Mixer
+** TODO Datos y especificaciones.
+- Marca ::
+- Modelo ::
+- Serie ::
+- Peso máximo de platinas ::
 
 ** Información general.
 
@@ -43,6 +61,7 @@ Por lo cual =Haitian= se encargo de el ensamble de la maquina.
 - Peso máximo de platinas ::
 
 ** Información general.
+
 * Quench tank
 ** TODO Datos y especificaciones.
 - Marca ::
@@ -51,6 +70,7 @@ Por lo cual =Haitian= se encargo de el ensamble de la maquina.
 - Peso máximo de platinas ::
 
 ** Información general.
+
 * Inspection
 ** TODO Datos y especificaciones.
 - Marca ::
@@ -59,15 +79,8 @@ Por lo cual =Haitian= se encargo de el ensamble de la maquina.
 - Peso máximo de platinas ::
 
 ** Información general.
-* Conveyor
-** TODO Datos y especificaciones.
-- Marca ::
-- Modelo ::
-- Serie ::
-- Peso máximo de platinas ::
 
-** Información general.
-* Mixer
+* Conveyor
 ** TODO Datos y especificaciones.
 - Marca ::
 - Modelo ::
