@@ -1,4 +1,4 @@
-# -*- jinx-languages: "es_MX"; -*-; -*-
+# -*- jinx-languages: "es_MX"; -*-
 #+title: Idra 1600
 #+date: [2025-04-12 Sat 09:49]
 #+filetags: :trabajo:castlight:
@@ -24,7 +24,20 @@ jA0ECQMKYA1O4LZi/NH/0jwBsphLA9O2BjFemSHjdMHfAjh7pFQLta0Cm0bOLlKx
 
 * Fallas Considerables.
 ** 21-Junio-2025
-Maquina no hace movimientos.
+Maquina no hace movimientos. Diagnostico, Fallas en tarjetas de PLC.
+
+** 22-Noviembre-2025 Maquina no levanta presion. [8/10]
+Se realizaron las siguientes actividades:
+- [X] Cambio de bomba #2.
+- [X] Bloqueo de unidad hidráulica de inyección para descartar fugas en esa sección.
+- [X] Drenado de aceite.
+- [X] Revisión de porta filtros de succión.
+- [X] Instalación de manómetros en salida de bomba principal #2
+- [X] Instalación de tuercas en tornillo de sello de porta filtro de succión.
+- [X] Revisión de válvula 1S11. Condiciones OK
+- [X] Revisión de válvula 1S1. Condiciones OK
+- [ ] Revisión de paletas de bomba.
+- [ ] Válvulas de alta presión con voltaje.
 
 * Prensa de corte
 ** PLC
