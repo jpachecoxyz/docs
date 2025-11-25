@@ -1,0 +1,54 @@
+# -*- jinx-languages: "en_US"; -*-
+#+title: Lisp
+#+date: [2025-11-22 Sat 12:10]
+#+filetags: :estudio:lisp:
+#+identifier: 20251122T121048
+#+author: Ing. Javier Pacheco
+#+startup: showall
+
+* Introduction
+This archive is written in emacs by me: Ing Javier Pacheco. The lisp programming language is one of my most loved programming languages, is the second language that I like the most. So this archive is intended to be a "guide" to the basics of lisp, and in the future is going to be a org document of course written in emacs.
+
+* Functions:
+Define a function called "hi"
+When you define a function, you need to use the "defun" keyword an add "()" after the function name, see the "hi()" function below:
+
+#+begin_src lisp
+;;; FUNCTIONS
+(defun hi()
+  (print "Hello World"))
+
+;; To run a function you need to simply called it like the example below:
+(hi)
+#+end_src
+
+#+RESULTS:
+: Hello World
+
+* Functions parameters
+Inside the "()" of the function names you must add the parameters needed in the defined function:
+
+#+begin_src lisp
+;;; FUNCTION PARAMETERS
+(defun greet(name)
+  (print (concatenate 'string "Hello World! " name)))
+
+(greet "Javier")
+#+end_src
+
+#+RESULTS:
+: Hello World! Javier
+
+* Recursion
+In Lisp, recursion is a very common thing, here is an example of recursion, the =factorial= code.
+
+#+begin_src lisp
+(defun factorial(num)
+  ; The code checks if the parameter is 1, if so returns 1
+  (if (<= num 1) 1
+      ; else multiplies num times the factorial minus 1 recursively until achieves the nummber 1
+      (* num (factorial (- num 1)))))
+
+(print (factorial 5))
+#+end_src
+
