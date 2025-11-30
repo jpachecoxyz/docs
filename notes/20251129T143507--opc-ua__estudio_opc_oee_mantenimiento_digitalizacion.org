@@ -23,9 +23,9 @@ La máquina Haitian con sistema KEBA funciona como **servidor OPC-UA**, por lo q
 1. Descargar UaExpert:  
    https://www.unified-automation.com/products/development-tools/uaexpert.html
 2. Conectar al endpoint:
-   #+begin_src
-   opc.tcp://192.168.2.1:4842
-   #+end_src
+#+begin_src
+opc.tcp://192.168.2.1:4842
+#+end_src
 3. Acceder como =Anonymous= (a menos que requiera certificado).
 4. Navegar nodos OPC-UA para ver:
    - Variables de proceso
@@ -54,12 +54,12 @@ Esto permite que el PLC lea los datos como tags normales.
 *Opción C — Leer desde Python*
 
 1. Instalar librería:
-   #+begin_src bash
+#+begin_src bash
    pip install opcua
-   #+end_src
+#+end_src
 
 2. Código de ejemplo:
-   #+begin_src python
+#+begin_src python
 from opcua import Client
 
 url = "opc.tcp://192.168.2.1:4842"
@@ -74,7 +74,7 @@ valor = node.get_value()
 print("Valor leído:", valor)
 
 client.disconnect()
-   #+end_src
+#+end_src
 
 *Opción D — Integración con SCADA o MES*
 
