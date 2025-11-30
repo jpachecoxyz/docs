@@ -5,6 +5,7 @@
 #+identifier: 20250419T115930
 #+author: Ing. Javier Pacheco
 #+startup: showall
+
 Un protocolo de mantenimiento, es un listado de tareas a realizar en un tipo concreto de equipo.
 Es importante que antes de realizar el plan de mantenimiento hay que clasificar los equipos como equipos genéricos.
 
@@ -15,7 +16,7 @@ En el protocolo de mantenimiento de un equipo debe incluirse al menos la siguien
 - Necesidad de un trabajo especial :: Si es trabajo en alturas, en espacio confinado, etc.
 - condición del equipo :: Si el equipo debe o no estar en marcha para realizar la tarea.
 
-[[/home/javier/docs/notes/img/20250419T113330--mtto-basado-en-protocolos__estudio_mantenimiento.png]]
+[[/home/javier/Documents/Emacs/notes/img/20250419T113330--mtto-basado-en-protocolos__estudio_mantenimiento.png]]
 
 * Tipos de tareas incluidas en un protocolo de mantenimiento.
 - Inspecciones sensoriales.
@@ -62,12 +63,12 @@ Conciderar todos los equipos como mantenibles hace inviable el =plan de mantenim
 
 * Clacificacion de equipos.
 Una vez tengamos el listado de los equipos, tendremos que agrupar y clasificar los equipos por grupos.
-[[/home/javier/docs/notes/img/20250419T224846--clasificacion-de-equipos-mantenibles__estudio_mantenimiento.png]]
+[[/home/javier/Documents/Emacs/notes/img/20250419T224846--clasificacion-de-equipos-mantenibles__estudio_mantenimiento.png]]
 
 * Aplicacion de protocolos
 Teniendo agrupados los equipos ya solo restara ir decidiendo que protocolo de mantenimiento le correspondera a cada tipo de equipo dependiendo de la clasificacion que le hayamos asignado.
-[[/home/javier/docs/notes/img/20250419T225823--aplicacion-de-protocolos__estudio_mantenimiento.png]]
+[[/home/javier/Documents/Emacs/notes/img/20250419T225823--aplicacion-de-protocolos__estudio_mantenimiento.png]]
 
 * Ejemplo de protocolo de mantenimiento. 
-[[/home/javier/docs/notes/img/20250419T230709--ejemplo-protocolo-mantenimiento__estudio_mantenimiento.png]]
+[[/home/javier/Documents/Emacs/notes/img/20250419T230709--ejemplo-protocolo-mantenimiento__estudio_mantenimiento.png]]
 

@@ -5,18 +5,9 @@
 #+identifier: 20250424T214802
 #+author: Ing. Javier Pacheco
 #+startup: showall
-El problema de tener un equipo multífuncional, sea de ventas, mantenimiento, 
-de estudio, etc. es que muchas veces y no me dejaras mentir que mucha de las veces
-pensaste que las cosas no iban a salir bien, y sentías la necesidad de hacer las 
-cosas tu mismo, y que fue lo que paso en la mayoría de las veces que hiciste eso?
-así es, el equipo fallo, y ese es uno de los primeros errores que cometemos cuando 
-nos entregan o nos toca liderar un equipo, que no sabemos delegar responsabilidades.
+El problema de tener un equipo multífuncional, sea de ventas, mantenimiento, de estudio, etc. es que muchas veces y no me dejaras mentir que mucha de las veces pensaste que las cosas no iban a salir bien, y sentías la necesidad de hacer las cosas tu mismo, y que fue lo que paso en la mayoría de las veces que hiciste eso? así es, el equipo fallo, y ese es uno de los primeros errores que cometemos cuando nos entregan o nos toca liderar un equipo, que no sabemos delegar responsabilidades.
 
-No puedes hacer que tu equipo haga las cosas como tu las haces, no pueden pensar
-como tu piensas, pero si pueden tener un objetivo en común, y para eso es importante
-que conozcas las fortalezas y debilidades de tu equipo, y delegar responsabilidades,
-si, es verdad que no siempre saldaran las cosas como esperas, pero esos momentos
-son los mejores para tomar nota, y crecer como equipo y aprender de lo sucedido.
+No puedes hacer que tu equipo haga las cosas como tu las haces, no pueden pensar como tu piensas, pero si pueden tener un objetivo en común, y para eso es importante que conozcas las fortalezas y debilidades de tu equipo, y delegar responsabilidades, si, es verdad que no siempre saldaran las cosas como esperas, pero esos momentos son los mejores para tomar nota, y crecer como equipo y aprender de lo sucedido.
 
 1. Delega aunque a veces no salgan bien las cosas.
 2. Escucha aunque no estés de acuerdo.

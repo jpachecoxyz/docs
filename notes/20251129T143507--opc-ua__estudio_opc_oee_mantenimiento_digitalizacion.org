@@ -1,0 +1,109 @@
+# -*- jinx-languages: "es_MX"; -*-
+#+title: OPC UA
+#+date: [2025-11-29 Sat 14:35]
+#+filetags: :estudio:opc:oee:mantenimiento:digitalizacion:
+#+identifier: 20251129T143507
+#+author: Ing. Javier Pacheco
+#+startup: showall
+
+* Lectura de datos OPC-UA en máquina Haitian (KEBA)
+
+La máquina Haitian con sistema KEBA funciona como **servidor OPC-UA**, por lo que cualquier sistema que quiera leer datos deberá actuar como **cliente OPC-UA**.
+
+**Datos del servidor OPC-UA:**
+- IP por defecto: =192.168.2.1=
+- Puerto: =4842=
+- Protocolo: OPC-UA
+- Conexión física: RJ45 Ethernet
+- Rol: La máquina es el servidor, tú eres el cliente.
+
+* Opciones para leer datos OPC-UA
+
+*Opción A — Usar UaExpert (recomendado)*
+1. Descargar UaExpert:  
+   https://www.unified-automation.com/products/development-tools/uaexpert.html
+2. Conectar al endpoint:
+   #+begin_src
+   opc.tcp://192.168.2.1:4842
+   #+end_src
+3. Acceder como =Anonymous= (a menos que requiera certificado).
+4. Navegar nodos OPC-UA para ver:
+   - Variables de proceso
+   - Datos de ciclo
+   - Alarmas
+   - Parámetros de inyección
+   - Presiones, velocidades, etc.
+
+*Opción B — Conectar un PLC CompactLogix*
+
+Los PLC Rockwell **no pueden actuar como cliente OPC-UA**, por lo tanto NO se pueden conectar directamente a la Haitian.
+
+*Solución: usar un gateway OPC-UA → EtherNet/IP*
+
+Flujo sugerido:
+#+begin_src
+Haitian (OPC-UA Server)
+       ↓
+KepServerEX / Ignition Gateway (OPC-UA Client)
+       ↓
+CompactLogix (tags EtherNet/IP)
+#+end_src
+
+Esto permite que el PLC lea los datos como tags normales.
+
+*Opción C — Leer desde Python*
+
+1. Instalar librería:
+   #+begin_src bash
+   pip install opcua
+   #+end_src
+
+2. Código de ejemplo:
+   #+begin_src python
+from opcua import Client
+
+url = "opc.tcp://192.168.2.1:4842"
+client = Client(url)
+
+client.connect()
+
+# Ejemplo de lectura, el nodo cambia según la estructura KEBA:
+node = client.get_node("ns=2;s=Cycle.Pressure")
+valor = node.get_value()
+
+print("Valor leído:", valor)
+
+client.disconnect()
+   #+end_src
+
+*Opción D — Integración con SCADA o MES*
+
+Cualquier SCADA con cliente OPC-UA puede conectarse:
+- WinCC
+- Ignition
+- Kepware
+- Zenon
+- FactoryTalk Linx Gateway (la versión que sí soporta OPC-UA)
+
+Endpoint requerido:
+#+begin_src
+opc.tcp://192.168.2.1:4842
+#+end_src
+
+* Comprobaciones previas
+
+*Verificar red compatible*
+Configura tu PC en el mismo segmento:
+#+begin_src
+192.168.2.X   máscara 255.255.255.0
+#+end_src
+
+*Probar ping*
+#+begin_src bash
+ping 192.168.2.1
+#+end_src
+
+*Probar si el puerto OPC-UA está abierto*
+#+begin_src bash
+nc -vz 192.168.2.1 4842
+#+end_src

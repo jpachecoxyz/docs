@@ -1,0 +1,19 @@
+# -*- jinx-languages: "es_MX"; -*-
+#+title: Mi bitacora personal
+#+date: [2025-11-26 Wed 21:38]
+#+filetags: :personal:journal:
+#+identifier: 20251126T213847
+#+author: Ing. Javier Pacheco
+#+startup: showall
+
+El propósito de tener mi propio journal es: 
+
+* Composicion de mi journal:
+** Keys:
+- . :: Task.
+- X :: Completado.
+- * :: Importante.
+- O :: Evento.
+- > :: Mover al siguinete dia.
+- < :: Mover al Future Log.
+- - :: Nota.

@@ -1,4 +1,4 @@
-# -*- jinx-languages: "en_US"; -*-
+ -*- jinx-languages: "en_US"; -*-
 #+title: Lisp
 #+date: [2025-11-22 Sat 12:10]
 #+filetags: :estudio:lisp:
@@ -16,14 +16,14 @@ When you define a function, you need to use the "defun" keyword an add "()" afte
 #+begin_src lisp
 ;;; FUNCTIONS
 (defun hi()
-  (print "Hello World"))
+  (print "Hello World!"))
 
 ;; To run a function you need to simply called it like the example below:
 (hi)
 #+end_src
 
 #+RESULTS:
-: Hello World
+: Hello World!
 
 * Functions parameters
 Inside the "()" of the function names you must add the parameters needed in the defined function:
@@ -40,15 +40,18 @@ Inside the "()" of the function names you must add the parameters needed in the 
 : Hello World! Javier
 
 * Recursion
-In Lisp, recursion is a very common thing, here is an example of recursion, the =factorial= code.
+In Lisp, recursion is a very common thing, It is basically a function that calls itself over and over again, here is an example of recursion, the =factorial= code.
+
+The code checks if the parameter is less or equal than 1, if so returns 1, else multiplies num times the factorial minus 1 recursively until achieves the number 1
 
 #+begin_src lisp
 (defun factorial(num)
-  ; The code checks if the parameter is 1, if so returns 1
   (if (<= num 1) 1
-      ; else multiplies num times the factorial minus 1 recursively until achieves the nummber 1
       (* num (factorial (- num 1)))))
 
 (print (factorial 5))
 #+end_src
+
+#+RESULTS:
+: 120
 
