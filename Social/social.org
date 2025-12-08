@@ -1,0 +1,34 @@
+#+TITLE: jpachecoxyz's journal
+#+NICK: jpachecoxyz
+#+DESCRIPTION:
+#+AVATAR: https://avatars.githubusercontent.com/u/174582218?v=4
+#+LINK: https://jpachecoxyz.github.io
+#+FOLLOW: https://org-social.org/social.org
+#+FOLLOW: https://andros.dev/static/social.org
+
+* Posts
+** My first =Org-Social= post.
+:PROPERTIES:
+:ID: 2025-12-07T19:37:09-0600
+:TAGS: org-social
+:CLIENT: org-social.el
+:LANG: en
+:MOOD: 🐍
+:END:
+
+This is an example of how to print in the console in python::
+
+#+begin_src python
+print("Start the movements!")
+print("Finished")
+#+end_src
+
+
+** 
+:PROPERTIES:
+:ID: 2025-12-07T20:21:50-0600
+:CLIENT: org-social.el
+:REPLY_TO: https://host.org-social.org/andros/social.org#2025-12-07T10:24:59+0100
+:MOOD: 🔥
+:END:
+

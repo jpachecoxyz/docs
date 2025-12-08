@@ -1,4 +1,4 @@
-# -*- jinx-languages: "en_EN"; -*-
+# -*- jinx-languages: "en_US"; -*-
 #+title: Objects, Functions and Types
 #+date: [2025-10-11 Sat 20:59]
 #+filetags: :estudio:c:
