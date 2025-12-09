@@ -5,6 +5,7 @@
 #+LINK: https://jpachecoxyz.github.io
 #+FOLLOW: https://org-social.org/social.org
 #+FOLLOW: https://andros.dev/static/social.org
+#+GROUP: Emacs https://relay.org-social.org
 
 * Posts
 ** My first =Org-Social= post.
@@ -16,7 +17,7 @@
 :MOOD: 🐍
 :END:
 
-This is an example of how to print in the console in python::
+This is an example of how to print in the console in python:
 
 #+begin_src python
 print("Start the movements!")
@@ -31,4 +32,16 @@ print("Finished")
 :REPLY_TO: https://host.org-social.org/andros/social.org#2025-12-07T10:24:59+0100
 :MOOD: 🔥
 :END:
+
+
+** Necesito subir mi =social.org= a github?
+:PROPERTIES:
+:ID: 2025-12-08T22:00:02-0600
+:TAGS: 
+:CLIENT: org-social.el
+:MOOD: 👏
+:END:
+
+Aun estoy descubriendo como usar esta red, tener el vfile desde la cuenta de host que provee el desarrollador no me funciona,
+seguire con el archivo local y hosteado en github. PD, el desarrollador a estado respondiendo mis dudas, un aplauso para el 👏
 
