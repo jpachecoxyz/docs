@@ -1,0 +1,49 @@
+# -*- jinx-languages: "es_MX"; -*-
+#+title: RAPID
+#+date: [2025-12-20 Sat 09:53]
+#+filetags: :estudio:robots:abb:rapid:
+#+identifier: 20251220T095348
+#+author: Ing. Javier Pacheco
+#+startup: showall
+
+* ¿Qué es RAPID?
+RAPID es el lenguaje de programación utilizado por los robots industriales de *ABB*.
+Está diseñado para el control de movimientos, manejo de entradas y salidas, y la integración con sistemas industriales como PLCs, HMIs y redes industriales.
+
+* Características principales
+- Lenguaje estructurado y tipado
+- Orientado a control de movimiento
+- Soporta programación modular
+- Manejo de interrupciones y tareas paralelas
+- Integración con E/S digitales y analógicas
+
+* Estructura básica de un programa
+Un programa en RAPID se organiza en *módulos*, los cuales contienen *procedimientos* y *funciones*.
+
+#+begin_src rapid
+MODULE MainModule
+
+    PROC main()
+        TPWrite "Hola mundo desde RAPID";
+    ENDPROC
+
+ENDMODULE
+#+end_src
+
+* Tipos de datos comunes
+- num :: valores numéricos
+- bool :: verdadero / falso
+- string :: texto
+- robtarget :: posición del robot
+- tooldata :: herramienta
+- wobjdata :: objeto de trabajo
+
+* Uso típico en planta
+RAPID se utiliza para:
+- Programar trayectorias del robot
+- Controlar pinzas, válvulas y sensores
+- Sincronizar el robot con PLCs
+- Ejecutar secuencias automáticas y manuales
+
+* Nota final
+RAPID es muy potente para automatización industrial y, combinado con una buena estructura de programa, permite sistemas robustos y mantenibles.

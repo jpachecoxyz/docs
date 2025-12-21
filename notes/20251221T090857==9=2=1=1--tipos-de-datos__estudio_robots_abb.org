@@ -1,0 +1,74 @@
+# -*- jinx-languages: "es_MX"; -*-
+#+title: Tipos de datos
+#+date: [2025-12-21 Sun 09:08]
+#+filetags: :estudio:robots:abb:
+#+identifier: 20251221T090857
+#+author: Ing. Javier Pacheco
+#+startup: showall
+
+RAPID cuenta con muchos tipos de datos, de momento (2025-12-21 Sun) escribiré los mas comunes:
+
+- num :: Datos numéricos, 1,2,3,4,90...etc. puede incluir números negativos.
+- string :: Cadenas de texto, "Cadena de texto", tiene un limite de 80 caracteres.
+- bool :: Variables Booleanas. =TRUE= o =FALSE=
+
+* Declarando variables.
+** VAR.
+La declaración de una variable es la forma de definir un nombre de variable y su contenido.
+Las variables se declaran con la palabra clave =VAR=, siguiendo la siguiente sintaxis:
+
+#+begin_src rapid
+! VAR datatype identifier;
+! Las variables se pueden declarar y posteriormente se asigna un valor: 
+
+VAR num nPrpog;
+VAR string nModel;
+VAR bool cComplete;
+
+nPrpog := 1;
+nModel := "RB-123456";
+cComplete := FALSE;
+
+! Tambien se puede asignar al mismo tiempo que se declaran.
+
+VAR num nPrpog := 1;
+VAR string nModel := "RB-123456";
+VAR bool cComplete := FALSE;
+#+end_src
+
+El tipo de dato =VAR= pierde su valor o regresa a su valor definido al inicio al correr de nuevo el programa =main=, es decir, no guarda en memoria el ultimo dato si es que se cambio en algún momento en la lógica.
+
+** PERS.
+Estos datos son igual que las variables, salvo que estos recuerdan el ultimo valor asignado. Su palabra asignada es =PERS=
+
+#+begin_src rapid
+PERS num nPrpog := 1;
+
+PROC main()
+     nProg := 2;
+ENDPROC
+#+end_src
+
+Al detener el robot y volver a arrancarlo, el modulo tendrá el siguiente aspecto:
+#+begin_src rapid
+PERS num nPrpog := 2;
+
+PROC main()
+     nProg := 2;
+ENDPROC
+#+end_src
+
+** CONST.
+El tipo de dato constante, palabra asignada =CONST=, como su nombre lo indica, sus valor es constante, y deberá ser declarado siempre al inicio del programa, el usar =CONST= asegura que los valores serán fijos siempre:
+
+#+begin_src rapid
+CONST num nPrpog := 2;
+
+PROC main()
+    ! No podremos cambiar la variable despues de haberla declarado
+    ! nProg := 2;
+    TPWrite nProg;
+    ! Esto debera mostrar en el Teach pendant: el numero 2 que hemos asignado a la constante.
+ENDPROC
+#+end_src
+

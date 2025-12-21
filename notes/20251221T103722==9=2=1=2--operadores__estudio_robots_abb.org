@@ -1,0 +1,42 @@
+# -*- jinx-languages: "es_MX"; -*-
+#+title: Operadores
+#+date: [2025-12-21 Sun 10:37]
+#+filetags: :estudio:robots:abb:
+#+identifier: 20251221T103722
+#+author: Ing. Javier Pacheco
+#+startup: showall
+
+* Operadores Numéricos.
+Estas operaciones se realizan con datos de tipo =num= y devuelven datos tipo =num=.
+
+| Operador | Descripcion    | Ejemplo             |
+|----------+----------------+---------------------|
+| o+"      | Suma           | reg1:= reg2 + reg3; |
+| "-"      | Resta          | reg1:= reg3 - reg2; |
+| "*"      | Multiplicacion | reg1:= reg2 * reg3; |
+| "/"      | Divicion       | reg3:= reg2 / reg1; |
+
+* Operadores Relacionales.
+Estos  operadores devuelven datos de tipo =bool=. En el ejemplo usaremos estos datos de esta manera:
+- reg1 y reg2 :: datos de tipo =num.
+- flag1 :: dato tipo =bool=.
+
+| Operador | Descripción       | Ejemplo                                                              |
+|----------+-------------------+----------------------------------------------------------------------|
+| =        | Igual que         | flag1 := reg1 = reg2;  flag1 es TRUE si reg1 es igual a reg2         |
+| <        | Menor que         | flag1 := reg1 < reg2;  flag1 es TRUE si reg1 es menor que reg2       |
+| >        | Mayor que         | flag1 := reg1 > reg2;  flag1 es TRUE si reg1 es mayor que reg2       |
+| <=       | Menor o igual que | flag1 := reg1 <= reg2; flag1 es TRUE si reg1 es menor o igual a reg2 |
+| >=       | Mayor o igual que | flag1 := reg1 >= reg2; flag1 es TRUE si reg1 es mayor o igual a reg2 |
+| <>       | Distinto que      | flag1 := reg1 <> reg2; flag1 es TRUE si reg1 es distinto de reg2     |
+
+* Operadores de Cadena.
+
+| Operador | Descripción   | Ejemplo                                               |
+|----------+---------------+-------------------------------------------------------|
+| +        | Concatenación | VAR string firstname := "John";                       |
+|          |               | VAR string lastname := "Smith";                       |
+|          |               | VAR string fullname;                                  |
+|          |               | fullname := firstname + " " + lastname;               |
+|          |               | La variable fullname contendrá la cadena "John Smith" |
+
