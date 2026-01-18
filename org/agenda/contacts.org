@@ -1,0 +1,105 @@
+#+title: Contacts
+#+author: Ing. Javier Pacheco
+#+date: 9-12-2025
+#+description: My contacts.
+#+startup: showall
+
+* Personal
+** Xiomara Marino
+:PROPERTIES:
+:PHONE: 472-161-3245
+:EMAIL: ceidy-16@hotmail.com
+:BIRTHDAY: <1989-02-20 Mon +1y>
+:END:
+** Diana Pacheco
+:PROPERTIES:
+:PHONE: 868-536-0259
+:EMAIL: 
+:BIRTHDAY: <1999-11-09 Sun +1y>
+:END:
+** Brayan
+:PROPERTIES:
+:PHONE: 868-823-1507
+:EMAIL: brayan.eduardoow2@gmail.com
+:BIRTHDAY: <1999-10-09 Sat +1y>
+:END:
+* Companies
+** TODO Juan Torres
+:PROPERTIES:
+:PHONE: 
+:EMAIL: 
+:END:
+** RYDE 
+:PROPERTIES:
+:MODEL: Service Provider 
+:LINE:  Automation & Robotics
+:END:
+*** TODO Edgar Rodriguez
+:PROPERTIES:
+:EMAIL:
+:PHONE: 
+:END:
+** SyMA Suministro y Servicios
+:PROPERTIES:
+:PHONE: 868-202-3408 | 956-320-5285
+:EMAIL: mario.morales@suministroyserviciossyma.com
+:MODEL: Service Provider
+:LINE:  Industrial Maintenance
+:END:
+*** Mario Morales
+:PROPERTIES:
+:PHONE: 868-202-3408
+:EMAIL: mario.morales@suministroyserviciossyma.com
+:END:
+** INCOR :servicios:
+:PROPERTIES:
+:PHONE: 868-109-9230
+:EMAIL: atencionaclientes@multiservicios-incor.com
+:MODEL: Service Provider
+:LINE: Industrial Maintenace 
+:END:
+*** Cirilo Lara
+:PROPERTIES:
+:PHONE: 868-109-9230
+:EMAIL: atencionaclientes@multiservicios-incor.com
+:END:
+** Krown México
+:PROPERTIES:
+:MODEL: Supplier
+:LINE:  Furnaces
+:END:
+*** Miguel Garza
+:PROPERTIES:
+:PHONE: 442-592-1322
+:EMAIL: miguelgarza@krownsa.com
+:END:
+** Manufacturas Industriales
+:PROPERTIES:
+:MODEL: Service Provider 
+:LINE:  Tooling & Machining
+:END:
+*** Carlos Gama
+:PROPERTIES:
+:PHONE: 868-819-4311 | 868-8178-9899
+:EMAIL: carlosgama@manufacturasind.com
+:END:
+*** Víctor Ortiz
+:PROPERTIES:
+:PHONE: 868-180-6632
+:EMAIL: proyectos@manufacturasind.com
+:END:
+** Servicios Industriales y Mantenimiento HINCA S.A. de C.V.
+:PROPERTIES:
+:MODEL: Service Provider
+:LINE:  Industrial Maintenance
+:END:
+*** Francisco Tovias
+:PROPERTIES:
+:PHONE: 868-536-9629
+:EMAIL: javiertovias16@gmail.com
+:END:
+** Asaye
+:PROPERTIES:
+:MODEL: Service Provider
+:LINE:  Industrial Maintenance
+:END:

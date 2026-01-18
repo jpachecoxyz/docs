@@ -1,4 +1,4 @@
-# -*- jinx-languages: "es_MX"; -*-; -*-
+# -*- jinx-languages: "es_MX"; -*-
 #+title: Makefiles
 #+date: [2025-04-08 Tue 18:49]
 #+filetags: :estudio:linux:
@@ -26,6 +26,8 @@ Los makefiles pueden ser llamados de la siguientes maneras:
 
 * Ejemplo de Makefile para python:
 El siguiente ejemplo es el entorno virtual y la instalacion de =requirements.txt= para el desarrollo de una aplicacion de =python=.
+*NOTA: Este ejemplo de python es a la fecha <2026-01-14 Wed> de esta nota, instalar paquetes con =requirement.txt= en python es algo outdated.*
+
 #+begin_src makefile
 VENV_DIR := .venv
 PYTHON := python3
@@ -51,5 +53,6 @@ clean:
 	@echo "Cleaning up virtual environment..."
 	rm -rf $(VENV_DIR)
 #+end_src
+
 * Referencias:
 [[https://www.youtube.com/watch?v=0XlVyZAfQEM][Makefile: como construirlo]]

@@ -1,10 +1,11 @@
-# -*- jinx-languages: "es_MX"; -*-; -*-
+# -*- jinx-languages: "es_MX"; -*-
 #+title: Lógica de Programación
 #+date: [2025-04-13 Sun 09:19]
 #+filetags: :estudio:programacion:
 #+identifier: 20250413T091934
 #+author: Ing. Javier Pacheco
 #+startup: showall
+
 La lógica de programación, es la base de todo, de nada sirve aprender =X= lenguaje de programación si no sabes lo fundamental. En este caso la lógica de programación es importante, ya que esta es la que realmente te hace resolver problemas, el lenguaje de programación es la =herramienta= que te conducirá al resultado final.
 
 Tiene sentido, un =loop, condicional, if, else if=, son lo mismo (al menos en lo que realizan o su propósito) pero en los lenguajes de programación lo único que los diferencia son su sintaxis.

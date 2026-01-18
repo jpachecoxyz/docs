@@ -1,0 +1,32 @@
+# -*- jinx-languages: "es_MX"; -*-
+#+title: Personal
+#+date: [2026-01-15 Thu 18:11]
+#+filetags: :meta:
+#+identifier: 20260115T181113
+#+author: Ing. Javier Pacheco
+#+startup: showall
+#+TAGS: { personal(p) trabajo(t) } 
+#+TAGS: familia(f) escuela(e) adeudo(a) crypt(x)
+
+* Personal: :crypt:
+-----BEGIN PGP MESSAGE-----
+
+hQGMA70D1ThRMEAZAQv+IJCRRgDy04oW7kUVL2xmoF3t0wym7VaHHFJX+G7WTSFi
+OgtfggGMvT+kj9DaGBM+nXceFta1zyOK9T7kRSKjGpPUoPWnxsWv1aJsClM0Jbyc
+JJTDSKSaguJmSomZ0sP/vYp2v6OV0vKeMd6DXFYSnMuOC9UQILY79cCu+JhQdA+y
+P3uMT0Mcxq5pOLUT33ULWI1wGahpzV5z4ELl9B79qSJ9T9VRqnRE6iu94diysOPR
+ms7vl0BPZFazUfoIeT0GKaJ++UdUnLI5AlCiLF7pTWdutzC2eOdOJh9fDxqdq5Za
+3UmSXI5KnpZpy/eI+WeqMywyfTapMTkaxNQabqJWsrMVADpKYAhzs0K2LjpZKDiZ
+4WIiu3ljdpmw0bXhtGlcwgjqN9BtOJOUrN+fdwXudHDjOXxOuDGPwqml5NxCAf0t
+8Q8tBN6JScFBZaeM6FbwNvK3uVdElpTzHDSea1/8JfNMuAApOgijypqYbSDdwkRA
+lMTXwBXNrwn5lt10Kgy+0sCWAQYEsQL9BCo6WX+SRPuytX4sc69QuYw4U1VIsNqR
+XtvDmAOluYODUnVkqznlmbDvz1XWMyODqfFZpnfsbl9c7MOjyhoQROhluHuChKa6
+8RkRPvG6UiDyk1ledYe/V8G2COcxCWDxJRbtBYs9JWnqx4Q7IRdh9P5gIOBAE33h
+2fa5wM/dIW6Tr+NH/7/kctgC1HtvifOgIOs0Ht7ixKwMXlJbk5HjUhEz+YS58hu7
+x8YYROD1Dbi7MSihn3OEve91abtmAv/IKcyS9ODXrvX00rtLSdUClWBXBlrbOCAb
+IIpiFl57Mmjgykm8Pgq3ad+NYZnnI7eDGZIN+3nvF03hRJXRS1p4l3SZOXn2HwVE
+kkWQfY+NY3eFv6hTNI+lgtmkp608iWDjckaCddJWrHkNKRUGIVUiBTK5szNzD/tp
+EEQrH5v/I6owGDq/X/HwWWyFC+wN04H7
+=FxBm
+-----END PGP MESSAGE-----
+  

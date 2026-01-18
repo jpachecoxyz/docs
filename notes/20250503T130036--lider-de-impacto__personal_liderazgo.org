@@ -5,15 +5,14 @@
 #+identifier: 20250503T130036
 #+author: Ing. Javier Pacheco
 #+startup: showall
-Nadie va a venir a tu lugar a elegirte o a darte una oportunidad, eso no depende
-de tu jefe, del gerente o de algún amigo tuyo, depende unicamente de TI.
+
+Nadie va a venir a tu lugar a elegirte o a darte una oportunidad, eso no depende de tu jefe, del gerente o de algún amigo tuyo, depende unicamente de TI.
 
 El crecimiento de verdad empieza cuando dejas de =esperar=:
 - Esperar reconocimiento.
 - Esperar validación.
 - Esperar liderar un equipo.
-Todo lo anterior no sirve de nada. Si esperas que alguien te apoye, tes estas
-rindiendo en silencio, y lo peor, es que no lo vez.
+Todo lo anterior no sirve de nada. Si esperas que alguien te apoye, tes estas rindiendo en silencio, y lo peor, es que no lo vez.
 
 * Que hacer entonces?
 1. Empieza a liderar proyectos sin que te lo pidan.

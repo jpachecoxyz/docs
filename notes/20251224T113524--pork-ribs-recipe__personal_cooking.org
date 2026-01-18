@@ -1,0 +1,38 @@
+# -*- jinx-languages: "es_MX"; -*-
+#+title: Pork Ribs Recipe
+#+date: [2025-12-24 Wed 11:35]
+#+filetags: :personal:cooking:
+#+identifier: 20251224T113524
+#+author: Ing. Javier Pacheco
+#+startup: showall
+
+* Ingredients
+- Brisket
+- Seasoning powder -> salt, pepper & garlic.
+  
+* Preparing the items.
+At this time <2025-12-24 Wed>, I only have a 24" Weber Keble, so that is the grill that I am going to use.
+
+** The fire method.
+I'm going to test a variant of the =snake= method. <2025-12-24 Wed>, the difference is that I not draw a  snake shape with the charcoal, I put the charcoal indirect in a half of the grill, and start the edge  of it.
+
+** The meat
+Seasoning, simple add a layer of mustard to act as a glue, and use SPG. or brisket rub seasoning.
+
+** The temperature.
+I set the temperature about 200-250 C degrees.
+
+* Important to check.
+
+* The goal.
+ The goal of the ribs is ...
+
+** Smoking and pre-cook.
+Keep in the grill about 3 to 4 hours.
+
+** Steam.
+Reached the time rap it in aluminum foil, butcher paper, etc. with some fat, butter or water, I prefer some fat. and then go back to the grill for about 1 or 2 hours.
+
+** Rest.
+When reaches the right steam Temp before, Is time to let it rest for about 30 minutes to an hour.
+

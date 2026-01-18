@@ -1,4 +1,4 @@
- -*- jinx-languages: "en_US"; -*-
+# -*- jinx-languages: "en_US"; -*-
 #+title: Lisp
 #+date: [2025-11-22 Sat 12:10]
 #+filetags: :estudio:lisp:
@@ -55,3 +55,13 @@ The code checks if the parameter is less or equal than 1, if so returns 1, else 
 #+RESULTS:
 : 120
 
+** Example of recursion solving a problem of hanoi towers.
+#+begin_src lisp
+(defun hanoi (n a c b)
+  (if (= n 1)
+      (format t "~a -> ~a~%" a c)
+      (progn
+        (hanoi (- n 1) a b c)
+        (format t "~a -> ~a~%" a c)
+        (hanoi (- n 1) b c a))))
+#+end_src

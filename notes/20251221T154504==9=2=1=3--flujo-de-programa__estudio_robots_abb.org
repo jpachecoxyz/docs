@@ -6,4 +6,70 @@
 #+author: Ing. Javier Pacheco
 #+startup: showall
 
+* Control del flujo de programa
 
+** Compact IF
+Se utiliza cuando sólo es necesario ejecutar una instrucción si se cumple una condición determinada.
+
+#+begin_src rapid
+IF <condición> <instrucción>;
+#+end_src
+
+Ejemplo:
+#+begin_src rapid
+IF reg1 > 5 Set do1;
+#+end_src
+
+Las señales =do1= se activará cuando =reg1= sea mayor a 5.
+
+** IF (estructura completa)
+Se utiliza cuando es necesario ejecutar más de una instrucción diferente en función de si se cumple una condición.
+
+#+begin_src rapid
+IF <condición> THEN
+    <Instrucciones>;
+ELSIF <condición> THEN
+    <Instrucciones>;
+ELSE
+    <Instrucciones>;
+ENDIF
+#+end_src
+
+Ejemplo sin ELSE:
+Las señales =do1= y =do2= sólo se activan si =reg1= es mayor que 5.
+#+begin_src rapid
+IF reg1 > 5 THEN
+    Set do1;
+    Set do2;
+ENDIF
+#+end_src
+
+Ejemplo con ELSE:
+Las señales =do1= y =do2= se activan o desactivan en función de si =reg1= es mayor que 5.
+#+begin_src rapid
+IF reg1 > 5 THEN
+    Set do1;
+    Reset do2;
+ELSE
+    Reset do1;
+    Set do2;
+ENDIF
+#+end_src
+
+** TEST – en función del valor de una expresión
+
+El comando =TEST= se utiliza cuando es necesario ejecutar instrucciones diferentes en función del valor de una expresión o un dato.
+Si no hay demasiadas alternativas, también es posible utilizar la instrucción =IF..ELSE=.
+
+#+begin_src rapid
+TEST <expresión>
+    (CASE <valor> { , <valor> } :;
+        <instrucciones> )
+    (CASE <valor> { , <valor> } :;
+        <instrucciones> )
+    (CASE <valor> { , <valor> } :;
+        <instrucciones> )
+    [DEFAULT :;
+        <instrucciones> ]
+ENDTEST
+#+end_src

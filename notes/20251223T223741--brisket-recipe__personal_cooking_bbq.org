@@ -1,0 +1,47 @@
+# -*- jinx-languages: "en_US"; -*-
+#+title: Brisket Recipe
+#+date: [2025-12-23 Tue 22:37]
+#+filetags: :personal:cooking:bbq:
+#+identifier: 20251223T223741
+#+author: Ing. Javier Pacheco
+#+startup: showall
+
+* Ingredients
+- Brisket
+- Seasoning powder -> salt, pepper & garlic.
+
+* My method.
+** Preparing the items.
+At this time <2025-12-24 Wed>, I only have a 24" Weber Keble, so that is the grill that I am going to use.
+
+*** The fire method.
+I'm going to test a variant of the =snake= method. <2025-12-24 Wed>, the difference is that I not draw a  snake shape with the charcoal, I put the charcoal indirect in a half of the grill, and start the edge  of it.
+
+*** The meat
+Seasoning, simple add a layer of mustard to act as a glue, and use SPG. or brisket rub seasoning.
+
+*** The temperature.
+I set the temperature about 200-250 C degrees.
+
+** Important to check.
+
+** The goal.
+The goal of the meat is that have 190 C, ow do we get in to that?, simply:
+
+*** Smoking and pre-cook.
+Keep in the grill until 170 C.
+
+*** Steam.
+When 170 C, wrap it in aluminum foil, butcher paper, etc. with some fat, butter or water, I prefer some fat. and then go back to the grill until 205-210 C.
+
+*** Rest.
+When reaches the right steam Temp before, Is time to let it rest, until the meat reaches 190 C, In this time the meat will absorb the liquid inside the aluminum foil.
+
+* TTFIBBBQ
+
+1) Trim brisket to your liking. I left more fat than I would normally leave just because I wanted to protect the meat more from not drying out since I am not wrapping it for the entire cook. Saving fat trimmings in a foil pan to render during cook for beef tallow
+2) Using W-sauce as a binder ( or use hot sauce or Olive oil) then season heavily with your favorite SPG Rub
+3) In a 225F pre heated offset place brisket on other end of fire box with the point facing the fire box. Adding a water pan on fire box side and a wood split close to the point side of the brisket to prevent point from taking too much heat and preventing it from drying out. Also place fat trimmings in smoker to render into tallow.
+4) Once internal temp reaches around 203F or until meat probe glides into brisket like melted butter remove.
+5) Lay down some butcher paper and pour some of that rendered beef tallow onto paper. Place brisket on top of tallow then add more tallow on top of the brisket.
+6) Wrap brisket nice and tight then place in a foil pan and top with more tallow and place in a warmer or pre heated oven set to 170F until ready to slice and serve. I rested overnight.

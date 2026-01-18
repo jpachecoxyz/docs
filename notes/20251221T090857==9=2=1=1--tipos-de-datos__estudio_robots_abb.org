@@ -36,10 +36,7 @@ VAR string nModel := "RB-123456";
 VAR bool cComplete := FALSE;
 #+end_src
 
-El tipo de dato =VAR= pierde su valor o regresa a su valor definido al inicio al correr de nuevo el programa =main=, es decir, no guarda en memoria el ultimo dato si es que se cambio en algún momento en la lógica.
-
-** PERS.
-Estos datos son igual que las variables, salvo que estos recuerdan el ultimo valor asignado. Su palabra asignada es =PERS=
+El tipo de dato =VAR= pierde su valor o regresa a su valor definido al inicio al correr de nuevo el programa =main=, es decir, no guarda en memoria el ultimo dato si es que se cambio en algún momento en la lógica. es =PERS=
 
 #+begin_src rapid
 PERS num nPrpog := 1;

@@ -8,14 +8,12 @@
 
 * Lenguaje de programación de robots ABB.
 #+BEGIN: denote-links :regexp "==9.2.*_estudio_robots_abb" :id-only nil :include-date nil
-[[file:20251220T095348==9=2=1--rapid__estudio_robots_abb_rapid.org][RAPID (2025-12-20)]]
-[[file:20251221T090857==9=2=1=1--tipos-de-datos__estudio_robots_abb.org][Tipos de datos (2025-12-21)]]
-[[file:20251221T103722==9=2=1=2--operadores__estudio_robots_abb.org][Operadores (2025-12-21)]]
-[[file:20251221T154504==9=2=1=3--flujo-de-programa__estudio_robots_abb.org][Flujo de Programa (2025-12-21)]]
+[[file:20251220T095348==9=2=1--rapid__estudio_robots_abb_rapid.org][9=2=1  RAPID]]
+[[file:20251221T090857==9=2=1=1--tipos-de-datos__estudio_robots_abb.org][9=2=1=1  Tipos de datos]]
+[[file:20251221T103722==9=2=1=2--operadores__estudio_robots_abb.org][9=2=1=2  Operadores]]
+[[file:20251221T154504==9=2=1=3--flujo-de-programa__estudio_robots_abb.org][9=2=1=3  Flujo de Programa]]
 #+END:
 
 * Referencias:
 [[https://www.youtube.com/playlist?list=PLpyjNmi6BTHusr5sPuC7RiRZgZpHAPruR][Curso Introduccion a RAPID]]
 [[https://www.youtube.com/playlist?list=PLO89phzZmnHh3kBtxcVBc5umHsc1hoPH0][Curso de simulador ABB]]
-
- ss 

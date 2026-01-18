@@ -1,0 +1,21 @@
+-- /home/javier/Documents/Emacs/typst/3_cv/admin_en.sdr/metadata.pdf.lua
+return {
+    ["doc_pages"] = 3,
+    ["doc_path"] = "/home/javier/Documents/Emacs/typst/3_cv/admin_en.pdf",
+    ["doc_props"] = {},
+    ["partial_md5_checksum"] = "e1cdde897384cc35caec78d776b3f78b",
+    ["stats"] = {
+        ["authors"] = "N/A",
+        ["highlights"] = 0,
+        ["language"] = "N/A",
+        ["notes"] = 0,
+        ["pages"] = 3,
+        ["performance_in_pages"] = {},
+        ["series"] = "N/A",
+        ["title"] = "admin_en",
+    },
+    ["summary"] = {
+        ["modified"] = "2026-01-01",
+        ["status"] = "complete",
+    },
+}

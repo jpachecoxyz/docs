@@ -1,4 +1,4 @@
-# -*- jinx-languages: "es_ES"; -*-
+# -*- jinx-languages: "es_MX"; -*-
 #+title: Agenda
 #+author: Javier Pacheco
 #+description: Mi agenda personal
@@ -39,21 +39,22 @@
 - State "DONE"       from "TODO"       [2025-03-29 Sat 21:35]
 :END:
 SCHEDULED: <2025-04-25 Fri 20:00 ++1d>
-** TODO Reparar el calentador del agua.
+** DONE Reparar el calentador del agua.
 SCHEDULED: <2025-04-26 Sat>
+- State "DONE"       from "TODO"       [2026-01-17 Sat 12:10]
 ** TODO Reparar el lavamanos del baño.
 SCHEDULED: <2025-04-13 Sun>
   
-
 * Laptop:
 :PROPERTIES:
 :CATEGORY: 💻
 :END:
 ** TODO Actualizar Void Linux
-SCHEDULED: <2025-05-11 Sun ++1m>
+SCHEDULED: <2026-12-11 Fri ++1m>
 :PROPERTIES:
-:LAST_REPEAT: [2025-04-11 Fri 23:02]
+:LAST_REPEAT: [2026-01-17 Sat 12:10]
 :END:
+- State "CANCELLED"  from "TODO"       [2026-01-17 Sat 12:10]
 :LOGBOOK:
 - State "DONE"       from "TODO"       [2025-04-11 Fri 23:02]
 - State "DONE"       from "TODO"       [2025-04-04 Fri 20:03]
@@ -95,3 +96,6 @@ SCHEDULED: <2025-04-30 Wed 21:30 ++1w>
 :END:
 ** TODO Leer libro El inversor inteligente
 ** DOING Leer libro Psicologia del dinero
+* TODO Cita en el FONACOT
+DEADLINE: <2026-01-29 Thu 14:10>
+

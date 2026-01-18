@@ -1,0 +1,38 @@
+# -*- jinx-languages: "es_MX"; -*-
+#+title: Ahumador de barril
+#+date: [2025-12-29 Mon 21:10]
+#+filetags: :personal:diy:
+#+identifier: 20251229T211002
+#+author: Ing. Javier Pacheco
+#+startup: showall
+
+* Para las patas de la canasta del carbón:
+4 tornillos de 4"
+8 tuercas para los tornillos
+8 rondanas/arandelas para tornillos
+
+* Para hacer la canasta:
+Parrilla de 14 pulgadas
+Malla expandida del 9, de 45"x9"
+2 tornillos de 1"x5/16"
+6 tuercas de 5/16"
+6 rondanas/arandelas 5/16"
+2 Tornillos en forma de "U" de 5/16"
+ 
+* Para las parrillas:
+2 parrillas de 22"
+8 Tornillos de 1 1/2"x1/4" 
+8 Tuercas para los tornillos 1/4" 
+16 rondanas/arandelas planas 1/4" 
+8 rondanas/arandelas de presión 1/4" 
+1 agarradera/jaladera de puerta
+
+* Para los tubos de entrada de aire (todo esto antes era de 3/4" pero lo cambié para mejor flujo de aire):
+3 nipples de 1"
+6 tuercas conduit (conduit nuts) 1"
+2 valvulas de bola 1"
+2 codos galvanizados de 1"
+2 Abrazaderas en "U" de 1"
+
+* Referencias:
+[[https://www.youtube.com/watch?v=RYxZ5OJlsT8][UDS]]
