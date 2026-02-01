@@ -1,0 +1,124 @@
+# -*- jinx-languages: "es_MX"; -*-
+#+TITLE: Work Agenda.
+#+author: Javier Pacheco
+#+description: Mi agenda de trabajo
+#+startup: content
+#+date: [2025-03-23 Sun 20:01]
+#+tags: { @work(w) @project(p) }
+#+tags: JavierPacheco(J) JesusValles(v) ErickFrias(e) EduardoJasso(j) ReneChavez(r) OzielGarcia(o) ArturoRobles(a) CesarSalazar(c) AlejandroDeLeon(A)
+#+tags: { GustavoRodriguez(g) JoseLuis(l) }
+#+tags: Celda1(1) Celda2(2) Celda3(3) Celda4(4) Celda5(5) Celda6(6) Celda7(7) Todas(t)
+#+seq_todo: TODO(t) DOING(D!) NEXT(n@) WAITING(w@) PROJ(p) | DONE(d!) CANCELLED(c)
+
+* Castlight :@work:
+:PROPERTIES:
+:CATEGORY: Castlight
+:END:
+** DOING [#A] Reparacion Idra 1600 [4/6][66%] :1600:
+DEADLINE: <2026-01-30 Fri>
+- State "DOING"      from "DONE"       [2026-01-25 Sun 14:00]
+- State "DONE"       from "DOING"      [2026-01-25 Sun 13:58]
+- State "DOING"      from "DONE"       [2026-01-25 Sun 13:56]
+- State "DONE"       from "DOING"      [2026-01-25 Sun 13:38]
+- State "DOING"      from "DONE"       [2026-01-25 Sun 11:46]
+- State "DONE"       from "DOING"      [2026-01-24 Sat 10:54]
+- State "DOING"      from "TODO"       [2026-01-24 Sat 10:54]
+- State "DOING"      from "TODO"       [2026-01-18 Sun 06:32]
+- State "DOING"      from "TODO"       [2026-01-18 Sun 00:51]
+- State "DOING"      from              [2026-01-17 Sat 23:53]
+*** DOING Reparacion de piston de cierre.[1/3][33%]
+- State "DOING"      from "TODO"       [2026-01-18 Sun 06:32]
+**** DONE Bajar piston de cierre
+CLOSED: [2026-01-13 Tue 06:32]
+- State "DOING"      from "TODO"       [2026-01-17 Sat 23:52]
+**** DOING Reparacion de piston.
+**** TODO Instalacion de piston. 
+*** DONE Limpieza de tanque hidraulico.
+CLOSED: [2026-01-24 Sat 10:54]
+- State "DOING"      from "DOING"      [2026-01-22 Thu 20:27]
+- State "DOING"      from "TODO"       [2026-01-17 Sat 23:52]
+*** DONE Limpieza de valvulas.[100%][3/3]
+- State "DOING"      from "TODO"       [2026-01-19 Mon 18:46]
+**** DONE Bloque de grupo de bombas.
+CLOSED: [2026-01-24 Sat 10:54]
+- State "DOING"      from "TODO"       [2026-01-22 Thu 19:11]
+**** DONE Bloque de platina movil
+CLOSED: [2026-01-22 Thu 19:11]
+- State "DONE"       from "TODO"       [2026-01-22 Thu 19:11]
+**** DONE Bloque de inyeccion.
+CLOSED: [2026-01-19 Mon 18:46]
+- State "DOING"      from "TODO"       [2026-01-18 Sun 06:33]
+*** DONE Desmontar el sprayer.
+CLOSED: [2026-01-25 Sun 13:38] DEADLINE: <2026-01-25 Sun>
+- State "DONE"       from "TODO"       [2026-01-22 Thu 19:51]
+*** DONE Desmontar portafiltros de alta presion.
+CLOSED: [2026-01-25 Sun 05:58]
+- State "DOING"      from "TODO"       [2026-01-24 Sun 22:58]
+*** DOING Ruteado de cableado y conexiones.
+:LOGBOOK:
+- State "DOING"      from "TODO"       [2026-01-28 Wed 23:28]
+:END:
+
+** TODO [#C] Instalacion de agua para Mixers. :CesarSalazar:AlejandroDeLeon:Celda4:Celda5:
+:LOGBOOK:
+- State "DOING"      from "TODO"       [2026-01-29 Thu 09:47]
+:END:
+:LOGBOOK:
+- State "DOING"      from              [2026-01-29 Thu 12:21]
+:END:
+*** DOING Materiales.
+:LOGBOOK:
+- State "DOING"      from              [2026-01-29 Thu 12:21]
+  Cotizacion de material necesario.
+:END:
+** DOING [#B] Reparacion de troquel Celda 4 [0/2][0%] :JavierPacheco:CesarSalazar:Celda4:
+:LOGBOOK:
+- State "DOING"      from "TODO"       [2026-01-29 Thu 12:20]
+:END:
+*** TODO PLC Mitsubishi.
+*** DOING Driver de motor.
+:LOGBOOK:
+- State "DOING"      from "TODO"       [2026-01-29 Thu 12:20]
+:END:
+** TODO [#A] Reparacion de Piston de Troquel Celda 2 [0%][0/2] :JesusValles:EduardoJasso:Celda2:
+*** TODO Desmontar pistón.
+*** TODO Buscar proveedor para reparación.
+** PROJ [#B] Flushing de Sprayers :JesusValles:ErickFrias:Todas:
+** DOING [#C] Modificacion Overtime de Trim Press. :ReneChavez:OzielGarcia:ArturoRobles:Celda1:Celda2:Celda3:
+- -Descripción del problema :: Las prensas permanecen encendidas, el motor jamas se apaga a menos que el operador decida apagarlo.
+- Solución :: Agregar lógica de PLC para establecer un overtime, para que en automático después de un tiempo se apague el motor eléctrico principal.
+
+*** TODO Trim 1
+*** DONE Trim 2
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2026-01-29 Thu 08:05]
+:END:
+*** DONE Trim 3
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2026-01-29 Thu 08:05]
+:END:
+
+** PROJ [#B] Protecciones de ciclo a celdas automaticas. [0/3][0%] :JavierPacheco:ErickFrias:GustavoRodriguez:Celda6:
+:LOGBOOK:
+- State "DOING"      from "TODO"       [2026-01-29 Thu 09:48]
+- State "DOING"      from "TODO"       [2026-01-29 Thu 09:36]
+:END:
+*** TODO Control electrico. 
+**** TODO Materiales. [0/4][0%]
+:LOGBOOK:
+- State "WAITING"    from "TODO"       [2026-01-29 Thu 11:51] \\
+  - <2026-01-28 Wed> SyMA envio cotizacion de PLC =AB 1400.=
+:END:
+***** TODO Gabinete.
+***** TODO Fuente.
+***** DOING PLC
+:LOGBOOK:
+- State "DOING"      from "TODO"       [2026-01-29 Thu 12:18]
+:END:
+El plan es instalar un PLC =Allen Bradley= el modelo =L18E=. Aun no tengo idea si =IT= tiene licencias, o si sera muy complicado. Podriamos ver la posibilidad de que el =PLC= maestro sea un PLC =DELTA=.
+
+****** Demo DELTA.
+DEADLINE: <2026-02-03 Tue 10:00>
+*** TODO Sensor de flujo.
+*** TODO Control de temperatura de agua.
+

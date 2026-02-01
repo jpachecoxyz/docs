@@ -1,0 +1,189 @@
+# -*- jinx-languages: "es_MX"; -*-
+#+title: Programa de Mantenimiento Área Diecasting
+#+date: [2026-01-30 Fri 18:41]
+#+identifier: 20260130T184139
+#+author: Ing. Javier Pacheco
+#+startup: contents
+#+tags: daily(d) weekly(w) monthly(m) semiannual(s) annual(a)
+
+Este archivo está pensado para usarse *directamente en Org-mode* y como base de tu *agenda de mantenimiento*. Incluye tareas *diarias, semanales, mensuales, semestrales y anuales* para una celda completa:
+
+- DCM (Die Casting Machine)
+- Sprayer
+- Ladler
+- Extractor (ABB)
+- Quench
+- Trim Press
+- Conveyor
+- Horno
+
+---
+* Agenda code.
+:PROPERTIES:
+:VISIBILITY: folded
+:END:
+#+name: diecast-agenda
+#+begin_src emacs-lisp :results none
+(setq org-agenda-custom-commands
+      '(
+        ("t" "Today – Diecasting Cell"
+            ((agenda ""
+                        ((org-agenda-span 1)
+                        (org-agenda-start-day "today")
+                        (org-agenda-overriding-header "Today")
+                        (org-agenda-files '("~/Documents/Emacs/notes/20260130T184139--programa-de-mantenimiento-area-diecasting__trabajo_mantenimiento_diecasting.org"))
+                        ))
+
+            (agenda ""
+                    ((org-agenda-span 3)
+                    (org-agenda-start-day "+1d")
+                    (org-agenda-overriding-header "Upcoming Tasks")
+                    (org-agenda-files '("~/Documents/Emacs/notes/20260130T184139--programa-de-mantenimiento-area-diecasting__trabajo_mantenimiento_diecasting.org"))
+                    ))
+                ))
+        ))
+#+end_src
+
+* DAILY :daily:
+** DCM – Inspección visual general
+   SCHEDULED: <2026-01-30 +1d>
+   :PROPERTIES:
+   :FREQ: daily
+   :CATEGORY: DCM
+   :END:
+   - Niveles de aceite y lubricación.
+   - Presion de nitrogeno en acumuladores y multiplicador.
+   - Fugas hidráulicas y neumáticas.
+   - Alarmas activas.
+
+** Sprayer – Limpieza de boquillas
+   SCHEDULED: <2026-01-30 +1d>
+   :PROPERTIES:
+   :FREQ: daily
+   :CATEGORY: Sprayer
+   :END:
+   - Flushing de sprayer con agua.
+   - Verificar patrón de spray.
+
+** Ladler – Verificación de movimiento
+   SCHEDULED: <2026-01-30 +1d>
+   :PROPERTIES:
+   :FREQ: daily
+   :CATEGORY: Ladler
+   :END:
+   - Posición home.
+   - Repetibilidad del ciclo.
+
+** Robot ABB – Revisión de ciclo automático
+   SCHEDULED: <2026-01-30 +1d>
+   :PROPERTIES:
+   :FREQ: daily
+   :CATEGORY: Robot
+   :END:
+   - Sin colisiones
+   - Señales OK
+
+** Conveyor – Limpieza general
+   SCHEDULED: <2026-01-30 +1d>
+   :PROPERTIES:
+   :FREQ: daily
+   :CATEGORY: Conveyor
+   :END:
+
+** Celda completa – Auditoría de seguridad y LOTO
+* WEEKLY :weekly:
+** DCM – Revisión sistema hidráulico
+   SCHEDULED: <2026-01-30 +1w>
+   :PROPERTIES:
+   :FREQ: weekly
+   :CATEGORY: DCM
+   :END:
+   - Presión
+   - Temperatura del aceite
+
+** Sprayer – Revisión de mangueras y válvulas
+   SCHEDULED: <2026-01-30 +1w>
+   :PROPERTIES:
+   :FREQ: weekly
+   :CATEGORY: Sprayer
+   :END:
+
+** Ladler – Lubricación de ejes
+   SCHEDULED: <2026-01-30 +1w>
+   :PROPERTIES:
+   :FREQ: weekly
+   :CATEGORY: Ladler
+   :END:
+
+** Quench – Verificar nivel y condición del agua
+   SCHEDULED: <2026-01-30 +1w>
+   :PROPERTIES:
+   :FREQ: weekly
+   :CATEGORY: Quench
+   :END:
+   
+* MONTHLY :monthly:
+** DCM – Backup PLC y HMI
+   SCHEDULED: <2026-01-30 +1m>
+   :PROPERTIES:
+   :FREQ: monthly
+   :CATEGORY: Controls
+   :END:
+
+** Robot ABB – Backup y limpieza de gabinete
+   SCHEDULED: <2026-01-30 +1m>
+   :PROPERTIES:
+   :FREQ: monthly
+   :CATEGORY: Robot
+   :END:
+
+** Trim Press – Revisión de sensores y seguridades
+   SCHEDULED: <2026-01-30 +1m>
+   :PROPERTIES:
+   :FREQ: monthly
+   :CATEGORY: Trim
+   :END:
+
+** Horno – Inspección de quemadores y termopares
+   SCHEDULED: <2026-01-30 +1m>
+   :PROPERTIES:
+   :FREQ: monthly
+   :CATEGORY: Furnace
+   :END:
+
+* SEMI-ANNUAL :semiannual:
+** DCM – Cambio de filtros hidráulicos
+   SCHEDULED: <2026-01-30 +6m>
+   :PROPERTIES:
+   :FREQ: semiannual
+   :CATEGORY: DCM
+   :END:
+
+** Conveyor – Alineación y tensión
+   SCHEDULED: <2026-01-30 +6m>
+   :PROPERTIES:
+   :FREQ: semiannual
+   :CATEGORY: Conveyor
+   :END:
+
+** ABB – Inspección de cables y ejes
+   SCHEDULED: <2026-01-30 +6m>
+   :PROPERTIES:
+   :FREQ: semiannual
+   :CATEGORY: Robot
+   :END:
+   
+* ANNUAL :annual:
+** DCM – Overhaul general
+   SCHEDULED: <2026-01-30 +1y>
+   :PROPERTIES:
+   :FREQ: annual
+   :CATEGORY: DCM
+   :END:
+
+** Horno – Calibración de temperatura
+   SCHEDULED: <2026-01-30 +1y>
+   :PROPERTIES:
+   :FREQ: annual
+   :CATEGORY: Furnace
+   :END:

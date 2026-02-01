@@ -40,7 +40,7 @@ Responsable del departamento de mantenimiento del área de Diecasting.\
 + Dar seguimiento a la instalación de robots periféricos en celdas de fundición.
 + Coordinar y supervisar el proceso de recepción, instalación y puesta en marcha de dos celdas totalmente automatizadas.
 *Personal a cargo:*
-- 7 Técnicos de mantenimiento
+- 8 Técnicos de mantenimiento
 
 = Tecnico de Mantenimiento y Automatización Diecast
 _[2020 - 2024 - Autoliv Mexico East. - H. Matamoros, Tam.]_\

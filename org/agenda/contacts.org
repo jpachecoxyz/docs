@@ -14,7 +14,6 @@
 ** Diana Pacheco
 :PROPERTIES:
 :PHONE: 868-536-0259
-:EMAIL: 
 :BIRTHDAY: <1999-11-09 Sun +1y>
 :END:
 ** Brayan
@@ -24,20 +23,14 @@
 :BIRTHDAY: <1999-10-09 Sat +1y>
 :END:
 * Companies
-** TODO Juan Torres
+** Juan Torres
 :PROPERTIES:
 :PHONE: 
-:EMAIL: 
 :END:
 ** RYDE 
 :PROPERTIES:
 :MODEL: Service Provider 
 :LINE:  Automation & Robotics
-:END:
-*** TODO Edgar Rodriguez
-:PROPERTIES:
-:EMAIL:
-:PHONE: 
 :END:
 ** SyMA Suministro y Servicios
 :PROPERTIES:
@@ -51,7 +44,7 @@
 :PHONE: 868-202-3408
 :EMAIL: mario.morales@suministroyserviciossyma.com
 :END:
-** INCOR :servicios:
+** INCOR
 :PROPERTIES:
 :PHONE: 868-109-9230
 :EMAIL: atencionaclientes@multiservicios-incor.com
@@ -102,4 +95,11 @@
 :PROPERTIES:
 :MODEL: Service Provider
 :LINE:  Industrial Maintenance
+:END:
+* Programming and linux stuff
+** José Jorge Ibáñez Garcia (jjibagar)
+:PROPERTIES:
+:PHONE: +34 610092755
+:EMAIL: jjibagar@disroot.org
+:BIRTHDAY: <1979-07-11 Mon +1y>
 :END:

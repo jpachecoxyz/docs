@@ -38,7 +38,7 @@ Responsible for the maintenance department of the DieCasting area.\
 + Follow up on the installation of peripheral robots in die casting cells.
 + Coordinate and supervise the reception, installation, and commissioning of two fully automated cells.
 *Personnel in charge:*
-- 7 Maintenance Technicians
+- 8 Maintenance Technicians
 
 = Diecast Maintenance and Automation Technician
 _[2020 - 2024 - Autoliv Mexico East. - H. Matamoros, Tam.]_\

@@ -1,12 +1,10 @@
 # -*- jinx-languages: "es_MX"; -*-
 #+title: Personal
-#+date: [2026-01-15 Thu 18:11]
-#+filetags: :meta:
-#+identifier: 20260115T181113
+#+date: [2026-01-29 Thu 18:28]
+#+filetags: :meta:personal:
+#+identifier: 20260129T182851
 #+author: Ing. Javier Pacheco
 #+startup: showall
-#+TAGS: { personal(p) trabajo(t) } 
-#+TAGS: familia(f) escuela(e) adeudo(a) crypt(x)
 
 * Personal: :crypt:
 -----BEGIN PGP MESSAGE-----

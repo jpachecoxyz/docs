@@ -17,7 +17,7 @@ Entender como funcionan los /Bridges/ en /QEMU/, ya que necesito conectarme a un
 ip link add name br0 type bridge
 #+end_src
 
-- Levantar el dispositivo, basicamente encenderlo.
+- Levantar el dispositivo, básicamente encenderlo.
 #+begin_src bash
 ip link set dev br0 up
 #+end_src
@@ -27,7 +27,7 @@ ip link set dev br0 up
 ip link set enp1s0 master br0
 #+end_src
 
-- Agreagar la ip a las interfaces.
+- Agregar la ip a las interfaces.
 #+begin_src bash
 ip add add 192.168.0.100/24 dev br0
 #+end_src
