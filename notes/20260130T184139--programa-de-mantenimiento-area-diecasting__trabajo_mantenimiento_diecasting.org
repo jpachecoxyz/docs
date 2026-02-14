@@ -75,10 +75,15 @@ Este archivo está pensado para usarse *directamente en Org-mode* y como base de
    - Repetibilidad del ciclo.
 
 ** Robot ABB – Revisión de ciclo automático
-   SCHEDULED: <2026-01-30 +1d>
+   SCHEDULED: <2026-02-01 Sun +1d>
    :PROPERTIES:
    :FREQ: daily
    :CATEGORY: Robot
+   :LAST_REPEAT: [2026-02-01 Sun 14:12]
+   :END:
+   :LOGBOOK:
+   - State "DONE"       from ""           [2026-02-01 Sun 14:12]
+   - State "DONE"       from ""           [2026-02-01 Sun 14:12]
    :END:
    - Sin colisiones
    - Señales OK
@@ -131,10 +136,14 @@ Este archivo está pensado para usarse *directamente en Org-mode* y como base de
    :END:
 
 ** Robot ABB – Backup y limpieza de gabinete
-   SCHEDULED: <2026-01-30 +1m>
+   SCHEDULED: <2026-03-02 Mon +1m>
    :PROPERTIES:
    :FREQ: monthly
    :CATEGORY: Robot
+   :LAST_REPEAT: [2026-02-01 Sun 14:07]
+   :END:
+   :LOGBOOK:
+   - State "DONE"       from ""           [2026-02-01 Sun 14:07]
    :END:
 
 ** Trim Press – Revisión de sensores y seguridades
@@ -167,10 +176,14 @@ Este archivo está pensado para usarse *directamente en Org-mode* y como base de
    :END:
 
 ** ABB – Inspección de cables y ejes
-   SCHEDULED: <2026-01-30 +6m>
+   SCHEDULED: <2026-07-30 Thu +6m>
    :PROPERTIES:
    :FREQ: semiannual
    :CATEGORY: Robot
+   :LAST_REPEAT: [2026-02-01 Sun 14:12]
+   :END:
+   :LOGBOOK:
+   - State "DONE"       from ""           [2026-02-01 Sun 14:12]
    :END:
    
 * ANNUAL :annual:
