@@ -1,0 +1,8 @@
+# -*- jinx-languages: "es_MX"; -*-
+#+title: Delta
+#+date: [2026-02-22 Sun 14:49]
+#+filetags: :estudio:plc:
+#+identifier: 20260222T144921
+#+author: Ing. Javier Pacheco
+#+startup: showall
+

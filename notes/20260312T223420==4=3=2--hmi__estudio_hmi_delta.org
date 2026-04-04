@@ -1,0 +1,7 @@
+# -*- jinx-languages: "es_MX"; -*-
+#+title: HMI
+#+date: [2026-03-12 Thu 22:34]
+#+filetags: :estudio:hmi:delta:
+#+identifier: 20260312T223420
+#+author: Ing. Javier Pacheco
+#+startup: showall

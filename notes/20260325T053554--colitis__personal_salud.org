@@ -1,0 +1,12 @@
+# -*- jinx-languages: "es_MX"; -*-
+#+title: Colitis
+#+date: [2026-03-25 Wed 05:35]
+#+filetags: :personal:salud:
+#+identifier: 20260325T053554
+#+author: Ing. Javier Pacheco
+#+startup: showall
+
+
+* Medicamentos:
+- Nesajar :: Medicamento para el dolor e inflamacion. 12 hrs
+- Trimebutina :: Inflamacion. 8 hrs

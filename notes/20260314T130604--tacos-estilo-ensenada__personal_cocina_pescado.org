@@ -1,0 +1,20 @@
+# -*- jinx-languages: "es_MX"; -*-
+#+title: Tacos estilo Ensenada
+#+date: [2026-03-14 Sat 13:06]
+#+filetags: :personal:cocina:pescado:
+#+identifier: 20260314T130604
+#+author: Ing. Javier Pacheco
+#+startup: showall
+
+* Ingredientes:
+- Aceite.
+- 1 Taza de harina.
+- 1 Cucharada de Rexal.
+- 2 cucharadas de sazonador.
+- 3/4 o 1 cerveza fría. (depende de la mezcla).
+- Filetes de pescado cortados en bastones.
+  
+* Preparación.
+1. Mezclar los ingredientes para el rebosado.
+2. Mezclar los filetes en el rebosado.
+3. Freír en mucho aceite.

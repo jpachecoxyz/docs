@@ -5,7 +5,7 @@
 #+startup: content
 #+date: [2025-03-23 Sun 20:01]
 #+tags: { @work(w) @project(p) }
-#+tags: JavierPacheco(J) JesusValles(v) ErickFrias(e) EduardoJasso(j) ReneChavez(r) OzielGarcia(o) ArturoRobles(a) CesarSalazar(c) AlejandroDeLeon(A)
+#+tags: JavierPacheco(J) JesusValles(v) ErickFrias(e) EduardoJasso(j) ReneChavez(r) OzielGarcia(o) ArturoRobles(a) AlejandroDeLeon(A)
 #+tags: { GustavoRodriguez(g) JoseLuis(l) }
 #+tags: Celda1(1) Celda2(2) Celda3(3) Celda4(4) Celda5(5) Celda6(6) Celda7(7) Todas(t)
 #+seq_todo: TODO(t) DOING(D!) NEXT(n@) WAITING(w@) PROJ(p) | DONE(d!) CANCELLED(c)
@@ -68,7 +68,7 @@ CLOSED: [2026-01-25 Sun 05:58]
 - State "DOING"      from "TODO"       [2026-01-28 Wed 23:28]
 :END:
 
-** TODO [#C] Instalacion de agua para Mixers. :CesarSalazar:AlejandroDeLeon:Celda4:Celda5:
+** TODO [#C] Instalacion de agua para Mixers. :AlejandroDeLeon:Celda4:Celda5:
 :LOGBOOK:
 - State "DOING"      from "TODO"       [2026-01-29 Thu 09:47]
 :END:
@@ -80,18 +80,26 @@ CLOSED: [2026-01-25 Sun 05:58]
 - State "DOING"      from              [2026-01-29 Thu 12:21]
   Cotizacion de material necesario.
 :END:
-** DOING [#B] Reparacion de troquel Celda 4 [0/2][0%] :JavierPacheco:CesarSalazar:Celda4:
+** DOING [#B] Reparacion de troquel Celda 4 [1/2][50%] :JavierPacheco:Celda4:
 :LOGBOOK:
 - State "DOING"      from "TODO"       [2026-01-29 Thu 12:20]
 :END:
 *** TODO PLC Mitsubishi.
-*** DOING Driver de motor.
+*** DONE Driver de motor.
 :LOGBOOK:
+- State "DONE"       from "DOING"      [2026-02-14 Sat 18:44]
 - State "DOING"      from "TODO"       [2026-01-29 Thu 12:20]
 :END:
-** TODO [#A] Reparacion de Piston de Troquel Celda 2 [0%][0/2] :JesusValles:EduardoJasso:Celda2:
-*** TODO Desmontar pistón.
-*** TODO Buscar proveedor para reparación.
+** DONE [#A] Reparacion de Piston de Troquel Celda 2 [100%][3/3] :JesusValles:EduardoJasso:Celda2:
+:LOGBOOK:
+- State "DONE"       from "DOING"      [2026-02-16 Mon 20:29]
+- State "DOING"      from "DONE"       [2026-02-14 Sat 22:32]
+- State "DONE"       from "DOING"      [2026-02-14 Sat 22:31]
+- State "DOING"      from "TODO"       [2026-02-14 Sat 22:31]
+:END:
+*** DONE Desmontar pistón.
+*** DONE Buscar proveedor para reparación.
+*** DONE Instalar piston
 ** PROJ [#B] Flushing de Sprayers :JesusValles:ErickFrias:Todas:
 ** DOING [#C] Modificacion Overtime de Trim Press. :ReneChavez:OzielGarcia:ArturoRobles:Celda1:Celda2:Celda3:
 - -Descripción del problema :: Las prensas permanecen encendidas, el motor jamas se apaga a menos que el operador decida apagarlo.
@@ -130,4 +138,48 @@ El plan es instalar un PLC =Allen Bradley= el modelo =L18E=. Aun no tengo idea s
 DEADLINE: <2026-02-03 Tue 10:00>
 *** TODO Sensor de flujo.
 *** TODO Control de temperatura de agua.
-
+** PROJ [#A] Sistema de seguridad :JavierPacheco:Celda3:
+*** Idea principal.
+La maquina Idra 1600, no cuenta con un sistema robusto de seguridad para la persona que ingresa a la maquina. Por lo cual la idea principal es integrar un sistema de cortinas de seguridad con control y monitoreo de que el operador entro y salio y siguio el procedimiento de verificacion de seguridad.
+*** DONE Creacion de diagrama de flujo de sistema
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2026-03-14 Sat 10:16]
+:END:
+**** Condiciones inicial.
+- Si la maquina/motor se apaga el sistema de bloqueo se activara.
+  - Condiciones:
+    - Motor apagado.
+    - Maquina Apagada.
+- Si las cortinas de seguridad son interrumpidas el sistema de bloqueo se activara.
+  - Condiciones:
+    - Señal digital de cortina interrumpida.
+*** DONE Listado de materiales.[4/4]
+:LOGBOOK:
+- State "DONE"       from "DOING"      [2026-03-14 Sat 10:15]
+- State "DOING"      from "TODO"       [2026-03-14 Sat 10:15]
+:END:
+- [X] Cortinas de seguridad.
+- [X] Botoneras.
+- [X] Leds.
+- [X] Relevador de seguridad.
+*** TODO Programacion en PLC
+Este trabajo lo realizara Ryde.
+** DONE [#B] Protecciones de ciclo a DCM. [3/3][100%] :JavierPacheco:ErickFrias:EduardoJasso:Celda3:
+:LOGBOOK:
+- State "DONE"       from "DOING"      [2026-03-14 Sat 12:57]
+- State "DOING"      from "DONE"       [2026-03-14 Sat 12:57]
+- State "DONE"       from "DOING"      [2026-03-14 Sat 12:56]
+- State "DOING"      from "PROJ"       [2026-03-14 Sat 12:56]
+- State "DOING"      from "TODO"       [2026-01-29 Thu 09:48]
+- State "DOING"      from "TODO"       [2026-01-29 Thu 09:36]
+:END:
+*** DONE Control electrico. 
+**** DONE Materiales. [1/1][100%]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2026-03-14 Sat 12:56]
+- State "WAITING"    from "TODO"       [2026-01-29 Thu 11:51] \\
+  - <2026-01-28 Wed> SyMA envio cotizacion de PLC =AB 1400.=
+:END:
+***** DONE Gabinete.
+*** DONE Sensor de flujo.
+*** DONE Conexion hidraulica (agua)

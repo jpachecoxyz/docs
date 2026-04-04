@@ -5,6 +5,7 @@
 #+identifier: 20250921T094333
 #+author: Ing. Javier Pacheco
 #+startup: showall
+
 * Introducción:
 Los ejercicios CBT se refieren a actividades prácticas usadas en la Terapia Cognitivo-Conductual (en inglés Cognitive Behavioral Therapy, CBT).
 CBT es un enfoque psicológico que ayuda a identificar y cambiar patrones de pensamiento y comportamiento poco útiles para reducir problemas como ansiedad, depresión, estrés, fobias, etc.

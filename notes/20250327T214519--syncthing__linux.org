@@ -8,8 +8,8 @@
 
 * Instalacion.
 Syncthing debe estar en la mayoria de las distribuiciones linux, ademas de MacOS, y Windows. 🤮
-En mi caso uso void asi que es tan sencillo como usar xbps. 
 
+Ejemplo de instalacion en =Void linux=
 #+begin_src shell
 doas xbps-install syncthing
 #+end_src

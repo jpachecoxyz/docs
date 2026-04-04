@@ -1,0 +1,17 @@
+* Tareas
+** TODO [#B] Idra 1600: Fuga de aceite en tubo de inyeccion. :MAINT:
+:PROPERTIES:
+:CREATED: [2026-03-23 Mon 20:01]
+:END:
+
+- [ ] Tornillos M12x45
+- [ ] Oring.
+- [ ] Soldadura.
+
+* Compras
+** WAITING Requisición: Manguera Amarilla :PURCHASE:
+:PROPERTIES:
+:OT: General
+:CANTIDAD: 100 mts
+:END:
+

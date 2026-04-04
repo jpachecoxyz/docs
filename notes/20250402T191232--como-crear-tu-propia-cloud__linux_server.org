@@ -16,6 +16,7 @@
 #+begin_src shell
 git clone https://github.com/keepittechie/Linux-Server-Arsenal
 #+end_src
+
 - Una vez clonado, ir al directorio de los scripts, darle permisos de ejecución y correrlo como sudo.
 #+begin_src shell
 cd linux-server-arsenal/assets
@@ -28,23 +29,28 @@ sudo ./lamp.sh
 #+begin_src shell
 sudo mysql -u root -p
 #+end_src
+
 once in =mysql=: 
 - Crear la base de datos:
 #+begin_src mysql
 create database owncloud_db;
 #+end_src
+
 - Crear usuario y contraseña:
 #+begin_src mysql
 create user 'ownclouduser'@'localhost' identified by 'Password1234'
 #+end_src
+
 - Permirtir acceso a toda la base de datos:
 #+begin_src mysql
 grant all privileges on owncloud_db.* to 'ownclouduser'@'localhost'
 #+end_src
+
 - Aceptar todos los privilegios:
 #+begin_src mysql
 flush privileges;
 #+end_src
+
 - Salir
 #+begin_src mysql
 exit;
@@ -75,7 +81,7 @@ sudo a2ensite owncloud.conf
 sudo systemctl restart apache2.service
 #+end_src
 ** TODO PHP
-Ownclod utiliza una version vieja de php, en este caso debe ser menor a 8. En el video que esta en la [[denote:20250402T191232::#h:54488882-cf7e-448d-93d4-f057b230b1c3][Referencia]] utiliza la version 7.4. 
+Ownclod utiliza una version vieja de php, en este caso debe ser menor a 8. En el video que esta en la [[file:20250402T191232--como-crear-tu-propia-cloud__linux_server.org::#h:54488882-cf7e-448d-93d4-f057b230b1c3][Referencia]] utiliza la version 7.4. 
 
 * Referencias:
 :PROPERTIES:

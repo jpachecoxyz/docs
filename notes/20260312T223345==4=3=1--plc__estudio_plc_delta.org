@@ -1,0 +1,7 @@
+# -*- jinx-languages: "es_MX"; -*-
+#+title: PLC
+#+date: [2026-03-12 Thu 22:33]
+#+filetags: :estudio:plc:delta:
+#+identifier: 20260312T223345
+#+author: Ing. Javier Pacheco
+#+startup: showall

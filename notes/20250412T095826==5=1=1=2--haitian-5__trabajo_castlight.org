@@ -1,10 +1,11 @@
-# -*- jinx-languages: "es_MX"; -*-; -*-
+# -*- jinx-languages: "es_MX"; -*-
 #+title: Haitian 5
 #+date: [2025-04-12 Sat 09:58]
 #+filetags: :trabajo:castlight:
 #+identifier: 20250412T095826
 #+author: Ing. Javier Pacheco
 #+startup: showall
+
 * TODO Datos y especificaciones.
 - Modelo :: H450
 - Serie ::
@@ -17,10 +18,18 @@
 ** lvl 12 :crypt:
 -----BEGIN PGP MESSAGE-----
 
-jA0ECQMKAaPc1QfCtCH/0lcBaMnh1FdEvTpL77hKh7HaBfyAFzkhhsyk8/UN9O8Z
-9udhSLQ2accVd4E6uACOohNy2AN84R9o2eGaQdEuD6d3V6aXuM8YniZ9yytqm/RB
-TyVuankmH+U=
-=7J2y
+hQGMA70D1ThRMEAZAQwAm0xcWP91waM5jbfJ6Ej5h8FD6t2vn1tIeifQANxv2fQ3
+khEESTAjAhwoXLxlWh/gvTCovrlhgmQC8kkiu5zrcrqhwIKRlWJZWwWbjR6B7fFo
+100ehHyH6KviNeNlnK4SgWq8WIsWNp3UCO4vjjfxcXVY9+erl8NsbIuJqgVUMN86
++eKLspldgp5oodxGJXITt43nAqw8YwMP4BAcTMq1v8TCPuwiXwrj4oAsWqnoVJji
+8o1FMhc+qDiS+j3yvmnfUSNUpp+y2V5RF92VGzLE6CPXv6h66xR42D4HQVHovYbA
+Yod7SkrWhAWZ6+urPDq5m4NSAyLccKVCF2nT5Kg2LVM0ZevCXe08U9VOX6rN8DDw
+cMCkH8z2itCzpzRbxJa8D7KaK9hBok+Spy99VYY73S17zL2xOZqk1IwPqeO+W5Y4
+NIYm9egeCICdYCuog1NGASJS/6e4cSzponRu9TzMyDYq1l872PiFNn44U0p9fWif
+e4QPNf2DhN6bgxMb0RCe0l0BcJgHZeOrqmu2QNANssJsZ6KAU3lHq9/mrYs5snK8
+tNr5y6MPZdlAIiQvtL7MXuqvmaqZFsV66Kz0iIGqk4nJuqauFh3DFeCXRw1qPO6j
+wWRehiX86K7ERbu2uLw=
+=f23E
 -----END PGP MESSAGE-----
 
 ** lvl 8:
@@ -34,10 +43,18 @@ pass: a123
 ** Driver: :crypt:
 -----BEGIN PGP MESSAGE-----
 
-jA0ECQMKO0KnhuhkGyD/0mwBc9BqSRhbBxlGSuA4yRvop5ZxQxU/9E825vkLizR1
-m0KEUVLEdcNIb4NW4LCR3IOoGkFjyCZIJ7inMH0c3QxcJTG2zl8kWSz3VwxwxHAA
-tVzcY3QqWzeUDqmt5AafamM9VLaolviuYjbT0sA=
-=2aWT
+hQGMA70D1ThRMEAZAQv5AbjXOYUeJejptc+yI3Fk6nO8Ae/vrRrAWtz2T+xBurrC
+qkvwCsmPx9cOHBlMIcEC3wj7zGFJD6FNH2F3l1mCtiyHDbcCGU237SJUEK1u+Its
+pm65ouFO7Mu9tjyt285UU0FgaNn4RN6Q3luLaegJNJjUeHRr6mvV+hI+4d3J4Xpg
+F2ib3GnWR1GlgQgFrvk7fTopME9F9VH0zvRi0Ci/1WKphCg+e3oVACpP3pbUC3mI
+I5/avqEsK3oFqEzwRwjWXzu7P8nWTNREPoCwrpO3xG6T6EbAfLkpJIZnKGn/F4sj
+eM3qsbe7voRjKt4XOvAbJayF8A977aJKf6ONNhe3xdbLEn1+Xx9sDMi8quQklq4f
+ul72+IBqDAGkT69EXltUF1zAcvf8G1m4IuP0rGGmg6B24l6MpQfBcqKGDXSynXci
+7qbF55NWRM0omT2eb7cF6LnQchczQz5h+OpgiUi0Huf/KJuC+Zci04WzxxR4o2nv
+w2HN6KcfhJNDfz8zcacK0nIBihkGqrwB7IXxbPjVSmHjzMZMA54GEONuWBbOS1Ab
+M/QFPtFmeIYFOGpIXUfKT//37AkBa0jVnqH72jU1diZkgOoXuYHNxEf7+HUYS566
+Q730ibwAL77KEXv88dbMrjFXd408k2TR2RRs7pwEnuZMbes=
+=ouFs
 -----END PGP MESSAGE-----
 
 * Fallas Considerables.
@@ -63,7 +80,7 @@ Revisando la maquina, Alejandro de Leon, nota que hay un ruido extraño en la ma
 Despues de modificar el =An.11=, el motor dejo de girar al revés, y quedo
 trabajando correctamente.
 
-*NOTE:* Despues volvio a fallar, se resolvio solo el problema.
+*NOTE:* Después volvió a fallar, se resolvió solo el problema.
 
 **  3-Julio-2025
 Reemplazo de empaques de Cilindro de cierre.
@@ -75,3 +92,9 @@ Después de lo de los parámetros anteriores, el problema seguía presentándose
 El motor empezo a comportarse de la misma manera (girando en reversa en reposo), Intentamos poner el parametro *An.18* en 0, pero el problema persiste, Haitian esta en planta instalando las maquinas nuevas.
 
 *NOTA:* El parametro =An.19= se puso en 3 en lugar de 0 corrigiendo la falla. Esto nos indica que la solucion a este detalle puede no ser ese parametro, ya que en las ocaciones pasadas el parametro =An.18= se encontraba con valor 3 y se movia a 0 para solucionar el detalle, ahora estaba en 1, se coloco en 0 sin solucion, despues se coloco 3 y respondio bien.
+
+*** Marzo 21 2026
+
+El motor empezo a comportarse de la misma manera (girando en reversa en reposo), Intentamos poner el parametro *An.18* en 0, pero el problema persiste, Haitian esta en planta instalando las maquinas nuevas.
+
+*NOTA:* El parametro =An.18= se puso en 3 en lugar de 0 corrigiendo la falla. Esto nos indica que la solucion a este detalle puede no ser ese parametro, ya que en las ocaciones pasadas el parametro =An.18= se encontraba con valor 3 y se movia a 0 para solucionar el detalle, ahora estaba en 1, se coloco en 0 sin solucion, despues se coloco 3 y respondio bien.

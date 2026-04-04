@@ -6,7 +6,7 @@
 #+author: Ing. Javier Pacheco
 #+startup: showall
 
-* Personal: :crypt:
+* Personal :crypt:
 -----BEGIN PGP MESSAGE-----
 
 hQGMA70D1ThRMEAZAQv+IJCRRgDy04oW7kUVL2xmoF3t0wym7VaHHFJX+G7WTSFi

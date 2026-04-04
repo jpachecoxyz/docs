@@ -4,18 +4,47 @@
 #+filetags: :personal:lia:estudio:
 #+identifier: 20250814T190355
 #+author: Ing. Javier Pacheco
+#+filetags: :crypt:
 #+startup: showall
-* Primaria.
+
+* Terapia. :crypt:
+-----BEGIN PGP MESSAGE-----
+
+hQGMA70D1ThRMEAZAQv/WDACrxp6zuhZZh2ZGWaNRjjQz/mOSkq9cBQCS7j8WJQe
+OhdlIvxgyxrlLDMnNidxz6WJR0bX0+xuFKgEs8I/SHhKp1A+nvmNUqKMo9DAvRpU
+A2KdEGAfKU+a2tx0Ml91hkiqMRbvGBsybCNmiRCG4XrAbxf6Fa6k7F1JHIzrCO+8
+TF2enVBz8Y26wfeYsOPaBpFhvgeN7nB9C/TLIxRWY+TADeZGM2RHVe8vwnzcGPxc
+z+x++ZdGmBLeY7uKEfHoZk2ZwJx50CAX7zSGXIG91EUAYVceWqPQ/V+U1HRPPcrE
+kwgn8Jond5jPCiJ4zDLtORUbucKHfBtJeq3MvEey+UFzxisSlSnk+rd0xwRy2J8V
+njUtMW7idL5zpsK15GEXDRfySW86p8W5bwgYcQVfSYaVTggD588o784adjY2fGI7
+fNCSJw41btF4vJgmkQ2iYMply4HwgzWFmRMtdobIfPRoY/BGuZ0FUnbByxluiPJ/
+6kBECebuMVMAW75QacVM0sBVAcc12+nOSU1p3gy6wsbNAsJTZSZkXH0zCzI/cLlk
+5hwLVU5nEt2EgMd1YOodlXAm/wviH83UqR8y7ORIG4bvnWT3+sO+a7ZUhv7nHkbu
+fSijV8X6l5o6FPJXkUiE1sAm2ifAG7zmZTCATfGkRBmuA5w9XrdZcV5YnlgJfhJB
+W8OrpbrpdeJy/uqmyNvJL1W4rFJ7HkQRuUAnwrQxwB+Qp9RXkBiXafQi+LgROsaU
+knLH5FwMIVmMy2OIijsMD3lrUbUltrA46DY1BYaNSUy+Aab8j+MxHU9WfKxIGkj8
+izCUrFbC3lFhpVSQnEMTwBihoUc0n/yoQsVvrbbEm/xbaaY8eEfT+JrjzmAmkbdV
+S0NOqQtlMA==
+=YzSQ
+-----END PGP MESSAGE-----
+
+* Kinder.
+** Imagen.
+Decidimos ingresarte aquí porque estuviste tiempo en la guardería
+=Imagen=, por lo cual planteamos que seria buena idea que no perdieras
+la costumbre de venir a este kinder, ya que se encuentran en el mismo lugar.
+** Liceo Victoria.
+* Primaria (Liceo Victoria).
 ** Primer Grado.
 **** Útiles escolares [4/4].
 - [X] Cuadernos
 - [X] Plumas
 - [X] Lapices
 - [X] Zapatos
-**** Evento de 16 de Septiembre. [1/3][33%]
+**** Evento de 16 de Septiembre. [3/3][100%]
 - [X] Vestido.
-- [ ] Cooperación de 250.
-- [ ] Quermés
+- [X] Cooperación de 250.
+- [X] Quermés
 
 ** Segundo Grado.
 ** Tercer Grado.
