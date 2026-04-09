@@ -11,11 +11,31 @@
 :CATEGORY: hogar
 :END:
 ** Colegiatura.
-DEADLINE: <2026-02-05 Thu +1m>
-** Relampago.
-DEADLINE: <2026-02-01 Sun 20:00 +1w>
+DEADLINE: <2026-05-05 Tue +1m>
 :PROPERTIES:
-:LAST_REPEAT: [2026-01-25 Sun 17:34]
+:LAST_REPEAT: [2026-04-08 Wed 20:44]
+:END:
+:LOGBOOK:
+- State "DONE"       from              [2026-04-08 Wed 20:44]
+- State "DONE"       from              [2026-04-08 Wed 20:44]
+- State "DONE"       from              [2026-04-08 Wed 20:44]
+:END:
+** Relampago.
+DEADLINE: <2026-04-12 Sun 20:00 +1w>
+:PROPERTIES:
+:LAST_REPEAT: [2026-04-08 Wed 20:44]
+:END:
+:LOGBOOK:
+- State "DONE"       from              [2026-04-08 Wed 20:44]
+- State "DONE"       from              [2026-04-08 Wed 20:44]
+- State "DONE"       from              [2026-04-08 Wed 20:44]
+- State "DONE"       from              [2026-04-08 Wed 20:44]
+- State "DONE"       from              [2026-04-08 Wed 20:44]
+- State "DONE"       from              [2026-04-08 Wed 20:44]
+- State "DONE"       from              [2026-04-08 Wed 20:44]
+- State "DONE"       from              [2026-04-08 Wed 20:44]
+- State "DONE"       from              [2026-04-08 Wed 20:44]
+- State "DONE"       from              [2026-04-08 Wed 20:44]
 :END:
 - State "DONE"       from              [2026-01-25 Sun 17:34]
 ** DONE Reparar el calentador del agua.
@@ -30,21 +50,22 @@ SCHEDULED: <2025-04-26 Sat>
 **** TODO Agua Fria
 **** TODO Agua Caliente
 **** TODO Desagüe.
-* Laptop:
+* Laptop: :@personal:
 :PROPERTIES:
 :CATEGORY: laptop
 :END:
-* Estudio
+* Estudio :@personal:
 :PROPERTIES:
 :CATEGORY: estudio
 :STYLE: habit
 :END:
 ** Actualizar mis notas
-SCHEDULED: <2026-02-01 Sun ++1w>
+SCHEDULED: <2026-04-12 Sun ++1w>
 :PROPERTIES:
-:LAST_REPEAT: [2026-01-28 Wed 21:06]
+:LAST_REPEAT: [2026-04-08 Wed 20:44]
 :END:
 :LOGBOOK:
+- State "DONE"       from              [2026-04-08 Wed 20:44]
 - State "DONE"       from              [2026-01-28 Wed 21:06]
 :END:
   
@@ -69,15 +90,22 @@ DEADLINE: <2026-01-29 Thu 14:10>
 CLOSED: [2026-01-24 Sat 12:46] DEADLINE: <2026-01-23 Fri>
 
 - State "DONE"       from "TODO"       [2026-01-24 Sat 12:46]
-** Nemak :@project:
+** DONE Nemak :@project:
+CLOSED: [2026-04-08 Wed 20:46]
 :PROPERTIES:
 :CATEGORY: Nemak
+:END:
+:LOGBOOK:
+- State "DONE"       from              [2026-04-08 Wed 20:46]
 :END:
 *** DONE Interview
 DEADLINE: <2026-01-29 Thu 10:30>
 :LOGBOOK:
 - State "DONE"       from              [2026-01-29 Thu 11:45]
 :END:
-*** Interview 2.
-DEADLINE: <2026-02-02 Mon 10:30>
-Entrevista con persoonal de controles.
+*** DONE Interview 2.
+CLOSED: [2026-04-08 Wed 20:43] DEADLINE: <2026-02-02 Mon 10:30>
+:LOGBOOK:
+- State "DONE"       from              [2026-04-08 Wed 20:43]
+:END:
+Entrevista con personal de controles.

@@ -14,6 +14,8 @@
 %%(org-anniversary 2022 1 3) Javier's Birthday No. %d
 
 # Parents/Brothers.
+%%(org-anniversary 1964 4 22) Mom's Birthday No. %d
+%%(org-anniversary 1962 12 1) Dad's Birthday No. %d
 %%(org-anniversary 1998 11 9) Diana's Birthday No. %d
 %%(org-anniversary 1999 10 9) Brayan Birthday No. %d
 

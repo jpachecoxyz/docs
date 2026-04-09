@@ -115,8 +115,9 @@ CLOSED: [2026-01-25 Sun 05:58]
 - State "DONE"       from "TODO"       [2026-01-29 Thu 08:05]
 :END:
 
-** PROJ [#B] Protecciones de ciclo a celdas automaticas. [0/3][0%] :JavierPacheco:ErickFrias:GustavoRodriguez:Celda6:
+** DOING [#B] Protecciones de ciclo a celdas automaticas. [2/3][66%] :JavierPacheco:ErickFrias:GustavoRodriguez:Celda6:
 :LOGBOOK:
+- State "DOING"      from "PROJ"       [2026-04-08 Wed 21:11]
 - State "DOING"      from "TODO"       [2026-01-29 Thu 09:48]
 - State "DOING"      from "TODO"       [2026-01-29 Thu 09:36]
 :END:
@@ -134,10 +135,18 @@ CLOSED: [2026-01-25 Sun 05:58]
 :END:
 El plan es instalar un PLC =Allen Bradley= el modelo =L18E=. Aun no tengo idea si =IT= tiene licencias, o si sera muy complicado. Podriamos ver la posibilidad de que el =PLC= maestro sea un PLC =DELTA=.
 
-****** Demo DELTA.
-DEADLINE: <2026-02-03 Tue 10:00>
-*** TODO Sensor de flujo.
-*** TODO Control de temperatura de agua.
+****** DONE Demo DELTA.
+CLOSED: [2026-04-08 Wed 20:43] DEADLINE: <2026-02-03 Tue 10:00>
+:LOGBOOK:
+- State "DONE"       from              [2026-04-08 Wed 20:43]
+:END:
+*** DONE Sensor de flujo.
+CLOSED: [2026-04-08 Wed 21:11]
+*** DONE Control de temperatura de agua.
+CLOSED: [2026-04-08 Wed 21:11]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2026-04-08 Wed 21:11]
+:END:
 ** PROJ [#A] Sistema de seguridad :JavierPacheco:Celda3:
 *** Idea principal.
 La maquina Idra 1600, no cuenta con un sistema robusto de seguridad para la persona que ingresa a la maquina. Por lo cual la idea principal es integrar un sistema de cortinas de seguridad con control y monitoreo de que el operador entro y salio y siguio el procedimiento de verificacion de seguridad.
