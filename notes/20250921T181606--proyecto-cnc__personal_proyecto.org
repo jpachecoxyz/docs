@@ -6,6 +6,7 @@
 #+author: Ing. Javier Pacheco
 #+startup: showall
 #+SEQ\_TODO: TODO DOING REVIEW DONE
+
 
 * Acta de inicio (Project Charter)
   :PROPERTIES:

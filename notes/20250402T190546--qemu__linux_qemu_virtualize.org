@@ -5,6 +5,7 @@
 #+identifier: 20250402T190546
 #+author: Ing. Javier Pacheco
 #+startup: showall
+
 
 * Crear una imagen qcow2 usando qemu-img:
 

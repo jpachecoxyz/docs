@@ -6,6 +6,7 @@
 #+author: Ing. Javier Pacheco
 #+filetags: :crypt:
 #+startup: showall
+
 
 * Terapia. :crypt:
 -----BEGIN PGP MESSAGE-----

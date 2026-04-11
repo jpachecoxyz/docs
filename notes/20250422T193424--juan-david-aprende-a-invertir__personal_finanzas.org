@@ -5,15 +5,17 @@
 #+identifier: 20250422T193424
 #+author: Ing. Javier Pacheco
 #+startup: showall
+
 
-Invertir al rededor del 10 al 20% de tus ingresos mensuales, NO es regla de oro,
-pero es un buen comienzo, de echo si esta dentro de las posibilidades puedes
-invertir mas.
+Invertir al rededor del 10 al 20% de tus ingresos mensuales, NO es regla de oro, pero es un buen comienzo, de echo si esta dentro de las posibilidades puedes invertir mas.
 
-Evitar la inflación del estilo de vida. Asi es, el ganar mas no significa que
-tienes que gastar mas, aprende a ser mas suckless hasta en las finanzas.
+Evitar la inflación del estilo de vida. Asi es, el ganar mas no significa que tienes que gastar mas, aprende a ser mas suckless hasta en las finanzas.
 
+#+begin_quote
 "Lo importante no es cuanto ganas, si no cuanto te queda"
+#+end_quote
 
 Otra frase importante del video: 
+#+begin_quote
 "Es bueno tomar riesgos, pero asegúrate de que sean riesgos calculados"
+#+end_quote

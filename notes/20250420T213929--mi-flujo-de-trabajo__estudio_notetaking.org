@@ -5,6 +5,8 @@
 #+identifier: 20250420T213929
 #+author: Ing. Javier Pacheco
 #+startup: showall
+
+
 Mi flujo de trabajo para el manejo de mis notas y conocimiento es el siguiente:
 
 1. En mi cuaderno (rojo) anotare mis ideas, pensamientos, etc.
@@ -12,9 +14,9 @@ Mi flujo de trabajo para el manejo de mis notas y conocimiento es el siguiente:
 
 Después de todo lo anterior, el siguiente paso es volver a leer mis notas.
 El objetivo de esto es estar escribiendo una gran cantidad de ensayos,
-para después de manera orgánica empezar a conectar todas las notas, y que
-el mapa mental se vaya formando poco a poco. De modo que puede que sea un [[denote:query-filenames:zettelkasten][zettelkasten]]
-o un hibrido.
+para después de manera orgánica empezar a conectar todas las notas, y
+que el mapa mental se vaya formando poco a poco. De modo que puede que
+sea un [[denote:query-filenames:zettelkasten][zettelkasten]] o un hibrido.
 
 * Herramientas de uso diario.
 - Denote :: Para ensayos y notas.

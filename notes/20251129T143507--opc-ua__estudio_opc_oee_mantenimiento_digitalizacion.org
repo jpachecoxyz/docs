@@ -5,6 +5,7 @@
 #+identifier: 20251129T143507
 #+author: Ing. Javier Pacheco
 #+startup: showall
+
 
 * Lectura de datos OPC-UA en máquina Haitian (KEBA)
 

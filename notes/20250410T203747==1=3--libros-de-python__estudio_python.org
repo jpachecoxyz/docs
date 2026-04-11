@@ -5,8 +5,10 @@
 #+identifier: 20250410T203747
 #+author: Ing. Javier Pacheco
 #+startup: showall
+
+
 En esta nota insertare links a libros acerca de python, para tener un marco de referencia a este programa.
 
 * Referencias.
- - [[denote:20250409T213247][mastering-python-design-patterns]]
+ - [[file:pdf/20250409T213247--mastering-python-design-patterns__python_libro.pdf][mastering-python-design-patterns]]
  

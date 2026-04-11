@@ -5,6 +5,8 @@
 #+identifier: 20251002T180524
 #+author: Ing. Javier Pacheco
 #+startup: showall
+
+
 =Rapid= es el lennguage de programacion que utilizan los robots de marca =ABB=
 
 #+begin_example

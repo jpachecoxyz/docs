@@ -5,6 +5,7 @@
 #+identifier: 20251221T154504
 #+author: Ing. Javier Pacheco
 #+startup: showall
+
 
 * Control del flujo de programa
 

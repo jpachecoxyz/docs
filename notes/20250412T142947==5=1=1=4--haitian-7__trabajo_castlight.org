@@ -5,6 +5,7 @@
 #+identifier: 20250412T142947
 #+author: Ing. Javier Pacheco
 #+startup: showall
+
 
 * TODO Datos y especificaciones.
 - Marca :: Haitian

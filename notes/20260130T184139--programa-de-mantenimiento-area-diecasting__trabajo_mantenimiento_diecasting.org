@@ -5,6 +5,7 @@
 #+author: Ing. Javier Pacheco
 #+startup: contents
 #+tags: daily(d) weekly(w) monthly(m) semiannual(s) annual(a)
+
 
 Este archivo está pensado para usarse *directamente en Org-mode* y como base de tu *agenda de mantenimiento*. Incluye tareas *diarias, semanales, mensuales, semestrales y anuales* para una celda completa:
 

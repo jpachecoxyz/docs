@@ -1,3 +1,5 @@
 * Contacts
 * Deadline
 * Scheduled
+* Appointments
+* All tasks

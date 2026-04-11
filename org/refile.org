@@ -1,0 +1,10 @@
+* All tasks
+** TODO test :test:
+:PROPERTIES:
+:CAPTURED: [2026-04-08 Wed 21:36]
+:CUSTOM_ID: h:20260408T213609
+:END:
+
+[[file:~/.dotfiles/.config/emacs/jp-emacs-modules/jp-emacs-org.el::file+headline "refile.org" "All tasks"]]
+This is a test
+

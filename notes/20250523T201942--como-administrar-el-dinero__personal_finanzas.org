@@ -5,6 +5,8 @@
 #+identifier: 20250523T201942
 #+author: Ing. Javier Pacheco
 #+startup: showall
+
+
 * La regla del 25, 15, 50 y 10
 #+begin_quote
 Lo importante no es =cuanto= dinero generas, si no; como =administras= lo que generas.

@@ -5,6 +5,7 @@
 #+identifier: 20251004T215054
 #+author: Ing. Javier Pacheco
 #+startup: content
+
 
 * What is Computer Science?
 Computer science is ..., well we are not going to write the exact definition of computer science, but being more racional in a computer way to think, so the goal of this =course= is more to have the methodic way to think to solve problems, If you think that is what programming do, =solve problems=.

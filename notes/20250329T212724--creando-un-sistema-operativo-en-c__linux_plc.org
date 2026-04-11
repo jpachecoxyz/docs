@@ -5,6 +5,7 @@
 #+identifier: 20250329T212724
 #+author: Ing. Javier Pacheco
 #+startup: showall
+
 
 * Bootloader.
 El rol de el bootloader es:

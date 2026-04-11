@@ -5,6 +5,8 @@
 #+identifier: 20250412T094943
 #+author: Ing. Javier Pacheco
 #+startup: showall
+
+
 * TODO Datos y especificaciones.
 - Modelo :: 1500T
 - Serie ::

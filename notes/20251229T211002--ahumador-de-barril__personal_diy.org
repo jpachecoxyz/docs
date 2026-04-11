@@ -5,6 +5,7 @@
 #+identifier: 20251229T211002
 #+author: Ing. Javier Pacheco
 #+startup: showall
+
 
 * Para las patas de la canasta del carbón:
 4 tornillos de 4"

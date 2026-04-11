@@ -5,5 +5,6 @@
 #+identifier: 20250906T164520
 #+author: Ing. Javier Pacheco
 #+startup: showall
+
 
 Este libro me lo recomendó el ingeniero =Jose Manuel Robles=, se trata acerca de la importancia de como negociar en el entorno social, lo que me comenta es que no siempre aplica en las negociaciones el 50-50 o el ganar ganar, en la vida real al hacer una negociación de este tipo (50-50) al final uno no siempre queda satisfecho con el resultado de la negociación, este libro trata de como tener la posibilidad de siempre ganar mas del 50% en la negociación.

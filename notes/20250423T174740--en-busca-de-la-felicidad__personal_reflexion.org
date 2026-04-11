@@ -5,6 +5,8 @@
 #+identifier: 20250423T174740
 #+author: Ing. Javier Pacheco
 #+startup: showall
+
+
 La semana pasada, me encontraba en mi trabajo, que de echo me gusta, soy bueno en
 lo que hago, me apasiona, mas sin embargo, como comentaba, ese día, era un día 
 normal, todo parecía ir bien, recuerdo que venia de comer con Salvador, cuando 
@@ -22,4 +24,4 @@ hacer un plan y una estrategia, para empezar a deslindarme de la opresión del t
 y empezar una vida plena y sin mortificaciones con mi familia.
 
 * Referencias:
-[[denote:20250422T193424][Juan David - Aprende a Invertir]]
+[[file:20250422T193424--juan-david-aprende-a-invertir__personal_finanzas.org][Juan David - Aprende a Invertir]]

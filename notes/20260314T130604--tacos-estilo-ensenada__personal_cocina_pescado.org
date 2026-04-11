@@ -5,6 +5,7 @@
 #+identifier: 20260314T130604
 #+author: Ing. Javier Pacheco
 #+startup: showall
+
 
 * Ingredientes:
 - Aceite.

@@ -5,6 +5,7 @@
 #+identifier: 20251011T205947
 #+author: Ing. Javier Pacheco
 #+startup: showall
+
 
 * Declaring Variables.
 When you declare a variable, you assign it a type and provide it a name, or identifier, by which to reference the variable.

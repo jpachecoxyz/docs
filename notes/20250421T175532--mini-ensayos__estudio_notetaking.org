@@ -5,6 +5,7 @@
 #+identifier: 20250421T175532
 #+author: Ing. Javier Pacheco
 #+startup: showall
+
 
 * Que es un mini-ensayo?
 Pequeños textos de cosas que te interesan. Pueden ser frases de libros, cosas de películas, ideas que pasen por tu mente.

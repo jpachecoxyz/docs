@@ -5,6 +5,7 @@
 #+identifier: 20251101T140435
 #+author: Ing. Javier Pacheco
 #+startup: showall
+
 
 * Plantilla
 Que se hace, porque es necesario y que pasa si no se hace.

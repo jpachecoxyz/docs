@@ -5,6 +5,7 @@
 #+identifier: 20251108T140207
 #+author: Ing. Javier Pacheco
 #+startup: showall
+
 
 * Objetivo.
 Uno de los principales metas del corporativo es digitalizar los procesos del corporativo, por lo cual se estará desarrollando este proyecto.

@@ -90,8 +90,9 @@ CLOSED: [2026-01-25 Sun 05:58]
 - State "DONE"       from "DOING"      [2026-02-14 Sat 18:44]
 - State "DOING"      from "TODO"       [2026-01-29 Thu 12:20]
 :END:
-** DONE [#A] Reparacion de Piston de Troquel Celda 2 [100%][3/3] :JesusValles:EduardoJasso:Celda2:
+** DOING [#A] Reparacion de Piston de Troquel Celda 2 [60%][3/5] :JesusValles:EduardoJasso:Celda2:
 :LOGBOOK:
+- State "DOING"      from "TODO"       [2026-04-08 Wed 21:22]
 - State "DONE"       from "DOING"      [2026-02-16 Mon 20:29]
 - State "DOING"      from "DONE"       [2026-02-14 Sat 22:32]
 - State "DONE"       from "DOING"      [2026-02-14 Sat 22:31]
@@ -100,6 +101,10 @@ CLOSED: [2026-01-25 Sun 05:58]
 *** DONE Desmontar pistón.
 *** DONE Buscar proveedor para reparación.
 *** DONE Instalar piston
+*** TODO Cambio total de sistema hidraulico[0/3][0%]
+**** TODO Cotisacion
+**** TODO Ejecucion
+**** TODO Pruebas
 ** PROJ [#B] Flushing de Sprayers :JesusValles:ErickFrias:Todas:
 ** DOING [#C] Modificacion Overtime de Trim Press. :ReneChavez:OzielGarcia:ArturoRobles:Celda1:Celda2:Celda3:
 - -Descripción del problema :: Las prensas permanecen encendidas, el motor jamas se apaga a menos que el operador decida apagarlo.

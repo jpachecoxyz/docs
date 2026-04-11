@@ -5,6 +5,7 @@
 #+identifier: 20251221T103722
 #+author: Ing. Javier Pacheco
 #+startup: showall
+
 
 * Operadores Numéricos.
 Estas operaciones se realizan con datos de tipo =num= y devuelven datos tipo =num=.

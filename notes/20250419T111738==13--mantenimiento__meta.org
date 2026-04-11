@@ -5,6 +5,7 @@
 #+identifier: 20250419T111738
 #+author: Ing. Javier Pacheco
 #+startup: showall
+
 
 Notas varias acerca de temas relacionados a mantenimiento industrial.
 

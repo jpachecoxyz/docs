@@ -1,0 +1,14 @@
+# -*- jinx-languages: "es_MX"; -*-
+#+title: Demonios en linux
+#+date: [2026-04-10 Fri 23:04]
+#+filetags: :estudio:linux:
+#+identifier: 20260410T230456
+#+author: Ing. Javier Pacheco
+#+startup: showall
+
+
+* Que es un demonio.
+
+
+* Referencias:
+[[https://www.youtube.com/watch?v=6uir0CCmckw][Hacer un demonio en linux con bash y C]]

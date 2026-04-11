@@ -5,6 +5,7 @@
 #+identifier: 20251122T121048
 #+author: Ing. Javier Pacheco
 #+startup: showall
+
 
 * Introduction
 This archive is written in emacs by me: Ing Javier Pacheco. The lisp programming language is one of my most loved programming languages, is the second language that I like the most. So this archive is intended to be a "guide" to the basics of lisp, and in the future is going to be a org document of course written in emacs.

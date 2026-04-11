@@ -5,6 +5,7 @@
 #+identifier: 20250811T202406
 #+author: Ing. Javier Pacheco
 #+startup: showall
+
 
 * Introducción.
 ** Filling ratio.

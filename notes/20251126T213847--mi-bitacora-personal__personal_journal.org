@@ -5,6 +5,7 @@
 #+identifier: 20251126T213847
 #+author: Ing. Javier Pacheco
 #+startup: showall
+
 
 El propósito de tener mi propio journal es: 
 

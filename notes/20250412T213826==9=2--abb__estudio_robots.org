@@ -1,3 +1,4 @@
+
 # -*- jinx-languages: "es_MX"; -*-; -*-
 #+title: ABB
 #+date: [2025-04-12 Sat 21:38]
@@ -5,6 +6,7 @@
 #+identifier: 20250412T213826
 #+author: Ing. Javier Pacheco
 #+startup: showall
+
 
 * Lenguaje de programación de robots ABB.
 #+BEGIN: denote-links :regexp "==9.2.*_estudio_robots_abb" :id-only nil :include-date nil

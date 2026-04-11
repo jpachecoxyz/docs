@@ -5,6 +5,7 @@
 #+identifier: 20251220T095348
 #+author: Ing. Javier Pacheco
 #+startup: showall
+
 
 * ¿Qué es RAPID?
 RAPID es el lenguaje de programación utilizado por los robots industriales de *ABB*.

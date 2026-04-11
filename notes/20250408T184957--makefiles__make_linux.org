@@ -5,6 +5,7 @@
 #+identifier: 20250408T184957
 #+author: Ing. Javier Pacheco
 #+startup: showall
+
 
 * Que es un Makefile.
 - make :: Es una utilidad que determina que archivos de código deben ser recomplilados y como.
