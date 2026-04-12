@@ -7,6 +7,13 @@
 #+startup: showall
 
 
-* Medicamentos:
+* DONE Medicamentos:
+CLOSED: [2026-04-11 Sat 13:37]
+:LOGBOOK:
+- State "DONE"       from              [2026-04-11 Sat 13:37]
+:END:
 - Nesajar :: Medicamento para el dolor e inflamacion. 12 hrs
 - Trimebutina :: Inflamacion. 8 hrs
+  
+* TODO Tomando agua
+

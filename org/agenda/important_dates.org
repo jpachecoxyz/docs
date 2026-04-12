@@ -1,9 +1,18 @@
 #+title: Important Dates
 #+author: Javier Pacheco
+#+description: My beloved important dates, and some memorials of mine.
 
 
-* Anniversary
+* Anniversaries
 :PROPERTIES:
-:CATEGORY: i-dates
+:CATEGORY: Anniversarie
 :END:
-%%(org-anniversary 2015 4 11) Weding anniversary No. %d 
+%%(org-anniversary 2014 4 4) Relationship anniversary No. %d 
+%%(org-anniversary 2015 4 11) Wedding anniversary No. %d
+
+* Memorials
+:PROPERTIES:
+:CATEGORY: Memorial
+:END:
+%%(org-anniversary 2020 7 13) Relationship anniversary No. %d 
+# %%(org-anniversary 2020 7 13) Relationship anniversary No. %d 

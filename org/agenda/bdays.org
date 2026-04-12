@@ -1,7 +1,8 @@
-#+title: Birthdays of the family
+#+title: Birthdays
 #+author: Javier Pacheco
-#+STARTUP: content
+#+startup: content
 # dates format:  (yyyy mm dd )
+
 
 * Birthdays
 :PROPERTIES:

@@ -8,7 +8,336 @@
 
 
 * Que es un demonio.
+Es un programa/script, que se ejecuta en un plano "astral", no es terminal, ni estancia en un job, su entidad va mas aya de un job comun en el proceso.
+- Corre en background
+- No tiene terminal
+- Generalmente inicia con el sistema
+- Provee un servicio continuo
+
+* Reglas.
+Para que un script sea considerado un =Daemon= es necesario que cumpla con estas condiciones o características:
+
+** Ejecutarse en segundo plano
+El proceso no debe depender de una terminal interactiva.
+
+** Hacer fork() y terminar el proceso padre
+Esto permite que el daemon continúe ejecutándose independientemente del proceso que lo inició.
+
+** Crear una nueva sesión con setsid()
+Para que el proceso:
+1. no tenga terminal de control
+2. sea líder de una nueva sesión.
+
+** Cambiar el directorio de trabajo (normalmente a /)
+Evita bloquear directorios que podrían desmontarse.
+
+** Restablecer la máscara de permisos con umask(0)
+Para evitar heredar restricciones inesperadas del proceso padre.
+
+** Cerrar los descriptores estándar de archivo
+Cerrar:
+1. stdin
+2. stdout
+3. stderr
+
+** Usar un sistema de logging en lugar de imprimir en terminal
+Normalmente usando syslog.
+
+** Mantener un ciclo de ejecución continuo
+Generalmente un loop que realiza tareas periódicas.
+
+* Ejemplo de un Daemon en =C=.
+Este ejemplo lo tome del video de [[id:0860cf92-94bf-4490-9f6d-e8cf8154f6e1][referencia]] con autoría de =Last Dragon=.
+
+** Propósito del daemon.
+El proposito de este daemon es montar un =hdd= y prevenir que sea
+desmontado, asi como cuando reinicie el sistema el =hdd= se desmonte
+para que el reinicio o shutdown del sistema pueda ejecutarce sin
+problemas.
+
+** Código.
+#+BEGIN_SRC c :tangle /tmp/daemon.c
+/*
+  daemon.c
+
+  Ejemplo de daemon simple que intenta montar un dispositivo cada cierto
+  tiempo y lo desmonta cuando recibe SIGTERM.
+
+  Este código muestra varios conceptos clásicos de programación de
+  demonios en sistemas Unix/Linux:
+
+  - fork()
+  - setsid()
+  - cierre de descriptores de terminal
+  - uso de syslog
+  - manejo de señales
+  - comprobación de sistemas montados
+,*/
+
+#include <stdio.h>      // Entrada y salida estándar (FILE, fopen, fgets, etc)
+#include <stdlib.h>     // Funciones generales como exit()
+#include <signal.h>     // Manejo de señales (SIGTERM, signal)
+#include <sys/mount.h>  // Funciones mount() y umount()
+#include <unistd.h>     // fork(), sleep(), chdir(), close()
+#include <string.h>     // Funciones de manejo de strings como strstr()
+#include <syslog.h>     // Sistema de logging del sistema para daemons
+
+/*
+  Definición de constantes del programa.
+
+  DEVICE      -> dispositivo que se desea montar
+  MOUNTPOINT  -> directorio donde se montará el dispositivo
+  FSTYPE      -> tipo de sistema de archivos
+,*/
+#define DEVICE "/dev/sdaX"
+#define MOUNTPOINT "/demonio"
+#define FSTYPE "ext4"
 
 
+/*
+  Función: is_mounted()
+
+  Propósito:
+  Determinar si el punto de montaje ya está montado.
+
+  Para lograrlo se lee el archivo virtual:
+
+      /proc/mounts
+
+  Este archivo contiene la lista de todos los sistemas de archivos
+  actualmente montados en el sistema.
+
+  Si el MOUNTPOINT aparece dentro del archivo, se considera que el
+  sistema ya está montado.
+,*/
+int is_mounted() {
+
+  // Abrir el archivo que contiene los mounts activos
+  FILE *f = fopen("/proc/mounts", "r");
+
+  // Si el archivo no se puede abrir, asumimos que no está montado
+  if (!f)
+    return 0;
+
+  // Buffer para almacenar cada línea del archivo
+  char line[512];
+
+  // Leer línea por línea el archivo /proc/mounts
+  while (fgets(line, sizeof(line), f)) {
+
+    // strstr busca si el texto MOUNTPOINT aparece en la línea
+    if (strstr(line, MOUNTPOINT)) {
+
+      // Si aparece, significa que ya está montado
+      fclose(f);
+      return 1;
+    }
+  }
+
+  // Si no encontramos el mountpoint en ninguna línea
+  fclose(f);
+  return 0;
+}
+
+
+/*
+  Función: terminate()
+
+  Esta función es el handler de señales.
+
+  Se ejecuta cuando el proceso recibe SIGTERM.
+
+  El objetivo es realizar limpieza antes de que el daemon termine.
+  En este caso:
+
+  - desmontar el dispositivo si está montado
+  - registrar el evento en syslog
+  - cerrar el log
+  - terminar el proceso
+,*/
+void terminate(int senal) {
+
+  // Verificar primero si el dispositivo está montado
+  if (is_mounted()) {
+
+    // Intentar desmontarlo
+    if (umount(MOUNTPOINT) == 0) {
+
+      // Si el desmontaje fue exitoso se registra en syslog
+      syslog(LOG_INFO, "Unmount successful");
+
+    } else {
+
+      // Si ocurre un error también se registra
+      syslog(LOG_ERR, "Unmount failed");
+    }
+  }
+
+  // Registrar que el daemon fue terminado
+  syslog(LOG_INFO, "Daemon terminated");
+
+  // Cerrar el sistema de logging
+  closelog();
+
+  // Terminar el proceso
+  exit(0);
+}
+
+
+/*
+  Función principal del programa.
+,*/
+int main()
+{
+
+  /*
+    fork() crea un nuevo proceso.
+
+    El proceso original es el padre.
+    El nuevo proceso es el hijo.
+
+    Para crear un daemon se suele terminar el padre y
+    continuar ejecutando solo el hijo.
+  ,*/
+  pid_t proceso = fork();
+
+
+  // Si fork falla retorna un valor negativo
+  if (proceso < 0) {
+    exit(EXIT_FAILURE);
+  }
+
+
+  /*
+    Si el valor es mayor a cero estamos en el proceso padre.
+
+    El padre termina inmediatamente para que el proceso hijo
+    continúe ejecutándose en segundo plano.
+  ,*/
+  if (proceso > 0) {
+    printf("Daemon started\n");
+    return 0;
+  }
+
+
+  /*
+    A partir de aquí el código corresponde al proceso hijo,
+    que se convertirá en el daemon.
+  ,*/
+
+
+  /*
+    Registrar la función que manejará la señal SIGTERM.
+
+    Cuando el sistema o el usuario envíen:
+
+        kill -TERM PID
+
+    el programa ejecutará la función terminar().
+  ,*/
+  signal(SIGTERM, terminate);
+
+
+  /*
+    Regla clásica de los daemons:
+
+    Cambiar el directorio de trabajo a la raíz del sistema.
+
+    Esto evita que el daemon mantenga bloqueado un directorio
+    que posteriormente podría ser desmontado.
+  ,*/
+  chdir("/");
+
+
+  /*
+    Otra regla de los daemons:
+
+    Cerrar los descriptores estándar asociados a la terminal.
+
+    Un daemon no debe depender de una terminal interactiva.
+  ,*/
+  close(STDIN_FILENO);
+  close(STDOUT_FILENO);
+  close(STDERR_FILENO);
+
+
+  /*
+    Convertirse en líder de sesión.
+
+    setsid() crea una nueva sesión y separa el proceso de la
+    terminal de control.
+
+    Esto es parte esencial del proceso de demonización.
+  ,*/
+  setsid();
+
+
+  /*
+    Inicializar el sistema de logging.
+
+    Los daemons no usan printf porque no tienen terminal,
+    por lo que se utiliza syslog para registrar eventos.
+  ,*/
+  openlog("mount_daemon", LOG_PID, LOG_DAEMON);
+
+
+  /*
+    Bucle principal del daemon.
+
+    Los daemons generalmente ejecutan un loop infinito
+    donde realizan su tarea periódicamente.
+  ,*/
+  while (1) {
+
+    /*
+      Verificar primero si el sistema ya está montado.
+
+      Esto evita intentar montar múltiples veces el mismo
+      dispositivo, lo cual generaría errores.
+    ,*/
+    if (!is_mounted()) {
+
+      /*
+        Intentar montar el dispositivo.
+
+        mount(
+            source,
+            target,
+            filesystem,
+            flags,
+            data
+        )
+      ,*/
+      if (mount(DEVICE, MOUNTPOINT, FSTYPE, 0, NULL) == 0) {
+
+        // Registrar éxito en syslog
+        syslog(LOG_INFO, "Mount successful");
+
+      } else {
+
+        // Registrar error en syslog
+        syslog(LOG_ERR, "Mount failed");
+      }
+    }
+
+    /*
+      El daemon duerme 10 segundos antes de repetir el ciclo.
+
+      Esto evita consumir CPU innecesariamente.
+    ,*/
+    sleep(10);
+  }
+
+
+  /*
+    Este return realmente nunca se ejecuta porque el loop
+    anterior es infinito, pero se deja por buena práctica.
+  ,*/
+  return 0;
+}
+#+END_SRC
 * Referencias:
+:PROPERTIES:
+:ID:       0860cf92-94bf-4490-9f6d-e8cf8154f6e1
+:END:
 [[https://www.youtube.com/watch?v=6uir0CCmckw][Hacer un demonio en linux con bash y C]]
