@@ -1,10 +1,10 @@
-# -*- jinx-languages: "en_EN"; -*-
+# -*- jinx-languages: "en_US"; -*-
 #+title: Computer Science
 #+date: [2025-10-04 Sat 21:50]
 #+filetags: :estudio:programacion:hardvard:
 #+identifier: 20251004T215054
 #+author: Ing. Javier Pacheco
-#+startup: content
+#+startup: showall
 
 
 * What is Computer Science?
@@ -13,48 +13,6 @@ Computer science is ..., well we are not going to write the exact definition of 
 * Computational Thinking.
 ** Input & Output.
 What basically is a representation of a problem is something like this:
-
-#+begin_src plantuml :file img/io.png
-  @startmindmap
-  scale 1
-  skinparam backgroundColor transparent
-  <style>
-  mindmapDiagram {
-          node {
-                  BackgroundColor lightGreen
-          }
-          :depth(1) {
-                  BackGroundColor lightGreen
-          }
-          :depth(2) {
-                  BackGroundColor lightGreen
-          }
-  }
-  </style>
-    title Representation of how a computers solves a problem.
-  + Inputs
-  ++ Process
-  +++ Outputs
-   @endmindmap
-#+end_src
-
-#+RESULTS:
-[[file:img/io.png]]
-** Test calendar
-#+begin_src mermaid :file img.png
-gantt
-    title A Gantt Diagram
-    dateFormat YYYY-MM-DD
-    section Section
-        A task          :a1, 2014-01-01, 30d
-        Another task    :after a1, 20d
-    section Another
-        Task in Another :2014-01-12, 12d
-        another task    :24d
-#+end_src
-
-#+RESULTS:
-[[file:img.png]]
 
 ** Representation.
 *** Unary.

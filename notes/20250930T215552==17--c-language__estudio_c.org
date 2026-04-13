@@ -1,4 +1,4 @@
-# -*- jinx-languages: "en_EN"; -*-
+# -*- jinx-languages: "en_US"; -*-
 #+title: C Language
 #+date: [2025-09-30 Tue 21:55]
 #+filetags: :estudio:c:
