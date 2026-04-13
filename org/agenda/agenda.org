@@ -10,7 +10,7 @@
 :PROPERTIES:
 :CATEGORY: hogar
 :END:
-** Colegiatura.
+** Colegiatura Lia.
 DEADLINE: <2026-05-05 Tue +1m>
 :PROPERTIES:
 :LAST_REPEAT: [2026-04-08 Wed 20:44]
@@ -20,12 +20,16 @@ DEADLINE: <2026-05-05 Tue +1m>
 - State "DONE"       from              [2026-04-08 Wed 20:44]
 - State "DONE"       from              [2026-04-08 Wed 20:44]
 :END:
+** Colegiatura Javier.
+# DEADLINE: <2026-05-05 Tue +1m>
+
 ** Relampago.
-DEADLINE: <2026-04-12 Sun 20:00 +1w>
+DEADLINE: <2026-04-19 Sun 20:00 +1w>
 :PROPERTIES:
-:LAST_REPEAT: [2026-04-08 Wed 20:44]
+:LAST_REPEAT: [2026-04-12 Sun 22:32]
 :END:
 :LOGBOOK:
+- State "DONE"       from              [2026-04-12 Sun 22:32]
 - State "DONE"       from              [2026-04-08 Wed 20:44]
 - State "DONE"       from              [2026-04-08 Wed 20:44]
 - State "DONE"       from              [2026-04-08 Wed 20:44]
@@ -36,8 +40,9 @@ DEADLINE: <2026-04-12 Sun 20:00 +1w>
 - State "DONE"       from              [2026-04-08 Wed 20:44]
 - State "DONE"       from              [2026-04-08 Wed 20:44]
 - State "DONE"       from              [2026-04-08 Wed 20:44]
-:END:
 - State "DONE"       from              [2026-01-25 Sun 17:34]
+:END:
+
 ** DONE Reparar el calentador del agua.
 SCHEDULED: <2025-04-26 Sat>
 - State "DONE"       from "TODO"       [2026-01-17 Sat 12:10]
@@ -60,11 +65,12 @@ SCHEDULED: <2025-04-26 Sat>
 :STYLE: habit
 :END:
 ** Actualizar mis notas
-SCHEDULED: <2026-04-12 Sun ++1w>
+SCHEDULED: <2026-04-19 Sun +1w>
 :PROPERTIES:
-:LAST_REPEAT: [2026-04-08 Wed 20:44]
+:LAST_REPEAT: [2026-04-12 Sun 22:45]
 :END:
 :LOGBOOK:
+- State "DONE"       from              [2026-04-12 Sun 22:45]
 - State "DONE"       from              [2026-04-08 Wed 20:44]
 - State "DONE"       from              [2026-01-28 Wed 21:06]
 :END:
