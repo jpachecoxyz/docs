@@ -50,13 +50,10 @@ Generalmente un loop que realiza tareas periódicas.
 Este ejemplo lo tome del video de [[id:0860cf92-94bf-4490-9f6d-e8cf8154f6e1][referencia]] con autoría de =Last Dragon=.
 
 ** Propósito del daemon.
-El proposito de este daemon es montar un =hdd= y prevenir que sea
-desmontado, asi como cuando reinicie el sistema el =hdd= se desmonte
-para que el reinicio o shutdown del sistema pueda ejecutarce sin
-problemas.
+El propósito de este daemon es montar un =hdd= y prevenir que sea desmontado, así como cuando reinicie el sistema el =hdd= se desmonte para que el reinicio o shutdown del sistema pueda ejecutarse sin problemas.
 
 ** Código.
-#+BEGIN_SRC c :tangle /tmp/daemon.c
+#+BEGIN_SRC c
 /*
   daemon.c
 
@@ -336,6 +333,7 @@ int main()
   return 0;
 }
 #+END_SRC
+
 * Referencias:
 :PROPERTIES:
 :ID:       0860cf92-94bf-4490-9f6d-e8cf8154f6e1
