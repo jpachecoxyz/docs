@@ -1,0 +1,28 @@
+# -*- jinx-languages: "es_MX"; -*-
+#+title: Asado de puerco
+#+date: [2026-04-18 Sat 13:46]
+#+filetags: :personal:cocina:puerco:
+#+identifier: 20260418T134618
+#+author: Ing. Javier Pacheco
+#+startup: showall
+
+
+* Ingredientes:
+** Condimentos
+- Chile guajillo.
+- Chile Color.
+- Laurel.
+- Tomillo
+- Clavo de olor.
+- Pimienta.
+- Sal
+** Proteína/Carne
+- Manteca de puerco.
+- Carne de puerco.
+
+* Preparación:
+1. Desvenar los chiles y ponerlos a hidratar en agua caliente.
+2. licuar los condimentos junto con los chiles previamente hidratados.
+
+* Referencias:
+[[https://www.youtube.com/watch?v=diQyc6ju-UQ][Asado de puerco - Vikingos en la Cocina]]
