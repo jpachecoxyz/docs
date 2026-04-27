@@ -8,88 +8,331 @@
 
 
 * Introducción
-Este curso está diseñado para proporcionar una base sólida en el uso de PLCs,
-con un enfoque práctico para que los estudiantes puedan aplicar los conocimientos
-en situaciones reales. El curso se divide en un 30% de teoría y un 70% de práctica,
-donde se proponen proyectos y actividades para reforzar el aprendizaje.
+Este curso está diseñado para que el alumno entienda cómo "piensa" un PLC Delta, no solo cómo programarlo.
 
-* Módulo 1: Introducción a los PLCs (Teoría - 10%)
-** 1.1. ¿Qué es un PLC?
-- Definición y funcionamiento básico.
-- Historia y evolución de los PLCs.
-- Aplicaciones industriales.
+En planta, el problema no es escribir lógica, sino:
+- Diagnosticar fallas
+- Entender código hecho por otros
+- Saber qué variable afecta qué proceso
 
-** 1.2. Componentes de un PLC
-- Unidad Central de Procesamiento (CPU).
-- Módulos de entrada y salida (digitales y analógicos).
-- Fuente de alimentación.
-- Memorias (RAM, ROM, EEPROM).
+Por eso este curso profundiza en:
+- Memoria interna
+- Representación de datos
+- Flujo de ejecución
+- Comunicación industrial
 
-** 1.3. Lenguajes de programación
-- Introducción a los estándares IEC 61131-3.
-- Lenguajes comunes: Ladder, Bloques Funcionales, Lista de Instrucciones, etc.
+* Módulo 1: Fundamentos de PLC (Teoría - 10%)
+** 1.1 ¿Qué es un PLC? (Explicación profunda)
+Un PLC es un sistema embebido en tiempo real.
 
-* Módulo 2: Programación Básica de PLCs (Teoría - 20%)
-** 2.1. Lógica Ladder
-- Conceptos básicos de lógica ladder.
-- Símbolos comunes: contactos, bobinas, temporizadores, contadores.
-- Ejemplos simples de programación.
+Esto significa:
+- No ejecuta todo al mismo tiempo
+- Ejecuta en ciclos (scan cycle)
 
-** 2.2. Temporizadores y Contadores
-- Tipos de temporizadores (TON, TOF, TONR).
-- Contadores (CTU, CTD).
-- Ejercicios prácticos de aplicación.
+*** Ciclo de escaneo detallado:
+1. Imagen de entradas (Input Image Table)
+2. Ejecución del programa
+3. Imagen de salidas (Output Image Table)
 
-** 2.3. Instrucciones básicas
-- Operaciones lógicas (AND, OR, NOT).
-- Comparaciones (>, <, =).
-- Operaciones matemáticas básicas (suma, resta, multiplicación, división).
+Importante:
+Si una entrada cambia durante el ciclo → el PLC NO lo ve hasta el siguiente scan.
 
-* Módulo 3: Prácticas y Proyectos (70%)
-** 3.1. Actividades Prácticas
-A continuación, se presentan proyectos y actividades prácticas que los estudiantes
-pueden realizar para aplicar los conocimientos teóricos:
+Esto explica fallas como:
+- Pulsos perdidos
+- Rebotes no detectados
 
-*** Proyecto 1: Sistema de llenado de tanques
-- Descripción: Programar un PLC para controlar el llenado y vaciado de un tanque.
-- Objetivos:
-  - Usar sensores de nivel (entradas digitales o analógicas).
-  - Controlar bombas y válvulas (salidas digitales).
-  - Implementar alarmas por nivel alto o bajo.
+** 1.2 Tiempo de scan
+Ejemplo:
+- Scan típico: 2 ms
 
-*** Proyecto 2: Control de una cinta transportadora
-- Descripción: Programar un PLC para controlar el encendido, apagado y dirección
-de una cinta transportadora.
-- Objetivos:
-  - Usar entradas digitales (sensores) y salidas digitales (motores).
-  - Implementar lógica de paro de emergencia.
-  - Añadir un temporizador para controlar el tiempo de funcionamiento.
+Si un sensor activa 1 ms → el PLC nunca lo detecta.
 
-*** Proyecto 3: Control de semáforo
-- Descripción: Simular el funcionamiento de un semáforo con un PLC.
-- Objetivos:
-  - Usar temporizadores para controlar los intervalos de luz roja, amarilla
-	y verde.
-  - Implementar un modo nocturno (intermitente).
+Solución en campo:
+- Usar latch
+- Usar interrupciones (si el PLC lo permite)
 
-*** Proyecto 4: Control de iluminación
-- Descripción: Programar un PLC para controlar la iluminación de un área.
-- Objetivos:
-  - Usar sensores de presencia (entradas digitales).
-  - Controlar luces (salidas digitales).
-  - Implementar un modo de ahorro de energía (apagado automático).
+* Módulo 2: Electricidad Aplicada (Explicación Técnica)
+** 2.1 Señales digitales (realidad industrial)
+Un "1 lógico" no siempre es exactamente 24V.
 
-* Módulo 4: Integración y Pruebas (Práctica - 10%)
-** 4.1. Simulación y Depuración
-- Uso de software de simulación para probar programas.
-- Técnicas de depuración y corrección de errores.
+Rango típico:
+- ON: 15V – 30V
+- OFF: 0V – 5V
 
-** 4.2. Pruebas en hardware
-- Conexión del PLC a dispositivos reales.
-- Verificación del funcionamiento del sistema.
+Problemas comunes:
+- Voltaje flotante
+- Ruido eléctrico
+- Falsos disparos
+
+** 2.2 Ruido eléctrico
+Causas:
+- Motores
+- Variadores
+- Contactores
+
+Soluciones:
+- Cableado separado
+- Uso de ferritas
+- Buen aterrizaje
+
+* Módulo 3: Memoria del PLC (CRÍTICO - Explicación Profunda)
+** 3.1 Bit (nivel bajo)
+Un bit es una celda de memoria que puede estar en:
+- 0 → apagado
+- 1 → encendido
+
+Ejemplo real:
+M0 = bandera de estado
+
+** 3.2 Byte y Word
+- 1 Byte = 8 bits
+- 1 Word = 16 bits
+
+En Delta:
+D0 = Word (16 bits)
+
+Rango:
+0 a 65535 (sin signo)
+
+** 3.3 Enteros con signo
+Representación:
+-32768 a 32767
+
+Usa complemento a 2
+
+Ejemplo:
+-1 = 1111 1111 1111 1111
+
+** 3.4 Flotantes (MUY IMPORTANTE)
+Un número flotante ocupa:
+- 32 bits → 2 registros D
+
+Formato:
+IEEE 754
+
+Ejemplo:
+D0 + D1 = 3.14
+
+Problema común:
+Leer solo D0 → valor incorrecto
+
+** 3.5 Memoria retentiva vs no retentiva
+Retentiva:
+- Guarda valor aunque se apague el PLC
+
+No retentiva:
+- Se reinicia
+
+Ejemplo práctico:
+- Contador de producción → retentivo
+- Timer de ciclo → no retentivo
+
+* Módulo 4: Lógica Ladder (Explicación de comportamiento real)
+** 4.1 Evaluación de izquierda a derecha
+El PLC evalúa:
+- De izquierda a derecha
+- De arriba hacia abajo
+
+Esto afecta:
+- Prioridad de lógica
+- Estados intermedios
+
+** 4.2 Problema común: doble escritura
+Ejemplo:
+Y0 se activa en una línea
+Y0 se apaga en otra
+
+Resultado:
+Gana la última línea ejecutada
+
+Esto causa:
+- Fallas intermitentes difíciles de detectar
+
+* Módulo 5: Temporizadores (Explicación interna)
+** 5.1 Cómo funciona un timer realmente
+Un timer NO es mágico:
+- Usa el reloj interno del PLC
+- Incrementa un contador
+
+Ejemplo:
+Base de tiempo = 100 ms
+
+Si configuras 50 → 5 segundos
+
+** 5.2 Problemas reales
+- Reset incorrecto
+- Dependencia de scan time
+
+* Módulo 6: Registros y Operaciones (Nivel Ingeniería)
+** 6.1 MOV (movimiento de datos)
+MOV D0 D1
+
+Copia valor:
+D1 = D0
+
+No enlaza → copia
+
+** 6.2 Operaciones acumulativas
+ADD D0 D1 D2
+
+D2 = D0 + D1
+
+** 6.3 Problema común
+Overflow
+
+Ejemplo:
+65535 + 1 = 0
+
+* Módulo 7: Protocolos de Comunicación (MUY EXTENDIDO)
+Este es el punto donde muchos técnicos fallan.
+
+** 7.1 ¿Qué es comunicación industrial?
+Es el intercambio de datos entre dispositivos:
+- PLC
+- HMI
+- Variadores
+- Sensores inteligentes
+
+No es solo "conectar cables":
+Implica:
+- Formato de datos
+- Dirección
+- Tiempo
+
+** 7.2 Capas básicas (explicación simplificada tipo OSI)
+Sin hacerlo complejo:
+
+1. Física → cable (RS-485)
+2. Enlace → cómo se envían bits
+3. Aplicación → protocolo (Modbus)
+
+** 7.3 RS-232 vs RS-485
+*** RS-232
+- Punto a punto
+- Corta distancia (~15m)
+- Sensible a ruido
+
+*** RS-485
+- Multi-dispositivo
+- Hasta 1200m
+- Diferencial (mejor contra ruido)
+
+Por eso en industria:
+RS-485 es estándar
+
+** 7.4 Comunicación diferencial (clave)
+RS-485 usa:
+- Línea A
+- Línea B
+
+Dato:
+Se transmite como diferencia de voltaje
+
+Ventaja:
+- Cancela ruido eléctrico
+
+** 7.5 Modbus RTU (EL MÁS IMPORTANTE)
+Es un protocolo maestro-esclavo.
+
+- Maestro → solicita datos
+- Esclavo → responde
+
+Ejemplo:
+PLC → maestro
+Variador → esclavo
+
+** 7.6 Estructura de un mensaje Modbus
+Un frame contiene:
+
+- Dirección del esclavo
+- Función
+- Datos
+- CRC (error check)
+
+Ejemplo:
+Leer registro 40001
+
+** 7.7 Tipos de registros Modbus
+- 0xxxx → Coil (bits)
+- 1xxxx → Inputs
+- 3xxxx → Input Registers
+- 4xxxx → Holding Registers
+
+Ejemplo real:
+40001 → D0
+
+** 7.8 Problemas reales en Modbus
+- Baud rate incorrecto
+- Paridad incorrecta
+- Dirección duplicada
+- Cableado invertido (A/B)
+
+Síntoma típico:
+"No hay comunicación"
+
+** 7.9 Configuración típica
+Parámetros:
+- Baud rate (9600, 19200, etc)
+- Paridad (None, Even, Odd)
+- Stop bits
+- ID del esclavo
+
+** 7.10 Diagnóstico en campo
+Método profesional:
+
+1. Verificar físico (cables)
+2. Verificar parámetros
+3. Usar software monitor
+4. Probar con otro dispositivo
+
+** 7.11 Comunicación con HMI
+El HMI:
+- Lee registros D
+- Escribe valores
+
+Ejemplo:
+D0 → velocidad
+D10 → setpoint
+
+** 7.12 Buenas prácticas
+- Documentar direcciones
+- No reutilizar registros sin control
+- Usar mapa de memoria
+
+* Módulo 8: Prácticas (70%)
+** 8.1 Práctica: Diagnóstico real
+Simular:
+- Sensor desconectado
+- Timer mal configurado
+- Comunicación fallida
+
+Objetivo:
+Que el alumno piense como técnico, no como programador
+
+** 8.2 Práctica avanzada: Control con datos
+Modificar:
+- Velocidad desde HMI
+- Tiempo desde registro
+
+
+** 8.3 Práctica comunicación
+Configurar:
+PLC + HMI + variador
+
+* Módulo 9: Mentalidad de mantenimiento (CLAVE)
+Aquí es donde te diferencias como instructor.
+
+Un buen técnico:
+- No memoriza → entiende
+- No adivina → mide
+- No copia → analiza
 
 * Conclusión
-Este curso proporciona una base sólida en el uso de PLCs, con un enfoque práctico
-que permite a los estudiantes aplicar sus conocimientos en proyectos reales.
-Al finalizar, los estudiantes estarán capacitados para diseñar, programar y
-depurar sistemas básicos de automatización usando PLCs.
+Este curso forma técnicos capaces de:
+- Entender sistemas existentes
+- Diagnosticar fallas reales
+- Trabajar con comunicación industrial
+- Leer y modificar programas con seguridad
+
+No forma programadores.
+Forma gente que resuelve problemas.

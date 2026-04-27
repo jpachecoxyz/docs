@@ -1,0 +1,118 @@
+# -*- jinx-languages: "es_MX"; -*-
+#+title: Curso PLC Delta
+#+date: [2026-04-25 Sat 12:58]
+#+filetags: :proyecto:plc:delta:
+#+identifier: 20260425T125828
+#+author: Ing. Javier Pacheco
+#+description: Enfoque en bajo nivel, tipos de datos y diagnóstico de fallas (70% Práctico).
+#+startup: showall
+#+options: toc:2 num:t
+
+
+* INTRODUCCIÓN Y OBJETIVO DEL CURSO
+Este curso no es para "programadores de escritorio". El objetivo es que el personal de mantenimiento entienda la raíz lógica de la máquina para reducir el tiempo de diagnóstico.
+
+* REGLA DE ORO: 
+#+begin_quote
+Si entiendes cómo el PLC maneja los bits en su memoria, puedes diagnosticar cualquier falla, sin importar qué tan complejo sea el código.
+#+end_quote
+
+* MÓDULO 1: HARDWARE Y ENTORNO FÍSICO (CAPA 0)
+** Teoría (30%)
+Familias Delta comunes en la zona:
+- DVP-ES2 :: El estándar en máquinas de inyección y soplado.
+- DVP-SX2 :: Control analógico (presión/temperatura).
+- Serie AS :: El futuro de Delta (basado en el estándar IEC).
+
+** Ciclo de Scan (El latido del PLC):
+- Lectura de Entradas (X).
+- Ejecución de Lógica (Program Scan).
+- Escritura de Salidas (Y).
+
+** Práctica 1: El Multímetro antes que la Laptop [0/2]
+- [ ] Ejercicio 1: Identificar tipo de lógica (Sinking vs Sourcing) midiendo voltaje en el borne S/S.
+- [ ] Ejercicio 2: Cableado físico de un botón N.A. a X0 y un relevador a Y0.
+
+#+BEGIN_EXAMPLE
+Diagrama Eléctrico (Sourcing/PNP):
+[ +24VDC ]----------[ Botón ]----------( X0 )
+[ 0VDC   ]-----------------------------( S/S )
+
+Diagrama Eléctrico (Sinking/NPN):
+[ 0VDC   ]----------[ Botón ]----------( X0 )
+[ +24VDC ]-----------------------------( S/S )
+#+END_EXAMPLE
+
+* MÓDULO 2: LA MATEMÁTICA DEL PLC (BAJO NIVEL)
+Este es el "lenguaje C" oculto en el PLC.
+
+** Teoría (30%)
+- Bits (Marcas M / Entradas X / Salidas Y) :: Valores 0 o 1.
+- Byte :: Conjunto de 8 bits.
+- Word (Registro D) :: 16 bits. Es la unidad donde guardamos números (K o H).
+- Double Word :: 32 bits (para contadores rápidos o números con decimales).
+
+** Estructura de Memoria (Tabla de Referencia)
+| Tipo de Dato | Tamaño  | Ejemplo en Delta | Rango (Decimal)        |
+|--------------+---------+------------------+------------------------|
+| Bit          | 1 bit   | M0, X0, Y0       | 0 o 1                  |
+| Entero (K)   | 16 bits | D10              | -32,768 a 32,767       |
+| Flotante (F) | 32 bits | D20 (ocupa D21)  | Con punto decimal      |
+| Hex (H)      | 16 bits | H00FF            | Direcciones de memoria |
+
+** Práctica 2: El Monitor de Dispositivos [0/1]
+- [ ] Misión: Usar la calculadora de Windows en modo "Programador". Convertir el número de una falla común (ej. 255) a Binario y ver qué bits se encenderían en un registro D.
+
+* MÓDULO 3: SOFTWARE Y COMUNICACIÓN
+** Teoría (30%)
+- WPLSoft vs ISPSoft :: Diferencias de interfaz.
+- COMMGR :: El gestor de "drivers" (el puente entre USB y el PLC).
+- Protocolo Modbus :: Delta habla Modbus de forma nativa.
+
+** Práctica 3: El "Upload" de Emergencia [0/2]
+- [ ] Paso 1: Configurar el driver RS232/USB en COMMGR.
+- [ ] Paso 2: Extraer el programa de un PLC "desconocido" y guardarlo como respaldo.
+
+* MÓDULO 4: LÓGICA DE CONTROL Y VARIABLES DE SISTEMA
+** Teoría (30%)
+Marcas de Sistema (Las llaves maestras):
+- M1000 :: Siempre ON (Útil para habilitar funciones). 
+- M1013 :: Pulso de 1 segundo (Para alarmas visuales).
+- M1002 :: Pulso inicial (Reset de contadores al arrancar).
+- Timers (T) :: Base de tiempo (100ms es el estándar).
+
+** Práctica 4: Lógica de Seguridad [0/1]
+- [ ] Ejercicio: Programar un "Watchdog" de mantenimiento. Si el pistón (Y0) sale y el sensor (X1) no detecta en 3 segundos, activar alarma (Y1).
+
+#+BEGIN_SRC fundamental
+|  M1000      Y0        X1         T0
+|---[ ]-------[ ]-------|/|-------( TMR T0 K30 )
+|
+|   T0                             Y1 (Falla)
+|---[ ]----------------------------( )
+#+END_SRC
+
+* MÓDULO 5: COMUNICACIONES Y PROTOCOLOS (MODBUS)
+** Teoría (30%)
+
+- RS-485 :: Por qué solo usamos dos hilos (+ y -).
+
+- Registros de Variadores :: Leer Hz y Corriente desde el PLC sin cables analógicos.
+
+** Práctica 5: Lectura de Datos [0/1]
+- [ ] Misión: Conectar un pirómetro o variador vía RS-485 y leer la temperatura/frecuencia en el registro D del PLC.
+
+* MÓDULO 6: TROUBLESHOOTING (DIAGNÓSTICO FINAL)
+** Estrategia de Supervisor
+Verificar LEDs: Power (Verde), Run (Verde), Error (Rojo parpadeante = Error de código).
+Forzado de bits: Probar salidas físicas desde la PC.
+Puntos de interrupción: Usar marcas auxiliares (M) para saber hasta dónde llega el programa.
+
+** Práctica Final: El Reto de la Máquina Detenida
+Se le entrega al alumno un PLC con una falla programada (ejemplo: un valor de timer en K0 o un contacto bloqueado por una marca especial).
+Meta: El alumno debe encontrar la falla en menos de 10 minutos usando el software.
+
+* MATERIAL DE APOYO PARA EL ALUMNO
+- [ ] Tabla de Marcas Especiales (M1000-M1999).
+- [ ] Diagrama de conexión de cables de comunicación (Pinout).
+- [ ] Glosario de términos técnicos (Bit, Word, Scan, Modbus).

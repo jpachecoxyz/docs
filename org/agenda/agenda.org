@@ -66,11 +66,12 @@ SCHEDULED: <2025-04-26 Sat>
 :STYLE: habit
 :END:
 ** Actualizar mis notas
-SCHEDULED: <2026-04-19 Sun +1w>
+SCHEDULED: <2026-04-26 Sun +1w>
 :PROPERTIES:
-:LAST_REPEAT: [2026-04-12 Sun 22:45]
+:LAST_REPEAT: [2026-04-22 Wed 05:53]
 :END:
 :LOGBOOK:
+- State "DONE"       from              [2026-04-22 Wed 05:53]
 - State "DONE"       from              [2026-04-12 Sun 22:45]
 - State "DONE"       from              [2026-04-08 Wed 20:44]
 - State "DONE"       from              [2026-01-28 Wed 21:06]
