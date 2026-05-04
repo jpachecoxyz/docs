@@ -1,7 +1,7 @@
 # -*- jinx-languages: "es_MX"; -*-; -*-
 #+title: Qemu
 #+date: [2025-04-02 Wed 19:05]
-#+filetags: :linux:qemu:virtualize:
+#+filetags: :linux:qemu:virtualizacion:
 #+identifier: 20250402T190546
 #+author: Ing. Javier Pacheco
 #+startup: showall
@@ -20,11 +20,10 @@ qemu-img create -f qcow2 Win2k.img 20G
 - Win2k.img :: defines the path and file name to store the image
 - 20G :: defines the size of the image as 20 gigabytes. K, M, G, and T can be used to create kilo-, mega-, giga-, or terabyte size disk images.
 
-
-
 * Devices and files:
 - Archives .vmdk :: Hard Disk Drive. 
-This archives are basically the hard disk drive. So we are basically just call this within =QEMU=.
+- Archivez .qcow2 :: Hard Disk Drive (qemu format).
+These archives are basically the hard disk drive. So we are basically just call this within =QEMU=.
 
 #+begin_example
 voidlinux.vdmk

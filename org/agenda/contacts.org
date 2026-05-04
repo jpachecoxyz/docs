@@ -97,9 +97,15 @@
 :LINE:  Industrial Maintenance
 :END:
 * Programming and linux stuff
-** José Jorge Ibáñez Garcia (jjibagar)
+** Protesilaos Stavrou
+:PROPERTIES:
+:EMAIL: prot@protesilaos.com
+:NICKNAME: prot
+:END:
+** José Jorge Ibáñez Garcia
 :PROPERTIES:
 :PHONE: +34 610092755
 :EMAIL: jjibagar@disroot.org
 :BIRTHDAY: <1979-07-11 Mon +1y>
+:NICKNAME: jjibagar
 :END:
