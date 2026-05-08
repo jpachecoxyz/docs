@@ -11,11 +11,12 @@
 :CATEGORY: hogar
 :END:
 ** Colegiatura Lia.
-DEADLINE: <2026-05-05 Tue +1m>
+DEADLINE: <2026-06-05 Fri +1m>
 :PROPERTIES:
-:LAST_REPEAT: [2026-04-08 Wed 20:44]
+:LAST_REPEAT: [2026-05-05 Tue 20:00]
 :END:
 :LOGBOOK:
+- State "DONE"       from              [2026-05-05 Tue 20:00]
 - State "DONE"       from              [2026-04-08 Wed 20:44]
 - State "DONE"       from              [2026-04-08 Wed 20:44]
 - State "DONE"       from              [2026-04-08 Wed 20:44]

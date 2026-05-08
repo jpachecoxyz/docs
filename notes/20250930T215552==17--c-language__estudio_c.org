@@ -55,7 +55,7 @@ Arrays, strings, structs, enums, unions.
 Standard I/O, file handling, command-line arguments.
 
 ** Advanced Topics
-- Preprocessor directives
+- Pre-processor directives
 - Header files and modular programming
 - Working with libraries
 - Error handling

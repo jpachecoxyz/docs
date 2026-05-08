@@ -20,7 +20,7 @@ Que son los =Prompts=?, un =prompt= es la pregunta que le haces a la =Inteligenc
  
 * Ejemplo de Prompt:
 #+begin_example
-
+Hello World!
 #+end_example
 
 * Referencias:
