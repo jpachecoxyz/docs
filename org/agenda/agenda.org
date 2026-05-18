@@ -25,11 +25,13 @@ DEADLINE: <2026-06-05 Fri +1m>
 # DEADLINE: <2026-05-05 Tue +1m>
 
 ** Relampago.
-DEADLINE: <2026-05-10 Sun 20:00 +1w>
+DEADLINE: <2026-05-24 Sun 20:00 +1w>
 :PROPERTIES:
-:LAST_REPEAT: [2026-05-02 Sat 19:56]
+:LAST_REPEAT: [2026-05-17 Sun 20:00]
 :END:
 :LOGBOOK:
+- State "DONE"       from              [2026-05-17 Sun 20:00]
+- State "DONE"       from              [2026-05-17 Sun 20:00]
 - State "DONE"       from              [2026-05-02 Sat 19:56]
 - State "DONE"       from              [2026-05-02 Sat 19:56]
 - State "DONE"       from              [2026-04-20 Mon 05:33]
@@ -68,12 +70,13 @@ SCHEDULED: <2025-04-26 Sat>
 :CATEGORY: estudio
 :STYLE: habit
 :END:
-** Actualizar mis notas
-SCHEDULED: <2026-05-10 Sun +1w>
+** [#A] Actualizar mis notas
+SCHEDULED: <2026-05-17 Sun +1w>
 :PROPERTIES:
-:LAST_REPEAT: [2026-05-02 Sat 19:57]
+:LAST_REPEAT: [2026-05-10 Sun 19:08]
 :END:
 :LOGBOOK:
+- State "DONE"       from              [2026-05-10 Sun 19:08]
 - State "DONE"       from              [2026-05-02 Sat 19:57]
 - State "DONE"       from              [2026-05-02 Sat 19:55]
 - State "DONE"       from              [2026-04-22 Wed 05:53]
