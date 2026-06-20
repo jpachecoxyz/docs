@@ -108,4 +108,5 @@
 :EMAIL: jjibagar@disroot.org
 :BIRTHDAY: <1979-07-11 Mon +1y>
 :NICKNAME: jjibagar
+:TELEGRAM_ID: 777777202
 :END:

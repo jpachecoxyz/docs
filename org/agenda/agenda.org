@@ -25,11 +25,12 @@ DEADLINE: <2026-06-05 Fri +1m>
 # DEADLINE: <2026-05-05 Tue +1m>
 
 ** Relampago.
-DEADLINE: <2026-05-24 Sun 20:00 +1w>
+DEADLINE: <2026-05-31 Sun 20:00 +1w>
 :PROPERTIES:
-:LAST_REPEAT: [2026-05-17 Sun 20:00]
+:LAST_REPEAT: [2026-05-26 Tue 21:30]
 :END:
 :LOGBOOK:
+- State "DONE"       from              [2026-05-26 Tue 21:30]
 - State "DONE"       from              [2026-05-17 Sun 20:00]
 - State "DONE"       from              [2026-05-17 Sun 20:00]
 - State "DONE"       from              [2026-05-02 Sat 19:56]
@@ -71,11 +72,13 @@ SCHEDULED: <2025-04-26 Sat>
 :STYLE: habit
 :END:
 ** [#A] Actualizar mis notas
-SCHEDULED: <2026-05-17 Sun +1w>
+SCHEDULED: <2026-05-31 Sun +1w>
 :PROPERTIES:
-:LAST_REPEAT: [2026-05-10 Sun 19:08]
+:LAST_REPEAT: [2026-05-25 Mon 17:52]
 :END:
 :LOGBOOK:
+- State "DONE"       from              [2026-05-25 Mon 17:52]
+- State "DONE"       from              [2026-05-17 Sun 20:19]
 - State "DONE"       from              [2026-05-10 Sun 19:08]
 - State "DONE"       from              [2026-05-02 Sat 19:57]
 - State "DONE"       from              [2026-05-02 Sat 19:55]
@@ -125,3 +128,37 @@ CLOSED: [2026-04-08 Wed 20:43] DEADLINE: <2026-02-02 Mon 10:30>
 - State "DONE"       from              [2026-04-08 Wed 20:43]
 :END:
 Entrevista con personal de controles.
+
+
+
+* DONE Comprar los ingredientes para la cena
+  CLOSED: [2026-05-19 Tue 18:24] DEADLINE: <2026-05-18 Mon 18:40>
+  :PROPERTIES:
+  :NOTIFY: telegram-tasks-to-chat 
+  :TELEGRAM_ID: 777777202
+  :END:
+* Tareas Principales
+* DONE Revisar parámetros del PLC AB [100%]
+CLOSED: [2026-05-25 Mon 17:51] SCHEDULED: <2026-05-21 Thu 20:32>
+:PROPERTIES:
+:NOTIFY:       telegram-tasks-to-chat
+:TELEGRAM_ID:  1628529149
+:END:
+:LOGBOOK:
+- State "DONE"       from "DOING"      [2026-05-25 Mon 17:51]
+- State "DOING"      from "TODO"       [2026-05-25 Mon 17:51]
+- State "DOING"      from "TODO"       [2026-05-21 Thu 21:59]
+- State "DOING"      from "DONE"       [2026-05-21 Thu 21:58]
+- State "DONE"       from "DOING"      [2026-05-21 Thu 21:58]
+- State "DOING"      from "TODO"       [2026-05-21 Thu 21:58]
+- State "DOING"      from "TODO"       [2026-05-21 Thu 21:58]
+- State "DOING"      from "TODO"       [2026-05-21 Thu 21:58]
+- State "DONE"       from "TODO"       [2026-05-21 Thu 05:49]
+- State "DONE"       from "DONE"       [2026-05-21 Thu 05:44]
+- New deadline from "[2026-05-20 Wed 21:51]" on [2026-05-21 Thu 05:44]
+- State "DONE"       from "TODO"       [2026-05-20 Wed 23:09]
+:END:
+Estas son las notas de la tarea que no se enviarán por mensaje, 
+pero que sirven para mi registro en Emacs:
+- [X] Verificar comunicación Modbus.
+- [X] Respaldar el programa actual.
