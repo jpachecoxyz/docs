@@ -7,16 +7,27 @@
 #+startup: showall
 
 
-* Personal :crypt:
-** Numeros importantes :personal:
-- CURP :: PAMF920702HTSCRR02
-- RFC :: PAMF92070273A
-- NSS :: 09099245988
-  
-** FONACOT :personal:
-- # Cliente FONACOT :: 3576843
-  Numero de crédito: 69100, presenta adeudo de 2 mensualidades dando un total de: 3487.54 a la fecha: <2026-01-15 Thu>
+* Personal                                                                         :crypt:
+-----BEGIN PGP MESSAGE-----
 
-  <2026-01-15 Thu>
-  Hable a Cobranza =FONACOT=, me dieron el numero de referencia: , ese mismo dia se realizo el pago.
-  
+hQGMA70D1ThRMEAZAQv/SXRjaqzwZlNCHTSA3ZFT5eRGUOd8bqwIttaQ3gRkMt7K
+5tkiG2Z6IDo9p/tEU2GzHARQPyKQvXpPCRnxhvj9SexRcp7G5EBTmrRtend2fKe6
+CNATPaLef4dQRrKZW+mppEE6A28oIOiww6uDquwX9TgTHHXEdXuyYyIRZm36VJ+I
+HFOXknGa6xsTaDbvUUyXL7SR5Fo4S2qFitFyYTTXG3OoykMboDpEXKll7bihTZ9m
+m4/CFyk+b/NryqyWvaC0SoWu05fb4w/2cG79a1nOXYPhZM/PLsJk2Fz29/8oDGsz
+p8H1JZ6ZD1nUkA8nPZoTHYPJGH/ZU2TCD5dIi9DKLiMxC/Gjq1UjNaw5ep0TOw7Q
+wNXPy6D8qdhgTwiU8neghdlj/rdkRsRU3taTGDLm/weMvmfRaY7Cci37Uuyv0EcX
+QpcTNrP+ebhyVFiGuE11aUyXI8AOv2AHtXDibYP+HBHiJ7FCw86hUFAakVVB+nvx
+jRQWUEBXdo4p2yMhS9lI0sEWAWicZ/RWx5s0tA/iay843oZPVvmkngl9mMdf5mz2
+JMU+Xdw0pkTx7H1Y7h/YlULSX7tzO5rskVxKiGxSLXa4MOkJ7zcxnFPKDVxYNLbA
+j40hthdyBUBzv3BJ4Al7hXQaGsbI9l0J2RtOidAFB2H1rBsZi3bQWq21DfXM6hYv
+2206GkVi5i1xI/eWhBk1cFGiIvzbQ0tXCfIn+49Gx7ewuzM/8Wc/ofo1CFO0AjRK
+N4xcTi1uX/bOCAjjV5CtZekICq+bW5HHXAOpJvh5GwwUP+wu/IEsWptJpFaSopfc
+PFjyyJUPR64lyXNysaSUDNveS4kTapc8odWwMt7kiAYz/L+otW3WuimdCN6kTMje
+8oPtKvku0/zG50L6tti79ipBKskWjNO3kCsOFhEo5e94309QQAqeRLhH/tjmLReR
+giLSry6A1s973ZluN3xbwxNckQi4i817ChTbNHUJ33csBqE0eQEDu7I2KI2TTOq4
+VSW7qRK5+O7OBgWxd1IybSubib64HC8Y8xrmNhrBj+sIHO9YGL+viCizyFtWaJFX
+alM/ELf8YuJf+nbW+cBaI065szGMDDtXVSPR2Oyu8a0ko7yRWZhW6zExn+9yLSDs
+zSTlMn+XMzg=
+=FYCb
+-----END PGP MESSAGE-----

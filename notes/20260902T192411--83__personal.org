@@ -1,0 +1,30 @@
+# -*- jinx-languages: "es_MX"; -*-
+#+title: 83
+#+date: [2026-09-02 Wed 19:24]
+#+filetags: :personal:
+#+identifier: 20260902T192411
+#+author: Ing. Javier Pacheco
+#+startup: showall
+
+
+* Registros                                                                        :crypt:
+-----BEGIN PGP MESSAGE-----
+
+hQGMA70D1ThRMEAZAQv+PjveoSJJaVE02z38mjzrce019Nv6ioBl9GSZmWnZeLIh
+RCEatfFJrv3UVTCr02fl6UJJfAFIwLZZVTMkvknQc25pef0msJGB9C/0FfpD0zNo
+xLxmKyhOv456noWwjJn2WxQQIAXkeDnIxvY9HoU3EnnlaTckRmGYZSPZmZP8GBGq
+V/7Nfkmyv+h6g4bvrS7K4RngTqg4u+JrKGQt4VHK7L04cA7j5i7uqed/g1du51OL
+xVrsB5lVYGPysgGHSsCSz9b4TOJZ2DveIKp9VLdR88llF0G+tIu3sty6yXtq20+i
+tROBkCKO42Q3V/9sgN+soOcMA0DbfUi/RSZgDglnZgwdHCVhF5eHaNiGdIlLKXMb
+tpNbkuGuM2z1L5jmZOLZ4/q0o2f1UhjV4eZrvsAAn57r8UTPAdg1RoekTm8sezQj
+pvonSyvk05Hr68L9GE/orgk5AyIvFRdJqHZB7PV556B39GE3XQfidF6kgzpDvLZo
+FB1lhuHq2Kl0cpQTW8VB0sCpAY2TDAl36JKACKn2YU1W7yrGxF85xoPlviZMHh5H
+DnetMB2RmcKt3I6HVZGTBBPVlViOAYnmEkvF4uv3V4JBifCfIvUW+DOl8fPVWa+c
++LTP0+MPgcUeZpou7QB+Q5Bsqhe1jFEw2BqwFmERyU/UhMskEktmAJEtouBeXRLk
+zAwpJWZPc5G+3iDImI3r4kFDcfWMPTPwiOs1DyOb+ZlH+LQYxHFH/GzR+00h5xeG
+nc8UFrcLw+BqA2rFuuiOBJdw6cnImn1D9mgGfqefv7UPzaMKnOJhsApk5+KFI2eP
+27R6Y+JYlp7Ik/k0g8NIKhyCQb7H4hB6lZnLjPy9r9rxejloNrSHcHw3lcDxliwN
+/embE8E9nGXwTpN5U397sKlS5uhvM6lRvkxIc204h4XYs2Rqa+3vIaEolFPFUdnZ
+Bz9+RzIHeaa3MmHpOa0CggF71AmKto+aggt8FkUdkMhAurSUgMd4gjvK8g==
+=vUNv
+-----END PGP MESSAGE-----

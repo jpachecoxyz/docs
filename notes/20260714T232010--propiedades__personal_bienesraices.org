@@ -1,0 +1,30 @@
+# -*- jinx-languages: "es_MX"; -*-
+#+title: Propiedades
+#+date: [2026-07-14 Tue 23:20]
+#+filetags: :personal:bienesraices:
+#+identifier: 20260714T232010
+#+author: Ing. Javier Pacheco
+#+startup: showall
+
+
+* Insurgentes.                                                                     :crypt:
+** TODO Hipoteca.
+- [ ] Finiquito de crédito INFONAVIT
+- [ ] Notaria, (una vez pagado INFONAVIT).
+- [ ] Cambio de nombre de servicio eléctrico.
+- [ ] Finiquito de deuda de agua.
+
+* CANCELLED Central (C.P. Roberto Zolezzi)                                         :crypt:
+CLOSED: [2026-08-15 Sat 12:06]
+:LOGBOOK:
+- State "CANCELLED"  from "TODO"       [2026-08-15 Sat 12:05] \\
+  Mensualidades muy altas, no se llego a un acuerdo.
+:END:
+** Financiamiento
+** Mensualidades
+- [ ] Pago 1.
+- [ ] Pago 2.
+- [ ] Pago 3.
+** Servicios [0/2]
+- [ ] Eléctrico
+- [ ] Drenaje

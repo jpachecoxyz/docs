@@ -1,0 +1,18 @@
+# -*- jinx-languages: "es_MX"; -*-
+#+title: Bema Water
+#+date: [2026-08-16 Sun 19:46]
+#+filetags: :trabajo:purificadora:
+#+identifier: 20260816T194609
+#+author: Ing. Javier Pacheco
+#+startup: showall
+
+
+* Revisión 2026-08-16 
+** Maquina 1 (Frontal)
+- Implementar mejora de alimentación de tarjeta de lavadoras.
+- Diodo de entrada de alimentación dañado.
+- Re programar Estación 1.
+- Reemplazo de sensor de Estación 2.
+
+** Maquina 2 
+

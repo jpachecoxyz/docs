@@ -11,11 +11,12 @@
 :CATEGORY: hogar
 :END:
 ** Colegiatura Lia.
-DEADLINE: <2026-06-05 Fri +1m>
+DEADLINE: <2026-07-05 Sun +1m>
 :PROPERTIES:
-:LAST_REPEAT: [2026-05-05 Tue 20:00]
+:LAST_REPEAT: [2026-06-20 Sat 12:14]
 :END:
 :LOGBOOK:
+- State "DONE"       from              [2026-06-20 Sat 12:14]
 - State "DONE"       from              [2026-05-05 Tue 20:00]
 - State "DONE"       from              [2026-04-08 Wed 20:44]
 - State "DONE"       from              [2026-04-08 Wed 20:44]
@@ -25,11 +26,15 @@ DEADLINE: <2026-06-05 Fri +1m>
 # DEADLINE: <2026-05-05 Tue +1m>
 
 ** Relampago.
-DEADLINE: <2026-05-31 Sun 20:00 +1w>
+DEADLINE: <2026-06-28 Sun 20:00 +1w>
 :PROPERTIES:
-:LAST_REPEAT: [2026-05-26 Tue 21:30]
+:LAST_REPEAT: [2026-06-21 Sun 22:39]
 :END:
 :LOGBOOK:
+- State "DONE"       from              [2026-06-21 Sun 22:39]
+- State "DONE"       from              [2026-06-20 Sat 12:15]
+- State "DONE"       from              [2026-06-20 Sat 12:15]
+- State "DONE"       from              [2026-06-20 Sat 12:14]
 - State "DONE"       from              [2026-05-26 Tue 21:30]
 - State "DONE"       from              [2026-05-17 Sun 20:00]
 - State "DONE"       from              [2026-05-17 Sun 20:00]
@@ -72,11 +77,17 @@ SCHEDULED: <2025-04-26 Sat>
 :STYLE: habit
 :END:
 ** [#A] Actualizar mis notas
-SCHEDULED: <2026-05-31 Sun +1w>
+SCHEDULED: <2026-07-12 Sun +1w>
 :PROPERTIES:
-:LAST_REPEAT: [2026-05-25 Mon 17:52]
+:LAST_REPEAT: [2026-07-09 Thu 19:46]
 :END:
 :LOGBOOK:
+- State "DONE"       from              [2026-07-09 Thu 19:46]
+- State "DONE"       from              [2026-07-09 Thu 19:46]
+- State "DONE"       from              [2026-06-20 Sat 12:14]
+- State "DONE"       from              [2026-06-20 Sat 12:14]
+- State "DONE"       from              [2026-06-20 Sat 12:14]
+- State "DONE"       from              [2026-06-20 Sat 12:13]
 - State "DONE"       from              [2026-05-25 Mon 17:52]
 - State "DONE"       from              [2026-05-17 Sun 20:19]
 - State "DONE"       from              [2026-05-10 Sun 19:08]
